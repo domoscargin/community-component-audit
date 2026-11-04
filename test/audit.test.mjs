@@ -10,7 +10,14 @@ import {
   phraseRegex,
   toKey
 } from '../lib/names.mjs'
-import { findClassUsage, viewFiles } from '../lib/classusage.mjs'
+import {
+  aggregateClassUsage,
+  findClassUsage,
+  isPrototypeRepo,
+  packageManifest,
+  summariseClassUsage,
+  viewFiles
+} from '../lib/classusage.mjs'
 import { buildsOnGovuk } from '../lib/overrides.mjs'
 import { fingerprint, similarity, templateFile } from '../lib/structure.mjs'
 import {
@@ -434,6 +441,96 @@ describe('structure fingerprints', () => {
 })
 
 describe('class usage', () => {
+  it('recognises common dependency manifests outside vendored folders', () => {
+    assert.equal(
+      packageManifest([
+        { path: 'vendor/pkg/package.json' },
+        { path: 'app/package.json' },
+        { path: 'Gemfile' }
+      ]),
+      'app/package.json'
+    )
+    assert.equal(
+      packageManifest([
+        { path: 'node_modules/pkg/package.json' },
+        { path: 'app/requirements.txt' }
+      ]),
+      'app/requirements.txt'
+    )
+    assert.equal(packageManifest([{ path: 'README.md' }]), undefined)
+    assert.equal(isPrototypeRepo('DFE-Digital/Apply-Prototype'), true)
+    assert.equal(isPrototypeRepo('DFE-Digital/apply-service'), false)
+  })
+
+  it('weights unique production repo and org coverage above prototype coverage', () => {
+    const classes = summariseClassUsage(
+      {
+        'moj-search': {
+          repos: 6,
+          repoList: [
+            'Dept/one',
+            'Dept/one',
+            'dept/two',
+            'another/three',
+            'prototype-team/four',
+            'prototype-team/four',
+            'another-prototype/six',
+            'excluded/five'
+          ]
+        }
+      },
+      {
+        'Dept/one': { eligible: true },
+        'dept/two': { eligible: true },
+        'another/three': { eligible: true },
+        'prototype-team/four': { eligible: true, isPrototype: true },
+        'another-prototype/six': { eligible: true, isPrototype: true },
+        'excluded/five': { eligible: false }
+      }
+    )
+
+    assert.deepEqual(classes['moj-search'].production, {
+      repos: 3,
+      orgs: 2,
+      repoList: ['Dept/one', 'another/three', 'dept/two'],
+      orgList: ['another', 'Dept']
+    })
+    assert.deepEqual(classes['moj-search'].prototypes, {
+      repos: 2,
+      orgs: 2,
+      repoList: ['another-prototype/six', 'prototype-team/four'],
+      orgList: ['another-prototype', 'prototype-team']
+    })
+    assert.equal(classes['moj-search'].weightedUsage, 6)
+  })
+
+  it('unions repo and organisation coverage across classes in a cluster', () => {
+    const members = [
+      { ours: false, prefix: 'moj-', kind: 'component', name: 'search' },
+      { ours: false, prefix: 'dfe-', kind: 'component', name: 'search' }
+    ]
+    const aggregate = aggregateClassUsage(
+      members,
+      {
+        'moj-search': {
+          production: { repoList: ['a/one'], orgList: ['a'] },
+          prototypes: { repoList: ['prototype-team/one'], orgList: ['prototype-team'] },
+          weightedUsage: 2.5
+        },
+        'dfe-search': {
+          production: { repoList: ['A/ONE', 'b/two'], orgList: ['A', 'b'] },
+          prototypes: { repoList: ['prototype-team/one'], orgList: ['prototype-team'] },
+          weightedUsage: 4.5
+        }
+      },
+      0.25
+    )
+
+    assert.equal(aggregate.matched, 2)
+    assert.equal(aggregate.memberUsage.get(members[0]), 2.5)
+    assert.equal(aggregate.weightedUsage, 4.5)
+  })
+
   it('prefers view directories and caps the file count', () => {
     const files = Array.from({ length: 40 }, (_, i) => ({ path: `lib/x${i}.njk`, sha: `s${i}` }))
     files.push({ path: 'app/views/home.njk', sha: 'home' })

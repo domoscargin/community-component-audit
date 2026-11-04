@@ -5,6 +5,7 @@ import { join, resolve } from 'node:path'
 import { parseArgs } from 'node:util'
 
 import { buildClusters, matchItems } from './lib/cluster.mjs'
+import { aggregateClassUsage } from './lib/classusage.mjs'
 import { createClient } from './lib/github.mjs'
 import { extractLinks, extractMembers, extractSiteMembers } from './lib/inventory.mjs'
 import { buildSynonymIndex } from './lib/names.mjs'
@@ -66,7 +67,7 @@ if (args.help) {
   --services-extra=FILE  Extra service hits to merge in (default: gov-repos-hits.json
                          in the output directory, if it exists)
   --class-usage=FILE     Class usage counts from scan-gov-repos.mjs (default:
-                         class-usage.json in the output directory, if it exists)
+                         class-usage-filtered.json, then class-usage.json)
   --quality=FILE         axe results from quality-check.mjs (default: quality.json
                          in the output directory, if it exists)
   --skip-overrides       Don't classify whether covered-component implementations
@@ -349,29 +350,56 @@ for (const repo of issueRepos) {
 // is the adoption signal when present; global code search is the fallback
 const classUsagePath =
   args['class-usage'] ??
-  (existsSync(join(outDir, 'class-usage.json'))
-    ? join(outDir, 'class-usage.json')
-    : undefined)
+  [
+    join(outDir, 'class-usage-filtered.json'),
+    join(outDir, 'class-usage.json')
+  ].find((path) => existsSync(path))
 
 let adoptionCollected = false
+let adoptionPrototypeWeight
 
 if (classUsagePath && existsSync(classUsagePath)) {
-  const classUsage = JSON.parse(await readFile(classUsagePath, 'utf8'))
+  const classUsageFile = JSON.parse(await readFile(classUsagePath, 'utf8'))
+  const filteredClassUsage = classUsageFile.classes
+  const classUsage = filteredClassUsage ?? classUsageFile
+  if (filteredClassUsage) {
+    if (
+      !Number.isFinite(classUsageFile.prototypeWeight) ||
+      classUsageFile.prototypeWeight < 0 ||
+      classUsageFile.prototypeWeight > 1
+    ) {
+      throw new TypeError(`Invalid prototypeWeight in ${classUsagePath}`)
+    }
+    adoptionPrototypeWeight = classUsageFile.prototypeWeight
+  }
   let matched = 0
   for (const cluster of clusters) {
-    cluster.adoptionHits = cluster.members
-      .filter((m) => !m.ours && m.prefix && m.kind === 'component')
-      .reduce((sum, m) => {
-        const usage = classUsage[`${m.prefix}${m.name}`]
-        if (usage) {
-          m.adoptionHits = usage.repos
-          matched++
-        }
-        return sum + (usage?.repos ?? 0)
-      }, 0)
+    if (filteredClassUsage) {
+      const aggregate = aggregateClassUsage(
+        cluster.members,
+        classUsage,
+        classUsageFile.prototypeWeight
+      )
+      for (const [member, usage] of aggregate.memberUsage) {
+        member.adoptionHits = usage
+      }
+      cluster.adoptionHits = aggregate.weightedUsage
+      matched += aggregate.matched
+    } else {
+      cluster.adoptionHits = cluster.members
+        .filter((m) => !m.ours && m.prefix && m.kind === 'component')
+        .reduce((sum, member) => {
+          const usage = classUsage[`${member.prefix}${member.name}`]
+          if (usage) {
+            member.adoptionHits = usage.repos
+            matched++
+          }
+          return sum + (usage?.repos ?? 0)
+        }, 0)
+    }
   }
   adoptionCollected = true
-  console.log(`Adoption from government repo class usage (${matched} classes matched)`)
+  console.log(`Adoption from ${classUsagePath} (${matched} classes matched)`)
 } else if (args.adoption) {
   const targets = clusters
     .filter((c) => args['adoption-scope'] !== 'gaps' || c.status !== 'covered')
@@ -468,6 +496,7 @@ await writeFile(
       generatedAt: new Date().toISOString(),
       weights,
       adoption: adoptionCollected,
+      adoptionPrototypeWeight,
       qualityStats,
       serviceStats,
       sources: sourceSummaries.map(({ rules, ...s }) => s),
@@ -487,6 +516,7 @@ await writeFile(
     unmatchedBacklog,
     weights,
     adoption: adoptionCollected,
+    adoptionPrototypeWeight,
     qualityStats,
     serviceStats,
     prototypeWeight,

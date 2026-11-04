@@ -52,7 +52,7 @@ About 14,000 repos means about 14,000 API calls, so the first full run takes a c
 | `--adoption-scope=gaps` | Only run code searches for components that aren't in GOV.UK Frontend |
 | `--skip-services` | Don't scan government service repos |
 | `--services-extra=FILE` | Extra service hits to merge in (default: gov-repos-hits.json in the output directory, if it exists) |
-| `--class-usage=FILE` | Government repo class usage from `scan-gov-repos.mjs --class-usage` (default: class-usage.json in the output directory, if it exists) |
+| `--class-usage=FILE` | Government repo class usage (default: `class-usage-filtered.json`, then `class-usage.json`, if present) |
 | `--quality=FILE` | axe results from `quality-check.mjs` (default: quality.json in the output directory, if it exists) |
 | `--skip-overrides` | Don't classify whether services' versions of covered components extend GOV.UK Frontend (saves a few thousand cached file fetches on the first run) |
 | `--services-data=URL` | JSON list of repos to scan, in the [design-system-github-stats](https://github.com/alphagov/design-system-github-stats) `filtered-data.json` format (default is set in `scoring.mjs`) |
@@ -79,7 +79,7 @@ The audit and the repo scan share the `.cache/` directory.
    - open discussions in the [Community backlog](https://github.com/alphagov/govuk-design-system/discussions/categories/community-backlog)
    - open issues in govuk-frontend and govuk-design-system
    - open issues in each community repo (only counted against that repo's components)
-   - adoption: how many government repos use each component's CSS class (from `scan-gov-repos.mjs --class-usage`), with global code search hits as a fallback
+   - adoption: how many production repos and organisations use each component's CSS class, with prototype coverage counted at a lower weight; global code search hits are a fallback
    - quality: axe violations found by rendering community implementations (from `quality-check.mjs`)
    - for covered components, whether services' implementations extend GOV.UK Frontend (their file references our macros or classes) or re-implement it
 5. **Score** – see [`scoring.mjs`](./scoring.mjs). Each signal is normalised to 0–1, weighted, and the total is out of 100.
@@ -93,7 +93,7 @@ The audit and the repo scan share the `.cache/` directory.
 | ourIssues | 0.1 | Open issues in our repos that mention it |
 | communityIssues | 0.05 | Open issues on community implementations, accessibility issues count double |
 | quality | 0.1 | axe violations in rendered implementations (only when `quality-check.mjs` has run, otherwise the weight is dropped and the rest rescaled) |
-| adoption | 0.1 | Government repos using the class (only when class usage or `--adoption` data exists, otherwise the weight is dropped and the rest rescaled) |
+| adoption | 0.1 | Unique production repo + organisation counts, plus 0.25 × prototype repo + organisation counts (only when filtered class usage or `--adoption` data exists, otherwise the weight is dropped and the rest rescaled) |
 
 Sources from the GOV.UK Design System organisation (govuk-frontend and govuk-design-system) only decide coverage. They never count towards prevalence, adoption, services or community issues. This is enforced by organisation, so a new source with `org: 'GOV.UK Design System'` is treated as ours even without `ours: true`. GOV.UK Publishing Components counts as a community source.
 
@@ -161,7 +161,23 @@ The audit also compares the structure (tags and ARIA roles) of each top candidat
 
 ### Adoption via class usage
 
-`scan-gov-repos.mjs --class-usage` finds repos that depend on a community npm package (moj-frontend, hmrc-frontend, @dwp/dwp-frontend and friends), then searches their view and template files for each component's CSS class. The result (`class-usage.json`) becomes the audit's adoption signal: government usage rather than global GitHub hits. The first run fetches a lot of files (all cached for 30 days), so allow a couple of hours.
+`scan-gov-repos.mjs --class-usage` finds repos that depend on a community npm package (moj-frontend, hmrc-frontend, @dwp/dwp-frontend and friends), then searches their view and template files for each component's CSS class. This scan can take hours the first time.
+
+To refine an already-saved `output/class-usage.json` without running any remote scan, use:
+
+```sh
+npm run class-usage:filter
+```
+
+This reads the saved class-usage file and cached repository trees only. Repos with `prototype` in the name are removed from the production count and kept in a separate prototype bucket; both buckets require a locally verified, untruncated tree containing a package/dependency manifest (for example `package.json`, `Gemfile`, `pyproject.toml` or `go.mod`). The resulting `output/class-usage-filtered.json` lists the manifest evidence and repo/org lists for human checking. Adoption weights each unique production repo and organisation as 1, and each unique prototype repo and organisation as 0.25 by default. Change the latter with `--prototype-weight=NUM`. The audit prefers this filtered file when it exists; `--class-usage=FILE` can still point to another file explicitly.
+
+To apply the filtered weighting to the existing audit snapshot and regenerate `report.md`, `scores.csv` and `clusters.json` without running the audit or making network requests:
+
+```sh
+npm run report:rescore
+```
+
+The report notes the timestamp of the saved audit snapshot it rescored. This updates scores from the existing inventory and signals; it does not refresh them.
 
 ## Tests
 

@@ -10,6 +10,8 @@
     "audit": "node --use-system-ca ./audit.mjs",
     "audit:adoption": "node --use-system-ca ./audit.mjs --adoption",
     "scan:gov": "node --use-system-ca ./scan-gov-repos.mjs",
+    "class-usage:filter": "node ./filter-class-usage.mjs",
+    "report:rescore": "node ./rescore-report.mjs",
     "quality": "node --use-system-ca ./quality-check.mjs",
     "test": "node --test"
   },
