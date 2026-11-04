@@ -1,0 +1,22 @@
+{
+  "name": "community-component-audit",
+  "private": true,
+  "description": "Inventory and score UK public sector design system components against GOV.UK Frontend",
+  "type": "module",
+  "engines": {
+    "node": ">=22.15"
+  },
+  "scripts": {
+    "audit": "node --use-system-ca ./audit.mjs",
+    "audit:adoption": "node --use-system-ca ./audit.mjs --adoption",
+    "scan:gov": "node --use-system-ca ./scan-gov-repos.mjs",
+    "quality": "node --use-system-ca ./quality-check.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "axe-core": "^4.14.0",
+    "jsdom": "^30.1.3",
+    "nunjucks": "^3.2.4",
+    "yaml": "^2.9.1"
+  }
+}
