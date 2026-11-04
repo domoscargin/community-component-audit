@@ -1,0 +1,922 @@
+{
+ "generatedAt": "2026-11-03T12:18:25.060Z",
+ "clusters": {
+  "search": {
+   "weighted": 6,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "search",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "moj-frontend",
+     "name": "search",
+     "weighted": 6,
+     "violations": [
+      {
+       "id": "button-name",
+       "impact": "critical",
+       "nodes": 1
+      },
+      {
+       "id": "label",
+       "impact": "critical",
+       "nodes": 1
+      }
+     ],
+     "params": {},
+     "renders": 10,
+     "failed": 0,
+     "serious": 2
+    },
+    {
+     "sourceId": "nhsuk-frontend",
+     "name": "search-input",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "card": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "cards",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "image_card",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "nhsuk-frontend",
+     "name": "card",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "timeline": {
+   "weighted": 1,
+   "renders": [
+    {
+     "sourceId": "moj-frontend",
+     "name": "timeline",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "hmrc-frontend",
+     "name": "timeline",
+     "weighted": 1,
+     "violations": [
+      {
+       "id": "region",
+       "impact": "moderate",
+       "nodes": 1
+      }
+     ],
+     "params": {
+      "headingLevel": 3,
+      "events": [
+       {
+        "title": "event one",
+        "datetime": "2020-07-14",
+        "time": "14 July 2020",
+        "content": "<p class=\"govuk-body\">exampleContent1</p>"
+       }
+      ]
+     },
+     "renders": 6,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "hmrc-design-system",
+     "name": "timeline",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "filter": {
+   "weighted": 0.5,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "option_select",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "moj-frontend",
+     "name": "filter",
+     "weighted": 0.5,
+     "violations": [
+      {
+       "id": "empty-heading",
+       "impact": "minor",
+       "nodes": 1
+      }
+     ],
+     "params": {},
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "moj-design-system",
+     "name": "filter-a-list",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "related-navigation": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "related_navigation",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "related-content",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "x-govuk-prototype-components",
+     "name": "related-navigation",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "sub-navigation": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "secondary_navigation",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "moj-frontend",
+     "name": "sub-navigation",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "tna-frontend",
+     "name": "secondary-navigation",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "autocomplete": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "search_with_autocomplete",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "select_with_search",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "hmrc-frontend",
+     "name": "accessible-autocomplete",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 10,
+     "failed": 10,
+     "serious": 0
+    }
+   ]
+  },
+  "timeout-warning": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "hmrc-frontend",
+     "name": "timeout-dialog",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 8,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "hmrc-design-system",
+     "name": "service-timeout",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "extend-session",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "content-list": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "contents_list",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "nhsuk-frontend",
+     "name": "contents-list",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "table-of-contents",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "file-download": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "attachment",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "attachment_link",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "download",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "add-another": {
+   "weighted": 1,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "add_another",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "moj-frontend",
+     "name": "add-another",
+     "weighted": 1,
+     "violations": [
+      {
+       "id": "region",
+       "impact": "moderate",
+       "nodes": 1
+      }
+     ],
+     "params": {
+      "id": "default-add-another",
+      "itemLabel": "Person",
+      "items": [
+       {
+        "fieldset": {
+         "legend": {
+          "text": "Person 1"
+         },
+         "html": "<div class=\"govuk-form-group\">\n  <label class=\"govuk-label\" for=\"person[0][name]\">\n    Name\n    <span class=\"govuk-visually-hidden moj-add-another__label-suffix\">for person 1</span>\n  </label>\n  <input class=\"govuk-input\"\n         id=\"person[0][name]\"\n         name=\"person[0][name]\"\n         type=\"text\"\n         data-name=\"person[%index%][name]\"\n         data-id=\"person[%index%][name]\"\n         data-label=\"Name\">\n</div>\n"
+        }
+       }
+      ]
+     },
+     "renders": 10,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "hmrc-frontend",
+     "name": "add-to-a-list",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 7,
+     "failed": 7,
+     "serious": 0
+    }
+   ]
+  },
+  "image": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "figure",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "nhsuk-frontend",
+     "name": "images",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "figure",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "page-heading": {
+   "weighted": 0.5,
+   "renders": [
+    {
+     "sourceId": "hmrc-frontend",
+     "name": "page-heading",
+     "weighted": 0.5,
+     "violations": [
+      {
+       "id": "empty-heading",
+       "impact": "minor",
+       "nodes": 1
+      }
+     ],
+     "params": {},
+     "renders": 7,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "hmrc-design-system",
+     "name": "page-heading",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "hmrc-design-system",
+     "name": "page-title",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "loading-spinner": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "home-office",
+     "name": "loading-spinner",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    }
+   ]
+  },
+  "search-result": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "scottish-government",
+     "name": "search-result",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    }
+   ]
+  },
+  "modal": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "modal_dialogue",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "modal",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "hero": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "inverse_header",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "nhsuk-frontend",
+     "name": "hero",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "hero",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "date-picker": {
+   "weighted": 4,
+   "renders": [
+    {
+     "sourceId": "moj-frontend",
+     "name": "date-picker",
+     "weighted": 4,
+     "violations": [
+      {
+       "id": "label",
+       "impact": "critical",
+       "nodes": 1
+      },
+      {
+       "id": "region",
+       "impact": "moderate",
+       "nodes": 1
+      }
+     ],
+     "params": {},
+     "renders": 7,
+     "failed": 0,
+     "serious": 1
+    },
+    {
+     "sourceId": "scottish-government",
+     "name": "date-picker",
+     "weighted": 1,
+     "violations": [
+      {
+       "id": "region",
+       "impact": "moderate",
+       "nodes": 6
+      }
+     ],
+     "params": {},
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "back-to-top": {
+   "weighted": 3,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "back_to_top_link",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "back-to-top",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "scottish-government",
+     "name": "back-to-top",
+     "weighted": 3,
+     "violations": [
+      {
+       "id": "landmark-no-duplicate-contentinfo",
+       "impact": "moderate",
+       "nodes": 1
+      },
+      {
+       "id": "landmark-unique",
+       "impact": "moderate",
+       "nodes": 1
+      },
+      {
+       "id": "region",
+       "impact": "moderate",
+       "nodes": 1
+      }
+     ],
+     "params": {},
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "icon": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "ons-design-system",
+     "name": "icon",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "scottish-government",
+     "name": "icon",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    }
+   ]
+  },
+  "address": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "hmrc-design-system",
+     "name": "addresses",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "addresses",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "address-input",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "print-link": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "print_link",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "hmrc-frontend",
+     "name": "hmrc-print-link",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  },
+  "metadata": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "metadata",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "scottish-government",
+     "name": "metadata",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    }
+   ]
+  },
+  "sidebar": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "tna-frontend",
+     "name": "sidebar",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "side-navigation": {
+   "weighted": 1,
+   "renders": [
+    {
+     "sourceId": "moj-frontend",
+     "name": "side-navigation",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "section-navigation",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    },
+    {
+     "sourceId": "scottish-government",
+     "name": "side-navigation",
+     "weighted": 1,
+     "violations": [
+      {
+       "id": "landmark-unique",
+       "impact": "moderate",
+       "nodes": 1
+      }
+     ],
+     "params": {},
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "currency-input": {
+   "weighted": 4,
+   "renders": [
+    {
+     "sourceId": "moj-frontend",
+     "name": "currency-input",
+     "weighted": 4,
+     "violations": [
+      {
+       "id": "label",
+       "impact": "critical",
+       "nodes": 1
+      },
+      {
+       "id": "region",
+       "impact": "moderate",
+       "nodes": 1
+      }
+     ],
+     "params": {},
+     "renders": 1,
+     "failed": 0,
+     "serious": 1
+    },
+    {
+     "sourceId": "hmrc-design-system",
+     "name": "currency-input",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    },
+    {
+     "sourceId": "scottish-government",
+     "name": "currency",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    }
+   ]
+  },
+  "site-banner": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "emergency_banner",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "global_banner",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "announcement-banner",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "contact-detail": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "scottish-government",
+     "name": "contact-details",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    }
+   ]
+  },
+  "chart": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "govuk-publishing-components",
+     "name": "chart",
+     "error": "no template found",
+     "weighted": 0,
+     "violations": []
+    },
+    {
+     "sourceId": "ons-design-system",
+     "name": "chart",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 0,
+     "serious": 0
+    }
+   ]
+  },
+  "search-for-something": {
+   "weighted": 0,
+   "renders": [
+    {
+     "sourceId": "moj-design-system",
+     "name": "search-for-something",
+     "weighted": 0,
+     "violations": [],
+     "params": null,
+     "renders": 1,
+     "failed": 1,
+     "serious": 0
+    }
+   ]
+  }
+ }
+}

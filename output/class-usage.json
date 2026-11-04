@@ -1,0 +1,1561 @@
+{
+ "gem-c-search": {
+  "repos": 18,
+  "repoList": [
+   "DFE-Digital/DfE-Connect-Prototype",
+   "DFE-Digital/ci-general-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "SkillsFundingAgency/tl-employersupport-prototype",
+   "alphagov/data-marketplace-prototype",
+   "alphagov/govuk-dark-mode-prototype",
+   "co-cddo/cms-prototype",
+   "co-cddo/data-catalogue-prototypes",
+   "co-cddo/dds",
+   "companieshouse/5mld-prototype",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/defra-forms-mvp-prototype",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/ff-ss",
+   "defra-design/manage-biodiversity-gains",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype",
+   "ministryofjustice/hmpps-manage-offences"
+  ]
+ },
+ "moj-search": {
+  "repos": 27,
+  "repoList": [
+   "DFE-Digital/record-concerns-support-trusts",
+   "UKHSA-Internal/coronavirus-dashboard-frontend-server",
+   "defra-design/caseworking-ai-test",
+   "defra-design/fcp-grants-casework",
+   "defra-design/trade-paper-prototype",
+   "dwp/CAMLite-Prototype",
+   "dwp/bsp-claim-manager",
+   "dwp/common-capabilities-mmw",
+   "dwp/funeral-payments-manager",
+   "dwp/phoenix-service",
+   "dwp/ref-data-services",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/create-and-vary-a-licence",
+   "ministryofjustice/gov-reuse",
+   "ministryofjustice/hmpps-afer-prototype",
+   "ministryofjustice/hmpps-court-appearance-scheduler-ui",
+   "ministryofjustice/hmpps-cvl-prototype",
+   "ministryofjustice/hmpps-electronic-monitoring-create-an-order",
+   "ministryofjustice/hmpps-electronic-monitoring-create-an-order-prototype",
+   "ministryofjustice/hmpps-manage-people-on-probation-ui",
+   "ministryofjustice/hmpps-match-learner-record-ui",
+   "ministryofjustice/hmpps-person-record-manage-ui",
+   "ministryofjustice/hmpps-prepare-a-case-prototype",
+   "ministryofjustice/hmpps-visit-someone-in-prison-prototype",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/probation-search-ui",
+   "nhsbsa/nhsbsa-asc-tfrs"
+  ]
+ },
+ "nhsuk-search-input": {
+  "repos": 1,
+  "repoList": [
+   "NHSDigital/c2c-breast-screening-prototype"
+  ]
+ },
+ "gem-c-cards": {
+  "repos": 5,
+  "repoList": [
+   "DFE-Digital/care-leavers-gov-prototype",
+   "DFE-Digital/find-and-use-products-services-mvp",
+   "defra-design/fcp-farming-front-door",
+   "defra-design/get-air-pollution-data-prototype",
+   "defra-design/lars"
+  ]
+ },
+ "gem-c-image-card": {
+  "repos": 5,
+  "repoList": [
+   "DFE-Digital/eduk-prototype",
+   "alphagov/govuk-dark-mode-prototype",
+   "defra-design/echo-prototype",
+   "defra-design/ff-ss",
+   "dwp/beam-prototype"
+  ]
+ },
+ "nhsuk-card": {
+  "repos": 66,
+  "repoList": [
+   "NHS-Test-Digital-Design/nhs-antibody-testing-registration-prototype",
+   "NHSDigital/DCH-NHS-app",
+   "NHSDigital/book-vaccinations-prototype",
+   "NHSDigital/c2c-breast-screening-prototype",
+   "NHSDigital/healthstore-deployment-guidance-prototype",
+   "NHSDigital/mya-prototype",
+   "NHSDigital/nhs-eps-prototype",
+   "NHSDigital/nhs-firstcontact-prototype-maternity-self-referral",
+   "NHSDigital/nhs-notify-web-cms",
+   "NHSDigital/nhsuk-frontend-jinja",
+   "NHSLeadership/moodle-nhse",
+   "NHSLeadership/nhsl-laravel",
+   "NHSLeadership/nightingale-2-0",
+   "TechnologyEnhancedLearning/DLSBinonTest",
+   "TechnologyEnhancedLearning/DLSBinonTest2",
+   "TechnologyEnhancedLearning/DLSBinonTestUbuntu",
+   "TechnologyEnhancedLearning/DLSBinonTestWin2",
+   "TechnologyEnhancedLearning/DLSTestBinonWindows",
+   "TechnologyEnhancedLearning/DLSV2",
+   "defencedigital/moduk-prototype-kit",
+   "nhsbsa/McCloud-Choice",
+   "nhsbsa/TECS-2022",
+   "nhsbsa/ai-prototyping",
+   "nhsbsa/apply-healthy-start-vouchers",
+   "nhsbsa/cdr-client-prototype",
+   "nhsbsa/cip-nightapps-prototype",
+   "nhsbsa/claims-prototype",
+   "nhsbsa/data-hub",
+   "nhsbsa/dentist-alpha-song-prototype",
+   "nhsbsa/hwhc-certificate-manager",
+   "nhsbsa/hwhc-eligibility-checker",
+   "nhsbsa/learning-support-fund",
+   "nhsbsa/learning-support-fund-new",
+   "nhsbsa/manage-healthy-start-vouchers",
+   "nhsbsa/margin-survey",
+   "nhsbsa/match-ohs-record",
+   "nhsbsa/mccloud-immediate-choice-prototype",
+   "nhsbsa/medical-certificate-of-cause-of-death",
+   "nhsbsa/medicines-management-prototype",
+   "nhsbsa/my-hub-service-assessment",
+   "nhsbsa/mys-pharmacy",
+   "nhsbsa/nhs-student-bursaries-new",
+   "nhsbsa/nhs-student-bursaries-prototype",
+   "nhsbsa/nhsbsa-digital-playbook",
+   "nhsbsa/nhsbsa-docs",
+   "nhsbsa/nhsbsa-nihr-crp-prototype",
+   "nhsbsa/nhsbsa-volunteering-prototype",
+   "nhsbsa/nihr-bpor",
+   "nhsbsa/nihr-public-prototype",
+   "nhsbsa/practice-run",
+   "nhsbsa/reference-price-prototype",
+   "nhsbsa/self-assessment-test",
+   "nhsbsa/student-services-alpha",
+   "nhsbsa/suvpart2",
+   "nhselect/cieh-human-factors",
+   "nhselect/cypmh-comms-toolbox",
+   "nhselect/cypmh-index",
+   "nhselect/home",
+   "nhselect/matrix",
+   "nhselect/nhs-elect-personal-styles",
+   "nhselect/resp-surge-skills-matrix",
+   "nhselect/step1-proficiencies",
+   "nhselect/step1-training",
+   "nhsengland/innovation-service-transactional-frontend",
+   "nhsx/skunkworks-long-stayer-risk-stratification",
+   "nhsx/skunkworks-model-card"
+  ]
+ },
+ "tna-card": {
+  "repos": 3,
+  "repoList": [
+   "nationalarchives/ds-catalogue-progressive-prototype",
+   "nationalarchives/ds-frontend",
+   "nationalarchives/tna-frontend-jinja"
+  ]
+ },
+ "dfe-card": {
+  "repos": 39,
+  "repoList": [
+   "DEFRA/ai-uc-rpa-guidance-evals-fe",
+   "DEFRA/ai-uc-rpa-guidance-fe",
+   "DFE-Digital/DfE-Connect-Prototype",
+   "DFE-Digital/DfE-School-Account-Alpha",
+   "DFE-Digital/accessibility-manual",
+   "DFE-Digital/am-2025-refresh",
+   "DFE-Digital/apply-the-service-standard-in-dfe",
+   "DFE-Digital/check-performance-data-prototype",
+   "DFE-Digital/communicating-funding-prototype",
+   "DFE-Digital/design",
+   "DFE-Digital/design-history",
+   "DFE-Digital/dfe-frontend",
+   "DFE-Digital/dfe-standards",
+   "DFE-Digital/dfefrontend",
+   "DFE-Digital/education-provider-registry-web",
+   "DFE-Digital/find-a-buying-solution",
+   "DFE-Digital/find-a-prototype",
+   "DFE-Digital/find-courses-and-training",
+   "DFE-Digital/find-information-about-schools-and-trusts",
+   "DFE-Digital/fips-v4",
+   "DFE-Digital/get-help-buying-for-schools",
+   "DFE-Digital/ghbs-energy-as-a-service",
+   "DFE-Digital/improve-workload-and-wellbeing-for-school-staff",
+   "DFE-Digital/manage-free-school-projects",
+   "DFE-Digital/neet-digital",
+   "DFE-Digital/product",
+   "DFE-Digital/prototype-register-of-services",
+   "DFE-Digital/prototype_ghw_dp",
+   "DFE-Digital/rsd-reep",
+   "DFE-Digital/security-manual",
+   "DFE-Digital/standards",
+   "DFE-Digital/standards-manual",
+   "DFE-Digital/sts-content-support",
+   "DFE-Digital/teacher-success-prototype",
+   "DFE-Digital/template-frontend-manual",
+   "DFE-Digital/user-research-new-manual",
+   "dwp/carers-alerts-prototype",
+   "dwp/one-view-prototype",
+   "ministryofjustice/applying-service-standards"
+  ]
+ },
+ "moj-timeline": {
+  "repos": 23,
+  "repoList": [
+   "DFE-Digital/DfE-School-Account-Alpha",
+   "DFE-Digital/apply-for-qualified-teacher-status",
+   "DFE-Digital/manage-school-improvement-prototype",
+   "DFE-Digital/tte-prototype",
+   "defra-design/caseworking-ai-test",
+   "defra-design/fcp-future-grants",
+   "defra-design/fcp-grants-casework",
+   "digital-land/planning-data-design",
+   "dwp/HAS-interaction-log-prototype",
+   "dwp/has-supporting-docs",
+   "dwp/phoenix-service",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/accredited-programmes-community-prototype",
+   "ministryofjustice/accredited-programmes-prototype",
+   "ministryofjustice/hmpps-prepare-a-case-prototype",
+   "ministryofjustice/hmpps-prisoner-property-ui",
+   "ministryofjustice/hmpps-tier-ui",
+   "ministryofjustice/hmpps-visit-someone-in-prison-prototype",
+   "ministryofjustice/laa-billing-alpha-prototype",
+   "ministryofjustice/makerecall-prototype",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/offender-management-allocation-manager",
+   "ministryofjustice/opg-incident-response"
+  ]
+ },
+ "hmrc-timeline": {
+  "repos": 4,
+  "repoList": [
+   "DFE-Digital/aqts-prototype",
+   "SkillsFundingAgency/das-flexible-payment-models-prototype",
+   "dwp/future-quality-model-prototype",
+   "dwp/get-a-nino"
+  ]
+ },
+ "hods-timeline": {
+  "repos": 2,
+  "repoList": [
+   "DFE-Digital/trs-post-mvp",
+   "DFE-Digital/trs-support-console"
+  ]
+ },
+ "dwp-timeline": {
+  "repos": 12,
+  "repoList": [
+   "defra-design/lars",
+   "dwp/agent-led-idv",
+   "dwp/care-homes",
+   "dwp/common-capabilities-mmw",
+   "dwp/dwp-mwac-prototype",
+   "dwp/dwp-task-master",
+   "dwp/fqm-prototype",
+   "dwp/gateway-services-prototype",
+   "dwp/gysp-agent-ui",
+   "dwp/laterlife-agent-prototype",
+   "dwp/lifecertificates-prototype",
+   "dwp/newstylejsa-admin"
+  ]
+ },
+ "moj-filter": {
+  "repos": 34,
+  "repoList": [
+   "DEFRA/disinfectant-frontend",
+   "DFE-Digital/DfE-School-Account-Alpha",
+   "DFE-Digital/accessibility-issues-statements",
+   "DFE-Digital/check-free-school-meals-eligibility-admin",
+   "DFE-Digital/communicating-funding-prototype",
+   "DFE-Digital/education-provider-registry-web",
+   "DFE-Digital/find-information-about-schools-and-trusts",
+   "DFE-Digital/incident-response-tool",
+   "DFE-Digital/pre-ab-transfers",
+   "DFE-Digital/sdd-concerns-prototype",
+   "DFE-Digital/sip-public",
+   "DFE-Digital/teacher-success-prototype",
+   "Planning-Inspectorate/mpesc-prototype",
+   "co-cddo/dea-register-frontend",
+   "communitiesuk/xgovuk-flask-admin",
+   "defra-design/livestock-traceability",
+   "defra-design/new-cites-prototype",
+   "dwp/cold-weather-payments",
+   "dwp/debt-payment-prototype",
+   "dwp/evidence-prototype",
+   "dwp/future-quality-model-prototype",
+   "dwp/suspense-investigation",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/hmpps-cell-sharing-risk-assessment-ui",
+   "ministryofjustice/hmpps-electronic-monitoring-datastore-ui",
+   "ministryofjustice/hmpps-historical-prisoner-ui",
+   "ministryofjustice/hmpps-prisoner-finance-sync-ui",
+   "ministryofjustice/hmpps-video-conference-schedule-ui",
+   "ministryofjustice/laa-decide-prototype",
+   "ministryofjustice/launchpad-prototype",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/prototype-kit-training",
+   "nhsbsa/learning-support-fund-new",
+   "nhsbsa/nhsbsa-asc-tfrs"
+  ]
+ },
+ "tna-compound-filters": {
+  "repos": 1,
+  "repoList": [
+   "nationalarchives/tna-frontend-jinja"
+  ]
+ },
+ "gem-c-related-navigation": {
+  "repos": 13,
+  "repoList": [
+   "DFE-Digital/check-your-eligibility-prototype",
+   "DFE-Digital/communicating-funding-prototype",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "DFE-Digital/fips-v4",
+   "SkillsFundingAgency/DS-DocumentationServicePrototype-Public",
+   "alphagov/data-marketplace-prototype",
+   "co-cddo/dds",
+   "co-cddo/find-support-after-a-fit-note",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/ffc-regulation-and-enforcement-prototype",
+   "defra-design/whitehall-template",
+   "dwp/bsp-prototype"
+  ]
+ },
+ "ons-related-content": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "x-govuk-related-navigation": {
+  "repos": 4,
+  "repoList": [
+   "DFE-Digital/check-the-record-of-a-teacher-prototype",
+   "DFE-Digital/feat",
+   "DFE-Digital/itt-mentor-payment-sampling-clawback",
+   "DFE-Digital/refer-serious-misconduct-by-a-teacher-prototype"
+  ]
+ },
+ "moj-sub-navigation": {
+  "repos": 39,
+  "repoList": [
+   "DEFRA/aqie-dataselector-frontend",
+   "DFE-Digital/DfE-Connect-Prototype",
+   "DFE-Digital/dfe-complete-conversions-transfers-and-changes",
+   "DFE-Digital/find-teacher-training-accounts-prototype",
+   "DFE-Digital/ghbs-school-collab",
+   "DFE-Digital/record-concerns-and-support",
+   "DFE-Digital/sap-public",
+   "DFE-Digital/sip-public",
+   "DFID/devtracker-from-api",
+   "Planning-Inspectorate/design-patterns",
+   "Planning-Inspectorate/local-plans-examinations-prototype",
+   "Planning-Inspectorate/section-62a-prototype",
+   "defra-design/forms-prototype",
+   "dwp/cmg-employers-prototype",
+   "dwp/phoenix-service",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/accredited-programmes-community-prototype",
+   "ministryofjustice/accredited-programmes-prototype",
+   "ministryofjustice/analytical-platform-dashboard-service",
+   "ministryofjustice/analytics-platform-control-panel",
+   "ministryofjustice/approved-premises-prototype",
+   "ministryofjustice/create-and-vary-a-licence",
+   "ministryofjustice/cvl-improvements-prototype",
+   "ministryofjustice/hdc-cvl-prototype",
+   "ministryofjustice/hmpps-allocate-key-workers-ui",
+   "ministryofjustice/hmpps-education-employment-ui",
+   "ministryofjustice/hmpps-interventions-prototype",
+   "ministryofjustice/hmpps-jobs-board-reporting-ui",
+   "ministryofjustice/hmpps-jobs-board-ui",
+   "ministryofjustice/hmpps-people-on-probation-ui",
+   "ministryofjustice/hmpps-prepare-a-case-prototype",
+   "ministryofjustice/hmpps-probation-supervision-contacts-ui",
+   "ministryofjustice/hmpps-sentence-plan-prototype",
+   "ministryofjustice/laa-amend-a-claim",
+   "ministryofjustice/laa-decide-prototype",
+   "ministryofjustice/laa-means-match-prototype",
+   "ministryofjustice/laa-review-criminal-legal-aid",
+   "ministryofjustice/laa-submit-a-bulk-claim",
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "x-govuk-secondary-navigation": {
+  "repos": 2,
+  "repoList": [
+   "DFE-Digital/trs-post-mvp",
+   "communitiesuk/design-manual-mhclg"
+  ]
+ },
+ "dwp-horizontal-navigation": {
+  "repos": 5,
+  "repoList": [
+   "dwp/attendance-allowance-agent",
+   "dwp/cfems-ucd",
+   "dwp/evidence-prototype",
+   "dwp/fed-bill",
+   "dwp/health-workflow-prototype"
+  ]
+ },
+ "gem-c-search-with-autocomplete": {
+  "repos": 2,
+  "repoList": [
+   "defra-design/fcp-animal-health",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype"
+  ]
+ },
+ "gem-c-select-with-search": {
+  "repos": 1,
+  "repoList": [
+   "communitiesuk/xgovuk-flask-admin"
+  ]
+ },
+ "hmrc-timeout-dialog": {
+  "repos": 1,
+  "repoList": [
+   "alphagov/emergency-alerts-admin-ui-prototype-new"
+  ]
+ },
+ "gem-c-contents-list": {
+  "repos": 26,
+  "repoList": [
+   "CPS-Innovation/assurance-frontend",
+   "DEFRA/assurance-frontend",
+   "DEFRA/cyltfr",
+   "DEFRA/cyltfr-app",
+   "DEFRA/digital-sus-actions-prototype",
+   "DEFRA/service-manual-prototype",
+   "DFE-Digital/apply-for-qts-prototype",
+   "DFE-Digital/buying-for-schools-prototype",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "LandRegistry/hmlr-design-system",
+   "alphagov/data-marketplace-prototype",
+   "alphagov/govuk-dark-mode-prototype",
+   "co-cddo/dds",
+   "co-cddo/find-support-after-a-fit-note",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/fcp-farming-front-door",
+   "defra-design/ffc-regulation-and-enforcement-prototype",
+   "defra-design/forms-prototype",
+   "defra-design/ltfri-prototype",
+   "defra-design/whitehall-template",
+   "dwp/bsp-prototype",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype",
+   "ministryofjustice/track-my-case"
+  ]
+ },
+ "nhsuk-contents-list": {
+  "repos": 9,
+  "repoList": [
+   "NHSDigital/healthstore-deployment-guidance-prototype",
+   "NHSDigital/nhs-notify-web-cms",
+   "NHSDigital/nhsuk-frontend-jinja",
+   "NHSLeadership/nhsblocks",
+   "nhselect/cypmh-comms-toolbox",
+   "nhselect/cypmh-index",
+   "nhselect/resp-surge-skills-matrix",
+   "nhselect/step1-proficiencies",
+   "nhselect/step1-training"
+  ]
+ },
+ "ons-table-of-contents": {
+  "repos": 2,
+  "repoList": [
+   "ONSdigital/spp-self-service-prototype",
+   "ONSdigital/web-2026"
+  ]
+ },
+ "gem-c-attachment": {
+  "repos": 6,
+  "repoList": [
+   "DEFRA/epr-obligationchecker-frontend",
+   "DFE-Digital/ey-hfeyp-prototype",
+   "DFE-Digital/support-for-social-workers",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "nhsbsa/learning-support-fund"
+  ]
+ },
+ "tna-files-list": {
+  "repos": 1,
+  "repoList": [
+   "nationalarchives/tna-frontend-jinja"
+  ]
+ },
+ "moj-add-another": {
+  "repos": 12,
+  "repoList": [
+   "DFE-Digital/check-your-eligibility-prototype",
+   "dwp/add-another",
+   "dwp/atw-payment-claims-grant",
+   "dwp/atw-payment-claims-service",
+   "dwp/sandbox-dwp-manage-tasks",
+   "dwp/ukspf-repo",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/analytics-platform-control-panel",
+   "ministryofjustice/data-platform-app",
+   "ministryofjustice/hmpps-afer-prototype",
+   "ministryofjustice/hmpps-cvl-prototype",
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "hmrc-add-to-a-list": {
+  "repos": 1,
+  "repoList": [
+   "dwp/atw-payment-claims-service"
+  ]
+ },
+ "ons-figure": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "tna-picture": {
+  "repos": 2,
+  "repoList": [
+   "nationalarchives/ds-frontend",
+   "nationalarchives/wa-frontend"
+  ]
+ },
+ "hods-loading-spinner": {
+  "repos": 5,
+  "repoList": [
+   "DEFRA/find-ffa-frontend",
+   "DEFRA/find-ffa-mongodb-vector-frontend",
+   "DEFRA/nrf-frontend",
+   "UKGovernmentBEIS/ukets-maritime",
+   "dwp/future-quality-model-prototype"
+  ]
+ },
+ "gem-c-modal-dialogue": {
+  "repos": 4,
+  "repoList": [
+   "defra-design/echo-prototype",
+   "hmcts/rpx-xui-common-lib",
+   "ministryofjustice/hmpps-strengths-based-needs-assessments-ui",
+   "nhsbsa/nhs-student-bursaries-new"
+  ]
+ },
+ "gem-c-inverse-header": {
+  "repos": 10,
+  "repoList": [
+   "DFE-Digital/dfe-academic-year-research",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "DFE-Digital/rsd-reep",
+   "DFE-Digital/send-data-dev-hub-prototype",
+   "LandRegistry/create-web-services-using-hmlr-apis",
+   "alphagov/govuk-multiple-h1-headings-on-page-prototype",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/echo-prototype",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype"
+  ]
+ },
+ "nhsuk-hero": {
+  "repos": 5,
+  "repoList": [
+   "111Online/nhs111-resources",
+   "NHSDigital/nhsuk-react-components",
+   "nhs-digital-gp-it-futures/GPITBuyingCatalogue",
+   "nhsbsa/nhsbsa-volunteering-prototype",
+   "nhsconnect/nhslogin-partners"
+  ]
+ },
+ "ons-hero": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "tna-hero": {
+  "repos": 2,
+  "repoList": [
+   "nationalarchives/ds-frontend",
+   "nationalarchives/tna-frontend-jinja"
+  ]
+ },
+ "x-govuk-masthead": {
+  "repos": 8,
+  "repoList": [
+   "co-cddo/data-catalogue-prototypes",
+   "communitiesuk/design-manual-mhclg",
+   "defra-design/Defra-Form-Tool-Proto",
+   "dhsc-govuk/Get-Adult-Social-Care-Data",
+   "dwp/prototype-repay-my-debt",
+   "dwp/repay-my-debt-prototype",
+   "ministryofjustice/analytical-platform-dashboard-service",
+   "ministryofjustice/hmpps-electronic-monitoring-create-an-order-prototype"
+  ]
+ },
+ "moj-date-picker": {
+  "repos": 3,
+  "repoList": [
+   "hmcts/react-a11y-test",
+   "ministryofjustice/hmpps-external-movements-ui",
+   "ministryofjustice/hmpps-mdt-prototype"
+  ]
+ },
+ "gem-c-back-to-top-link": {
+  "repos": 1,
+  "repoList": [
+   "defra-design/fcp-animal-health"
+  ]
+ },
+ "ons-icon": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "gem-c-print-link": {
+  "repos": 10,
+  "repoList": [
+   "DEFRA/ahwr-public-user-ui",
+   "DFE-Digital/care-leavers-dfe-prototype",
+   "DFE-Digital/communicating-funding-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "DFE-Digital/ey-hfeyp-prototype",
+   "companieshouse/report-a-discrepancy-prototype",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/fcp-animal-health",
+   "defra-design/whitehall-template",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype"
+  ]
+ },
+ "hmrc-print-link": {
+  "repos": 1,
+  "repoList": [
+   "hmrc/hmrc-frontend"
+  ]
+ },
+ "gem-c-metadata": {
+  "repos": 12,
+  "repoList": [
+   "DEFRA/digital-sus-actions-prototype",
+   "DFE-Digital/care-leavers-dfe-prototype",
+   "DFE-Digital/care-leavers-poc",
+   "DFE-Digital/external-applications-prototype",
+   "DFE-Digital/ey-hfeyp-prototype",
+   "alphagov/govuk-multiple-h1-headings-on-page-prototype",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/ffc-regulation-and-enforcement-prototype",
+   "defra-design/whitehall-template",
+   "dwp/bsp-prototype",
+   "ukgov-equality-hub/equality-action-plans-prototypes"
+  ]
+ },
+ "tna-sidebar": {
+  "repos": 1,
+  "repoList": [
+   "nationalarchives/ds-hospital-records"
+  ]
+ },
+ "moj-side-navigation": {
+  "repos": 25,
+  "repoList": [
+   "DFE-Digital/check-performance-data-prototype",
+   "DFE-Digital/ey-recovery-prototype",
+   "DFE-Digital/gias-transformation-prototype",
+   "DFE-Digital/new-npq-prototype",
+   "DFE-Digital/sip-public",
+   "DFE-Digital/tte-prototype",
+   "LandRegistry/create-web-services-using-hmlr-apis",
+   "UKHSA-Internal/coronavirus-dashboard-easy-read",
+   "UKHSA-Internal/coronavirus-dashboard-frontend-server",
+   "companieshouse/ch-design-system",
+   "dwp/PIP-new-claims-triage",
+   "dwp/cfems-ucd",
+   "dwp/health-assessments",
+   "ministryofjustice/accredited-programmes-community-prototype",
+   "ministryofjustice/accredited-programmes-prototype",
+   "ministryofjustice/hmpps-breach-notice-ui",
+   "ministryofjustice/hmpps-breach-report-co-sso-ui",
+   "ministryofjustice/hmpps-community-accommodation-tier-2-bail-prototypes",
+   "ministryofjustice/hmpps-parom-service-ui",
+   "ministryofjustice/hmpps-strengths-based-needs-assessments-ui",
+   "ministryofjustice/hmpps-suicide-risk-form-ui",
+   "ministryofjustice/hmpps-warrant-risk-assessment-ui",
+   "ministryofjustice/launchpad-prototype",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/prototype-kit-training"
+  ]
+ },
+ "dwp-side-navigation": {
+  "repos": 4,
+  "repoList": [
+   "communitiesuk/mhclg_svelte_component_library",
+   "dwp/SRA-UCD-sandpit",
+   "dwp/fqm-prototype",
+   "dwp/gateway-services-prototype"
+  ]
+ },
+ "ons-chart": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "nhsuk-code": {
+  "repos": 1,
+  "repoList": [
+   "NHSDigital/nhsuk-frontend-jinja"
+  ]
+ },
+ "tna-code-block": {
+  "repos": 1,
+  "repoList": [
+   "nationalarchives/tna-frontend-jinja"
+  ]
+ },
+ "ons-summary": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "moj-rich-text-editor": {
+  "repos": 1,
+  "repoList": [
+   "ministryofjustice/ndelius-new-tech"
+  ]
+ },
+ "gem-c-error-alert": {
+  "repos": 1,
+  "repoList": [
+   "defra-design/echo-prototype"
+  ]
+ },
+ "gem-c-success-alert": {
+  "repos": 2,
+  "repoList": [
+   "DEFRA/prsd-iws",
+   "defra-design/echo-prototype"
+  ]
+ },
+ "moj-alert": {
+  "repos": 8,
+  "repoList": [
+   "ministryofjustice/hmpps-emdi-prototype",
+   "ministryofjustice/hmpps-official-visits-ui",
+   "ministryofjustice/hmpps-visit-someone-in-prison-prototype",
+   "ministryofjustice/laa-amend-a-claim",
+   "ministryofjustice/laa-review-criminal-legal-aid",
+   "ministryofjustice/laa-submit-a-bulk-claim",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/prototype-kit-training"
+  ]
+ },
+ "hods-alert": {
+  "repos": 1,
+  "repoList": [
+   "dwp/ui-fitnote-frontend"
+  ]
+ },
+ "moj-messages": {
+  "repos": 1,
+  "repoList": [
+   "hmcts/react-a11y-test"
+  ]
+ },
+ "moj-progress-bar": {
+  "repos": 1,
+  "repoList": [
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "moj-multi-select": {
+  "repos": 11,
+  "repoList": [
+   "LandRegistry/extent-annotation-tool-prototype",
+   "companieshouse/hide-your-details-prototype",
+   "defra-design/fcp-combined-offer",
+   "defra-design/movinganimalstogb",
+   "hmcts/pip-frontend",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/hmpps-accredited-programmes-manage-and-deliver-ui",
+   "ministryofjustice/hmpps-activities-management",
+   "ministryofjustice/hmpps-manage-users",
+   "ministryofjustice/hmpps-prisoner-property-ui",
+   "ministryofjustice/hmpps-subject-access-request-ui"
+  ]
+ },
+ "gem-c-list": {
+  "repos": 3,
+  "repoList": [
+   "DEFRA/digital-sus-actions-prototype",
+   "SkillsFundingAgency/tl-employersupport-prototype",
+   "co-cddo/cms-prototype"
+  ]
+ },
+ "ons-list": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "moj-multi-file-upload": {
+  "repos": 3,
+  "repoList": [
+   "Planning-Inspectorate/peas-row-commons",
+   "ministryofjustice/apply-for-legal-aid-prototype",
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "gem-c-share-links": {
+  "repos": 1,
+  "repoList": [
+   "DFE-Digital/eduk-prototype"
+  ]
+ },
+ "moj-banner": {
+  "repos": 8,
+  "repoList": [
+   "dwp/atw-upload-prototype",
+   "ministryofjustice/cica-apply-web",
+   "ministryofjustice/dwf-prototype",
+   "ministryofjustice/hmpps-afer-prototype",
+   "ministryofjustice/hmpps-immigration-detention-ui",
+   "ministryofjustice/makerecall-prototype",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/offender-management-allocation-manager"
+  ]
+ },
+ "hmrc-banner": {
+  "repos": 2,
+  "repoList": [
+   "cabinetoffice/ggis-prototypes",
+   "hmrc/hmrc-frontend"
+  ]
+ },
+ "gem-c-heading": {
+  "repos": 27,
+  "repoList": [
+   "DEFRA/digital-sus-actions-prototype",
+   "DEFRA/epr-obligationchecker-frontend",
+   "DFE-Digital/assure-prototype-2",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "DFE-Digital/eduk-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "DFE-Digital/rsd-reep",
+   "DFE-Digital/school-complaints-prototype",
+   "LandRegistry/create-web-services-using-hmlr-apis",
+   "SkillsFundingAgency/das-aodp-web",
+   "SkillsFundingAgency/tl-employersupport-prototype",
+   "alphagov/data-marketplace-prototype",
+   "alphagov/emergency-alerts-admin-ui-prototype-new",
+   "alphagov/govuk-dark-mode-prototype",
+   "co-cddo/cms-prototype",
+   "co-cddo/dds",
+   "co-cddo/lthc-prototype",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/ff-ss",
+   "defra-design/manage-biodiversity-gains",
+   "dwp/bsp-prototype",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype",
+   "ministryofjustice/track-my-case",
+   "nhsbsa/mccd-service-showcase",
+   "nhsbsa/nhsbsa-asc-tfrs-showcase"
+  ]
+ },
+ "nhsuk-heading": {
+  "repos": 2,
+  "repoList": [
+   "nhsbsa/nhs-student-bursaries-new",
+   "nhsbsa/nhs-volunteering-beta-prototype"
+  ]
+ },
+ "gem-c-big-number": {
+  "repos": 5,
+  "repoList": [
+   "DFE-Digital/DfE-School-Account-Alpha",
+   "alphagov/dsp-dashboard",
+   "defra-design/ff-ss",
+   "dwp/colleague-view",
+   "dwp/colleague-view-prototype"
+  ]
+ },
+ "gem-c-notice": {
+  "repos": 1,
+  "repoList": [
+   "defra-design/echo-prototype"
+  ]
+ },
+ "nhsuk-link": {
+  "repos": 56,
+  "repoList": [
+   "NHS-Test-Digital-Design/nhs-antibody-testing-registration-prototype",
+   "NHSDigital/book-vaccinations-prototype",
+   "NHSDigital/healthstore-deployment-guidance-prototype",
+   "NHSDigital/manage-breast-screening-prototype",
+   "NHSDigital/mya-prototype",
+   "NHSDigital/nhs-eps-prototype",
+   "NHSDigital/nhs-notify-web-cms",
+   "NHSDigital/prototype-lung-health-check",
+   "NHSDigital/record-a-vaccination-prototype",
+   "TechnologyEnhancedLearning/Prototyping",
+   "nhsbsa/Employing-Authority-Search",
+   "nhsbsa/McCloud-Choice",
+   "nhsbsa/TECS-2022",
+   "nhsbsa/additional-pensions-calculator",
+   "nhsbsa/apply-healthy-start-vouchers",
+   "nhsbsa/bpor-branding-poc",
+   "nhsbsa/cdr-client-prototype",
+   "nhsbsa/claims-prototype",
+   "nhsbsa/clean-up-dropped-employments",
+   "nhsbsa/contact-the-bsa",
+   "nhsbsa/cost-recovery-ops",
+   "nhsbsa/data-hub",
+   "nhsbsa/dentist-alpha-song-prototype",
+   "nhsbsa/ehic-ghic",
+   "nhsbsa/exemption-checker",
+   "nhsbsa/hs-design-history",
+   "nhsbsa/hwhc-certificate-manager",
+   "nhsbsa/jdr-login",
+   "nhsbsa/learning-support-fund-new",
+   "nhsbsa/lis-apply-refresh",
+   "nhsbsa/manage-healthy-start-vouchers",
+   "nhsbsa/margin-survey",
+   "nhsbsa/mccloud-immediate-choice-prototype",
+   "nhsbsa/medicines-management-prototype",
+   "nhsbsa/my-hub-service-assessment",
+   "nhsbsa/mys-pharmacy",
+   "nhsbsa/nhsbsa-design-history",
+   "nhsbsa/nhsbsa-docs",
+   "nhsbsa/nhsbsa-nihr-crp-prototype",
+   "nhsbsa/nhsbsa-volunteering-prototype",
+   "nhsbsa/nihr-bpor",
+   "nhsbsa/nihr-public-prototype",
+   "nhsbsa/pensions-contact-the-scheme",
+   "nhsbsa/pensions-form-ordering",
+   "nhsbsa/pensions-online-contact-form",
+   "nhsbsa/ppc-new",
+   "nhsbsa/pprs-prototype",
+   "nhsbsa/practice-run",
+   "nhsbsa/reference-price-prototype",
+   "nhsbsa/research-playbook",
+   "nhsbsa/self-assessment-test",
+   "nhsbsa/update-pension-details",
+   "nhsuk/nhsapp-frontend",
+   "nhsuk/nhsuk-frontend",
+   "nhsuk/nhsuk-prototype-kit-package",
+   "nhsx/self-isolation-prototype"
+  ]
+ },
+ "ons-browser-banner": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "gem-c-document-list": {
+  "repos": 12,
+  "repoList": [
+   "DFE-Digital/buying-for-schools-prototype",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "DFE-Digital/eduk-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "alphagov/data-marketplace-prototype",
+   "co-cddo/data-catalogue-prototypes",
+   "co-cddo/dds",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/vet-gateway-guidance",
+   "nhsbsa/mccd-service-showcase",
+   "nhsbsa/nhsbsa-asc-tfrs-showcase"
+  ]
+ },
+ "ons-document-list": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "moj-identity-bar": {
+  "repos": 4,
+  "repoList": [
+   "dwp/retirement-maintain",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/cica-review-case-documents",
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "dwp-quick-reference": {
+  "repos": 10,
+  "repoList": [
+   "dwp/agent-led-idv",
+   "dwp/appeal-response",
+   "dwp/appeal-response-prototype",
+   "dwp/cfems-ucd",
+   "dwp/cms-enforcement-prototype",
+   "dwp/dlacs-refactor",
+   "dwp/fed-bill",
+   "dwp/health-workflow-prototype",
+   "dwp/pdlsc-prototype",
+   "dwp/pension-hb-c-prototype"
+  ]
+ },
+ "ons-external-link": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "ons-field": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "gem-c-govspeak": {
+  "repos": 22,
+  "repoList": [
+   "DEFRA/digital-sus-actions-prototype",
+   "DEFRA/epr-obligationchecker-frontend",
+   "DEFRA/fcp-mpdp-frontend",
+   "DFE-Digital/check-your-eligibility-prototype",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "DFE-Digital/eduk-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "DFE-Digital/get-help-with-remote-education-cms",
+   "SkillsFundingAgency/DS-DocumentationServicePrototype-Public",
+   "UKForeignOffice/lists",
+   "alphagov/emergency-alerts-admin-ui-prototype-new",
+   "alphagov/govuk-dark-mode-prototype",
+   "alphagov/govuk-multiple-h1-headings-on-page-prototype",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/ffc-regulation-and-enforcement-prototype",
+   "defra-design/whitehall-template",
+   "dwp/bsp-prototype",
+   "dwp/ui-ds1500-frontend",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype",
+   "nhsbsa/blc-crm"
+  ]
+ },
+ "gem-c-action-link": {
+  "repos": 2,
+  "repoList": [
+   "alphagov/govuk-dark-mode-prototype",
+   "companieshouse/5mld-prototype"
+  ]
+ },
+ "nhsuk-action-link": {
+  "repos": 42,
+  "repoList": [
+   "NHSDigital/book-vaccinations-prototype",
+   "NHSDigital/healthstore-deployment-guidance-prototype",
+   "NHSDigital/nhs-eps-prototype",
+   "NHSDigital/nhs-notify-web-cms",
+   "NHSDigital/nhsuk-frontend-jinja",
+   "NHSLeadership/nhsl-laravel",
+   "TechnologyEnhancedLearning/LearningHub.Nhs.UserApi",
+   "TechnologyEnhancedLearning/LearningHub.Nhs.UserApi.Forked",
+   "TechnologyEnhancedLearning/MVCBlazor",
+   "TechnologyEnhancedLearning/moodle-theme-nhsetel",
+   "nhsbsa/Employing-Authority-Search",
+   "nhsbsa/HRT-PPC",
+   "nhsbsa/McCloud-Choice",
+   "nhsbsa/TECS-2022",
+   "nhsbsa/apply-healthy-start-vouchers",
+   "nhsbsa/cip-nightapps-prototype",
+   "nhsbsa/contact-the-bsa",
+   "nhsbsa/cost-recovery-ops",
+   "nhsbsa/data-hub",
+   "nhsbsa/hwhc-eligibility-checker",
+   "nhsbsa/jdr-login",
+   "nhsbsa/learning-support-fund",
+   "nhsbsa/learning-support-fund-new",
+   "nhsbsa/manage-healthy-start-vouchers",
+   "nhsbsa/match-ohs-record",
+   "nhsbsa/medicines-management-prototype",
+   "nhsbsa/mys-pharmacy",
+   "nhsbsa/nhs-student-bursaries-new",
+   "nhsbsa/nhsbsa-volunteering-prototype",
+   "nhsbsa/ppc-new",
+   "nhsbsa/practice-run",
+   "nhsbsa/reference-price-prototype",
+   "nhsbsa/student-services-alpha",
+   "nhsbsa/update-pension-details",
+   "nhselect/cieh-human-factors",
+   "nhselect/cypmh-comms-toolbox",
+   "nhselect/cypmh-index",
+   "nhselect/resp-surge-skills-matrix",
+   "nhselect/step1-proficiencies",
+   "nhselect/step1-training",
+   "nhsx/skunkworks-long-stayer-risk-stratification",
+   "ukhsa-collaboration/ntbs_Beta"
+  ]
+ },
+ "moj-notification-badge": {
+  "repos": 11,
+  "repoList": [
+   "DFE-Digital/DfE-School-Account-Alpha",
+   "defra-design/forms-prototype",
+   "dwp/cmg-employers-prototype",
+   "dwp/cms-enforcement-prototype",
+   "hmcts/darts-portal",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/hmpps-book-a-video-link-ui",
+   "ministryofjustice/hmpps-edmi-prototype",
+   "ministryofjustice/hmpps-visit-someone-in-prison-prototype",
+   "ministryofjustice/manage-a-workforce-ui",
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "hmrc-notification-badge": {
+  "repos": 1,
+  "repoList": [
+   "SkillsFundingAgency/das-flexible-payment-models-prototype"
+  ]
+ },
+ "hods-highlight": {
+  "repos": 3,
+  "repoList": [
+   "DFE-Digital/trs-post-mvp",
+   "ministryofjustice/cica-review-case-documents",
+   "ministryofjustice/hmpps-challenge-support-intervention-plan-ui"
+  ]
+ },
+ "moj-scrollable-pane": {
+  "repos": 27,
+  "repoList": [
+   "Civil-Service-Human-Resources/prototype",
+   "DEFRA/ahwr-backoffice-ui",
+   "DEFRA/bng-metric-frontend",
+   "DFE-Digital/DfE-School-Account-Alpha",
+   "DFE-Digital/check-performance-data-prototype",
+   "DFE-Digital/check-your-eligibility-prototype",
+   "DFE-Digital/sip-public",
+   "DFE-Digital/teacher-success-prototype",
+   "SkillsFundingAgency/das-aan-employer-prototype",
+   "defra-design/fcp-farming-front-door",
+   "defra-design/livestock-traceability",
+   "dwp/ref-data-services",
+   "dwp/suspense-investigation",
+   "dwp/workplace-subsidy-prototype",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/accredited-programmes-community-prototype",
+   "ministryofjustice/accredited-programmes-prototype",
+   "ministryofjustice/cica-apply-web",
+   "ministryofjustice/digital-prison-reporting-mi-prototype",
+   "ministryofjustice/hmpps-arns-frontend-components",
+   "ministryofjustice/hmpps-incident-reporting",
+   "ministryofjustice/hmpps-person-record-manage-ui",
+   "ministryofjustice/laa-billing-alpha-prototype",
+   "ministryofjustice/laa-decide-prototype",
+   "ministryofjustice/laa-submit-a-bulk-claim",
+   "ministryofjustice/manage-a-workforce-ui",
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "moj-badge": {
+  "repos": 14,
+  "repoList": [
+   "ministryofjustice/accredited-programmes-prototype",
+   "ministryofjustice/approved-premises-prototype",
+   "ministryofjustice/hmpps-activity-management-prototype",
+   "ministryofjustice/hmpps-afer-prototype",
+   "ministryofjustice/hmpps-challenge-support-intervention-plan-ui",
+   "ministryofjustice/hmpps-court-cases-release-dates",
+   "ministryofjustice/hmpps-court-cases-release-dates-design",
+   "ministryofjustice/hmpps-sentence-plan-prototype",
+   "ministryofjustice/hmpps-visit-someone-in-prison-prototype",
+   "ministryofjustice/laa-decide-prototype",
+   "ministryofjustice/laa-submit-a-bulk-claim",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/offender-management-allocation-manager",
+   "ministryofjustice/prepare-a-case"
+  ]
+ },
+ "hods-date-time": {
+  "repos": 2,
+  "repoList": [
+   "DFE-Digital/trs-post-mvp",
+   "DFE-Digital/trs-support-console"
+  ]
+ },
+ "nhsuk-caption": {
+  "repos": 2,
+  "repoList": [
+   "NHSDigital/nhsuk-frontend-jinja",
+   "nhsbsa/nhs-student-bursaries-new"
+  ]
+ },
+ "moj-action-bar": {
+  "repos": 12,
+  "repoList": [
+   "DFE-Digital/DfE-School-Account-Alpha",
+   "DFE-Digital/check-free-school-meals-eligibility-admin",
+   "SkillsFundingAgency/das-aan-employer-prototype",
+   "communitiesuk/xgovuk-flask-admin",
+   "dwp/suspense-investigation",
+   "dwp/workplace-subsidy-prototype",
+   "ministryofjustice/digital-prison-reporting-mi-prototype",
+   "ministryofjustice/hmpps-electronic-monitoring-datastore-ui",
+   "ministryofjustice/hmpps-prisoner-finance-sync-ui",
+   "ministryofjustice/hmpps-video-conference-schedule-ui",
+   "ministryofjustice/laa-decide-prototype",
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "nhsuk-do-dont-list": {
+  "repos": 6,
+  "repoList": [
+   "NHSDigital/nhsuk-react-components",
+   "NHSLeadership/nightingale-2-0",
+   "nhsbsa/additional-pensions-calculator",
+   "nhsbsa/exemption-checker",
+   "nhsbsa/hwhc-eligibility-checker",
+   "nhsx/self-isolation-prototype"
+  ]
+ },
+ "gem-c-lead-paragraph": {
+  "repos": 14,
+  "repoList": [
+   "DFE-Digital/GHWCT_2",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "DFE-Digital/ehcp-guidance-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "DFE-Digital/rsd-reep",
+   "UKSpaceAgency/sst-beta-prototype",
+   "alphagov/emergency-alerts-admin-ui-prototype-new",
+   "co-cddo/lthc-prototype",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/ff-ss",
+   "defra-design/ffc-regulation-and-enforcement-prototype",
+   "defra-design/whitehall-template",
+   "dwp/bsp-prototype"
+  ]
+ },
+ "moj-sortable-table": {
+  "repos": 91,
+  "repoList": [
+   "DEFRA/ahwr-backoffice-ui",
+   "DEFRA/ahwr-public-user-ui",
+   "DEFRA/bng-metric-digital-prototype",
+   "DEFRA/bng-metric-frontend",
+   "DEFRA/digital-waste-tracking-admin-ui",
+   "DEFRA/grants-config-browser",
+   "DFE-Digital/TRAMS-alpha",
+   "DFE-Digital/fiat-prototype",
+   "DFE-Digital/find-information-about-schools-and-trusts",
+   "DFE-Digital/school-placements-prototype",
+   "DFE-Digital/sip-public",
+   "DFE-Digital/tte-prototype",
+   "LandRegistry/hmlr-header",
+   "Planning-Inspectorate/crown-developments",
+   "Planning-Inspectorate/mpesc-prototype",
+   "Planning-Inspectorate/peas-row-commons",
+   "Planning-Inspectorate/section-62a-prototype",
+   "UKGovernmentBEIS/DVS-Register",
+   "UKGovernmentBEIS/dsit-dvs-register",
+   "UKSpaceAgency/sst-beta-prototype",
+   "defra-design/caseworking-ai-test",
+   "defra-design/defra-forms-mvp-prototype",
+   "defra-design/dwt-admin-interface",
+   "defra-design/etrade-prototype",
+   "defra-design/fcp-combined-offer",
+   "defra-design/fcp-farming-front-door",
+   "defra-design/fcp-grants-casework",
+   "defra-design/ffc-ahwr-prototype",
+   "defra-design/trade-paper-prototype",
+   "defra-design/xws-internal-prototype",
+   "dwp/HAS-assessments",
+   "dwp/awacs",
+   "dwp/common-capabilities-mmw",
+   "dwp/has-supporting-docs",
+   "dwp/newstyle-modernisation",
+   "dwp/pip-case-management-prototype",
+   "hmcts/juror-bureau",
+   "hmcts/juror-er-portal",
+   "hmcts/opal-rm-prototype",
+   "hmcts/pip-frontend",
+   "hmcts/react-a11y-test",
+   "hmcts/wa-reporting-frontend",
+   "ministryofjustice/accredited-programmes-community-prototype",
+   "ministryofjustice/accredited-programmes-prototype",
+   "ministryofjustice/approved-premises-prototype",
+   "ministryofjustice/cica-apply-web",
+   "ministryofjustice/create-and-vary-a-licence",
+   "ministryofjustice/crmfour-proto",
+   "ministryofjustice/cvl-improvements-prototype",
+   "ministryofjustice/data-platform-app",
+   "ministryofjustice/hdc-cvl-prototype",
+   "ministryofjustice/hmpps-accredited-programmes-ui",
+   "ministryofjustice/hmpps-activities-management",
+   "ministryofjustice/hmpps-alerts-ui",
+   "ministryofjustice/hmpps-allocate-key-workers-ui",
+   "ministryofjustice/hmpps-approved-premises-ui",
+   "ministryofjustice/hmpps-book-a-video-link-ui",
+   "ministryofjustice/hmpps-cell-sharing-risk-assessment-ui",
+   "ministryofjustice/hmpps-change-someones-cell",
+   "ministryofjustice/hmpps-community-payback-ui",
+   "ministryofjustice/hmpps-dps-prototype-starter",
+   "ministryofjustice/hmpps-edmi-prototype",
+   "ministryofjustice/hmpps-education-and-work-plan-ui",
+   "ministryofjustice/hmpps-education-employment-ui",
+   "ministryofjustice/hmpps-electronic-monitoring-datastore-ui",
+   "ministryofjustice/hmpps-emdi-prototype",
+   "ministryofjustice/hmpps-esupervision-ui",
+   "ministryofjustice/hmpps-find-and-refer-an-intervention-ui",
+   "ministryofjustice/hmpps-interventions-prototype",
+   "ministryofjustice/hmpps-jobs-board-ui",
+   "ministryofjustice/hmpps-manage-custody-mailbox-register",
+   "ministryofjustice/hmpps-manage-users",
+   "ministryofjustice/hmpps-managing-prisoner-apps-staff-ui",
+   "ministryofjustice/hmpps-match-learner-record-ui",
+   "ministryofjustice/hmpps-non-residential-locations-ui",
+   "ministryofjustice/hmpps-prison-roll-count",
+   "ministryofjustice/hmpps-prisoner-pay-ui",
+   "ministryofjustice/hmpps-prisoner-property-ui",
+   "ministryofjustice/hmpps-restricted-patients-ui",
+   "ministryofjustice/hmpps-subject-access-request-ui",
+   "ministryofjustice/hmpps-temporary-accommodation-prototype",
+   "ministryofjustice/hmpps-video-conference-schedule-ui",
+   "ministryofjustice/hmpps-visit-someone-in-prison-prototype",
+   "ministryofjustice/laa-billing-alpha-prototype",
+   "ministryofjustice/laa-decide-prototype",
+   "ministryofjustice/laa-end-to-end",
+   "ministryofjustice/laa-express-typescript-template",
+   "ministryofjustice/laa-means-match-prototype",
+   "ministryofjustice/manage-a-workforce-ui",
+   "ministryofjustice/wmt-web",
+   "nhsbsa/reference-price-prototype"
+  ]
+ },
+ "gem-c-contents-list-with-body": {
+  "repos": 1,
+  "repoList": [
+   "defra-design/fcp-animal-health"
+  ]
+ },
+ "gem-c-reorderable-list": {
+  "repos": 1,
+  "repoList": [
+   "defra-design/forms-prototype"
+  ]
+ },
+ "moj-search-toggle": {
+  "repos": 2,
+  "repoList": [
+   "ministryofjustice/hmpps-prepare-a-case-prototype",
+   "ministryofjustice/mpc-prototype"
+  ]
+ },
+ "tna-gallery": {
+  "repos": 1,
+  "repoList": [
+   "nationalarchives/tna-frontend-jinja"
+  ]
+ },
+ "hmrc-user-research-banner": {
+  "repos": 2,
+  "repoList": [
+   "LandRegistry/search-local-land-charges-ui",
+   "nhsbsa/blc-crm"
+  ]
+ },
+ "tna-date-search": {
+  "repos": 1,
+  "repoList": [
+   "nationalarchives/tna-frontend-jinja"
+  ]
+ },
+ "tna-index-grid": {
+  "repos": 1,
+  "repoList": [
+   "nationalarchives/tna-frontend-jinja"
+  ]
+ },
+ "gem-c-layout-for-public": {
+  "repos": 3,
+  "repoList": [
+   "alphagov/emergency-alerts-admin-ui-prototype-new",
+   "defra-design/fcp-animal-health",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype"
+  ]
+ },
+ "gem-c-single-page-notification-button": {
+  "repos": 2,
+  "repoList": [
+   "defra-design/Import-risk-categorisation",
+   "defra-design/fcp-animal-health"
+  ]
+ },
+ "nhsuk-scroll": {
+  "repos": 1,
+  "repoList": [
+   "nhsbsa/clean-up-dropped-employments"
+  ]
+ },
+ "gem-c-devolved-nations": {
+  "repos": 5,
+  "repoList": [
+   "DEFRA/phi-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/fcp-animal-health",
+   "defra-design/fcp-farming-front-door"
+  ]
+ },
+ "gem-c-govspeak-html-publication": {
+  "repos": 4,
+  "repoList": [
+   "DFE-Digital/dfe-covid-content-prototype",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/echo-prototype",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype"
+  ]
+ },
+ "hmrc-caseworker-banner": {
+  "repos": 1,
+  "repoList": [
+   "hmrc/hmrc-frontend"
+  ]
+ },
+ "gem-c-organisation-logo": {
+  "repos": 6,
+  "repoList": [
+   "DFE-Digital/dfe-covid-content-prototype",
+   "DFE-Digital/external-applications-prototype",
+   "co-cddo/data-catalogue-prototypes",
+   "defra-design/Import-risk-categorisation",
+   "defra-design/echo-prototype",
+   "ministryofjustice/hmpps-electronic-monitoring-data-prototype"
+  ]
+ },
+ "gem-c-subscription-links": {
+  "repos": 3,
+  "repoList": [
+   "DFE-Digital/eduk-prototype",
+   "co-cddo/cms-prototype",
+   "defra-design/echo-prototype"
+  ]
+ },
+ "ons-text-indent": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "gem-c-contextual-footer": {
+  "repos": 7,
+  "repoList": [
+   "DFE-Digital/check-your-eligibility-prototype",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/ffc-regulation-and-enforcement-prototype",
+   "defra-design/whitehall-template",
+   "dwp/bsp-prototype"
+  ]
+ },
+ "gem-c-contextual-sidebar": {
+  "repos": 13,
+  "repoList": [
+   "DFE-Digital/check-your-eligibility-prototype",
+   "DFE-Digital/communicating-funding-prototype",
+   "DFE-Digital/dfe-covid-content-prototype",
+   "SkillsFundingAgency/DS-DocumentationServicePrototype-Public",
+   "alphagov/data-marketplace-prototype",
+   "alphagov/govuk-dark-mode-prototype",
+   "alphagov/govuk-multiple-h1-headings-on-page-prototype",
+   "co-cddo/dds",
+   "defra-design/echo-prototype",
+   "defra-design/fcp-animal-health",
+   "defra-design/ffc-regulation-and-enforcement-prototype",
+   "defra-design/whitehall-template",
+   "dwp/bsp-prototype"
+  ]
+ },
+ "moj-button-menu": {
+  "repos": 19,
+  "repoList": [
+   "DFE-Digital/DfE-School-Account-Alpha",
+   "DFE-Digital/check-free-school-meals-eligibility-admin",
+   "DFE-Digital/ghbs-school-collab",
+   "communitiesuk/xgovuk-flask-admin",
+   "dwp/awacs",
+   "dwp/cms-enforcement-prototype",
+   "dwp/phoenix-service",
+   "dwp/suspense-investigation",
+   "dwp/workplace-subsidy-prototype",
+   "hmcts/appreg-frontend",
+   "hmcts/pip-frontend",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/accredited-programmes-prototype",
+   "ministryofjustice/approved-premises-prototype",
+   "ministryofjustice/hmpps-sentence-plan-prototype",
+   "ministryofjustice/hmpps-temporary-accommodation-prototype",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/opg-use-an-lpa",
+   "nhsbsa/nhsbsa-asc-tfrs"
+  ]
+ },
+ "dwp-internal-service-header": {
+  "repos": 1,
+  "repoList": [
+   "dwp/health-workflow-prototype"
+  ]
+ },
+ "moj-ticket-panel": {
+  "repos": 7,
+  "repoList": [
+   "DEFRA/digital-waste-tracking-admin-ui",
+   "dwp/cms-enforcement-prototype",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/hmpps-identify-remand-periods",
+   "ministryofjustice/hmpps-launchpad-home-ui",
+   "ministryofjustice/hmpps-record-a-recall",
+   "ministryofjustice/pre-sentence-service-prototype"
+  ]
+ },
+ "moj-organisation-switcher": {
+  "repos": 1,
+  "repoList": [
+   "hmcts/react-a11y-test"
+  ]
+ },
+ "ons-description-list": {
+  "repos": 1,
+  "repoList": [
+   "ONSdigital/web-2026"
+  ]
+ },
+ "moj-page-header-actions": {
+  "repos": 16,
+  "repoList": [
+   "DEFRA/fg-cw-frontend",
+   "DFE-Digital/check-free-school-meals-eligibility-admin",
+   "dwp/common-capabilities-mmw",
+   "hmcts/opal-rm-prototype",
+   "hmcts/react-a11y-test",
+   "ministryofjustice/accredited-programmes-prototype",
+   "ministryofjustice/approved-premises-prototype",
+   "ministryofjustice/hmpps-approved-premises-ui",
+   "ministryofjustice/hmpps-arns-assessment-platform-ui",
+   "ministryofjustice/hmpps-contacts-ui",
+   "ministryofjustice/hmpps-probation-supervision-contacts-ui",
+   "ministryofjustice/hmpps-probation-supervision-early-termination-ui",
+   "ministryofjustice/hmpps-probation-supervision-reminders-ui",
+   "ministryofjustice/mpc-prototype",
+   "ministryofjustice/offender-management-allocation-manager",
+   "nhsbsa/nhsbsa-asc-tfrs"
+  ]
+ }
+}
