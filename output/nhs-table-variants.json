@@ -1,0 +1,1287 @@
+{
+ "generatedAt": "2026-11-11T14:51:20.669Z",
+ "results": {
+  "111Online/nhs111-resources": {
+   "version": "^6.1.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "DFE-Digital/neet-digital": {
+   "version": "^10.5.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHS-Test-Digital-Design/nhs-antibody-testing-registration-prototype": {
+   "version": "^3.1.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHS-digital-website/headless-prototype": {
+   "version": "^10.6.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/DCH-NHS-app": {
+   "version": "^10.3.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/book-vaccinations-prototype": {
+   "version": "^10.3.1",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/c2c-breast-screening-prototype": {
+   "version": "^10.6.1",
+   "tableFiles": 2,
+   "variants": {
+    "striped": [
+     "app/views/_macros/clinic-listing.html",
+     "app/views/batches/participants/index.html"
+    ],
+    "sortable": [
+     "app/views/batches/participants/index.html"
+    ]
+   },
+   "variantCount": 2,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/cdp-portal": {
+   "version": "^8.1.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/healthstore-deployment-guidance-prototype": {
+   "version": "^10.4.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/manage-breast-screening-prototype": {
+   "version": "^10.6.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/manage-vaccinations-in-schools-prototype": {
+   "version": "^10.6.1",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [
+    "table"
+   ],
+   "mojSortable": false
+  },
+  "NHSDigital/mya-prototype": {
+   "version": "^10.2.2",
+   "tableFiles": 4,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/mya-provocotype": {
+   "version": "^10.3.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/nhs-eps-prototype": {
+   "version": "^8.1.0",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/nhs-firstcontact-prototype-maternity-self-referral": {
+   "version": "^8.3.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/nhs-notify-web-cms": {
+   "version": "^10.1.0",
+   "tableFiles": 5,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/nhsuk-frontend-jinja": {
+   "version": "^10.7.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [
+    "table"
+   ],
+   "mojSortable": false
+  },
+  "NHSDigital/nhsuk-react-components": {
+   "version": "^10.3.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [
+    "table"
+   ],
+   "mojSortable": false
+  },
+  "NHSDigital/prototype-gp-registration": {
+   "version": "^10.3.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/prototype-lung-health-check": {
+   "version": "^10.6.1",
+   "tableFiles": 3,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSDigital/record-a-vaccination-prototype": {
+   "version": "^10.6.1",
+   "tableFiles": 3,
+   "variants": {
+    "sortable": [
+     "app/views/appointments/_cancelled.html",
+     "app/views/appointments/_completed.html",
+     "app/views/appointments/_scheduled.html"
+    ]
+   },
+   "variantCount": 1,
+   "isPrototype": true,
+   "ownTable": [
+    "table"
+   ],
+   "mojSortable": false
+  },
+  "NHSLeadership/assess": {
+   "version": "^10.6.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSLeadership/moodle-nhse": {
+   "version": "^9.0.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSLeadership/nhsblocks": {
+   "version": "^8.0.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSLeadership/nhsl-laravel": {
+   "version": "^9.3.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "NHSLeadership/nightingale-2-0": {
+   "version": "^8.3.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/DLS-LDACompetencyFrameworkPrototype": {
+   "version": "^3.1.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/DLSBinonTest": {
+   "version": "^6.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/DLSBinonTest2": {
+   "version": "^6.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/DLSBinonTestUbuntu": {
+   "version": "^6.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/DLSBinonTestWin2": {
+   "version": "^6.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/DLSTestBinonWindows": {
+   "version": "^6.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/DLSV2": {
+   "version": "9.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/LearningHub.Nhs.UserApi": {
+   "version": "^7.0.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/LearningHub.Nhs.UserApi.Forked": {
+   "version": "^7.0.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/LearningHub.Nhs.WebUI": {
+   "version": "^10.1.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/LearningHub.Nhs.WebUI.Forked": {
+   "version": "^6.1.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/LearningHub.Nhs.WebUI.Forked.B": {
+   "version": "^6.1.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/MVCBlazor": {
+   "version": "^9.0.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/Prototyping": {
+   "version": "^9.5.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/moodle-theme-nhsetel": {
+   "version": "^10.0.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "TechnologyEnhancedLearning/tel-frontend": {
+   "version": "^10.4.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "defencedigital/moduk-prototype-kit": {
+   "version": "^6.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "dwp/atw-payment-claims-grant": {
+   "version": "6.2.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "dwp/atw-payment-claims-service": {
+   "version": "^6.1.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "dwp/ui-atw-claim": {
+   "version": "8.3.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "ministryofjustice/hmpps-community-accommodation-tier-2-bail-prototypes": {
+   "version": "^9.3.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhs-digital-gp-it-futures/GPITBuyingCatalogue": {
+   "version": "^8.3.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/Employing-Authority-Search": {
+   "version": "^10.3.1",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/HRT-PPC": {
+   "version": "^10.6.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/McCloud-Choice": {
+   "version": "^10.3.1",
+   "tableFiles": 4,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/TECS-2022": {
+   "version": "^10.6.0",
+   "tableFiles": 3,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/additional-pensions-calculator": {
+   "version": "^10.4.2",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/ai-prototyping": {
+   "version": "^10.4.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/apply-healthy-start-vouchers": {
+   "version": "^10.4.2",
+   "tableFiles": 4,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/bpor-branding-poc": {
+   "version": "^10.4.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/cdr-client-prototype": {
+   "version": "^9.6.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/cip-nightapps-prototype": {
+   "version": "^8.1.1",
+   "tableFiles": 5,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/claims-prototype": {
+   "version": "^10.0.0",
+   "tableFiles": 5,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/clean-up-dropped-employments": {
+   "version": "^10.5.1",
+   "tableFiles": 4,
+   "variants": {
+    "scrolling": [
+     "app/views/concept-all/results.html",
+     "app/views/concept-darkmode/report.html"
+    ],
+    "sortable": [
+     "app/views/concept-all/results.html"
+    ]
+   },
+   "variantCount": 2,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/contact-the-bsa": {
+   "version": "^10.5.2",
+   "tableFiles": 3,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/cost-recovery-ops": {
+   "version": "^10.6.1",
+   "tableFiles": 13,
+   "variants": {
+    "scrolling": [
+     "app/views/Archive/v1/account-requests-view.html",
+     "app/views/Archive/v1/case-1.html",
+     "app/views/Archive/v1/case-history.html"
+    ],
+    "sortable": [
+     "app/views/Archive/v1/account-requests-view.html",
+     "app/views/Archive/v1/account-requests.html",
+     "app/views/Archive/v1/all-treatments-accepted.html"
+    ]
+   },
+   "variantCount": 2,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/cost-recovery-prototype": {
+   "version": "^10.6.1",
+   "tableFiles": 4,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/data-hub": {
+   "version": "^10.6.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/dentist-alpha-song-prototype": {
+   "version": "^8.3.0",
+   "tableFiles": 11,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/design-system": {
+   "version": "^3.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/ehic-ghic": {
+   "version": "^10.0.0",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/exemption-checker": {
+   "version": "^10.6.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/hrt-telesales": {
+   "version": "^10.0.0",
+   "tableFiles": 4,
+   "variants": {
+    "sortable": [
+     "app/views/dev-full-journey/admin/search.html"
+    ]
+   },
+   "variantCount": 1,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/hs-design-history": {
+   "version": "^4.0.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/hwhc-certificate-manager": {
+   "version": "^10.6.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/hwhc-eligibility-checker": {
+   "version": "^10.3.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/jdr-login": {
+   "version": "^10.4.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/learning-support-fund": {
+   "version": "8.3.0",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/learning-support-fund-new": {
+   "version": "^10.4.0",
+   "tableFiles": 6,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/lis-apply-refresh": {
+   "version": "^10.6.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/manage-healthy-start-vouchers": {
+   "version": "^7.0.0-alpha.2",
+   "tableFiles": 6,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/margin-survey": {
+   "version": "^9.6.3",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/match-ohs-record": {
+   "version": "^8.3.0",
+   "tableFiles": 15,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/mccloud-immediate-choice-prototype": {
+   "version": "^10.0.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/medical-certificate-of-cause-of-death": {
+   "version": "^8.0.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/medical-examiner-service": {
+   "version": "^6.2.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [
+    "responsive-table"
+   ],
+   "mojSortable": false
+  },
+  "nhsbsa/medicines-management-prototype": {
+   "version": "^7.0.0",
+   "tableFiles": 9,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/my-hub-service-assessment": {
+   "version": "^10.4.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/mys-pharmacy": {
+   "version": "^10.4.2",
+   "tableFiles": 8,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhs-student-bursaries-new": {
+   "version": "^10.4.2",
+   "tableFiles": 14,
+   "variants": {
+    "sortable": [
+     "app/views/DSA-updates/search-results.html",
+     "app/views/DSA-updates/sort-two.html",
+     "app/views/DSA-updates/student-landing-initial-results.html"
+    ]
+   },
+   "variantCount": 1,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhs-student-bursaries-prototype": {
+   "version": "8.3.0",
+   "tableFiles": 11,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhs-volunteering-beta-prototype": {
+   "version": "^9.6.3",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhsbsa-design-history": {
+   "version": "^4.0.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhsbsa-digital-playbook": {
+   "version": "^8.3.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhsbsa-docs": {
+   "version": "^6.1.2",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhsbsa-nihr-crp-prototype": {
+   "version": "^10.0.0",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhsbsa-volunteering-prototype": {
+   "version": "^6.1.0",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nhsuk-matex": {
+   "version": "^10.6.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nihr-bpor": {
+   "version": "^10.6.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/nihr-public-prototype": {
+   "version": "^10.6.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/pensions-contact-the-scheme": {
+   "version": "^10.4.2",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/pensions-form-ordering": {
+   "version": "^10.3.1",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/pensions-online-contact-form": {
+   "version": "^9.0.1",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/pensions-redundancy-calculator": {
+   "version": "^10.0.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/ppc-new": {
+   "version": "^10.6.0",
+   "tableFiles": 5,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/pprs-prototype": {
+   "version": "^7.0.0",
+   "tableFiles": 5,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/practice-run": {
+   "version": "^6.1.0",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/prescription-training-package": {
+   "version": "^10.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/reference-price-prototype": {
+   "version": "^10.3.1",
+   "tableFiles": 10,
+   "variants": {
+    "sortable": [
+     "app/views/a-vo-ca-do/dhsc/bm-portal/plr-data-view-past.html",
+     "app/views/a-vo-ca-do/dhsc/bm-portal/plr-data-view.html",
+     "app/views/a-vo-ca-do/dhsc/bm-portal/pseudovtm-data-view.html"
+    ]
+   },
+   "variantCount": 1,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": true
+  },
+  "nhsbsa/research-playbook": {
+   "version": "^4.0.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/self-assessment-test": {
+   "version": "^9.0.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/student-services-alpha": {
+   "version": "10.0.0",
+   "tableFiles": 6,
+   "variants": {
+    "sortable": [
+     "app/views/BSA-internal/v1/student-details.html"
+    ]
+   },
+   "variantCount": 1,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/suvpart2": {
+   "version": "^10.6.0",
+   "tableFiles": 4,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsbsa/update-pension-details": {
+   "version": "^10.6.1",
+   "tableFiles": 1,
+   "variants": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "variantCount": 1,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsconnect/nhslogin-partners": {
+   "version": "^2.1.0",
+   "tableFiles": 5,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/cieh-human-factors": {
+   "version": "^5.2.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/cypmh-comms-toolbox": {
+   "version": "^5.2.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/cypmh-index": {
+   "version": "^5.2.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/home": {
+   "version": "^5.2.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/matrix": {
+   "version": "^5.2.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/nhs-elect-personal-styles": {
+   "version": "^5.2.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/resp-surge-skills-matrix": {
+   "version": "^6.1.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/step1-proficiencies": {
+   "version": "^6.1.0",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/step1-proficiency-demo": {
+   "version": "^6.1.2",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhselect/step1-training": {
+   "version": "^5.2.1",
+   "tableFiles": 1,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsengland/innovation-service-transactional-frontend": {
+   "version": "^10.3.1",
+   "tableFiles": 3,
+   "variants": {
+    "sortable": [
+     "src/modules/feature-modules/accessor/pages/innovations-needing-action/innovations-needing-action.component.html",
+     "src/modules/feature-modules/accessor/pages/innovations/innovations-review.component.html"
+    ]
+   },
+   "variantCount": 1,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsuk/nhsapp-frontend": {
+   "version": "^10.6.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsuk/nhsuk-frontend": {
+   "version": "*",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsuk/nhsuk-prototype-kit-package": {
+   "version": "^10.6.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsuk/nhsuk-service-manual": {
+   "version": "^10.7.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsx/admitme": {
+   "version": "^4.1.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsx/antibody-web": {
+   "version": "^3.0.1",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsx/il-qr-form": {
+   "version": "^4.1.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsx/self-isolation-prototype": {
+   "version": "^3.0.3",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": true,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsx/skunkworks-long-stayer-risk-stratification": {
+   "version": "^5.1.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsx/skunkworks-model-card": {
+   "version": "^5.1.0",
+   "tableFiles": 2,
+   "variants": {
+    "responsive": [
+     "app/views/model-card.html"
+    ]
+   },
+   "variantCount": 1,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "nhsx/standards-registry": {
+   "version": "^5.2.0",
+   "tableFiles": 0,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  },
+  "ukhsa-collaboration/ntbs_Beta": {
+   "version": "6.1.0",
+   "tableFiles": 2,
+   "variants": {},
+   "variantCount": 0,
+   "isPrototype": false,
+   "ownTable": [],
+   "mojSortable": false
+  }
+ }
+}
