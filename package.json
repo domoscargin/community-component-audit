@@ -9,6 +9,8 @@
   "scripts": {
     "audit": "node --use-system-ca ./audit.mjs",
     "audit:adoption": "node --use-system-ca ./audit.mjs --adoption",
+    "discussions": "node --use-system-ca ./discussion-analytics.mjs",
+    "topics": "node --use-system-ca ./topic-evidence.mjs",
     "scan:gov": "node --use-system-ca ./scan-gov-repos.mjs",
     "class-usage:filter": "node ./filter-class-usage.mjs",
     "report:rescore": "node ./rescore-report.mjs",

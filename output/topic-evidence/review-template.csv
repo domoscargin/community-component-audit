@@ -1,0 +1,1488 @@
+collectedAt,topic,threadCollectedAt,postId,repo,repoOwner,threadKind,threadTitle,threadUrl,state,postKind,parentId,author,createdAt,updatedAt,url,matchedTerms,text,path,diffHunk,claimId,quote,target,stance,basis,themes,useCase,outcome,confidence,notes
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,opening,,charlesrt,2018-12-03T11:06:21Z,2026-10-08T11:05:21Z,https://github.com/alphagov/govuk-design-system/discussions/6222,dark mode; dark theme; prefers-color-scheme,"What
+GOV.UK needs a Dark Mode theme.
+Why
+I have written about why Dark Mode should be an inclusive design consideration.
+2018: The Dark (Mode) Web Rises
+2017: Apple Need a Dark Mode
+2016: Molly Watt
+Anything else
+Some of the suggestions I've poked at in the past have always come with added complications. For example, how do we include an accessibility toolbar in a way that benefits the users who need it without getting in the way of those who don't.
+The preference has always been to allow users to change website themes based on their own preferences using third-party and browser tools. This has always left a gap on mobile devices and often requires extra digital skill.
+Safari Technology Preview has recently added a CSS media query prefers-color-scheme which can detect the system-level preference in MacOS Mojave of a light or dark theme. You can now easily write CSS custom to both and the user only has to declare a preference once to affect all websites (providing them adopt it).
+Adoption and sharing of this by big websites (GOV.UK) will help spread awareness and prompt other platforms to add their own system-level preferences.
+Check out a prototype: https://govuk-dark-mode.herokuapp.com. You'll need Safari Technology Preview and MacOS Mojave at time of raising this issue.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNjk=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2018-12-03T11:10:05Z,2018-12-03T11:17:55Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814169,dark mode,"Thanks for putting this together it's pretty exciting to see the progress 👍
+We currently have the following documented for what we do to try and help users who need to change their colours:
+
+We aim to support users who adjust or override the colours of websites they visit. We test this by changing colours in Firefox, by enabling 'High Contrast' mode in Windows and by using the High Contrast plugin for Chrome.
+
+We have also blogged about this here:
+https://accessibility.blog.gov.uk/2018/08/01/supporting-users-who-change-colours-on-gov-uk/
+It'd be also worth considering the dark mode for Windows which my assumption is has a much higher use than this, at the same time. There's a related bug for that here: alphagov/govuk-frontend#937
+The biggest risk I see from Apple's approach is that if we implement this feature it'll be inconsistently applied across GOV.UK (as most of GOV.UK will not have an up-to-date version of the GOV.UK Design System). Since other dark modes force interfaces to be dark, even if the website has not 'opted-in'
+We need to decide if having Apple's dark mode work inconsistently, out weighs that con.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzA=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,charlesrt,2018-12-04T09:23:57Z,2018-12-04T09:23:57Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814170,dark mode; dark theme; prefers-color-scheme,"Thanks, Nick. The work done to make GOV.UK accessible to users who change their colours, contrast, etc is great 👍
+I’m excited about ‘prefers-color-scheme’ as it lets us control the way this affects the content on GOV.UK, and because the changes would be made through CSS there shouldn’t be any issues like when colours are overridden by plugins, etc (to be clear: I don’t intend that we stop work to make it work for users who override in this way at that might always be a thing).
+It’s worth saying that this isn’t an Apple dark mode thing. At the moment this only works in Safari Tech Preview if you are running MacOS Mojave but it’s part of a suite of ‘prefers-‘ media queries that we should expect to come to all browsers soon. I assume that once implemented in a browser available on Windows it will automatically honour a system-level Dark Mode preference set on Windows.
+It’s my assumption that this be a wildly implemented on all major platforms and we can be dark-mode-ready, if you like.
+I reckon this is an interesting piece of work because we’re talking about setting a preference for an appearance theme rather than overridden and declare precise colours. It’ll involve collaborative work in the community to create a Dark theme and decide what should and shouldn’t change along with adjustments to our colour palette and perhaps even typography as reading experience on dark backgrounds is slightly different.
+All of GOV.UK not running the latest version of the Design System is a problem (some satire: a few years ago we spent a lot of effort to replace hundreds of different government websites with one, (feels) more like maintaining hundreds of different government websites on one domain that all look the same but under the hood are individual).
+Embedding this as part of the Design System as a considered theme is definitely a must. For older parts of the website they may need manual adjustment. It only took me an hour to hack the prototype kit style sheet to achieve an indicative appearance. It shouldn’t take more than that for a team to do the same for their service. Getting them to do so and release it however may be a policatal challenge.
+Lots to think about 🤔",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzE=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,charlesrt,2018-12-04T10:12:18Z,2018-12-04T10:12:18Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814171,prefers-color-scheme,"Code used to hack the Prototype Kit for http://govuk-dark-mode.herokuapp.com
+@media screen and (prefers-color-scheme: dark) {
+  body.govuk-template__body {
+    background-color: govuk-colour(""black"");
+    color: govuk-colour(""white"");
+  }
+  header.govuk-header, div.govuk-header__container {
+    border-bottom: 10px solid #1d70b8;
+  }
+  .app-related-items {
+    border-top: 10px solid #1d70b8;
+  }
+  h1, h2, h3, h4, h5, h6, .govuk-heading-xl, .govuk-heading-l, .govuk-heading-m, .govuk-heading-s, .govuk-heading-xs, p, .govuk-list {
+    color: govuk-colour(""white"") !important;
+  }
+  a:link {
+    color: #5694CA;
+  }
+  a:visited {
+    color: #DA3984;
+  }
+  a:hover {
+    color: lighten(#5694CA, 10%);
+  }
+  a:active {
+    color: $govuk-link-active-colour;
+  }
+  .govuk-back-link, .govuk-breadcrumbs__link {
+    color: govuk-colour(""white"") !important;
+    &:link,
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus {
+      color: govuk-colour(""white"") !important;
+    }
+  }
+  .govuk-caption-xl {
+    color: govuk-colour(""grey-2"");
+  }
+  div.govuk-panel--confirmation {
+    background-color: #008F4C;
+  }
+  button.govuk-button {
+    background-color: #008F4C;
+  }
+  .js-step-title-text {
+    color: govuk-colour(""white"");
+  }
+  .app-step-nav-header {
+    background-color: govuk-colour(""black"");
+  }
+}",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzI=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2018-12-08T17:29:51Z,2018-12-08T17:29:58Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814172,dark mode,Related Twitter UI dark mode: https://twitter.com/paulmsmith/status/1071454138301595649,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzM=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,charlesrt,2018-12-10T06:24:54Z,2018-12-10T06:24:54Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814173,prefers-color-scheme,"The twitter thread commented above shows a screenshot where the Chrome app UI is still Light (presumably as it hasn’t been updated with the functionality) and that this could be confusing.
+There is also the suggestion that people might want a Dark UI but Light content. It’s hard to know for sure what people say vs what they’d do. Presently, this isn’t even an option as the preference is declared singularly at system-level. Maybe Apple (and others) will include this sort of choice in the future and ‘prefers-color-scheme’ will take its value from the preference set for content. We need to focus on what’s within our gift.
+When considering the implementation of this, we should prioritise the preference set by a user who needs to view content in Dark vs aesthetic preference.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzQ=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2019-02-08T12:43:23Z,2019-02-08T12:43:23Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814174,dark mode,"Microsoft are planning on bringing dark mode support to Google Chrome.
+https://www.theverge.com/2019/2/7/18215473/google-chrome-dark-mode-windows-macos-support",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzU=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2019-02-08T13:01:36Z,2019-02-08T13:13:46Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814175,dark mode; prefers-color-scheme,"It would be interesting to consider an implementation of dark mode with CSS custom properties as it'd also allow easy dynamic theming for anyone for example people who use their own user-styles.
+Could also make 'inverse' styles easier to implement.
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --background-color: black;
+    --text-color: white;
+  }
+}
+
+/* Inverse panel like seen in 'interruption cards' (https://github.com/alphagov/govuk-design-system-backlog/issues/27) */
+.inverse {
+  --background-color: blue;
+  --text-color: white;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  .inverse {
+    --background-color: initial;
+    --text-color: initial;
+  }
+}
+https://jsbin.com/palafej/edit?html,css,output",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzY=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,alex-ju,2019-02-08T13:08:46Z,2019-02-08T13:08:46Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814176,,"We've seen in research people requesting a similar feature:
+
+the (GOV.UK) background is very bright.. all that white… it’s quite a contrast
+
+
+sometimes I want to have a black background and white text, especially when you read a lot of text",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzc=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2019-02-14T09:25:08Z,2019-02-14T09:25:08Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814177,dark mode,Smashing magazine tweet with some links to dark mode related articles,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzg=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2019-03-04T10:01:39Z,2019-03-04T10:01:39Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814178,,"Wow, stat from (or at least via) Microsoft: High contrast themes are active on 4% of Windows machines.
+https://lists.w3.org/Archives/Public/www-archive/2019Feb/att-0000/CSSWG_F2F_High_Contrast.pdf …
+Seems to be some momentum building in the CSS Working Group.
+/HT laura_carlson
+
+https://twitter.com/alastc/status/1101113196079919104?s=17",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxNzk=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2019-03-13T10:24:56Z,2019-03-13T10:24:56Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814179,dark mode; prefers-color-scheme,"I’m collecting developer feedback on 🌑Dark Mode☀️ on operating systems and potentially the web (@​media (prefers-color-scheme: dark) {…} anyone?) for the @GoogleChrome team.
+Your quick anonymous input on this form would be very appreciated:
+​> https://goo.gl/forms/Qf0wNnc9CVSILq1k2 … 🙏
+
+https://twitter.com/tomayac/status/1105598210750537728?s=17",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODA=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2019-05-08T08:58:47Z,2019-05-08T08:58:47Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814180,dark mode,"Dark Mode Support in WebKit
+color-scheme proposal",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODE=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,charlesrt,2019-06-03T22:10:12Z,2019-06-03T22:10:12Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814181,dark mode,System-Level Dark Mode coming to iOS13 — meaning a much greater user base with raised expectations using Safari on iPhone.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODI=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,adamliptrot-oc,2019-08-09T10:08:23Z,2019-08-09T10:08:23Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814182,dark mode,"Chrome 76 release now provides support for dark mode
+https://developers.google.com/web/updates/2019/07/nic76#dark-mode",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODM=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,malcolmhire,2019-09-19T14:44:44Z,2019-09-19T14:44:44Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814183,dark mode,"Would love to see this feature in the design system, especially now iOS and MacOS have dark mode available natively. I've also noticed an increasing number of websites starting to support this as well.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODQ=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2019-09-19T15:10:17Z,2019-09-19T15:10:17Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814184,dark mode,"I think one of the less understood aspects of dark modes for me right now is defaults.
+Do users that enable this system level want the website to be dark automatically?
+If they don't should there be a way to turn this off and on?
+If we need to allow people to turn it off and on, how would that interaction work?
+If dark mode only works in some parts of GOV.UK is that a problem?
+I think questions like this may need some prototyping and user testing to understand how it could work.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODU=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,malcolmhire,2019-09-19T15:30:27Z,2019-09-19T15:30:27Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814185,,"Yeah, 100% needs to be prototyped and user researched.
+For me, there should be two levels, system-level and then app level. So macOS than the browser inherits the system preference unless the browser overrides it. Twitter does this well for there iOS app, but this is just Twitter and not everything.
+This is still a fairly new feature but with the release of iOS 13 today I can see it being a user want more and more.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODY=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,adamliptrot-oc,2019-09-19T15:35:19Z,2019-09-19T15:35:19Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814186,,"The OS-level setting is one thing. The much harder implementation is the site-level (with in-page toggle). How you'd implement that across gov.uk and maintain it as users switch between services, and even departments, in the course of a single journey is key.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODc=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,drewno-design,2019-10-28T14:46:47Z,2019-10-28T14:46:47Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814187,,We've heard from people with dyslexia that reading black text from a white background (on a page that uses GOV.UK template) is too painful for them. Some compared it to snow-blindness. They found reading the footer - grey text on grey background much easier.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODg=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,Huskyteer,2019-11-14T11:58:13Z,2019-11-14T11:58:13Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814188,,"User ticket received on 12/11/19: https://govuk.zendesk.com/agent/tickets/3850591
+
+I am a work coach and have a customer who is dyslexic and struggles to see black on white. The website should be available in alternative/ high contrast format to assist customers like this.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxODk=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,ghost,2020-08-06T06:58:06Z,2020-08-06T06:58:06Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814189,dark mode,At Companies House we've started looking at dark mode and are about to do some user research around it hopefully. We've adjusted the colours to meet tripple A contrast standards and have adjusted the letter spacing and line height to improve readability in dark mode. This is turned on through the system settings but we'll be looking at a toggle at the application level as well.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,MDE3OkRpc2N1c3Npb25Db21tZW50MTg4MTQxOTA=,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,edwardhorsford,2021-08-25T16:41:31Z,2021-08-25T16:41:43Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814190,dark mode,"Copied from a message I posted to Slack:
+
+We've been doing usability sessions this and last week with users with access needs. These are recruited uses we're calling surrogates - they're office workers, but not direct users of our service. Today's user really really wanted an accessibility widget on the service so she could adjust the service to her liking - specifically wanting to manually control changing to dark mode.
+When Alistair was at GDS I know he and I talked about doing something like that on gov.uk - but I've not heard anything since. Anyone know if anything ever happened on it? It's all very well saying people can customise their browsers, but many won't know how to.
+
+Accessibility widget aside, it feels like it would be good to support dark mode where users have expressed a preference for it.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxTv,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,sjclemmy,2021-10-01T06:53:36Z,2021-10-01T06:53:51Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814191,dark mode,"Is there any movement on this? This issue has been raised by a user whilst we were doing research in to accessibility and I think, given how ubiquitous dark mode now is, it should be a standard feature in govuk-frontend.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxTw,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,Nooshu,2022-01-27T11:08:04Z,2022-01-27T14:35:19Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814192,dark mode; dark theme,"Auto Dark Mode (Chrome)
+The Google Chrome team are currently working on a new browser feature in Desktop and Android Chrome called ""Auto Dark Mode"".
+Links
+
+Chrome Platform Status ticket
+Specification
+Small User Research Poll
+Chrome blog post
+
+Context
+It is currently only being rolled out as an origin trial, meaning it will only be available on websites who have opted in to test the feature.
+Issue
+On Wednesday 26th Jan 2022 the GOV.UK team received a report that GOV.UK looked ""broken"" when this feature was enabled and a discussion was had in the day's Frontend Community meeting. The user must have 'forced' Chrome into this mode using the chrome://flags settings and searching for ""darken websites"", so it is currently highly unlikely that any user will run into these issues.
+But it does raise a number of questions:
+
+Whose job is it to ""fix"" these issues?
+
+Is this lead by the GOV.UK team or the Design System team?
+
+
+Should we even need (or try) to fix these issues, or should it be left up to the Chrome team and specification body to resolve?
+What accessibility issues will be raised if the colours are changed?
+
+How are these going to be ""fixed"" and then tested?
+
+
+
+It also raises usability issues that are almost impossible to fix when a user moves across services. For example, if a user has ""Dark Mode"" auto enabled for ""www.gov.uk"" this setting won't be persistent across services (since cookies can't be shared between www.gov.uk and *.service.gov.uk). This also brings up the issue that since its application is algorithmic and decided via the browser, what happens if different services use different versions of GOV.UK Frontend (or even not use it at all)? It could be that the browser chooses different colours per service.
+It's also worth mentioning that the feature comes with lots of options (see screenshot below). It is still unclear as to how (or if) this will be presented to a user, and will they be able to choose each of these options individually.
+
+Options
+Options we have at the moment:
+Do nothing
+Here we don't change anything for the moment and wait to see the results from the Origin trial. It could be that it simply isn't a feature that users want or need, and Chrome pulls the plug on the feature all together.  So any work will be wasted time and effort.
+Opt-out of Auto Dark Theme using a meta tag, CSS or per-element CSS
+The Chrome team allows developers to opt out of the application of the Auto Dark Theme using the following meta tag added to a page <head>:
+<meta name=""color-scheme"" content=""only light"">
+It is also possible to do this via CSS, for everything, or per-element:
+:root {
+  color-scheme: only light;
+}
+
+#my-element {
+  color-scheme: only light;
+}
+This gives a team the time to decide on the best option to select, and maybe even time to develop our own dark theme (which will override this feature entirely).
+The blog post even recommends writing your own dark theme:
+
+We strongly recommend implementing your own curated dark theme instead, in order to respect the user's preference and keep those benefits
+
+Recommendation
+At the moment, I feel we should do nothing with ""Auto Dark Mode"" and wait to see if it is accepted by users. This is backed up by the fact that a small Twitter poll I ran show users don't even know it exists at the moment.
+If it is that we start getting more reports of pages looking ""broken"" I'd recommend we consider using the meta tag or CSS to temporarily disable the browser algorithm and then get involved in providing this user feedback to the Google Chrome team via the link they have provided.
+Ultimately, I think time would be better spent on developing our own ""dark theme"" than chasing bugs in a single browser's ""auto implementation"".",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxTx,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,querkmachine,2022-04-08T08:01:02Z,2022-04-08T08:01:02Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814193,dark mode,"I did some digging into Chrome's Auto Dark Mode feature after we received a bug report from an end user that certain inputs were not visible with Auto Dark Mode enabled.
+Interestingly, the way that it works on the desktop version of Chrome seems to have some significant differences to the Android version—in particular, there is no way for a website to opt out of it. alphagov/govuk-frontend#2582",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxTy,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,gregtyler,2022-09-22T08:35:15Z,2022-09-22T08:35:15Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814194,dark mode,"We're in the process of upgrading an internal service, including switching its UI from a bespoke design to the Design System. The old design supported a dark mode which was very popular with users, so we've been obliged to continue to support it in our new design too.
+I think we started with charlesrt's comment above, and you can see our current SCSS. I wouldn't really advise anyone else use this: it only covers the components that we actually use, isn't suitably tested for public use, and uses extra customisation to integrate with our old UI.
+
+Screenshot
+
+
+I mostly wanted to highlight that:
+
+there's demand from our users
+some services are already creating rough implementations, so a centralised solution would be awesome",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxTz,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,Nooshu,2022-09-22T08:43:54Z,2022-09-22T08:43:54Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814195,,"Thanks for your contribution / feedback @gregtyler, I'm curious about how you are measuring demand from users? Do you have user-testing results for example or a feedback component across pages? Any information on how you have captured this data would be fascinating to know. Thanks!",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT0,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,gregtyler,2022-09-22T11:09:15Z,2022-09-22T11:09:15Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814196,dark mode,"Both! It was something we heard about in user testing, but we rolled out some changes before we'd added our dark mode changes and so also were told through our feedback component (this makes it sound like we ignored the user testing, but I've oversimplified and we weren't that naughty!)",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT1,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,Gramatter-DIT,2023-07-18T10:19:43Z,2023-07-18T10:42:56Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814197,dark mode; dark theme,"Hi, we've recently just completed a Firebreak project here at the Department for Business & Trade 'Investigating Dark Mode' and hoped the initial findings we'd discovered can be expanded upon and implemented in some form within the GOV.UK Design System?
+In particular, some of the learnings could be used to create a dark theme for GOV.UK Design System akin to: https://m2.material.io/design/color/dark-theme.html
+Additionally, as part of the project my colleague, Ieuan developed a simple yet powerful prototype which potentially would be worth demonstrating.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT2,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,joelanman,2023-07-18T11:22:11Z,2023-07-18T11:22:11Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814198,,"'@Gramatter-DIT that prototype sounds interesting but I can't access it, I get this error:
+You are not allowed to access this page
+You do not appear to be on a trusted network.
+See the Digital Workspace page gain access to a trusted network for more information.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT3,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,Gramatter-DIT,2023-07-18T11:30:27Z,2023-07-18T11:30:27Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814199,,"'@joelanman I'll ask my colleague, Ieuan to get back to you as there maybe security implications. He potentially could arrange a meeting with you or upload a video/gif.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT4,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,IeuanParkerDBT,2023-07-18T11:55:22Z,2026-10-08T10:38:05Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814200,,"Hi @joelanman here's a gif of what the prototype does. Very simple, but what this does is change the website theme based on the theme set on your OS. So, for instance if a user had their OS theme in Dark, the gov website would change based on the preference set. One of the reasons we thought about doing it this way was the ease of implementing. Because we want this to span all gov services, we thought instead of having toggles or buttons displayed, and us needing to put those buttons in, we would allow the operating system to set the theme. This helps the user as well in the sense that they know where to go to change the theme if needed, as different services would have different button location for the toggle/button. Forgot to mention also, this is a simple CSS change using the @media css rule, with no javascript involved.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT5,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,Gramatter-DIT,2023-07-18T11:56:13Z,2026-10-08T10:38:06Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814201,dark mode,"Via my colleague, Tom Swart in response to the question received via email from @stevenjmesser
+I really like the section looking at the times of day people work, did you make any correlations between that and dark mode?
+Assuming dark mode would be most beneficial in times at low ambient light (e.g., after dusk), we found that between 1/3 and 1/2 of users use our platforms after sundown (e.g., during winter), and approximately 10-15% of all user sessions are started after dusk. Therefore we hypothesise that the ability to control the contrast to compensate for low light conditions would benefit a significant proportion of our users",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT6,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,steve-oconnor,2023-07-18T12:14:38Z,2023-07-18T12:14:38Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814202,dark mode,"There is also the matter of dark mode potentially saving energy for users and being able to feed into gov sustainability requirements.
+https://dodonut.com/blog/does-dark-mode-save-battery/
+
+https://dodonut.com/blog/does-dark-mode-save-battery/",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT7,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stevenjmesser,2023-09-04T07:14:27Z,2023-09-04T07:14:27Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814203,dark mode,Some wider research on dark mode from Nielsen Norman Group: Dark Mode: How Users Think About It and Issues to Avoid.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT8,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,gregtyler,2023-12-07T15:12:30Z,2023-12-07T15:12:30Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814204,dark mode,"Thought it was worth checking in after a year to say that we still have a dark mode on our (internal) service and have expanded it to cover a few MOJ and app-specific components as we've expanded the service. The CSS for it remains quite light.
+However, it does feel weird to be doing this in isolation. I know it's not the best it could be, but we don't have the capacity/priority to spend time on it. We'd love it to be a feature the Design System picked up, or to become a community-managed resource so that it can be used and contributed to more widely.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT9,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,RobinKnipe,2023-12-08T17:51:26Z,2023-12-08T17:51:26Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814205,dark mode,"In a lot of implementations of a govuk dark mode (and light mode), I see colours being explicitly set for various elements and classes; would it not be better to just set the default color and background-color on the body (with the prefers media query), then focus on the rarer cases of coloured elements and text (panels, links, buttons, etc.)?
+I guess I'm asking specifically in the context of trying to honour the user's OS suggested theme - and not for the cases where a proper govuk theme is being created (e.g. offered as a choice as part of a site-specific a11y feature).
+I ask because I'm likely going to have to hack this together myself (for UKRI), so I share the sentiment that I'd rather be using something more authoritative from GDS or the Design System!",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxT-,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stevenjmesser,2023-12-13T16:09:55Z,2023-12-13T16:09:55Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814206,dark mode,"Hypothesis: rolling out dark mode across the GOV.‌UK ecosystem could be harder than rolling out the crown.
+There’s a higher degree of visual change, which makes inconsistencies more jarring. For example, if you move between GOV.‌UK guidance in dark mode, a service in light mode, then jump to an account in dark mode, you’re really going to notice the difference. GOV.‌UK is supposed to feel like one thing, but this will certainly break that. (The crown is comparatively small and easier to miss.)
+It could be harder to create consistency across the ecosystem for dark mode, which requires good comms and services to act on that comms. Alternatively there would need to be a central directive in order to ensure the journeys which most commonly traverse departmental boundaries are consistent.
+We possibly won’t be able to tackle this in a user-friendly way until we have cross-government data from the Single Data Environment. However, it may be possible for small, closed-boundary services (like internal services, case management systems, intranets, etc.) to make advances.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUA,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,Gramatter-DIT,2023-12-13T16:49:01Z,2023-12-13T16:49:01Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814208,,"Hi @stevenjmesser the solution we proposed within the Firebreak project negates this. The beauty of the way in which we've approached this is that the user will have defined the setting within their operating system so the default state for each GOV.UK website would be already chosen by the user, whether it be dark or light. Thus, they'd be accustomed to this environment.
+There are no interactions made by button toggling which would potentially cause jarring visual inconsistencies.
+All that's needed is a simple line of code added to the CSS of each GOV.UK site to accept this user choice. I realise logistically it may be some work to do this to each and every site, but in this instance, the positives outweigh the negatives, making for a more user-inclusive experience.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUB,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stevenjmesser,2023-12-15T13:18:31Z,2023-12-15T13:20:59Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814209,dark mode,"Thanks for the reply, @Gramatter-DIT, but I don't think that would work.
+Imagine the following scenario:
+
+www.gov.uk adopts a future release of GOV.UK Frontend with support for dark mode.
+Service 1 uses GOV.UK Frontend v3.12, which does not support dark mode.
+Service 2 adopts a future release of GOV.UK Frontend with support for dark mode.
+A user navigates from content on www.gov.uk to Service 1. After using Service 1, the user navigates to Service 2.
+
+Despite the user's browser settings asking for dark mode styling from all 3 websites, only www.gov.uk and Service 2 support dark mode, meaning that Service 1 appears in light mode. This presents a broken, inconsistent experience for the user.
+What do you think? Have I missed something?",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUC,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,RobinKnipe,2024-02-03T12:03:22Z,2024-02-03T12:03:22Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814210,dark mode; prefers-color-scheme,"'@stevenjmesser the behaviour you've described is basically that of the entire internet right now, because many sites have made the effort to honour dark-mode preferences while others have not. Until the whole of the internet catches up with the vanguard there will be an uncomfortable mix, but that's not a reason to abandon the pursuit of a much requested feature with many benefits.
+The approach described by @Gramatter-DIT (which I assume uses the prefers-color-scheme CSS media feature) should be the goal here, as this will empower the user to make the choice of styling. It would also support themes that follow light conditions and transition between light and dark mode states to better complement the user's environment.
+I appreciate the desire to maintain the consistent look and feel of the gov pages, but the focus of this effort should be on other colours and branding that can be consistent between the styles. The current simplicity and reduced colour palette of the gov styling already lends itself to supporting both modes.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUD,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stevenjmesser,2024-02-05T15:18:43Z,2024-02-05T15:18:43Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814211,dark mode,"'@RobinKnipe Thanks for the reply!
+
+the behaviour you've described is basically that of the entire internet right now, because many sites have made the effort to honour dark-mode preferences while others have not.
+
+I see what you're saying but I don't think we should compare the GOV.‌UK ecosystem of services to the entire web. They're not comparable domains. The goal of GOV.‌UK is that it feels like 'one thing' to a user, whereas that is not the goal of the entire web.
+What we're not saying is that we won't look at making dark mode available, but we do need to think through a release strategy that ensures consistency for users traversing multiple services in one journey.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUE,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,Gramatter-DIT,2024-02-06T12:20:49Z,2024-02-06T12:20:49Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814212,dark mode,"'@stevenjmesser 21 Jul 2023, 09:35 BST you mentioned the a strategic discovery that could involve Dark Mode taking place in October 2023. Has this taken place? The Firebreak project we conducted showed a clear user need, so it'd be great to see to see this being actioned.
+Dark Mode hasn't been prioritised by the community as a big need, so it's not part of our plans to work on soon, but we're doing a strategic discovery in October that may reconfigure priorities based on emergent needs.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUF,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stevenjmesser,2024-02-07T17:48:36Z,2024-02-07T17:48:36Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814213,dark mode,"'@Gramatter-DIT We didn’t have the capacity for it in October, unfortunately, the WCAG 2.2 updates took a priority. However, we are reaching out to teams now, and we’re thinking about dark mode anyway.
+It’s great that your firebreak project showed that it would be useful. We do have to balance a lot of competing needs across government though, which means we can’t always prioritise your proposal first. For example, more teams have requested we work on navigation sooner.
+Are you interested in exploring other ways of you meeting this need for your users?",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUG,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stevenjmesser,2024-02-21T14:07:16Z,2024-02-21T14:07:16Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814214,,"I’m no longer working on the GOV.‌UK Design System, but I came across this ‘cheat sheet’ for sustainable web design (Figma file, opens in new window) that might be useful. Some of the points could apply to other elements in the design system too.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUH,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,owenatgov,2024-03-22T11:23:09Z,2024-03-22T11:23:09Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814215,,"A user raised a ticket with GOV.UK that was forwarded to the design system re: the negative impact of very bright screens on neurodiverse users, specifically but not limited to dyslexia. To paraphrase:
+
+The brightness of white backgrounds can be stressful and tiring for users with cognitive disabilities
+Low brightness backgrounds such as beige or pastel colours are ideal for readability (for this user)
+This user uses accessibility settings to invert the colour of web pages, so govuk becomes very slightly off-white on black. However the user noted that bright white text isn't ideal either",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUI,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,RobinKnipe,2024-03-22T12:59:52Z,2024-03-22T12:59:52Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814216,,"'@owenatgov I can relate, I suffer from the exact same problem (although perhaps milder). Fortunately brightness is much more easily resolved, and (time-based) blue-light filtering. I understand the desire to keep all of gov.uk singularly themed, but the current (intentionally) stark contrast of the standard design will be a problem for some users.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUJ,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,querkmachine,2024-03-22T14:06:36Z,2024-03-22T14:06:36Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814217,,"I suppose there's a question as to when problems like that become ours to solve.
+There are users who, conversely, find plain black on plain white to be easier to read than more muted colours or inverse/dark modes. We probably cannot accommodate every combination of colour preferences, so at what point does it become unreasonable to expect users who need particular colours to already have an extension or user styles to supply them?
+If we do want to explore changing our default colour combos, we'd probably need to choose our battles.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUK,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,andymarshall-35,2024-04-30T12:32:40Z,2024-04-30T12:32:40Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814218,dark mode,"Something else to add to the mix - https://pubmed.ncbi.nlm.nih.gov/19562598/
+It's an old study (2009), so possibly the technical advances in screen resolutions, and a general increase in device luminance since then negates these findings, but it's worth a read if we're looking into a UCD approach to dark mode.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUL,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,mia-allers-gds,2024-05-07T10:32:11Z,2024-05-07T10:32:11Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814219,dark mode,"We've been contacted by someone working on the Universal Credit system. They have shared feedback from internal users (via a form on the UC system pages). See the feedback quotes below:
+
+“Dark mode. Please allow us to use dark mode. The pure white screen is maddening.”
+
+
+“Can we please get a dark mode option? This bright screen triggers migraines. It needs to be more accessible.”
+
+
+“Please have a DARK MODE  option on the screen. Most apps have this option, and it affects the eyes for those with sensitive eyes, especially considering the whole build is stark white. The DARK MODE on Teams is a very good example of the difference between the two. It may not seem like a big deal, but it really does make a massive difference. Thanks”
+
+
+“Can we get a Dark Mode please?”
+
+
+“It is 2024 - we need a dark mode be made available for those who are blinded and eyes get very tired through the working day looking at the bright white screen. I can turn my email and Microsoft Teams into dark mode. It's not on we don't have the option for the build we use every working day of our lives.”
+
+
+“Could we please have a dark mode option for the build - this would help with accessibility”
+
+
+“Option to have Dark Mode”
+
+
+“Any chance of creating dark mode for the build as I'm getting eye strain / tension headaches with the white background?”
+
+
+Please could a dark mode be implemented into the build for those of those that struggle with the bright, white backgrounds?? This would be a benefit to many with health issues regarding this kind of thing.
+
+
+“Could an option of Dark mode be considered for accessibility reasons? Black text on a white background causes several issues for those with sensory impairments”",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUM,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,SarahS-DfE,2024-11-04T12:16:57Z,2024-11-04T12:16:57Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814220,dark mode,"I'm a user researcher for the Apprenticeship Service (Department for Education) and wanted to add to the other comments highlighting the value of dark mode.
+I spoke to a real user of the service we were testing who has an accessibility need and they used dark mode when using online services to help them focus. When I asked how we could make the service we were testing more accessible, they wanted the ability to use the service in dark mode. Being able to use dark mode on this service, and likely to other services across DfE, could be really valuable.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUN,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,owenblacker,2025-03-06T12:17:03Z,2025-03-06T12:17:03Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814221,prefers-color-scheme,"Just coming to add a +1 on this; I personally would benefit from this a fair amount but it also came up in some user research my team (also at DfE) were performing earlier this week.
+While I do understand that “Gov.uk should be visually consistent” aspect mentioned by @stevenjmesser above, we wouldn’t take an approach of “we won’t implement it anywhere until we can implement it everywhere” with some less visually-apparent aspect of accessibility — and we users who have an OS-preference set to prefers-color-scheme: dark are very accustomed to experiences flitting between the 2.
+It wouldn’t need to be as forcefully-organised as the switchover to the Tudor Crown to gain Gov.uk-wide consistency, but it doesn’t feel like it’s an insurmountable problem either way.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUO,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,solidgoldpig,2025-03-31T15:00:59Z,2025-03-31T15:02:01Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814222,dark mode,"I was passed the following message today.
+
+I am a Universal Credit Work Coach and have had an issue raised with Gov.uk and the Universal Credit site. My UC customer is dyslexic and uses her phone on dark mode so that she can read. She cannot read at all on a white background. She has found that Universal Credit and other government websites remain on a white background and are inaccessible. This means that she cannot read journal messages or appointment details in her to-do list.
+My customer feels discriminated against and doesn't see why she has to call when her account should be accessible.
+I have checked the accessibility information at the bottom of the gov.uk page which states that she should be able to change the colours, however, we have found that to be incorrect.
+I would be grateful for any advice that you may have. Is there a way to make this accessible for her that we have missed?
+Thanks
+
+This is not an uncommon report from claimants/users in line with what owenatgov reported earlier in this issue. It's also not an uncommon request from Universal Credit agents (whose site also uses ""roughly"" correspond to gov.uk styling)
+If a dark mode is not coming any time soon, could there at least be some standard recommendations given to users that would be practically useful beyond blandly saying ""You should be able to: change colours ""?",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUP,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,querkmachine,2025-03-31T15:40:41Z,2025-03-31T15:40:41Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814223,,"'@solidgoldpig The mention of being able to change colours in the accessibility statement is in reference to the user being able to do that using their browser or device settings without the GOV.UK website preventing it.
+It's not a claim that the website provides that functionality; just as it doesn't provide the functionality to zoom or read things aloud. These functions are better provided by the user's device than anything we could do within the confines of a webpage.
+The GOV.UK accessibility statement includes a link to AbilityNet's My Computer My Way guide, which provides instructions on how to enable various accessibility features (including darkening colours) tailored to the user's device.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUQ,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,joelanman,2025-03-31T15:53:53Z,2025-03-31T15:53:53Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814224,dark mode,"To be fair that guide tells me (it's tailored to device) to use dark mode, which isn't supported by gov.uk",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUR,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,querkmachine,2025-04-07T08:43:33Z,2025-04-08T08:29:52Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814225,dark mode; prefers-color-scheme,"I figured it'd be useful to collate some usage data about the CSS features required to make dark mode happen, in case that helps planning.
+
+
+
+CSS feature
+Availability % (global)1
+Availability % (UK)1
+
+
+
+
+@media (prefers-color-scheme)
+96.4
+97.6
+
+
+CSS custom properties
+97.2
+98.6
+
+
+color-scheme property
+95.2
+97.4
+
+
+color-mix() function (for tint/shade mixins)
+92.0
+93.9
+
+
+color() function
+93.9
+97.2
+
+
+light-dark() function
+87.5
+88.3
+
+
+contrast-color() function2
+0.0
+0.0
+
+
+
+Not all of these are required to make dark mode a thing (only really media query and custom properties), but having the others would make the transition smoother.
+We don't really have a fixed cut-off point defined, but I would anticipate us wanting somewhere between 95 to 98% availability as a minimum (aka, between 1-in-20 and 1-in-50 people will not get dark mode).
+Footnotes
+
+
+Availability data from CanIUse, calculated based on combined market share of browsers that support this feature. Accurate as of 7 April 2025. ↩ ↩2
+
+
+As of writing, contrast-color() hasn't been implemented in any browsers. ↩",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUS,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,sarahmwong,2025-07-04T08:35:09Z,2025-07-04T08:35:09Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814226,dark mode,"'+1 on this! Are there any plans to roll this out with future frontend releases, with the design now geared towards apps and users having dark mode enabled on their phones/other devices? We've had some interest in this for users of shinyGovstyle, but wary of going off and building our own thing if a frontend option is being developed.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUT,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,annie-crab,2025-08-06T13:22:50Z,2025-08-06T13:24:31Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814227,dark mode,"I'd also really appreciate a dark mode option. I find GOV.UK really tiring to look at, especially on my iPhone. I mentioned this to the Design System team and was asked to add a comment here.
+I have a neurological condition that causes tiredness and it's physically uncomfortable seeing a lot of bright white. Smart Invert turns the blue into orange which is ok, although not ideal. However I am unable to use my phone for long with Smart Invert switched on as it has other issues (eg it makes the keyboard keys look concave which makes it harder to type and makes me feel sick).
+I'd also like to share this paper on the experiences of people who use alternative colour modes",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUU,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,selfthinker,2025-10-29T10:56:31Z,2025-10-29T10:56:31Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814228,dark mode,I've heard from a colleague working for the NHS that they are looking into Dark Mode because they need to make services work for people who work in the dark. The example they gave were radiologists.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUV,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stevenjmesser,2026-02-19T03:34:32Z,2026-02-19T03:34:32Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814229,dark mode,"Further to previous conversations, I figure there's a decent amount of evidence that rolling out a new feature like Dark Mode would be successful. The number of services that updated to the new crown and then the new brand shows that changes do ripple out, but some departments are slower to adopt than others. Those people will always be slow to make upgrades, though I'm not sure they should prevent progress happening elsewhere.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUW,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,rivalee,2026-02-23T10:40:39Z,2026-02-23T10:40:39Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814230,dark mode,"Over at Digital Prevention at NHS England in the breast screening team, we've been experimenting with dark mode for radiologists (also known as image readers). Image readers read x-rays (mammograms) in a dark room, which helps them to see issues on mammograms. It's an ideal use case for dark mode, as they're already working in a dark environment.
+More context and details are in this design history post: https://design-history.prevention-services.nhs.uk/manage-breast-screening/2026/02/experimenting-with-dark-mode-for-image-readers/",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUX,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,nathdolan,2026-03-31T19:48:07Z,2026-03-31T19:51:00Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814231,dark mode,"This really should have been implemented a long time ago... almost every modern online service has Dark Mode now and I would argue it is very poor for accessibility that GOVUK doesn't respect the device preference for it... it should just be automatic.
+And the secret squirrels have already implemented it... https://design.sis.gov.uk/",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUY,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stuarttaylor-sys,2026-06-11T09:01:20Z,2026-06-11T09:09:11Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814232,,"Can we just take a moment to appreciate that this issue was opened on Dec 3, 2018
+Dec 2018: Microsoft announces Edge will switch to the Chromium engine.
+Jan 2021: The aspect-ratio CSS property, replacing old padding hacks.
+Mar 2021: The Interop Project launches. Major browsers commit to fixing web standard compatibility issues.
+Feb 2022: Cascade Layers (@layer) in all major browsers to fix CSS wars.
+Aug 2022: Chrome 105 introduces Container Queries and the :has() parent selector.
+Dec 2023: Firefox completes cross-browser support for :has(), making it fully production-ready.
+Apr 2023: Chrome ships native CSS Nesting.
+May 2023: The native HTML popover attribute rolls out in Chrome
+Sep 2023: Safari 17 adds support for subgrid
+Jul 2024: Chrome ships field-sizing: content, enabling auto-expanding textareas without JavaScript.
+Mid 2025: Scroll-Driven Animations achieve cross-browser stability.
+2026: Advanced programmatic CSS functions (like inline if() conditionals) enter the chat.
+This got kicked so hard into the long grass, the whole web has changed since.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUZ,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,querkmachine,2026-06-11T09:23:45Z,2026-06-11T09:24:16Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814233,dark mode,"'@stuarttaylor-sys And govuk-frontend still supports pre-Chromium Edge, because government services need to serve as many users as possible, including those living on the long tail of older and less capable hardware and software.
+The lack of a dark mode landing in Frontend isn't because of a lack of motivation, but because it's difficult to do without creating a degraded experience for real (often vulnerable) people.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUa,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,stuarttaylor-sys,2026-06-11T10:14:15Z,2026-06-11T10:14:15Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814234,dark mode,"I fully appreciate the commitment to accessibility, and protecting the long tail of users on legacy hardware or frozen mobile webviews (like pre-Chromium Edge and older Android devices). Serving vulnerable citizens must always take priority over visual trends. 100%
+However... When a design system tries to force a single codebase to serve a modern smartphone and a 12-year-old library computer simultaneously, it creates a web of ""lowest common denominator"".
+Given the massive shifts in CSS capabilities and browser rendering engines since this issue was opened in December 2018, we could now separate how the design system code is written from how individual service teams choose to deploy it. So  instead of introducing a breaking change or forcing heavy polyfills onto low-end devices, the govuk-frontend could unblock dark mode (and other modern CSS features) by moving to a multi-file asset distribution model. One size does not fit anyone particularly well after all.
+A style-sheet for the legacy and an opt-in stylesheet that each service could adopt based on their userbase.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUb,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,LukeHolland-JD,2026-07-10T12:51:15Z,2026-07-10T12:51:15Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814235,dark mode,"We saw something similar in recent accessibility testing on a CICA service.
+One participant had dark mode set at device level because they find browsing in dark mode easier, but the service stayed in the standard light theme. They also mentioned this as something they experience across GOV.UK and have trouble with.
+Sharing here as it sounds similar to what others have raised.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUc,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,joelanman,2026-07-11T19:20:19Z,2026-07-11T19:20:19Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814236,dark mode,"I think it would be useful to the discussion to understand more about the risks of implementing dark mode. If we restrict it to just supporting the system setting, what would be bad outcomes? I can think of a couple:
+
+Users on unsupported browsers wouldn't get dark mode
+As users move between gov.uk sites, some would support dark mode and some wouldn't
+
+I'm not sure 1 is a risk - thats just the situation they have now. 2 is unfortunate but it's an inevitable outcome of our distributed approach - we see similar issues in take up of the new brand. I would argue the value people would get from many sites (hopefully including the main publishing platform) supporting it would outweigh the downside of the inconsistency between sites.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUd,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,NickColley,2026-07-13T07:56:47Z,2026-07-13T07:59:42Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814237,dark mode,"As users move between gov.uk sites, some would support dark mode and some wouldn't
+
+This is a big one, since moving between dark mode and white mode could be confusing or even visually stressful.
+It is a similar issue to the new brand but in my opinion it's much more jarring to go from dark to white vs a slightly different brand.
+I have considered perhaps you could introduce a dark mode that's ready to go, then at a later date actually turn it on.
+For example, in version 10.0.0 dark mode is 'ready' but only when the most popular projects are on 10.0.0 is there a release to actually enable dark mode e.g. 10.1.0. Then the 'roll out' would be to just redeploy applications.
+In terms of other hard problems to solve, consider that it is likely that we'd want to allow users to configure if the dark mode is enabled based on the operating system, or forced to dark or light. Also I think it might be appropriate to allow users to specify the amount of contrast e.g. a 'subtle dark mode' and a 'high contrast mode'.
+How do we keep those settings consistent across GOV.UK websites? Where does the user actually configure that?
+One other one is the GOV.UK Design System could be dark mode ready but tons of valid custom code exists that users have made to compliment the Design System exists, so we'd need to advocate and make it easy for people to make their custom code work in dark mode. Probably another good reason to have dark mode exist before actually 'turning it on'.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUe,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,joelanman,2026-07-13T09:58:45Z,2026-07-13T09:58:45Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814238,,"I think behind a flag is a great idea - it means teams can test with it. I think relying on system setting is perhaps our only option - I don't think there is a way to share settings reliably across sites (we had the same issue with cookie banners, and still every site has its own)",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUf,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,RobinKnipe,2026-07-16T12:54:15Z,2026-07-16T12:54:15Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814239,dark mode,"I can't believe the argument of moving between light and dark mode could be sufficient to arrest development 🤦 I mean just look at the horrible mess of HMRC services swapping back and forth between their crusty old ""paper on the internet"" site and the more modern gov.uk theming. That whole estate has been a mess for years! Meanwhile people with access needs are crying out for the dark mode option, and yet the conversation here seems stuck in a loop of ""what if it makes things worse!?"", well then people can turn it off! 🤷 (just make sure that configurability is a feature)",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUh,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,owenatgov,2026-07-17T09:24:49Z,2026-07-17T09:24:49Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814241,dark mode,"'@RobinKnipe Firstly, in line with the alphagov organisation code of conduct could we ask please that folks in these issues keep things professional and respectful.
+Secondly, whilst it may seem sometimes like nothing is happening on this, that doesn't mean we aren't thinking about it and how we'd tackle it. Discussions about dark mode happen reasonably frequently within the team and there are advocates for looking at dark mode within the team (myself included). In fact recent changes to how we manage colours in our CSS to use CSS custom properties is in service to theming GOV.UK, which sets up dark mode as more of a possibility.
+Bear in mind as well that we are accounting for the entire govuk proposition when thinking about how to roll it out and we want to do it right. That's on top of balancing priorities from other user needs and organisational asks.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:25:06.539Z,DC_kwDOBZRkxM4BHxUi,alphagov/govuk-design-system,alphagov,discussion,Dark Mode,https://github.com/alphagov/govuk-design-system/discussions/6222,open,comment,MDEwOkRpc2N1c3Npb24xMDk3NTgwNQ==,RobinKnipe,2026-07-17T10:33:26Z,2026-07-17T10:33:26Z,https://github.com/alphagov/govuk-design-system/discussions/6222#discussioncomment-18814242,,"Please excuse the frustration @owenatgov but I've worked on various projects that could have benefited from these improvements since this discussion was opened. Plus as someone who mostly interacts with gov services outside of standard office hours, the jarring experience of swapping between gov.uk and pretty much any other website or app (on phone or computer) is unpleasant.
+Good to hear about the CSS colours though, any progress is most welcome 👍",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,D_kwDOBZRkxM4AZeU-,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,opening,,kubabartwicki,2024-05-16T15:24:11Z,2026-09-18T09:38:19Z,https://github.com/alphagov/govuk-design-system/discussions/3804,generative AI; AI-generated,"Hello
+We are starting a discussion about emerging design patterns for utilising AI in public services. This probably mostly covers generative AI, but other design patterns for making use of machine learning, data science, and similar technologies are also useful.
+We’re doing this because there is a lot here! Many teams across government are experimenting with AI, and we are working out how to design for this. We need to work out how to surface AI-generated content to users, how to talk to them about accuracy, and how to design more dynamic interactions. A space to share learnings in the open seems like a good place to start 🥁
+I work on the GOV.UK AI team, where we are experimenting how AI can help people navigate the complexity of government services and information. We have a ton of insights from testing so far, and we know that other teams do too. Most of our learnings come from experimenting with GOV.UK Chat. You can learn more about that in this blog post, or drop us a message if you want to chat more about it.
+We’ll start by sharing some of our insights, but please join the discussion if you work in government and have things to share. Keep in mind that it’s all work in progress, and evolving fast!",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4AkFhr,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,LucyMcArthur-GDS,2024-05-16T15:35:03Z,2024-05-17T08:37:40Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-9459819,generative AI,"Describing accuracy limitations in an AI chat
+Generative AI can sometimes show inaccurate information with a high degree of authority. We’ve been learning lots about how to communicate this and make sure users don’t follow inaccurate advice.
+In the GOV.UK Chat experiment, we’ve had some success explaining accuracy limitations in a chat conversation, as part of the onboarding. Showing onboarding as messages received from the chat was a lot more effective than displaying the content on a static page. It also allows us to break the information down into shorter messages without overwhelming users.
+We are also experimenting with integrating actions into the chat interface. During the onboarding, the bottom area of the chat shows two buttons. Once you’ve onboarded, this changes to include a text input field. Users responded really well to having rich UI elements in the chat, and it’s a pattern we want to build on. We have some really interesting content insights on this which we’ll share soon too.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4A0-4p,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,reply,DC_kwDOBZRkxM4AkFhr,Becca-Ayre,2025-07-25T12:53:04Z,2025-07-25T12:53:05Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-13889065,,"This is great to see. The tool I am supporting has these caveats on a static page, so it is great to see another approach.
+Encouraging that you got good interaction from users with this approach. How did this convert later in the journey? Can you see whether users are heeding the advice and checking the answers?",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4AkFjR,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,LucyMcArthur-GDS,2024-05-16T15:44:22Z,2024-05-16T16:22:44Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-9459921,,"Checking answers
+We also need to give users a really clear next step to do what they’re trying to do, and to make it easy for them to verify information generated by AI.
+In our chat experiments, we are integrating a “check this answer” step in the user journey. This includes links to relevant GOV.UK guidance pages directly after chat’s responses. In research, we found that links were viewed as a way to find further information, but not always as a checking step, so we made this more prominent. Checking content isn’t a typical user behaviour within digital tools, but using a prominent “check this answer” component with a warning icon helped encourage it.
+To make this more intuitive, we are also exploring things like linking people to specific parts of pages, or highlighting relevant content snippets.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4AkN6e,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,reply,DC_kwDOBZRkxM4AkFjR,munhitsu,2024-05-20T09:14:05Z,2024-05-20T09:14:05Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-9494174,,"How about referencing specific paragraph, sentence? I know it is harder to implement but it also makes reference checking faster.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4AkUQb,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,reply,DC_kwDOBZRkxM4AkFjR,LucyMcArthur-GDS,2024-05-22T11:07:07Z,2024-05-22T11:07:08Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-9520155,,"Thanks for your comment, it would be cool to explore referencing within the answer which I think is what you are suggesting (e.g. how Perplexity have numbers after specific sentences in the answers). We also explored highlighting specific sentences on a linked page, which is useful for users if their question is less complex.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4A0-4O,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,reply,DC_kwDOBZRkxM4AkFjR,Becca-Ayre,2025-07-25T12:49:02Z,2025-07-25T12:49:04Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-13889038,,"Hello! I am working with a team in DWP who are developing a Q&A response tool. Great to see you are looking at similar design problems!
+We got some feedback from our private beta users that they wanted to see the specific paragraph or sentences highlighted, and I was told by data science and engineering colleagues that its technically possible but he processing power required to do it would be quite high.
+Have you got any evidence yet of whether users are checking answers using these references? And if they are, how confident they are in doing the checks? We are still to really test this with our tool but I have raised this as a risk we need to explore further.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4AkRxb,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,uxCharlotteR,2024-05-21T15:10:18Z,2024-05-21T15:10:18Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-9509979,,"Thanks for starting this thread :)
+I'm working on patterns and components for gen AI as part of the work we're doing in the Incubator for AI (i.AI) , here in Cabinet Office.
+I've started some conversations with Tim Paul and Charlotte Downs, in GDS, about how we might collaborate across gov to experiment and iterate on emerging AI components. But it'd be great to be more connected with others about what is happening across gov departments to all be helping each other with insights and learnings.
+I've also been looking at other gen AI components outside of gov that we might be able to learn and experiment, here in the Incubator.
+Lots of exciting times ahead. 👍",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4AkT7X,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,reply,DC_kwDOBZRkxM4AkRxb,kubabartwicki,2024-05-22T09:09:20Z,2024-05-22T09:09:31Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-9518807,,"Nice, Tim mentioned this, would be good to chat!",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4ApW0P,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,EvangelineWright,2024-10-04T08:10:25Z,2024-10-04T08:10:26Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-10841359,,"Hello! I have just come across this thread and would love to connect. I am currently working on designing and developing AI powered services within the DWP. We have been using the GDS design system but have needed to deviate due to AI design requirements, such as transparency and user co-creation of content. It would be brilliant to discuss these and see what other organisations are doing across gov!",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4ApYDY,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,reply,DC_kwDOBZRkxM4ApW0P,kubabartwicki,2024-10-04T16:26:58Z,2024-10-04T16:26:58Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-10846424,,"Oh thanks for reaching out Evangeline! Would you be able to share some approaches on this thread? If not, happy to set up a chat if you email me at kuba.bartwicki@digital.cabinet-office.gov.uk",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4A0-4-,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,reply,DC_kwDOBZRkxM4ApW0P,Becca-Ayre,2025-07-25T12:54:37Z,2025-07-25T12:54:37Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-13889086,,Hello. Did Evie ever get back to you Kuba? I have picked this work up from Evie since earlier this year.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4AtwWv,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,nicolaatd,2025-01-29T11:23:49Z,2025-01-29T11:23:50Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-11994543,generative AI,I'd be really interested to see what consideration is being given to the environmental impact of the use of AI in cases like this. I think there are definitely questions to be asked on the value of generative AI vs the sustainability of it.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4Atwjg,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,AntoniaRub,2025-01-29T13:00:35Z,2025-01-29T13:00:36Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-11995360,,"I've just come across this via the AI conference being run at the moment. I am currently looking at the Gen AI use in the JAC but also considering the inclusivity/diversity aspect of Gen AI and what we need to consider, taking into account how fast moving this topic is at the moment to ensure that this remains something we take into account.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4AuDMc,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,uxCharlotteR,2025-02-05T16:14:53Z,2025-02-05T16:14:54Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-12071708,,"There's a cross-Gov Slack channel for folk doing UCD in AI products. #ai-ucd
+Feels like there are lots of us wanting to share together in this space. I know there is this group but thought I'd share it too. Let me know if anyone wants to be added.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4A1MfA,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,romanidavies,2025-07-31T08:53:24Z,2025-07-31T08:53:25Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-13944768,LLM,"We have been working on a white label version of the AI assistant created for caseworker guidance.
+We have replaced the content of our designs with a general subject matter. This subject matter is 'Superhero applications', however we hope this will still illustrate the design decisions made.
+It can be found here: https://github.com/LandRegistry/ai-assistant-whitelabel
+For context:
+Within HMLR, Andy Porter, Kit Harding and I have been developing a ‘design language’ for AI UI.
+There has been very little validation or usability testing or feedback from users at this time. We appreciate this is a completely new paradigm, and we don’t have gov patterns yet so wanted to share our progress.
+We’ve been working on:
+
+General look and feel like layout, colours
+What language to use- what to name things, how to describe things- including a how to ask/ use AI
+New components/patterns
+
+Within these files we have included some insight into the decisions made. They are duplicated here:
+Guidance homepage:
+We needed to consider how the assistant could be integrated with the existing caseworker guidance system.
+
+Within the scope of this project, we had limited capacities to amend the existing guidance interface, therefore we had to take this into consideration of our own designs. The keyword search was already present.
+We added a new lead paragraph to the page, to inform users they could search by two ways and ensured both search methods had equal weighting. It was important to present the methods equally but also try to encourage users to use the assistant.
+We came up with a 'widget-like' component to represent the assistant, which could be minimised for other pages in the guidance. However, on the homepage the widget is fully expanded for maximum engagement. This widget has the same visual language as the assistant. We have included a realistic, common example question, to help users understand how to use the tool and consider how it could help their work. It was important that this example used natural language to demonstrate this benefit of interacting with the assistant.
+As we are encouraging users to check the responses using the existing keyword search, the assistant opens in a new tab.
+Caseworker guidance article page
+Following a keyword search on the homepage, users are taken to a search results page where they can then select the appropriate article from the shortlisted view.
+
+We believe that if users are unable to easily find the information using the traditional, keyword search, they may consider utilising the tool. Therefore, users can launch the assistant from this article page.
+On this page, we have added the minimised widget to this page. The widget has been minimised by removing the example text. The visual language and proactive, encouraging tone remains.
+A future consideration could be that if the assistant is launched from this page, the context of the article could be passed to the model, initiating the search.
+Casework guidance AI assistant- homepage
+The homepage of the assistant is minimal. We have tried to focus the user on a simple interaction- asking a question.
+
+We have told users the assistant uses AI, which is important from an ethical perspective. This clause involved a lot of wider conversations, to balance the ethical responsibility of informing users of the AI usage but also that the information supplied should be checked.
+To label the button we considered alternatives such as 'Ask', 'Search' and 'Ask a question'. As a conversational interface we were unsure of the language that is best suited for this component. For the first iteration, we have used 'Go'.
+The LLM has been designed to allow users to have 4 question 'conversations'. This means the LLM will consider the context of up to 4 previous questions to inform the following response. Up to 4 questions was considered the optimal number of questions, that best informed the LLM without degrading the quality of responses.
+The secondary link, 'Assist with another query', starts a new 'conversation' removing all previous context.
+Normally, we wouldn't explain how to use a tool. However, considering this new paradigm of design, underpinned by our user research we felt there was a user need to provide guidance. Our user research found that our users didn't know how to interact with the assistant and as a result, the quality of responses were poor.
+Therefore, we have included links to the purpose built guidance and demonstrations to help our users understand how to best ask questions. These materials have been tested and iterated following exposure to users.
+Casework guidance AI assistant- query
+Upon entering a query into the assistant, the assistant generates a response using source information from the articles in the existing caseworker guidance system. It then considers the information found and generates a response, with the source information extracted from the articles available for users to check the AI generated response.
+
+The conversation is left aligned, as the assistant will only be used on desktop. This also felt more appropriate to follow the users likely reading habits on desktop (from top to bottom). We made the assumption that as the responses are likely to be large blocks of text, they would be easier to read.
+Also, we have chosen to not name the questions and responses (indicating 'who was speaking') as it felt that this added an informality to the conversation, which contradicts the subject matter and use cases.
+The content on the right hand panel remains consistent.
+Casework guidance AI assistant- additional queries
+Our system is able to take context from up to 4 queries when generating responses. Therefore, we had to consider how multiple related queries and responses could be displayed.
+
+One way we distinguish between the question and response is the text widths. The users question is displayed at 1/3 width, as it is likely the response will be much longer. In addition to this, the question is on #D2E2F1, whilst the response is on govuk-colour(""light-grey"") #f3f2f1- these colours have been used on the GOV.UK Chat (experimental). There is a small gap between the boxes to create another visual difference between the question and response.
+Casework guidance AI assistant- inline feedback
+Following the response, we have introduced inline feedback to allow the user to feed back on the helpfulness of the response.
+
+Initially, the team were keen to introduce a 'thumbs up'/'thumbs down' mechanism to gain feedback on the response. We were aware of the accessibility limitations that this would introduce and therefore considered current feedback approaches, specifically on the GOV.UK chat. Following this, we explored 'When you have finished, tell us if the answer was useful'. However, this approach did not allow feedback on a 'repsonse by response' basis, rather the conversation as a whole, which was too broad.
+Further conversations confirmed the objective for the team was to recieve definitive feedback to the helpfulness of the response, which could then indicate further explorations into inaccurately generated responses. The 'yes'/'no' question allowed the team to be able to pinpoint inaccurate responses to improve the LLM.
+
+We provided the team with visually hidden text for the 'yes'/'no' links to ensure they could be understood by assistive technology.
+
+
+Upon selecting 'yes'/'no' the inline text changes to ask a follow up question asking if the user would like to expand on why the response was helpful/unhelpful.
+We considered which pair of words would be appropriate for a positive/negative response. This included 'useful'/'not useful', 'correct'/'incorrect', 'helpful'/'unhelpful', 'accurate'/'inaccurate', 'like'/'dislike'. We don't know which word pair works best for users as we were unable to test these but we thought 'helpful'/'unhelpful' were best as it allows users to consider their own context whereas 'correct'/'incorrect' is too absolute. For example, a response could be factually correct but does not specifically answer the users response or vice versa.
+
+
+By selecting the links following the repsonses, users are taken to one of these pages where they can provide details about why a response was helpful or unhelpful. This is optional, users do not need to add this additional detail for us to record the initial helpful/unhelpful response. The question is tailored depending on if a user answered 'yes' or 'no'.
+Casework guidance AI assistant- general feedback
+As with any new tool, we are keen to facilitate users submitting feedback. This feedback is also important to improve our LLM.
+
+To make it easier for users to submit feedback, we provide users with a free text field, rather than asking specific questions.
+This is accessible through the right hand panel on the assistant's interface. Users can access this at any point during their journey. This is important as some of our users may want to feedback at a more convenient time (rather than following specific responses). We have tailored this question to be more general, to allow users to reflect on their experience using the tool as a whole. We're following the principles of the 'Tell us how to improve this service' pattern.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4A3JxY,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,anitalai-dwp,2025-09-19T14:50:48Z,2025-09-19T14:50:50Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-14457944,chatbot,"Hello! Our team on the Jobs and Careers Service have been designing and testing an AI-powered chatbot to provide employment support for people in the UK. We've tried to stick to existing GDS patterns and some patterns I noticed from the GOV.UK chat, but have ran into a lot of limitations. For example, being able to select more than one prompt as answers, use voice input for a Mock interview tool.
+It'd be good to see what other chat/AI patterns that anyone has been experimenting with, so we can learn from each other. Also super keen to get involved in creating such patterns to add to the design system.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4A3J2d,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,Becca-Ayre,2025-09-19T15:17:04Z,2025-09-19T15:17:06Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-14458269,chatbot,"[heart]         Rebecca Ayre reacted to your message:
+…
+________________________________
+From: anitalai-dwp ***@***.***>
+Sent: Friday, September 19, 2025 2:51:12 PM
+To: alphagov/govuk-design-system ***@***.***>
+Cc: Rebecca Ayre ***@***.***>; Comment ***@***.***>
+Subject: Re: [alphagov/govuk-design-system] AI — we want your input (emerging patterns, use cases, research findings) (Discussion #3804)
+
+
+Hello! Our team on the Jobs and Careers Service have been designing and testing an AI-powered chatbot to provide employment support for people in the UK. We've tried to stick to existing GDS patterns and some patterns I noticed from the GOV.UK chat, but have ran into a lot of limitations. For example, being able to select more than one prompt as answers, use voice input for a Mock interview tool.
+
+It'd be good to see what other chat/AI patterns that anyone has been experimenting with, so we can learn from each other. Also super keen to get involved in creating such patterns to add to the design system.
+
+—
+Reply to this email directly, view it on GitHub<#3804 (comment)>, or unsubscribe<https://github.com/notifications/unsubscribe-auth/BO6P56O64QV4ZV5X544Y3FL3TQJ6BAVCNFSM6AAAAACCLSI2GKVHI2DSMVQWIX3LMV43URDJONRXK43TNFXW4Q3PNVWWK3TUHMYTINBVG44TINA>.
+You are receiving this because you commented.Message ID: ***@***.***>
+**********************************************************************
+This document is strictly confidential and is intended only for use by the addressee.
+If you are not the intended recipient any disclosure, copying, distribution
+or other action taken in reliance of the information contained in this email is strictly prohibited.
+
+Any views expressed by the sender of this message are not necessarily those of the Department
+for Work and Pensions.
+If you have received this transmission in error please tell us and then permanently delete
+what you have received.
+This email was scanned for viruses by the Department for Work and Pensions antivirus services and was found to be virus free.
+Please note: Incoming and outgoing email messages are routinely monitored for compliance with our Email Policy.
+**********************************************************************",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4A7iIM,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,andrewmclean-hmrc,2026-01-26T13:39:14Z,2026-01-26T13:39:14Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-15606284,,"Hi, I'm wondering if the GOV.UK chat project has explored any established industry conversation design patterns. I'm chiefly thinking about Acknowledgement, Confirmation, Prompt that's the ""mantra"" pattern for Hans Van Dam at the Conversation Design Institute.
+The pattern is designed to build trust and confidence in users by showing them that the AI has heard them, understood them and wants to be helpful (similar to an interaction with a live call agent).
+An example might be:
+User: I want to register for VAT
+AI: Ok, here's how to register for VAT. Gives them answer. Is there anything else I can help with?
+In this example:
+Acknowledgement = Ok (user feels they've been heard)
+Confirmation = here's how to register for VAT (this would be an implicit confirmation - AI has over 50% confidence in its understanding of the query. Explicit confirmation would try to get the user to confirm the ask if the AI was less confident)
+Prompt = Is there anything else I can help with? (user's turn and also way to keep them on task)
+This pattern's widely used by, among others:
+
+Klarna
+Bank of America
+KLM
+Sephora
+Domino's
+
+As I say, just looking to understand if this kind of pattern has been researched. I'm keen to look at it for Ask HMRC online as we move to a Contact Centre as a Service platform. So any insight you might have would be useful.
+Cheers",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T15:25:08.104Z,DC_kwDOBZRkxM4BGkG0,alphagov/govuk-design-system,alphagov,discussion,"AI — we want your input (emerging patterns, use cases, research findings)",https://github.com/alphagov/govuk-design-system/discussions/3804,open,comment,D_kwDOBZRkxM4AZeU-,dodi1978,2026-09-18T09:38:19Z,2026-09-18T09:38:19Z,https://github.com/alphagov/govuk-design-system/discussions/3804#discussioncomment-18497972,chatbot,"Hi all, I just came across this forum and wanted to jump in from a slightly different angle. I am not a designer by the way, but an academic whose research interfaces with conversation design. Here is my portfolio: https://portfoliodippold.netlify.app/
+I've been researching how people experience AI chat in public services - specifically looking at rapport, i.e. that sense of warmth, trust and being understood (or not) when you're talking to a chatbot. My fieldwork has been on an NHS AI chat system used for cervical screening booking, but my findings are relevant to the kinds of questions you're raising here.
+My main point perhaps: language matters! Just a few highlights:
+
+Choice-oriented language landed really well. Repetitive, inflexible or imperative messaging (even when well-intentioned, e.g. nudging someone to complete a step) came across as pushy and actually put people off engaging further.
+This mattered a lot more for users with prior trauma, anxiety, or who were otherwise more vulnerable - which feels relevant given how much of gov AI chat touches sensitive, high-stakes stuff (health, benefits, legal status...).
+I pulled this together into a taxonomy of six ""rapport dimensions"" (goals, autonomy, attention, face, fairness, ethicality) that might work as a lightweight heuristic alongside other content design principles you are using.  whatever accuracy/content design principles you're developing.
+I have attached a policy brief I have recently put together based on my work, which also features the rapport taxonomy. Happy to talk you though it if anyone is interested!
+Policy Brief UK GOV.pdf",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:19:48.437Z,opening:6192796043,alphagov/govuk-frontend,alphagov,issue,Observed issues under Safari's Adaptive Dark Mode,https://github.com/alphagov/govuk-frontend/issues/7613,open,opening,,querkmachine,2026-11-03T23:07:16Z,2026-11-04T12:33:45Z,https://github.com/alphagov/govuk-frontend/issues/7613,dark mode,"The Safari 27.3 beta (on iOS and iPadOS) has introduced a feature called [‘Adaptive Dark Mode’](https://webkit.org/blog/18541/introducing-adaptive-dark-mode/) (henceforth, ADM) that coerces pages without dark modes into the dark side.
+
+It does this by detecting whether a page has been given a dark mode by the author by checking for the presence of the `color-scheme` meta tag and CSS property.
+
+When the user’s device is using the dark system theme, and they visit a website without a dark mode for the first time, they are prompted whether they want to turn on Adaptive Dark Mode. If they choose to do so it’s turned on for all websites, not just the website the user enabled it on, and remains active so long as the they’re using the dark system theme.
+
+In flicking through GOV.UK and the Design System with it turned on, I’ve not noticed many issues (unlike [Chrome’s equivalent feature](https://github.com/alphagov/govuk-frontend/issues/2582)), but for reference sake, I'm writing them down anyway.
+
+Like Chrome's Auto Dark Mode, this is technically still in a pre-release state, so things might change prior to release.
+
+## Issues what I found
+
+### Focus styles
+
+Focus styles are somewhat inconsistent. It seems like ADM maintains the background and box-shadow colour of focus styles, but will change the text colour. What colour it actually uses was a little inconsistent, I noticed it using both white and grey. 
+
+<img width=""550"" height=""100"" alt=""Tabs component with one tab focused. It shows the usual yellow background used in light mode, but with the text changed to white."" src=""https://github.com/user-attachments/assets/caff8193-7093-4053-b3b4-1b47db267502"" />
+
+<img width=""799"" height=""179"" alt=""Details component with the summary focused. It shows the usual yellow background, but with the arrow icon changed to white, and the summary text to a mid-grey."" src=""https://github.com/user-attachments/assets/2ab82be2-7938-4e34-9bf1-5c5629a865e6"" />
+
+### Buttons
+
+Secondary buttons have had both the background and box-shadow colours inverted, making them look a bit unusual. More like text with an underline than a button. 
+
+<img width=""182"" height=""96"" alt=""Secondary button, appearing as white text on a dark grey background with a white 'underline' (actually the button's box shadow)."" src=""https://github.com/user-attachments/assets/319f67e2-baad-487e-888f-1f290966cb07"" />
+
+I'm not confident that the colour combination it comes up with for warning buttons is ideal. Whilst just about meeting WCAG minimum contrast (it's basically dead on 4.5:1), perceptually it feels like white text would still provide better contrast in this context.
+
+<img width=""209"" height=""98"" alt=""Danger button that uses a red fairly similar to the light mode version, though slightly lighter. The text has changed to black."" src=""https://github.com/user-attachments/assets/3c24d6d2-2333-4a6c-baf7-e1e1763ae592"" />
+
+### Text input, Textarea
+
+Text inputs and textareas render with an inverted black background, however the border colour is not inverted, making empty inputs appear as ominous black voids.
+
+<img width=""803"" height=""337"" alt=""Textarea example from the Design System website, where the empty textarea appears as a large black rectangle with a slightly lighter but still very dark border."" src=""https://github.com/user-attachments/assets/ff59932a-a2ff-47c1-aba8-609be6b62976"" />
+
+<img width=""802"" height=""178"" alt=""Text input example from the Design System website, where the empty input appears as an thin black rectangle with a slightly lighter but still very dark border."" src=""https://github.com/user-attachments/assets/fa61d115-5d2f-4e12-9e6c-35b4dc36f7e7"" />
+
+Prefixes and suffixes _do_ have their borders inverted, however.
+
+<img width=""801"" height=""180"" alt=""Text input with prefix and suffix example, with the text input having a black background and black borders, but the prefix and suffix having lighter grey backgrounds and white borders. "" src=""https://github.com/user-attachments/assets/72975ece-61bf-4427-a7da-ea26b22c770a"" />
+
+## Notification banner
+
+The border colours of banners are modified to be lighter, but the normally colour matched heading backgrounds are not.
+
+<img width=""801"" height=""207"" alt=""Standard blue notification banner. The header bar remains GOV.UK brand blue, but the border has been converted to use a lighter shade."" src=""https://github.com/user-attachments/assets/5d10d44f-b131-422c-aeec-d1c10a9bd743"" />
+<img width=""802"" height=""218"" alt=""A success notification banner. It too retains its regular green header bar, but uses a much lighter green border."" src=""https://github.com/user-attachments/assets/db18da7d-968a-4659-a53f-45b6f0b6615c"" />
+
+### Warning text
+
+The warning text 'icon' doesn't have its colour adapted, making it less visually prominent in ADM.
+
+<img width=""535"" height=""77"" alt=""Example warning text component, which continues to use an icon with a black background against the dark grey of the page."" src=""https://github.com/user-attachments/assets/051ef42f-31d0-468d-a3f4-136eac49fea8"" />
+
+### File upload
+
+The native (non-enhanced) system file input has quite a dark button. 
+
+<img width=""327"" height=""111"" alt=""Native file input, the button for which is now mid-grey text on a dark grey background with a thin, 1 pixel black border."" src=""https://github.com/user-attachments/assets/6524729f-0865-4b4d-9208-6ef7a3ebc7f0"" />
+
+### Other noticings
+
+The heuristics around which pseudo-elements it converts is a bit off sometimes. For example, the pseudo-element that makes the GOV.UK mega menu and search appear full width doesn’t change colour. 
+
+<img width=""1210"" height=""834"" alt=""iPad screenshot of the GOV.UK website with the mega menu open. The background of the menu itself is dark grey, with white text and light blue links, but each side of the menu is flanked by light grey blocks that press right up to the edges of the content."" src=""https://github.com/user-attachments/assets/4a2f397a-0eb7-46fc-80a0-fccc06b59078"" />",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:19:48.437Z,comment:6630704575,alphagov/govuk-frontend,alphagov,issue,Observed issues under Safari's Adaptive Dark Mode,https://github.com/alphagov/govuk-frontend/issues/7613,open,comment,opening:6192796043,NickColley,2026-11-04T12:33:34Z,2026-11-04T12:33:45Z,https://github.com/alphagov/govuk-frontend/issues/7613#issuecomment-6630704575,,"I wonder if we set all our form inputs that use body-background (or no set background) to `Canvas` if we'd see better performance here, would require wider testing.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:19:50.086Z,opening:1185095330,alphagov/govuk-frontend,alphagov,issue,Observed issues under Chrome's Auto Dark Mode,https://github.com/alphagov/govuk-frontend/issues/2582,open,opening,,querkmachine,2022-03-29T16:07:09Z,2026-11-03T23:05:45Z,https://github.com/alphagov/govuk-frontend/issues/2582,dark mode; prefers-color-scheme,"Since Chrome version 78, Google has included an experimental feature in the browser, initially named ""Forced Dark Mode"" and, as of writing, named ""Auto Dark Mode for Web Content"". 
+
+This feature automatically modifies the appearance of webpages in order to create a ""dark mode"" version. This is done even if the page already supplies a ""dark mode"" via the `prefers-color-scheme` CSS media query. It also appears to ignore the `color-scheme` property. 
+
+The flag comes with several different ""enabled"" modes (as of Chrome 99), which modify how Chrome is internally applying changes. Each mode results in subtly (sometimes radically) different resulting colours.
+
+1. Enabled
+2. Enabled with simple HSL-based inversion
+3. Enabled with simple CIELAB-based inversion
+4. Enabled with simple RGB-based inversion
+5. Enabled with selective image inversion
+6. Enabled with selective inversion of non-image elements
+7. Enabled with selective inversion of everything
+8. Enabled with increased text contrast
+
+Most of these modes appear to work by first overriding neutral light background colours (such as white and light greys), and modifying any copy that it detects as existing on a modified background colour to maintain suitable contrast. Most other colours appear to be left intact. This method of alteration means that colours are not all modified in the same way: `$govuk-brand-color` in mode 1, for example, is unmodified when used as a background or border colour (#1d70b8), but is changed when it is used as a text colour (#61a1ee).
+
+Mode 4 appears to simply invert all colours on the page, regardless of usage. 
+
+I'm not sure how mode 1 is different from the others. It may be that this is an ""automatic"" mode where Chrome tries to determine which of the other seven modes works best for the given page and uses that one.
+
+We have received at least one bug report raised by a user who was using Chrome's Auto Dark Mode feature for accessibility reasons (to make content easier to read with cataracts).
+
+> RE the dark mode, it is now a function in Google Chrome that you can activate and it will force a dark version if the website can accommodate it. Not everyone does, BBC News for example still comes through with a traditional black text on a white background – but it works for many.
+
+## Steps to reproduce the issue
+In Google Chrome, go to `chrome://flags/#enable-force-dark` (this should jump you straight to ""Auto Dark Mode for Web Contents"") and enable the flag.
+
+## Actual vs expected behaviour
+Currently, a number of these modes produce colour combinations which fail the contrast requirements established in WCAG 2.1. 
+
+Below is a non-exhaustive subset of issues currently identified in Auto Dark Mode.
+
+### Text inputs and textareas
+Text inputs are displayed with a grey background and black border in modes 1, 6, 7, and 8. This fails to meet the expected 1:3 contrast ratio for UI elements (at 1:1.68). 
+
+![Screenshot of the design system input component, appearing grey on black.](https://user-images.githubusercontent.com/1253214/160644743-7632dc27-cc56-4558-bd40-8fee1109717c.png)
+
+They are displayed with a light grey background and white border in modes 3 and 5, which easily meets contrast ratio expectations.
+
+They are displayed with the default white background and black border in all other modes.
+
+### Input prefixes and suffixes
+
+These are difficult to read in modes 2 and 4, where they are black on a dark grey background (1:3.23).
+
+![Screenshot of the design system input prefix and suffix example, where the text is black on dark grey.](https://user-images.githubusercontent.com/1253214/160646813-ac2ad0a1-083d-4ca0-b571-b1ecacd450e4.png)
+
+These are much more difficult to read in modes 3 and 5, which renders it as black on an even darker grey (1.22).
+
+![Screenshot of the design system input prefix and suffix example. The text is visually imperceptible from the background.](https://user-images.githubusercontent.com/1253214/160650473-9c6f3529-5a06-4408-b20e-242b1c66a08e.png)
+
+These are displayed with adequate contrast in other modes.
+
+### Checkboxes and radio buttons
+The border and selection states of checkboxes and radio buttons do not have sufficient contrast in modes 1, 6, 7, and 8 (at a pretty much imperceptible contrast ratio of 1:1.04)
+
+![Screenshot of the design system checkbox component, illustrating insufficient contrast between the checkboxes and background, which are both dark grey.](https://user-images.githubusercontent.com/1253214/160644218-1fc50370-249e-4e47-b73a-eab9a8b8ea34.png)
+
+They are displayed with white borders and selection states in all other modes.
+
+### Select
+
+In modes 1, 6, 7, and 8, select boxes are rendered with a dark grey background and dark grey border (1:1.04).
+
+![Screenshot of the design system select component, which appears to just be white text with no border or icon.](https://user-images.githubusercontent.com/1253214/160648934-5554f80a-1794-40e1-a9b7-a7c16df83d29.png)
+
+They are rendered with a black background and white border in all other modes.
+
+### Skiplinks
+
+In modes 1, 2, 6, and 7, skiplinks are rendered as white on focus-colour yellow, which does not meet contrast requirements (1:1.34).
+
+![Screenshot of a white link on a bright yellow background.](https://user-images.githubusercontent.com/1253214/160649767-19aecf58-2ea6-4517-9852-283a4c91f922.png)
+
+In mode 4, it is white on light blue, which is also below expectations (1:3.24).
+
+![Screenshot of a white link on a bright blue background.](https://user-images.githubusercontent.com/1253214/160649982-3f7999be-3540-40c5-8d00-7b9350407360.png)
+
+In mode 8, it is white on focus-color yellow, but additionally has a black text shadow/stroke effect applied, which makes it difficult to read.
+
+![Screenshot of a white link with a thin, pixellated black shadow surrounding it, on a bright yellow background.](https://user-images.githubusercontent.com/1253214/160650309-a61034bd-d400-4ca3-b312-db890c382f19.png)
+
+This is displayed with adequate contrast (albeit, in white on brown) in all other modes.
+
+### Iconography
+
+Most iconography fails to meet contrast requirements in virtually all modes. This includes:
+- the open and close arrows on the Accordion component.
+- the arrow on the Back link component.
+- the arrows on the Breadcrumbs component.
+- the exclamation icon on the Warning text component.
+
+### Other components
+The good news is that, for the most part, the majority of other components we have in GOV.UK Frontend are not as badly affected as those above, with various components such as Inset text, Error summary, and Notification banner maintaining their necessary visual presence and suitable contrast even with modified colours. 
+
+## Environment
+The results specified here were taken in Chrome 99, running on macOS 15.3, whilst the operating system was set to light mode. 
+
+Interestingly, Chrome DevTools does not give any indication that a change to the page's appearance has taken place. All HTML and CSS content, including the user agent stylesheet, computed styles, and those returned through JavaScript, appear unmodified and are not aligned with the page's actual appearance when Auto Dark Mode is enabled. ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:19:50.086Z,comment:1082088190,alphagov/govuk-frontend,alphagov,issue,Observed issues under Chrome's Auto Dark Mode,https://github.com/alphagov/govuk-frontend/issues/2582,open,comment,opening:1185095330,querkmachine,2022-03-29T16:20:51Z,2022-03-29T16:20:51Z,https://github.com/alphagov/govuk-frontend/issues/2582#issuecomment-1082088190,dark theme,"Note that this seems to be different to [""Auto Dark Theme"" on Android Chrome](https://developer.chrome.com/blog/auto-dark-theme/) — Chrome itself seems to consider them different, at least. 
+
+None of the detection or opt-out methods listed in that blog entry worked when I tried them on desktop Chrome. ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:19:50.086Z,comment:1082771596,alphagov/govuk-frontend,alphagov,issue,Observed issues under Chrome's Auto Dark Mode,https://github.com/alphagov/govuk-frontend/issues/2582,open,comment,opening:1185095330,vanitabarrett,2022-03-30T08:20:01Z,2022-03-30T08:20:23Z,https://github.com/alphagov/govuk-frontend/issues/2582#issuecomment-1082771596,dark mode; prefers-color-scheme,"> This feature automatically modifies the appearance of webpages in order to create a ""dark mode"" version. This is done even if the page already supplies a ""dark mode"" via the prefers-color-scheme CSS media query. It also appears to ignore the color-scheme property.
+
+@querkmachine Is this something that's in our control to fix (by changing CSS within govuk-frontend), or is the only thing we can do here raise bugs with Chrome? Just trying to make sure I understand fully.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:19:50.086Z,comment:1082799185,alphagov/govuk-frontend,alphagov,issue,Observed issues under Chrome's Auto Dark Mode,https://github.com/alphagov/govuk-frontend/issues/2582,open,comment,opening:1185095330,querkmachine,2022-03-30T08:47:10Z,2022-03-30T08:47:19Z,https://github.com/alphagov/govuk-frontend/issues/2582#issuecomment-1082799185,,"'@vanitabarrett As it stands, I've not found anything that indicates we can resolve these issues. Given it's still an experimental feature that might change in future, but we might want to direct some of these issues to Google in the interim. ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:19:50.086Z,comment:3840965433,alphagov/govuk-frontend,alphagov,issue,Observed issues under Chrome's Auto Dark Mode,https://github.com/alphagov/govuk-frontend/issues/2582,open,comment,opening:1185095330,querkmachine,2026-02-03T12:17:07Z,2026-02-03T12:17:07Z,https://github.com/alphagov/govuk-frontend/issues/2582#issuecomment-3840965433,dark mode; colour scheme; prefers-color-scheme,"Chrome (as of writing, version 144) appears to have changed the flag to be a straight enabled/disabled option. It no longer provides a list of options for how auto dark mode is applied. This setting can now be temporarily enabled via the developer tools, under the 'rendering' tab. 
+
+This version of auto dark mode seems to respect customisations made using `(prefers-color-scheme: dark)` and will enable the dark colour scheme before deciding whether to override any colours.
+
+Like before, it selectively manipulates colours to achieve a minimum 4.5:1 contrast ratio for the given context, rather than changing colours uniformally across a page like a filter would. It generally seems to be quite competent at this, with the only contrast issues I could find being on pseudo-elements and background images. 
+
+Interesting behaviour I noticed:
+
+- The light border colour of the inverse Service navigation is changed to dark grey, but the background colour isn't changed, giving it less contrast than if no change had taken place.
+- The background colour of inverse buttons was changed from white to dark grey, but the text colour wasn't changed.
+- The icon of the Warning text component had its background removed but border retained. 
+- Certain colours within inline SVGs are inverted (black to white, white to black).
+
+Some issues that still remain:
+
+- The coat of arms in the footer remains black (on dark grey).
+- Pseudo-elements, like we use for various arrows and chevrons, remain dark grey (on black). 
+- Checkboxes and Radio buttons are more visible than before, but still lacking contrast (at 2.59:1).
+- Skip links and focused links become white text on a yellow background.
+- Select dropdowns don't have visible arrows (appearing identical to text inputs). 
+
+Generally this seems to be an improvement over what was here before, however. That it appears to still be actively developed and now surfaced more prominently in devtools may point to it being introduced as a user facing setting or feature in the future.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:19:55.896Z,opening:3345690070,alphagov/govuk-infrastructure,alphagov,pull-request,Grant TFC role full access to AWS Chatbot service,https://github.com/alphagov/govuk-infrastructure/pull/2647,closed,opening,,samsimpson1,2025-08-22T14:33:17Z,2025-08-27T08:50:50Z,https://github.com/alphagov/govuk-infrastructure/pull/2647,chatbot,https://github.com/alphagov/govuk-infrastructure/issues/2579,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:19:59.571Z,opening:6287166189,alphagov/govuk-chat,alphagov,pull-request,Handle thinking blocks and refusals in Claude responses,https://github.com/alphagov/govuk-chat/pull/1372,open,opening,,davidgisbey,2026-11-09T13:39:26Z,2026-11-09T13:39:31Z,https://github.com/alphagov/govuk-chat/pull/1372,LLM,"## Description
+
+This is the first of three PRs moving the answer pipeline from Sonnet 4.5 and Haiku 4.5 to Sonnet 5.5 and Haiku 5.5. It's groundwork. It doesn't depend on the private repo and changes nothing on the 4.5 models, so it can merge on its own.
+
+Sonnet 5.5 and Haiku 5.5 can send back two kinds of response the pipeline can't cope with at the moment:
+
+- **A response that starts with a `thinking` block.** We'll run both models with thinking off. Even so, Sonnet 5.5 (on `between_tools`, its lowest setting) returns any note of more than a sentence or two that it writes before a tool call as a `thinking` block. Every step reads `content[0]`, so in the router that block would be read instead of the tool call.
+- **A refusal.** Both models can decline a request with a normal 200 and `stop_reason: refusal`, which the 4.5 models never send. The router will also move to `tool_choice: auto` in the third PR, which doesn't guarantee a tool call. At the moment any of these would end up as a `NoMethodError` and an `error_non_specific` status, which hides what actually went wrong.
+
+1. **Read Claude response content blocks by type**: finds the text or tool use block by type in all five steps (rephraser, router, composer, jailbreak guardrails and the guardrail checker), rather than taking the first block.
+2. **Raise an error for unexpected Claude responses**: adds `ClaudeResponse.content_block`. It raises `UnexpectedResponseError` on a refusal, or when the expected block is missing. `PipelineRunner` handles that like an Anthropic API error: it notifies Sentry and gives `error_answer_service_error`. The guardrail checker turns it into the existing `MultipleGuardrail::ResponseError`, and jailbreak guardrails gives it the existing `error_jailbreak_guardrails` status.
+
+## Testing
+
+I ran the full suite in govuk-docker on each commit:
+
+```
+$ govuk-docker run govuk-chat-lite bundle exec rake
+```
+
+| Commit | Result |
+|---|---|
+| Read Claude response content blocks by type | 1,577 examples, 0 failures |
+| Raise an error for unexpected Claude responses | 1,584 examples, 0 failures |
+
+RuboCop and ERB lint gave no offences on either commit. Each component has a new test for a response that starts with a thinking block. I checked that all five fail against the old `content[0]` code.
+
+Once it's deployed to integration:
+
+1. Ask GOV.UK Chat a normal question, such as ""How do I pay VAT?"". It should answer as usual.
+2. In the admin area, open that question. Its status should be `answered`, and the stored LLM responses should look the same as before.
+
+## Risk
+
+Low. The 4.5 models never return thinking blocks or refusals, so their path doesn't change. The only change you could see is that a malformed response now gets `error_answer_service_error` (or the guardrail error status) and a Sentry event, rather than `error_non_specific`.
+
+## What I'd most like opinions on
+
+Is treating a refusal as a service error right? It means a Sentry event and the ""service error"" message for the user. Some refusals will be triggered by users, so they could add noise to Sentry. A proper ""refused"" status would be better, but it's a new answer status that touches analytics. I'd rather see how often refusals happen in the evals first.
+
+## Jira ticket
+
+[CHAT-1223](https://gdsgovukagents.atlassian.net/browse/CHAT-1223)
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+
+[CHAT-1223]: https://gdsgovukagents.atlassian.net/browse/CHAT-1223?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:01.083Z,opening:6097251986,alphagov/frontend,alphagov,issue,We have a route that exists only to mask out Local Links Manager-related electoral commision results,https://github.com/alphagov/frontend/issues/5930,open,opening,,KludgeKML,2026-10-29T09:58:56Z,2026-10-29T09:59:39Z,https://github.com/alphagov/frontend/issues/5930,LLM,"https://www.gov.uk/contact-electoral-registration-office is backed by the electoral commission API, contact-electoral-registration-office is also a valid local links slug, so URLS like https://www.gov.uk/contact-electoral-registration-office/richmond-upon-thames end up returning Local Links Manager info, which is less accurate that the Electoral Commission info. We therefore have a route which intercepts those calls and bounces them to the base search.
+
+It would be better to retire the LLM backing service, or at least make it unreachable so that we don't need this masking route. It would also mean we could stop listing those links as bad in the Local Links Manager dashboard.
+
+Introduced in PR: https://github.com/alphagov/frontend/pull/5333
+
+We can pay it down when (eg) https://www.gov.uk/contact-electoral-registration-office/richmond-upon-thames doesn't resolve as a path.
+
+Some history in archived ticket: https://gov-uk.atlassian.net/browse/PNP-9816",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:05.413Z,opening:6288517356,ministryofjustice/coat-coh-exploratory-analysis,ministryofjustice,pull-request,No dark mode,https://github.com/ministryofjustice/coat-coh-exploratory-analysis/pull/10,closed,opening,,sundari237,2026-11-09T14:57:18Z,2026-11-09T15:15:04Z,https://github.com/ministryofjustice/coat-coh-exploratory-analysis/pull/10,dark mode,Added a config.toml to streamlit - so  No dark mode and data is clear,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:05.413Z,comment:6743602601,ministryofjustice/coat-coh-exploratory-analysis,ministryofjustice,pull-request,No dark mode,https://github.com/ministryofjustice/coat-coh-exploratory-analysis/pull/10,closed,comment,opening:6288517356,mamonu,2026-11-09T15:15:04Z,2026-11-09T15:15:04Z,https://github.com/ministryofjustice/coat-coh-exploratory-analysis/pull/10#issuecomment-6743602601,,"Was on wrong repo (mistake easily done as its a forked repo which immediatelly puts the original repo to merge to)
+Will redo this on the right repo
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:09.189Z,opening:5072063098,ministryofjustice/CFO-CaseAssessmentTrackingSystem,ministryofjustice,pull-request,Configure training timeout and colour scheme,https://github.com/ministryofjustice/CFO-CaseAssessmentTrackingSystem/pull/1335,closed,opening,,samgibsonmoj,2026-08-05T14:40:59Z,2026-08-05T14:43:33Z,https://github.com/ministryofjustice/CFO-CaseAssessmentTrackingSystem/pull/1335,colour scheme,"## 📝 Description
+Increases the timeout in the `training` environment, and alters the theme to work better in light mode.
+
+## 🔗 Jira Ticket
+[CCPM-55](https://dsdmoj.atlassian.net/browse/CCPM-55)
+
+## 🚀 How to QA
+N/A
+
+
+## 📸 Screenshots / Recordings (If applicable)
+Before:
+<img width=""3454"" height=""1992"" alt=""image"" src=""https://github.com/user-attachments/assets/9a13a525-9f29-40d6-8cc4-73121753f559"" />
+
+After:
+<img width=""3456"" height=""1992"" alt=""image"" src=""https://github.com/user-attachments/assets/4945174d-ac3a-444e-957e-444ff68b81f1"" />
+
+
+## ☑️ Checklist Before Merging
+- [x] My code follows the style guidelines of this project
+- [x] I have performed a self-review of my own code
+- [x] I have updated the Jira ticket status to `In Review`
+
+[CCPM-55]: https://dsdmoj.atlassian.net/browse/CCPM-55?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:13.081Z,opening:4939029052,ministryofjustice/CFO-CaseAssessmentTrackingSystem,ministryofjustice,pull-request,Cfodev 1818 fix dark mode banner and chart colours,https://github.com/ministryofjustice/CFO-CaseAssessmentTrackingSystem/pull/1285,closed,opening,,ryankearsley-moj,2026-07-21T12:51:14Z,2026-07-21T13:31:14Z,https://github.com/ministryofjustice/CFO-CaseAssessmentTrackingSystem/pull/1285,dark mode; dark theme,"## 📝 Description
+
+This pull request introduces enhanced support for dark theme customization across the application by allowing environment-specific configuration of primary and accent colors for dark mode. It does this by introducing a new `ThemeDarkColours` class, updating relevant interfaces and configuration files, and modifying the theme application logic to use these new settings. Additionally, it improves the styling of ApexCharts components to better integrate with the application's theme.
+
+**Dark Theme Customization**
+
+* Added a new `ThemeDarkColours` class with properties for `Primary`, `TableLines`, and `AppbarBackground`, and updated the `IApplicationSettings` interface and `AppConfigurationSettings` implementation to include a `PrimaryColourDark` property. [[1]](diffhunk://#diff-0de1b3bf2658f030a5394a834f18d6c805f2526c0875d0d5a51d1929fc69d60aR9-R20) [[2]](diffhunk://#diff-c3b0d4aa84a9c02a6c89b9a7fcd8135b33b30d322060495739d74b97a4bdfd70R11)
+* Updated the `ApplicationTheme` method in `Theme.cs` to accept and use the new `ThemeDarkColours` values for dark theme customization, and updated usages in `AuthenticationLayout` and `MainLayout` to pass these values. [[1]](diffhunk://#diff-41281585d7859da63b6173d95c46d9b1f3f08e8b416de7618c604f045150ff26L5-R5) [[2]](diffhunk://#diff-41281585d7859da63b6173d95c46d9b1f3f08e8b416de7618c604f045150ff26L39-R52) [[3]](diffhunk://#diff-dd90710331a9b9961defc4e65d79cabc5194c6f8fda4a5f1b1b40078ee61714cR9-R11) [[4]](diffhunk://#diff-16dff85c9a13a11efe85a2ef3378273103d7f501d35a4122bf53ea9bd74a1026L38-R38)
+
+**Configuration Enhancements**
+
+* Updated all environment-specific `appsettings` files (`appsettings.json`, `appsettings.Development.json`, `appsettings.PreProduction.json`, `appsettings.Testing.json`, `appsettings.Training.json`) to include the new `PrimaryColourDark` (or `primaryColourDark`) section with appropriate color values for each environment. [[1]](diffhunk://#diff-4f39e63a19fbb563505708558b6d4fcd29d2c6569908eea6ef64a2bd4d0d4e81R25-R29) [[2]](diffhunk://#diff-5a4e37032674a74f23faa0144f4cccc3349bc287589b1f3ab4f136c201abb3d6R25-R29) [[3]](diffhunk://#diff-5dfc8c3fb35cef6ff752b6051bf62d1191c7e40631c1167b52ffe1d7692295b2R26-R30) [[4]](diffhunk://#diff-1c5e1381b0d94d832d8c344852a6c958086cccee7b76ec17eef26d2c176769ddR25-R29) [[5]](diffhunk://#diff-27a0d2366179e70721774d3f6c5396d2c64924e776d6afa70f8ad3a68274762cR59-R63)
+
+**UI Styling Improvements**
+
+* Improved ApexCharts integration by updating CSS to ensure chart text and tooltips use the application's themed colors, enhancing visual consistency in both light and dark modes.
+
+## 🔗 Jira Ticket
+https://dsdmoj.atlassian.net/browse/CFODEV-1818
+
+## 🚀 How to QA
+**Dark mode changes**
+- Check the colours for each environment and that they are readable
+- Swap your dev colours to match the ones in each env (requires app restart to take affect)
+
+**Apex Chart**
+- Menu > Delivery Management > Location Breakdown
+- Check the chart is readable in both light and dark mode **without** reloading the page
+- Check labels and hover boxes
+
+## 📸 Screenshots / Recordings (If applicable)
+## ☑️ Checklist Before Merging
+- [x] My code follows the style guidelines of this project
+- [x] I have performed a self-review of my own code
+- [x] I have updated the Jira ticket status to `In Review`",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:13.081Z,review:4745116310,ministryofjustice/CFO-CaseAssessmentTrackingSystem,ministryofjustice,pull-request,Cfodev 1818 fix dark mode banner and chart colours,https://github.com/ministryofjustice/CFO-CaseAssessmentTrackingSystem/pull/1285,closed,review,opening:4939029052,PaulCooperWorkJustice,2026-07-21T13:30:58Z,2026-07-21T13:30:58Z,https://github.com/ministryofjustice/CFO-CaseAssessmentTrackingSystem/pull/1285#pullrequestreview-4745116310,,Changes look good and works locally,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:17.044Z,opening:6288253671,ministryofjustice/analytical-platform-airflow,ministryofjustice,pull-request,Add workflow configuration for LLM info extraction,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397,closed,opening,,guyvw1,2026-11-09T14:42:49Z,2026-11-09T14:58:49Z,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397,LLM,airflow registration for batching,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:17.044Z,comment:6742867545,ministryofjustice/analytical-platform-airflow,ministryofjustice,pull-request,Add workflow configuration for LLM info extraction,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397,closed,comment,opening:6288253671,github-actions[bot],2026-11-09T14:43:07Z,2026-11-09T14:43:07Z,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397#issuecomment-6742867545,,"<h1>Dependency Review</h1>
+✅ No vulnerabilities or license issues or OpenSSF Scorecard issues found.<h2>Scanned Files</h2>
+None
+
+<!-- dependency-review-pr-comment-marker -->",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:17.044Z,comment:6742885159,ministryofjustice/analytical-platform-airflow,ministryofjustice,pull-request,Add workflow configuration for LLM info extraction,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397,closed,comment,opening:6288253671,github-actions[bot],2026-11-09T14:43:54Z,2026-11-09T14:43:54Z,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397#issuecomment-6742885159,,"Specified image does not exist in the container registry. Please check the supplied image tag is correct, and it has been pushed successfully. Refer to the [User Guidance](https://user-guidance.analytical-platform.service.justice.gov.uk/services/airflow/index.html#create-a-github-release) for more information.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:17.044Z,comment:6742903505,ministryofjustice/analytical-platform-airflow,ministryofjustice,pull-request,Add workflow configuration for LLM info extraction,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397,closed,comment,opening:6288253671,github-actions[bot],2026-11-09T14:44:43Z,2026-11-09T14:44:43Z,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397#issuecomment-6742903505,,"# Terraform Plan Summary (development)
+
+17 to create, 0 to update, 0 to replace, 0 to delete.
+
+## Detailed Changes
+
+### Resources to be created
+
+```diff
++ module.airflow[""capi/bedrock""].aws_iam_role_policy_attachment.athena_read[0]
++ module.airflow[""capi/bedrock""].aws_iam_role_policy_attachment.athena_write[0]
++ module.airflow[""capi/bedrock""].aws_iam_role_policy_attachment.bedrock[0]
++ module.airflow[""capi/bedrock""].aws_iam_role_policy_attachment.generated[0]
++ module.airflow[""capi/bedrock""].aws_iam_role_policy_attachment.glue[0]
++ module.airflow[""capi/bedrock""].aws_iam_role_policy_attachment.kms[0]
++ module.airflow[""capi/bedrock""].helm_release.external_secret[""api-key""]
++ module.airflow[""capi/bedrock""].helm_release.external_secret[""model""]
++ module.airflow[""capi/bedrock""].kubernetes_service_account_v1.this
++ module.airflow[""capi/bedrock""].module.iam_policy[0].aws_iam_policy.policy[0]
++ module.airflow[""capi/bedrock""].module.iam_role[0].aws_iam_role.this[0]
++ module.airflow[""capi/bedrock""].module.secrets_manager[""api-key""].aws_secretsmanager_secret.this[0]
++ module.airflow[""capi/bedrock""].module.secrets_manager[""api-key""].aws_secretsmanager_secret_policy.this[0]
++ module.airflow[""capi/bedrock""].module.secrets_manager[""api-key""].aws_secretsmanager_secret_version.ignore_changes[0]
++ module.airflow[""capi/bedrock""].module.secrets_manager[""model""].aws_secretsmanager_secret.this[0]
++ module.airflow[""capi/bedrock""].module.secrets_manager[""model""].aws_secretsmanager_secret_policy.this[0]
++ module.airflow[""capi/bedrock""].module.secrets_manager[""model""].aws_secretsmanager_secret_version.ignore_changes[0]
+```
+
+## Source
+
+<table>
+<tr><td><strong>Actor</strong></td><td>@guyvw1</td></tr>
+<tr><td><strong>Commit</strong></td><td><a href=""https://github.com/ministryofjustice/analytical-platform-airflow/commit/f83c8c2486cfa17c6148fb2929b92a321502c3f5""><code>f83c8c2486cfa17c6148fb2929b92a321502c3f5</code></a></td></tr>
+<tr><td><strong>Workflow</strong></td><td><a href=""https://github.com/ministryofjustice/analytical-platform-airflow/actions/runs/42637373067"">View run</a></td></tr>
+</table>",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:17.044Z,comment:6743037874,ministryofjustice/analytical-platform-airflow,ministryofjustice,pull-request,Add workflow configuration for LLM info extraction,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397,closed,comment,opening:6288253671,github-advanced-security[bot],2026-11-09T14:50:34Z,2026-11-09T14:50:34Z,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397#issuecomment-6743037874,,"You are seeing this message because GitHub Code Scanning has recently been set up for this repository, or this pull request contains the workflow file for the Code Scanning tool.
+
+### What Enabling Code Scanning Means:
+
+- The 'Security' tab will display more code scanning analysis results (e.g., for the default branch).
+- Depending on your configuration and choice of analysis tool, future pull requests will be annotated with code scanning analysis results.
+- You will be able to see the analysis results for the pull request's branch on this [overview](/ministryofjustice/analytical-platform-airflow/security/code-scanning?query=pr%3A5397+is%3Aopen) once the scans have completed and the checks have passed.
+
+For more information about GitHub Code Scanning, check out [the documentation](https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning).
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:17.044Z,comment:6743037975,ministryofjustice/analytical-platform-airflow,ministryofjustice,pull-request,Add workflow configuration for LLM info extraction,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397,closed,comment,opening:6288253671,github-actions[bot],2026-11-09T14:50:34Z,2026-11-09T14:50:34Z,https://github.com/ministryofjustice/analytical-platform-airflow/pull/5397#issuecomment-6743037975,,"# Container Scan Summary
+
+✅ No fixable high or critical vulnerabilities found.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:20.226Z,opening:6181738820,ministryofjustice/hmpps-probation-check-in-ui,ministryofjustice,pull-request,fix(chatbot): drop the 'What would you like to know?' line from Fred's welcome,https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/116,closed,opening,,mirandadaniel,2026-11-03T11:34:47Z,2026-11-03T11:39:11Z,https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/116,chatbot,"## What
+
+Removes the bold ""What would you like to know?"" line from Fred's welcome message, in English and Welsh, as the service asked. The sentence that followed it (""I can help you by answering questions about online check ins..."") stays as its own paragraph. Nothing else in the welcome changes.
+
+## Checks
+
+Lint and build pass. Copy-only change in `assets/js/chatbot.js`.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:20.226Z,review:5751516520,ministryofjustice/hmpps-probation-check-in-ui,ministryofjustice,pull-request,fix(chatbot): drop the 'What would you like to know?' line from Fred's welcome,https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/116,closed,review,opening:6181738820,richbirch,2026-11-03T11:39:02Z,2026-11-03T11:39:02Z,https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/116#pullrequestreview-5751516520,,🙌 ,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:23.794Z,opening:6097132604,ministryofjustice/hmpps-probation-check-in-ui,ministryofjustice,pull-request,"fix(chatbot): keep the launcher off the camera page's Cancel button (hide during camera, widget 0.4.6)",https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/115,closed,opening,,mirandadaniel,2026-10-29T09:51:34Z,2026-10-29T16:15:47Z,https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/115,chatbot,"## What
+
+On phones the Amplify camera module becomes a fixed fullscreen overlay with its Cancel button pinned to the bottom of the viewport. The chatbot launcher is pinned to the same spot and sits above it, so ""Ask chatbot for help"" covered Cancel, and because the overlay does not scroll there was no way to move it clear.
+
+One rule in `_liveness.scss`: while `.amplify-liveness-camera-module--mobile` is on screen, the launcher is hidden. Fred stays available on the instructions page before the check and the results page after it.
+
+Uses `:has()`, supported in Safari 15.4+, Chrome 105+ and Firefox 121+. Where it is unsupported the rule is ignored and behaviour is unchanged from today.
+
+## Checks
+
+Build and lint pass; the compiled CSS contains the rule.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:23.794Z,comment:6501320231,ministryofjustice/hmpps-probation-check-in-ui,ministryofjustice,pull-request,"fix(chatbot): keep the launcher off the camera page's Cancel button (hide during camera, widget 0.4.6)",https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/115,closed,comment,opening:6097132604,mirandadaniel,2026-10-29T15:43:47Z,2026-10-29T15:43:47Z,https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/115#issuecomment-6501320231,chatbot,"Also pins widget 0.4.6 (published), which drops the launcher label to 16px on phones so the button is 211px wide instead of 244px. Together with the camera-overlay rule this is the complete fix for the launcher covering Cancel. Lint, typecheck, build and the 18 chatbot route tests pass.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:23.794Z,review:5701095583,ministryofjustice/hmpps-probation-check-in-ui,ministryofjustice,pull-request,"fix(chatbot): keep the launcher off the camera page's Cancel button (hide during camera, widget 0.4.6)",https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/115,closed,review,opening:6097132604,richbirch,2026-10-29T16:15:38Z,2026-10-29T16:15:38Z,https://github.com/ministryofjustice/hmpps-probation-check-in-ui/pull/115#pullrequestreview-5701095583,,Nice one!,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:26.623Z,opening:3964121864,DFE-Digital/single-unique-identifier,DFE-Digital,pull-request,docs: SUI-1520 - Update the Mermaid diagrams to also work with GitHub's dark colour scheme,https://github.com/DFE-Digital/single-unique-identifier/pull/457,closed,opening,,udara-jay,2026-02-19T17:25:17Z,2026-02-19T17:36:53Z,https://github.com/DFE-Digital/single-unique-identifier/pull/457,colour scheme,,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:26.623Z,review:3827390712,DFE-Digital/single-unique-identifier,DFE-Digital,pull-request,docs: SUI-1520 - Update the Mermaid diagrams to also work with GitHub's dark colour scheme,https://github.com/DFE-Digital/single-unique-identifier/pull/457,closed,review,opening:3964121864,robshakespeare,2026-02-19T17:33:43Z,2026-02-19T17:33:43Z,https://github.com/DFE-Digital/single-unique-identifier/pull/457#pullrequestreview-3827390712,,"Nice one, elegant solution 👍 ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:30.133Z,opening:3232253565,DFE-Digital/find-a-buying-solution,DFE-Digital,pull-request,Fb 376 - Update site to reflect new frontend colour scheme,https://github.com/DFE-Digital/find-a-buying-solution/pull/231,closed,opening,,tmckernan,2025-07-15T13:24:16Z,2025-07-15T14:39:22Z,https://github.com/DFE-Digital/find-a-buying-solution/pull/231,colour scheme,"Issues
+[https://dfedigital.atlassian.net/browse/FB-376](https://dfedigital.atlassian.net/browse/FB-376)
+
+The [design](https://lucid.app/lucidspark/99574499-5a78-4da9-abf6-78207fd5de84/edit?view_items=Ycaye9V70d0_&invitationId=inv_04524c90-7810-4600-8a5b-3105bff9e0b6) can be found in lucid
+
+Update: 
+- Home Page hovers over any category tile it should appear as light blue. #1d70b8
+- Category page -  page header background colour updated
+- Details page -  page header background colour updated",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:30.133Z,review:3020477598,DFE-Digital/find-a-buying-solution,DFE-Digital,pull-request,Fb 376 - Update site to reflect new frontend colour scheme,https://github.com/DFE-Digital/find-a-buying-solution/pull/231,closed,review,opening:3232253565,threedaymonk,2025-07-15T14:00:37Z,2025-07-15T14:00:37Z,https://github.com/DFE-Digital/find-a-buying-solution/pull/231#pullrequestreview-3020477598,,"~Looks good to me, but the foreground text colour on the home page is white whereas it's black in the ticket designs. I actually think white is better and black would have inadequate contrast, but it would be good to clear this up.~
+
+Ignore this, I misinterpreted the intention of the image on the ticket.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:30.133Z,inline-comment:2207576168,DFE-Digital/find-a-buying-solution,DFE-Digital,pull-request,Fb 376 - Update site to reflect new frontend colour scheme,https://github.com/DFE-Digital/find-a-buying-solution/pull/231,closed,inline-comment,opening:3232253565,threedaymonk,2025-07-15T13:58:13Z,2025-07-15T14:00:37Z,https://github.com/DFE-Digital/find-a-buying-solution/pull/231#discussion_r2207576168,,should we assign these to named colour constants?,app/assets/stylesheets/application.sass.scss,"'@@ -727,3 +732,11 @@ a.all-buying-options-link {
+     position: static
+   }
+ }
++
++.category-header {
++  background-color: #d2e2f1;
++}
++
++.details-header {
++  background-color: #f4f8fb;",,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:31.524Z,opening:2632285751,DFE-Digital/dfe-frontend,DFE-Digital,issue,Dark mode,https://github.com/DFE-Digital/dfe-frontend/issues/16,open,opening,,andyjones81,2024-11-04T09:30:16Z,2025-03-26T11:40:08Z,https://github.com/DFE-Digital/dfe-frontend/issues/16,dark mode,,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:31.524Z,comment:2454557709,DFE-Digital/dfe-frontend,DFE-Digital,issue,Dark mode,https://github.com/DFE-Digital/dfe-frontend/issues/16,open,comment,opening:2632285751,SarahS-DfE,2024-11-04T12:12:47Z,2024-11-04T12:12:47Z,https://github.com/DFE-Digital/dfe-frontend/issues/16#issuecomment-2454557709,dark mode,"I'm a user researcher for the Apprenticeship Service. During testing of improvements to the Find Apprenticeship Training service, I spoke to a real user of the service with an accessibility need and they used dark mode when using online services to help them focus. When I asked how we could make the service we were testing more accessible, they wanted the ability to use the service in dark mode. Therefore, I recommended implementing dark mode to the Find Apprenticeship Training service to make it more accessible. Being able to use dark mode on the Find Apprenticeship Training service, and likely to other services across DfE, could be really valuable. ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:31.524Z,comment:2754112954,DFE-Digital/dfe-frontend,DFE-Digital,issue,Dark mode,https://github.com/DFE-Digital/dfe-frontend/issues/16,open,comment,opening:2632285751,titlescreen,2025-03-26T11:40:06Z,2025-03-26T11:40:06Z,https://github.com/DFE-Digital/dfe-frontend/issues/16#issuecomment-2754112954,dark mode,FWIW if we are considering a dark mode then we may want to consider other colour changes to help people with access needs. For example we may consider changing the backgrounds from white to a pale yellow and increasing the contrast for hints so that dylseic users can better read pages.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:34.803Z,opening:4437910371,DFE-Digital/DfE-School-Account-Alpha,DFE-Digital,pull-request,Remove chatbot from pages,https://github.com/DFE-Digital/DfE-School-Account-Alpha/pull/42,closed,opening,,titlescreen,2026-05-13T12:37:28Z,2026-05-13T12:38:50Z,https://github.com/DFE-Digital/DfE-School-Account-Alpha/pull/42,chatbot,"<img width=""1666"" height=""2098"" alt=""image"" src=""https://github.com/user-attachments/assets/930f2636-1dc3-4e27-9ba9-2b1ac79c53d7"" />
+Remove the chat bot from all the pages
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:34.803Z,review:4281665557,DFE-Digital/DfE-School-Account-Alpha,DFE-Digital,pull-request,Remove chatbot from pages,https://github.com/DFE-Digital/DfE-School-Account-Alpha/pull/42,closed,review,opening:4437910371,kellyrobinson-dfe,2026-05-13T12:38:42Z,2026-05-13T12:38:42Z,https://github.com/DFE-Digital/DfE-School-Account-Alpha/pull/42#pullrequestreview-4281665557,,perfecto!,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:38.019Z,opening:3655210054,DFE-Digital/compass,DFE-Digital,pull-request,fixing reporting and adding chatbot function,https://github.com/DFE-Digital/compass/pull/64,closed,opening,,andyjones81,2025-11-22T23:31:18Z,2025-11-22T23:31:25Z,https://github.com/DFE-Digital/compass/pull/64,chatbot,,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:41.493Z,opening:6082898753,DFE-Digital/single-unique-identifier,DFE-Digital,pull-request,docs: Add cloud architecture,https://github.com/DFE-Digital/single-unique-identifier/pull/816,closed,opening,,jtaylor100,2026-10-28T16:15:57Z,2026-10-28T16:41:50Z,https://github.com/DFE-Digital/single-unique-identifier/pull/816,LLM,"Clarified that the shown architecture is a baseline, not a target, since I think some more changes will be coming.
+
+Did not bother parsing the diagram into an LLM document, since the IaC provides a more maintained reference for a model.
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:43.670Z,opening:5926485392,nhsuk/nhsuk-service-manual,nhsuk,issue,Dark mode for professional system users,https://github.com/nhsuk/nhsuk-service-manual/issues/2691,closed,opening,,tom-hallam,2026-10-19T15:11:58Z,2026-10-20T11:32:23Z,https://github.com/nhsuk/nhsuk-service-manual/issues/2691,dark mode,"Hello
+
+I would like to raise request for a Dark Mode toggle be added to the header for professional-facing apps. 
+
+Problem: 
+The current NHS styling can be difficult to use for users with access needs / visual impairments / and users working during evening hours. The page is too bright, with inadequate contrast for eye conditions, causing difficulty reading and headaches.
+
+I have an example below for the NHS Notes (React) app I maintain:
+
+Example dark mode:
+<img width=""1570"" height=""931"" alt=""Image"" src=""https://github.com/user-attachments/assets/86e2dfcd-8da7-4e7d-a556-9bb35d44e2df"" />
+
+Example code for toggle component and styling shared here:
+
+https://github.com/NHSDigital/nhs-notes 
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:43.670Z,comment:6270588453,nhsuk/nhsuk-service-manual,nhsuk,issue,Dark mode for professional system users,https://github.com/nhsuk/nhsuk-service-manual/issues/2691,closed,comment,opening:5926485392,tom-hallam,2026-10-19T15:12:55Z,2026-10-19T15:12:55Z,https://github.com/nhsuk/nhsuk-service-manual/issues/2691#issuecomment-6270588453,dark mode,"Light mode with dark mode toggle
+
+<img width=""1261"" height=""647"" alt=""Image"" src=""https://github.com/user-attachments/assets/78ea634e-aa2c-4d52-ba87-1bd6ebd24036"" />
+
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:43.670Z,comment:6270726737,nhsuk/nhsuk-service-manual,nhsuk,issue,Dark mode for professional system users,https://github.com/nhsuk/nhsuk-service-manual/issues/2691,closed,comment,opening:5926485392,sarawilcox,2026-10-19T15:19:24Z,2026-10-19T15:19:24Z,https://github.com/nhsuk/nhsuk-service-manual/issues/2691#issuecomment-6270726737,dark mode,"Hi @tom-hallam , we've got a backlog issue for dark mode already. I wonder if you'd mind adding your screenshots and request to that, please? https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453
+
+We do want to tackle dark mode at some point. 
+
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:43.670Z,comment:6289887907,nhsuk/nhsuk-service-manual,nhsuk,issue,Dark mode for professional system users,https://github.com/nhsuk/nhsuk-service-manual/issues/2691,closed,comment,opening:5926485392,tom-hallam,2026-10-20T11:32:23Z,2026-10-20T11:32:23Z,https://github.com/nhsuk/nhsuk-service-manual/issues/2691#issuecomment-6289887907,,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,opening:1434728986,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,opening,,samanthasaw,2022-11-03T14:10:37Z,2026-10-20T11:31:56Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,dark mode,"## What
+
+Dark mode style
+
+## Why
+
+What evidence do you have that services across the NHS need it?
+We discovered a user need on screening for breast screening image readers to have a dark version in order to do their jobs. 
+
+What evidence do you have that it meets the needs of the users of those services?
+Identified user need: 
+As an Image reader, 
+I need to be able to have a dark option to update results
+So that I can be in a dark room image reading at the same time
+
+- Users showed concern over working all day on a very bright screen, as they read images in a dark room, on a dark computer monitor​. 
+- Users preferred the dark mode screen view​. 
+- All users preferred the dark mode and could successfully use the radio buttons to enable light or dark mode. ​
+- ""That is far too bright"" [light version]. ​
+- ""I don’t think anyone is going to use the light mode""
+
+Have you checked that it doesn't already exist in the NHS digital service manual? 
+Yes
+
+## Anything else
+
+We tested all colours using colour contrast tools. ​
+
+Design hypotheses: 
+If we design an option for the user to use the system in dark mode​
+Then they will experience less eye strain in the dark reading environment they work in ​
+We know this works when they tell us this would be beneficial in research 
+
+If we use radio buttons to allow users to switch dark mode on or off​
+Then users are more likely to understand when dark mode is on or off and are more likely to be able to interact with the radios successfully as they are a common pattern​
+We’ll know this works when users can successfully turn dark mode on or off
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,comment:1302377471,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,comment,opening:1434728986,samanthasaw,2022-11-03T16:37:10Z,2022-11-03T16:37:10Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-1302377471,,"Link to latest prototype: https://www.figma.com/proto/zRjlexE67Yeop7P80UjaWz/Event-manager-v3-and-4?node-id=479%3A4383&scaling=min-zoom&page-id=479%3A1204&starting-point-node-id=479%3A4383
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,comment:1302395620,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,comment,opening:1434728986,samanthasaw,2022-11-03T16:51:36Z,2022-11-03T16:51:36Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-1302395620,,"<img width=""1236"" alt=""Screenshot 2022-11-03 at 16 36 24"" src=""https://user-images.githubusercontent.com/38656667/199784090-3286509c-8860-4d2d-97b0-9cdd8d27a95b.png"">
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,comment:1305868501,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,comment,opening:1434728986,mmips,2022-11-07T16:30:11Z,2022-11-07T16:30:11Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-1305868501,dark mode,"hi! thanks for this and the presentation on the last design huddle, it looks great.
+today's accessibility weekly recommended this article on the dark mode (very timely!), sharing for reference as most of the time i saw only positive arguments for the dark mode: https://medium.com/@h_locke/why-dark-mode-causes-more-accessibility-issues-than-it-solves-d2f8359bb46a. it's quite interesting, however, i personally (falling into 47% they mention) am wondering how big of an issue it may actually be, especially when the choice of light or dark mode is available and bearing in mind that quite a lot of people with astigmatism may have treatment applied. i'm wondering if anything similar came up in the studies that were part of the project? maybe it's something for further research if the dark mode was to be widely available across NHS websites and apps for general public?",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,comment:2325006184,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,comment,opening:1434728986,sarawilcox,2024-09-02T15:40:43Z,2024-09-02T15:41:14Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-2325006184,,Related issue: https://github.com/nhsuk/nhsuk-frontend/issues/553 (In nightmode make the NHS logo reverse colour #553),,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,comment:2328681420,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,comment,opening:1434728986,paulpod,2024-09-04T11:28:11Z,2024-09-04T11:32:58Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-2328681420,dark mode,"### 111 Online 
+We looked at Dark Mode a little while ago, here is what we found. (There's a bit of conversation here, and compromise explored)
+Some users have mentioned it in feedback comments and user research for a long time. Some users were forcing dark mode on their browsers using a plugin. Using that plugin, it looks like this:
+<img width=""856"" alt=""screen grabs from browsers using a forced or simulated dark mode"" src=""https://github.com/user-attachments/assets/1d9c249c-c6e0-4deb-bba4-0401e1da6e31"">
+Clearly if filled a need, but there are quite a few issues with it, so surely we could do something better.
+It's important to remember that users might not choose black (if given the option) for the dark mode background, as this can introduce harsh contrast issues. Their choice might be about the screen emitting less light overall, but not about maximising contrast. 
+
+The first issue is the NHS blue on dark and/or black is a complete failure. 
+<img width=""667"" alt=""NHS blue vs black and dark grey backgrounds"" src=""https://github.com/user-attachments/assets/c2abb004-bba6-4753-84e6-a6faf8863a81"">
+We use the blue on text links, so that's going to be the first problem. Going all out for AAA contrast of the NHS blue is going to be a little bit nasty:
+<img width=""1235"" alt=""image discussing shifting the NHS blue up the brightness scale, AAA vs AA"" src=""https://github.com/user-attachments/assets/607e719c-d770-40c5-aa2e-57e69c90e5dc"">
+Bearing in mind that the human eye is more sensitive to blue light than other parts of the spectrum, this seemed reasonable. I made a mockup with a visually comparable blue (along with using **darker images in dark mode**!)
+<img width=""787"" alt=""mock up of blues and images"" src=""https://github.com/user-attachments/assets/4989d95d-8c62-41ed-8579-ba174e499a23"">
+
+Following this I came up with a set of compromise colours that might work in harmony to recreate our page in dark mode while keeping the feel of it. This meant a new blue, that was perceptually close to the NHS Blue but passed at AA - **#348de0**
+<img width=""623"" alt=""map of post it notes dicussing the fundamental elements, colours"" src=""https://github.com/user-attachments/assets/9a2411cc-7e93-449e-aac2-c614225bcf6a"">
+
+This also introduced the need to detect the accessibility setting for high contrast, and offer a definite high contrast option:
+<img width=""793"" alt=""screen with high contrast"" src=""https://github.com/user-attachments/assets/83cba46d-63dc-4821-ae43-f3adb6083e1b"">
+This can be detected in a media query using the css `prefers-contrast`
+eg. 
+```
+@media (prefers-contrast: more) {
+  .contrast-enabled-box {
+    outline: 2px solid white;
+  }
+}
+```
+I added a few more elements, with tweaked high-contrast versions and assembled a long page with a range of items.
+![image](https://github.com/user-attachments/assets/49df334c-1e2d-40ef-8945-693a30e4cafa)
+Low contrast above
+
+<img width=""192"" alt=""image"" src=""https://github.com/user-attachments/assets/4d08893f-9c34-4c91-80d4-74daf1a2d942"">
+High contrast above, note the addition of borders to the boxes to really pick those out, and the much brighter green, red (pink) and blue items.
+
+The big yellow banner was particularly problematic, so even though technically just bringing the colour across would ""work"" it is emitting far too much light for a dark mode.
+<img width=""429"" alt=""look at that"" src=""https://github.com/user-attachments/assets/74a6e22f-eea7-476c-9b25-fc04f650a0cd"">
+
+
+
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,comment:2328944517,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,comment,opening:1434728986,sarawilcox,2024-09-04T12:54:05Z,2024-09-04T12:54:05Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-2328944517,dark mode,"We've talked about dark mode across various NHSE programmes. If we were to pursue this, it would need applying across multiple products and services to avoid a poor user experience. Implementation, particularly in the App, could prove tricky. We'll keep it in the backlog for now.",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,comment:3943920353,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,comment,opening:1434728986,rivalee,2026-02-23T10:31:43Z,2026-02-23T10:31:43Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-3943920353,dark mode,"We've been looking into dark mode for image readers, as part of our 'Manage breast screening' service. This would be constrained to just the image reading portion of the service, as the radiologists work in a dark room. We've just published a design history post with more details and context here: 
+
+https://design-history.prevention-services.nhs.uk/manage-breast-screening/2026/02/experimenting-with-dark-mode-for-image-readers/",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:45.307Z,comment:6289880621,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Dark mode,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453,open,comment,opening:1434728986,tom-hallam,2026-10-20T11:31:56Z,2026-10-20T11:31:56Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-6289880621,dark mode,"Hello
+
+I would like to raise request for a Dark Mode toggle be added to the header for professional-facing apps.
+
+Problem:
+The current NHS styling can be difficult to use for users with access needs / visual impairments / and users working during evening hours. The page is too bright, with inadequate contrast for eye conditions, causing difficulty reading and headaches.
+
+I have an example below for the NHS Notes (React) app I maintain:
+
+Example dark mode:
+ 
+<img width=""1570"" height=""931"" alt=""Image"" src=""https://github.com/user-attachments/assets/deef32a5-c746-445e-8a88-2770a46b25d7"" />
+
+Example code for toggle component and styling shared here:
+
+Light mode with dark mode toggle
+
+<img width=""1261"" height=""647"" alt=""Image"" src=""https://github.com/user-attachments/assets/6bec1799-9242-45ba-820c-4ee044f2626a"" />
+
+
+https://github.com/NHSDigital/nhs-notes",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:48.777Z,opening:4359233267,nhsuk/nhsuk-frontend,nhsuk,pull-request,[WIP] Add reverse modifiers to form controls,https://github.com/nhsuk/nhsuk-frontend/pull/1914,open,opening,,colinrotherham,2026-04-30T15:17:50Z,2026-10-29T10:01:24Z,https://github.com/nhsuk/nhsuk-frontend/pull/1914,dark mode,"## Description
+
+This PR adds `--reverse` modifier support to all form controls
+
+Work might be split out of this PR to support dark mode
+
+* Character count
+* Checkboxes
+* Date input
+* File upload
+* Input
+* Password input
+* Radios
+* Select
+* Textarea
+
+With reverse support also added to:
+
+* Error message
+* Error summary 
+* Form group
+* Hint
+* Label
+* Legend
+
+<img width=""703"" height=""425"" alt=""Reverse form styles"" src=""https://github.com/user-attachments/assets/108db246-3dad-43a0-9d5e-0e3bff63fee1"" />
+
+## Checklist
+
+- [ ] Tested against our [testing policy](https://github.com/nhsuk/nhsuk-frontend/blob/master/docs/contributing/testing.md) (Resolution, Browser & Accessibility)
+- [ ] Follows our [coding standards and style guide](https://github.com/nhsuk/nhsuk-frontend/blob/master/docs/contributing/coding-standards.md)
+- [ ] CHANGELOG entry
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:48.777Z,comment:4359135571,nhsuk/nhsuk-frontend,nhsuk,pull-request,[WIP] Add reverse modifiers to form controls,https://github.com/nhsuk/nhsuk-frontend/pull/1914,open,comment,opening:4359233267,paulrobertlloyd,2026-05-01T11:48:45Z,2026-05-01T11:48:45Z,https://github.com/nhsuk/nhsuk-frontend/pull/1914#issuecomment-4359135571,dark mode,"Is there a demo page in the review app to see all reversed form controls?
+
+The contrast on the above screenshot seem **very** low, almost like the controls are disabled.
+
+I wonder if there needs to be different approaches, one for reversed form components (if needed?) and another for dark mode (which are needed). ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:48.777Z,comment:4359192775,nhsuk/nhsuk-frontend,nhsuk,pull-request,[WIP] Add reverse modifiers to form controls,https://github.com/nhsuk/nhsuk-frontend/pull/1914,open,comment,opening:4359233267,colinrotherham,2026-05-01T12:07:53Z,2026-05-01T12:45:08Z,https://github.com/nhsuk/nhsuk-frontend/pull/1914#issuecomment-4359192775,dark mode,"'@paulrobertlloyd Just the component review pages now updated to show reverse styles:
+
+* [**Character count** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/character-count/)
+* [**Checkboxes** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/checkboxes/)
+* [**Date input** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/date-input/)
+* [**File upload** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/file-upload/)
+* [**Input** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/input/)
+* [**Password input** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/password-input/)
+* [**Radios** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/radios/)
+* [**Select** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/select/)
+* [**Textarea** component examples](https://nhsuk-frontend-pr-1914.herokuapp.com/nhsuk-frontend/components/textarea/)
+
+>The contrast on the above screenshot seem **very** low, almost like the controls are disabled.
+
+Yeah the blue is fairly awful so please consider this as a WIP step towards dark mode
+
+All examples are meeting the 4.5:1 contrast ratio (Level AA) but it'll look a lot better on black
+
+>I wonder if there needs to be different approaches, one for reversed form components (if needed?) and another for dark mode (which are needed).
+
+Exactly this. Our current ""reverse"" approach (e.g. header search white input on a blue background) doesn't work with `color: currentcolor;` because both the text colour and input background colour are the same 😬",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:48.777Z,comment:4552898091,nhsuk/nhsuk-frontend,nhsuk,pull-request,[WIP] Add reverse modifiers to form controls,https://github.com/nhsuk/nhsuk-frontend/pull/1914,open,comment,opening:4359233267,sonarqubecloud[bot],2026-05-27T08:40:27Z,2026-05-27T08:40:27Z,https://github.com/nhsuk/nhsuk-frontend/pull/1914#issuecomment-4552898091,,"## [![Quality Gate Passed](https://sonarsource.github.io/sonarcloud-github-static-resources/v2/checks/QualityGateBadge/qg-passed-20px.png 'Quality Gate Passed')](https://sonarcloud.io/dashboard?id=nhsuk-frontend&pullRequest=1914) **Quality Gate passed**  
+Issues  
+![](https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/passed-16px.png '') [0 New issues](https://sonarcloud.io/project/issues?id=nhsuk-frontend&pullRequest=1914&issueStatuses=OPEN,CONFIRMED&sinceLeakPeriod=true)  
+![](https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/accepted-16px.png '') [0 Accepted issues](https://sonarcloud.io/project/issues?id=nhsuk-frontend&pullRequest=1914&issueStatuses=ACCEPTED)
+
+Measures  
+![](https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/passed-16px.png '') [0 Security Hotspots](https://sonarcloud.io/project/security_hotspots?id=nhsuk-frontend&pullRequest=1914&issueStatuses=OPEN,CONFIRMED&sinceLeakPeriod=true)  
+![](https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/passed-16px.png '') [0.0% Coverage on New Code](https://sonarcloud.io/component_measures?id=nhsuk-frontend&pullRequest=1914&metric=new_coverage&view=list)  
+![](https://sonarsource.github.io/sonarcloud-github-static-resources/v2/common/passed-16px.png '') [0.0% Duplication on New Code](https://sonarcloud.io/component_measures?id=nhsuk-frontend&pullRequest=1914&metric=new_duplicated_lines_density&view=list)  
+  
+<!-- sqra-placement-anchor -->
+[See analysis details on SonarQube Cloud](https://sonarcloud.io/dashboard?id=nhsuk-frontend&pullRequest=1914)
+
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:50.373Z,opening:4493142686,nhsuk/nhsuk-service-manual,nhsuk,issue,Chatbot/AI agent two way conversational UI component / pattern for a public website/app,https://github.com/nhsuk/nhsuk-service-manual/issues/2555,open,opening,,jrbancroft,2026-05-21T08:52:44Z,2026-08-21T09:22:35Z,https://github.com/nhsuk/nhsuk-service-manual/issues/2555,chatbot,"Many NHS Programmes (NHS.UK/111/App) are researching and experimenting with the idea of chat based interfaces to enable service users to access information and services in a more frictionless manner.  [Central Government have also started looking at this for their use cases.](https://insidegovuk.blog.gov.uk/2024/11/28/how-were-designing-gov-uk-chat/) 
+
+Also there are likely to be other NHS organisations/3rd party providers building AI Agents that may require a web UI interface.
+
+111 Wales has an embedded AI Bot in the form of a popup now on its homepage https://111.wales.nhs.uk/ provided by a third party. 
+
+<img width=""1593"" height=""954"" alt=""Image"" src=""https://github.com/user-attachments/assets/155b7cdc-e8c6-4615-a21a-c4f1143094a4"" />
+
+Other examples of conversational UI's
+
+<img width=""768"" height=""433"" alt=""Image"" src=""https://github.com/user-attachments/assets/8ee2226c-5905-4444-b7b7-a8ee6a786003"" />
+
+https://learn.microsoft.com - Sidebar UI Implementation
+
+<img width=""1666"" height=""916"" alt=""Image"" src=""https://github.com/user-attachments/assets/b1f3ed2c-b0a7-46c1-8e29-c34cb1f400a9"" />",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:50.373Z,comment:4506829338,nhsuk/nhsuk-service-manual,nhsuk,issue,Chatbot/AI agent two way conversational UI component / pattern for a public website/app,https://github.com/nhsuk/nhsuk-service-manual/issues/2555,open,comment,opening:4493142686,sarawilcox,2026-05-21T09:40:03Z,2026-05-21T09:40:38Z,https://github.com/nhsuk/nhsuk-service-manual/issues/2555#issuecomment-4506829338,,"Thanks @jrbancroft . I've added this as a proposal to the design system community backlog. It would be great to hear more about what different teams are doing in UI interfaces in this area and to document designs and user research insights here.
+
+I see the GOV.UK has a community backlog issue for [AI — we want your input (emerging patterns, use cases, research findings) #3804](https://github.com/alphagov/govuk-design-system/discussions/3804). 
+
+We may want to limit this issue to chatbots and AI assistants, in particular for public websites/apps. ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:50.373Z,comment:4592777544,nhsuk/nhsuk-service-manual,nhsuk,issue,Chatbot/AI agent two way conversational UI component / pattern for a public website/app,https://github.com/nhsuk/nhsuk-service-manual/issues/2555,open,comment,opening:4493142686,sarawilcox,2026-06-01T12:56:18Z,2026-06-01T12:56:18Z,https://github.com/nhsuk/nhsuk-service-manual/issues/2555#issuecomment-4592777544,,Latest from GOV: [Developing GOV.UK Chat: Our data science and AI engineering journey](https://insidegovuk.blog.gov.uk/2026/05/15/developing-gov-uk-chat-our-data-science-and-ai-engineering-journey/),,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:50.373Z,comment:5368026529,nhsuk/nhsuk-service-manual,nhsuk,issue,Chatbot/AI agent two way conversational UI component / pattern for a public website/app,https://github.com/nhsuk/nhsuk-service-manual/issues/2555,open,comment,opening:4493142686,LaurenMcAllister,2026-08-21T09:22:34Z,2026-08-21T09:22:34Z,https://github.com/nhsuk/nhsuk-service-manual/issues/2555#issuecomment-5368026529,,"We're starting to look at an AI intent capture tool for NHS information and services - provisionally called ""Ask the NHS"". When designing the prototype we've been thinking about how best to introduce this new feature to users so they understand what it is, and have ways out of using it if they don't want to use AI. Having read around some of the emerging guidance in the public sector, we put together some overarching principles to inform the design. 
+
+Broadly : There is deliberate friction in the design to ensure the user pays attention to what they are doing, rather than interact with the service in autopilot.
+
+Specifically: 
+* The user is made aware where AI is being used and what for
+* The user understands that responses may be inaccurate
+* The user understands the rationale/reasoning behind the AI response
+* There is a feedback mechanism where users can report any inaccuracies
+* The user needs simple controls to correct the AI if it's incorrect or goes off track
+* There are clear routes away from using AI back to more traditional input
+* There is a clear fallback option if the AI fails to produce a meaningful response
+* Any error messaging takes account of the context and provides routes out to traditional input
+* The interaction using AI is fully accessible
+* The privacy statement clearly explains use of AI in the service, where any data is stored and the right to withdraw
+
+The prototype is currently in UR. I'll report back any interesting insights/findings. ",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:51.985Z,opening:5815635967,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Tell users that your service uses AI,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/596,open,opening,,sarawilcox,2026-10-12T14:43:24Z,2026-10-19T11:16:15Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/596,chatbot,"[GOV.UK's guidance on AI](https://www.gov.uk/service-manual/technology/using-artificial-intelligence-ai-in-services) says that we should tell users when we're using AI.
+
+> ### Tell users when AI is being used
+> Users do not always need to know what technology or software is used in a service to be able to access it.
+> 
+> However, if you use AI in your service, you must make it clear to users how this might affect:
+> - their data
+> - the outcome or information they receive from the service
+>
+> If you use an AI-powered chatbot, you must make sure users:
+> - understand that the answers they receive do not come from a human and might not be accurate
+> - know how to contact a human being
+
+How are different NHS services doing this? Please share:
+- your use case
+- design thinking
+- screenshots
+- user research insights
+
+## Related issues
+
+- https://github.com/nhsuk/nhsuk-service-manual/pull/2638
+- https://github.com/nhsuk/nhsuk-service-manual/issues/2555",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:20:51.985Z,comment:6265933035,nhsuk/nhsuk-service-manual-community-backlog,nhsuk,issue,Tell users that your service uses AI,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/596,open,comment,opening:5815635967,sarawilcox,2026-10-19T11:16:15Z,2026-10-19T11:16:15Z,https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/596#issuecomment-6265933035,,"Here's a [GOV.UK design history](https://design-histories.education.gov.uk/support-for-care-leavers/adding-an-ai-translation-warning-banner). Using a notification banner component. 
+
+<img width=""830"" height=""319"" alt=""Image"" src=""https://github.com/user-attachments/assets/e5f56c22-3cd7-402a-b803-815262be4f58"" />",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:53.566Z,opening:5864256873,UKHomeOffice/design-system,UKHomeOffice,issue,Add dark mode functionality to the design system,https://github.com/UKHomeOffice/design-system/issues/764,open,opening,,willrichards,2026-10-15T10:15:33Z,2026-10-15T10:23:32Z,https://github.com/UKHomeOffice/design-system/issues/764,dark mode,"### What
+Users working all day on internal systems can opt to set their preferred browser display to dark mode to reduce eye strain and enable a more comfortable working environment.
+
+### Why
+This will give us a better sense of the impact if/when we get to implement dark mode properly
+
+### Who needs to work on this
+Interaction design, developers
+
+### Who needs to review this
+Interaction designers, developers, Design system working group
+
+### Done when
+* Design created for dark mode
+* Accessibility review of dark mode designs
+* Development of dark mode completed
+* Accessibility testing of dark mode
+* Testing with teams already looking for dark mode capability
+* Documentation created on design system
+* Released to design system and available for teams to use
+
+### Other notes
+* This issue has been created from https://github.com/UKHomeOffice/design-system/discussions/433
+
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:57.001Z,opening:553061765,UKHomeOffice/lev-react-components,UKHomeOffice,pull-request,[LEVWEB-1341] Dashboard dark theme,https://github.com/UKHomeOffice/lev-react-components/pull/8,closed,opening,,RobinKnipe,2020-01-21T18:49:11Z,2020-01-21T18:56:41Z,https://github.com/UKHomeOffice/lev-react-components/pull/8,dark theme,Make the dashboard use a dark theme.,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:59.743Z,opening:209461211,UKHomeOffice/platform-hub,UKHomeOffice,pull-request,Web: new color scheme,https://github.com/UKHomeOffice/platform-hub/pull/20,closed,opening,,jits,2017-02-22T13:57:40Z,2017-02-22T14:01:00Z,https://github.com/UKHomeOffice/platform-hub/pull/20,color scheme,Especially for @Joseph-Irving ,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:20:59.743Z,review:23222498,UKHomeOffice/platform-hub,UKHomeOffice,pull-request,Web: new color scheme,https://github.com/UKHomeOffice/platform-hub/pull/20,closed,review,opening:209461211,Joseph-Irving,2017-02-22T14:00:07Z,2017-02-22T14:00:07Z,https://github.com/UKHomeOffice/platform-hub/pull/20#pullrequestreview-23222498,,lvgtm,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:21:02.311Z,opening:3897165290,UKHomeOffice/engineering-guidance-and-standards,UKHomeOffice,issue,Update the 'Using Generative AI' Pattern,https://github.com/UKHomeOffice/engineering-guidance-and-standards/issues/649,closed,opening,,mws-work,2026-02-04T15:41:35Z,2026-03-27T15:30:33Z,https://github.com/UKHomeOffice/engineering-guidance-and-standards/issues/649,generative AI,"We welcome feedback on all of the content on the site. Please let us know what you think we could change or improve below
+
+**Which content do you think should be reviewed?**
+[Using Genative AI Pattern](https://engineering.homeoffice.gov.uk/patterns/using-generative-ai/)
+
+**Why do you think we should review this?**
+Users have commented on the information now being out of date and the Guild Leads have agreed that this is very much needed. 
+
+**Do you have a suggestion for how this could be improved?**
+Remove mentions of out of date and deprecated applications and avoid naming specific tooling
+
+**Additional information**
+Check also that the Gov UK link is still the correct place to link to
+
+**Please confirm the below**
+
+- [X] I have checked through the issues on the repository and don't think this has already been suggested
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:21:05.389Z,opening:2136549974,UKHomeOffice/engineering-guidance-and-standards,UKHomeOffice,pull-request,Add Generative AI link to the link checking exemption,https://github.com/UKHomeOffice/engineering-guidance-and-standards/pull/382,closed,opening,,jeff-horton-ho-sas,2024-02-15T13:37:49Z,2024-04-10T08:11:53Z,https://github.com/UKHomeOffice/engineering-guidance-and-standards/pull/382,generative AI,"# Code change
+
+Add https://www.gartner.com/en/topics/generative-ai to the link checking exemption list to prevent flaky tests
+
+I can confirm:
+## Accessibility considerations
+- [X] Please review the [accessibility checks for layout changes](https://github.com/UKHomeOffice/engineering-guidance-and-standards/blob/main/technical-docs/accessibility/layout-checks.md).
+- [X] This change will not change layouts, page structures or anything else that might impact accessibility",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:21:07.130Z,opening:2136541001,UKHomeOffice/engineering-guidance-and-standards,UKHomeOffice,issue,[BUG] Gartner generative AI link occasionally failing with a permission error in authomated tests,https://github.com/UKHomeOffice/engineering-guidance-and-standards/issues/381,closed,opening,,jeff-horton-ho-sas,2024-02-15T13:33:27Z,2024-02-19T09:16:25Z,https://github.com/UKHomeOffice/engineering-guidance-and-standards/issues/381,generative AI,"**Describe the bug**
+The link checking cypress test occasionally fails getting a 403 Forbidden from https://www.gartner.com/en/topics/generative-ai
+
+<details>
+<summary>Output from failing test run</summary>
+
+```
+1 failing
+
+  1) Check pages contain valid links
+       Using generative AI (/patterns/using-generative-ai/) contains valid links:
+     CypressError: `cy.request()` failed on:
+
+https://www.gartner.com/en/topics/generative-ai
+
+The response we received from your web server was:
+
+  > 403: Forbidden
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+```
+
+</details>
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Create a PR
+2. The e2e tests on PR action will be automatically run
+3. Occasionally it will fail, e.g. https://github.com/UKHomeOffice/engineering-guidance-and-standards/actions/runs/7910698535/job/21593687325 
+
+**Expected behavior**
+This test should consistenly pass. 
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:21:09.639Z,opening:6082402297,hmrc/android-components,hmrc,pull-request,HMA-12592 first push for error dark mode changes in component library,https://github.com/hmrc/android-components/pull/248,closed,opening,,Harry-Accent,2026-10-28T15:47:27Z,2026-11-04T14:59:04Z,https://github.com/hmrc/android-components/pull/248,dark mode,"# 📝 Description
+
+HMA-12592 error dark mode changes
+
+Github Issue
+https://github.com/hmrc/android-components/issues/HMA-12592
+  
+- [ ] Updated CHANGELOG
+- [ ] Updated README
+
+# 🛠 Testing Notes
+
+# 📸 Screenshots
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:21:12.132Z,opening:5925250591,hmrc/android-components,hmrc,pull-request,Feature/hma-12580 dark mode cta components,https://github.com/hmrc/android-components/pull/245,closed,opening,,Harry-Accent,2026-10-19T13:58:15Z,2026-10-22T12:23:54Z,https://github.com/hmrc/android-components/pull/245,dark mode,"# 📝 Description
+
+dark mode changes in component library for buttons , and confirmation background
+
+Github Issue
+https://github.com/hmrc/android-components/issues/12580
+  
+- [ ] Updated CHANGELOG
+- [ ] Updated README
+
+# 🛠 Testing Notes
+
+# 📸 Screenshots
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:21:14.837Z,opening:5664462177,hmrc/android-components,hmrc,pull-request,HMA-12584 cards dark mode colour changes ,https://github.com/hmrc/android-components/pull/244,closed,opening,,Harry-Accent,2026-10-01T15:11:02Z,2026-10-07T10:14:54Z,https://github.com/hmrc/android-components/pull/244,dark mode,"# 📝 Description
+
+Github Issue
+https://github.com/hmrc/android-components/issues/HMA-12584
+  
+- [ ] Updated CHANGELOG
+- [ ] Updated README
+
+# 🛠 Testing Notes
+
+# 📸 Screenshots
+",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T16:21:14.837Z,review:5440726574,hmrc/android-components,hmrc,pull-request,HMA-12584 cards dark mode colour changes ,https://github.com/hmrc/android-components/pull/244,closed,review,opening:5664462177,vijay-hmrc,2026-10-07T10:05:48Z,2026-10-07T10:05:48Z,https://github.com/hmrc/android-components/pull/244#pullrequestreview-5440726574,,LGTM,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,ai,2026-11-09T16:21:17.507Z,opening:1223764106,hmrc/digital-engagement-platform-skin,hmrc,pull-request,[DEP-3169][PR]:DAV3 DA PCS chatbot update,https://github.com/hmrc/digital-engagement-platform-skin/pull/86,closed,opening,,pratikrana06,2022-05-03T07:17:00Z,2022-05-03T10:22:34Z,https://github.com/hmrc/digital-engagement-platform-skin/pull/86,chatbot,"# DEP-3169
+
+Link to AT PR : https://github.com/hmrc/digital-engagement-platform-journey-tests/pull/89
+
+## Checklist PR Raiser
+ - [x]  I've ensured code coverage has not decreased
+ - [x]  I've dealt with any new compilation warnings
+ - [x]  I've ensured the team's coding standards have been met (TBC)?
+ - [ ]  If relevant, I've created corresponding app-config-XXX changes?
+ - [ ]  If I've created new test data, I've ensured there is no real person's data (see https://confluence.tools.tax.service.gov.uk/display/CD/Test+Data+in+the+Open) 
+ - [x]  I've considered the impact my changes have on the UI/Journey tests (please do not break them)
+-  [x]  If relevant, I've added links to associated PRs
+
+## Checklist PR Reviewer
+ - [ ]  I've checked to ensure all relevant unit tests have been written
+ - [ ]  I've checked to ensure the team's coding standards have been met
+ - [ ]  I've executed the acceptance test pack locally to ensure there are no functional regressions (Performance tests where relevant)
+ - [ ]  If I merge I will ensure I use squash and merge",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:32:08.593Z,D_kwDOBG7zSc4AQQlM,UKHomeOffice/design-system,UKHomeOffice,discussion,Dark mode,https://github.com/UKHomeOffice/design-system/discussions/433,open,opening,,daniel-ac-martin,2022-07-29T11:09:55Z,2026-10-15T10:16:23Z,https://github.com/UKHomeOffice/design-system/discussions/433,dark mode; prefers-color-scheme,"Would a 'dark-mode' be useful?
+In my personal experience, one way to reduce eye strain is to swap from black text on white to either:
+
+white text on dark grey
+or
+grey text on black
+
+Lots of other developers do the same thing.
+As some of our users have to stare at our systems all day, a similar argument might apply to them. Dark modes can also be helpful for dash-boards.
+It should be possible to detect the user's preference using prefers-color-scheme.
+Some potential problems with this:
+
+accessibility of the colour palette on a dark background
+some users won't know how to set their preference (although this is no worse than if the option doesn't exist)",,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:32:08.593Z,DC_kwDOBG7zSc4AMgqo,UKHomeOffice/design-system,UKHomeOffice,discussion,Dark mode,https://github.com/UKHomeOffice/design-system/discussions/433,open,comment,D_kwDOBG7zSc4AQQlM,daniel-ac-martin,2022-07-29T11:12:54Z,2022-07-29T11:12:54Z,https://github.com/UKHomeOffice/design-system/discussions/433#discussioncomment-3279528,dark mode,Somewhat related: Example of a GDS-inspired dark mode,,,,,,,,,,,,
+2026-11-09T16:22:22.221Z,dark-mode,2026-11-09T15:32:08.593Z,DC_kwDOBG7zSc4BIRnn,UKHomeOffice/design-system,UKHomeOffice,discussion,Dark mode,https://github.com/UKHomeOffice/design-system/discussions/433,open,comment,D_kwDOBG7zSc4AQQlM,willrichards,2026-10-15T10:16:23Z,2026-10-15T10:16:40Z,https://github.com/UKHomeOffice/design-system/discussions/433#discussioncomment-18946535,,An internal team has reached out for this functionality. Created this issue to work on: #764,,,,,,,,,,,,

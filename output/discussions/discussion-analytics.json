@@ -1,0 +1,6131 @@
+{
+  "repo": "alphagov/govuk-design-system",
+  "category": "Community backlog",
+  "collectedAt": "2026-11-05T17:30:34.465Z",
+  "activityWindowsDays": [
+    30,
+    90,
+    365
+  ],
+  "viewsNote": "GitHub does not expose per-discussion views through its public API.",
+  "discussions": [
+    {
+      "number": 6222,
+      "title": "Dark Mode",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6222",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-12-03T11:06:21Z",
+      "updatedAt": "2026-10-08T11:05:21Z",
+      "commentCount": 72,
+      "replyCount": 0,
+      "responseCount": 72,
+      "uniqueCommenters": 32,
+      "participantCount": 32,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-07-17T10:33:26.000Z",
+      "daysSinceLastResponse": 111,
+      "upvotes": 2,
+      "reactions": 21,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 13,
+          "replies": 0,
+          "responses": 13,
+          "participants": 10,
+          "activeDays": 9
+        }
+      }
+    },
+    {
+      "number": 6135,
+      "title": "Date picker",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6135",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:16:19Z",
+      "updatedAt": "2026-10-08T10:55:56Z",
+      "commentCount": 48,
+      "replyCount": 0,
+      "responseCount": 48,
+      "uniqueCommenters": 24,
+      "participantCount": 25,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2025-05-19T10:21:45.000Z",
+      "daysSinceLastResponse": 535,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6218,
+      "title": "Time input",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6218",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-11-15T12:43:36Z",
+      "updatedAt": "2026-10-08T11:04:53Z",
+      "commentCount": 39,
+      "replyCount": 0,
+      "responseCount": 39,
+      "uniqueCommenters": 20,
+      "participantCount": 20,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-10-16T08:51:37.000Z",
+      "daysSinceLastResponse": 1116,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6245,
+      "title": "Card",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6245",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T10:26:26Z",
+      "updatedAt": "2026-10-08T11:07:42Z",
+      "commentCount": 34,
+      "replyCount": 0,
+      "responseCount": 34,
+      "uniqueCommenters": 20,
+      "participantCount": 21,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-03-12T14:32:21.000Z",
+      "daysSinceLastResponse": 968,
+      "upvotes": 1,
+      "reactions": 2,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6118,
+      "title": "Autocomplete",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6118",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T09:03:03Z",
+      "updatedAt": "2026-10-08T10:53:13Z",
+      "commentCount": 32,
+      "replyCount": 0,
+      "responseCount": 32,
+      "uniqueCommenters": 17,
+      "participantCount": 18,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-03-30T08:46:45.000Z",
+      "daysSinceLastResponse": 220,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 6,
+          "replies": 0,
+          "responses": 6,
+          "participants": 4,
+          "activeDays": 2
+        }
+      }
+    },
+    {
+      "number": 6143,
+      "title": "Maps",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6143",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:10:21Z",
+      "updatedAt": "2026-10-08T10:56:42Z",
+      "commentCount": 32,
+      "replyCount": 0,
+      "responseCount": 32,
+      "uniqueCommenters": 18,
+      "participantCount": 19,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-09-13T08:25:54.000Z",
+      "daysSinceLastResponse": 783,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6200,
+      "title": "Tabbed navigation",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6200",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-05-09T13:40:49Z",
+      "updatedAt": "2026-10-08T11:02:48Z",
+      "commentCount": 31,
+      "replyCount": 0,
+      "responseCount": 31,
+      "uniqueCommenters": 8,
+      "participantCount": 8,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-06-05T10:44:21.000Z",
+      "daysSinceLastResponse": 1249,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6209,
+      "title": "Search box",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6209",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-04-03T15:36:18Z",
+      "updatedAt": "2026-10-08T11:03:38Z",
+      "commentCount": 31,
+      "replyCount": 0,
+      "responseCount": 31,
+      "uniqueCommenters": 17,
+      "participantCount": 17,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-10-16T08:43:41.000Z",
+      "daysSinceLastResponse": 1116,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6172,
+      "title": "Timeout warning",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6172",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:44:34Z",
+      "updatedAt": "2026-10-08T10:59:26Z",
+      "commentCount": 29,
+      "replyCount": 0,
+      "responseCount": 29,
+      "uniqueCommenters": 14,
+      "participantCount": 15,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-01-13T12:20:29.000Z",
+      "daysSinceLastResponse": 1392,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6130,
+      "title": "Currency input",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6130",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T16:30:01Z",
+      "updatedAt": "2026-10-08T10:55:21Z",
+      "commentCount": 26,
+      "replyCount": 0,
+      "responseCount": 26,
+      "uniqueCommenters": 16,
+      "participantCount": 17,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-04-26T13:16:14.000Z",
+      "daysSinceLastResponse": 923,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6148,
+      "title": "Modal dialogue",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6148",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:41:05Z",
+      "updatedAt": "2026-10-08T10:57:05Z",
+      "commentCount": 25,
+      "replyCount": 0,
+      "responseCount": 25,
+      "uniqueCommenters": 14,
+      "participantCount": 15,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-05-06T10:57:48.000Z",
+      "daysSinceLastResponse": 183,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 1,
+          "replies": 0,
+          "responses": 1,
+          "participants": 1,
+          "activeDays": 1
+        }
+      }
+    },
+    {
+      "number": 6140,
+      "title": "Icons",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6140",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:26:28Z",
+      "updatedAt": "2026-10-08T10:56:17Z",
+      "commentCount": 22,
+      "replyCount": 0,
+      "responseCount": 22,
+      "uniqueCommenters": 16,
+      "participantCount": 17,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-11-15T15:31:21.000Z",
+      "daysSinceLastResponse": 1086,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6223,
+      "title": "Navigation bar",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6223",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-08-07T14:37:33Z",
+      "updatedAt": "2026-10-08T11:05:23Z",
+      "commentCount": 21,
+      "replyCount": 0,
+      "responseCount": 21,
+      "uniqueCommenters": 10,
+      "participantCount": 10,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-09-04T09:48:53.000Z",
+      "daysSinceLastResponse": 792,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6229,
+      "title": "Passwordless login",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6229",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-01-02T14:32:27Z",
+      "updatedAt": "2026-10-08T11:06:00Z",
+      "commentCount": 21,
+      "replyCount": 0,
+      "responseCount": 21,
+      "uniqueCommenters": 12,
+      "participantCount": 12,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-04-26T13:39:27.000Z",
+      "daysSinceLastResponse": 923,
+      "upvotes": 1,
+      "reactions": 2,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6125,
+      "title": "Edit a list",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6125",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:22:22Z",
+      "updatedAt": "2026-10-08T10:54:39Z",
+      "commentCount": 20,
+      "replyCount": 0,
+      "responseCount": 20,
+      "uniqueCommenters": 14,
+      "participantCount": 15,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-11-25T11:41:16.000Z",
+      "daysSinceLastResponse": 1806,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 3804,
+      "title": "AI — we want your input (emerging patterns, use cases, research findings)",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/3804",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2024-05-16T15:24:11Z",
+      "updatedAt": "2026-09-18T09:38:19Z",
+      "commentCount": 12,
+      "replyCount": 7,
+      "responseCount": 19,
+      "uniqueCommenters": 12,
+      "participantCount": 12,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-09-18T09:38:19.000Z",
+      "daysSinceLastResponse": 48,
+      "upvotes": 2,
+      "reactions": 6,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 1,
+          "replies": 0,
+          "responses": 1,
+          "participants": 1,
+          "activeDays": 1
+        },
+        "365": {
+          "comments": 2,
+          "replies": 0,
+          "responses": 2,
+          "participants": 2,
+          "activeDays": 2
+        }
+      }
+    },
+    {
+      "number": 6136,
+      "title": "Supporting multiple languages",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6136",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:40:02Z",
+      "updatedAt": "2026-10-08T10:55:53Z",
+      "commentCount": 18,
+      "replyCount": 0,
+      "responseCount": 18,
+      "uniqueCommenters": 16,
+      "participantCount": 17,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2025-10-01T13:25:37.000Z",
+      "daysSinceLastResponse": 400,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6202,
+      "title": "Filter a list",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6202",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-04-05T17:25:52Z",
+      "updatedAt": "2026-10-08T11:03:00Z",
+      "commentCount": 18,
+      "replyCount": 0,
+      "responseCount": 18,
+      "uniqueCommenters": 15,
+      "participantCount": 15,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-10-16T08:42:31.000Z",
+      "daysSinceLastResponse": 1116,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6163,
+      "title": "Native apps",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6163",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2023-03-08T14:13:58Z",
+      "updatedAt": "2026-10-08T10:58:31Z",
+      "commentCount": 15,
+      "replyCount": 0,
+      "responseCount": 15,
+      "uniqueCommenters": 9,
+      "participantCount": 9,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-09-13T15:30:05.000Z",
+      "daysSinceLastResponse": 1149,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 2923,
+      "title": "Contribution submission for Exit this page component",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/2923",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2020-04-27T13:13:08Z",
+      "updatedAt": "2026-10-30T11:28:18Z",
+      "commentCount": 7,
+      "replyCount": 7,
+      "responseCount": 14,
+      "uniqueCommenters": 9,
+      "participantCount": 10,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-10-30T11:28:18.000Z",
+      "daysSinceLastResponse": 6,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 1,
+          "replies": 2,
+          "responses": 3,
+          "participants": 1,
+          "activeDays": 1
+        },
+        "90": {
+          "comments": 1,
+          "replies": 2,
+          "responses": 3,
+          "participants": 1,
+          "activeDays": 1
+        },
+        "365": {
+          "comments": 1,
+          "replies": 2,
+          "responses": 3,
+          "participants": 1,
+          "activeDays": 1
+        }
+      }
+    },
+    {
+      "number": 6147,
+      "title": "Save their progress",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6147",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:25:19Z",
+      "updatedAt": "2026-10-08T10:57:02Z",
+      "commentCount": 14,
+      "replyCount": 0,
+      "responseCount": 14,
+      "uniqueCommenters": 9,
+      "participantCount": 10,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-03-12T13:25:10.000Z",
+      "daysSinceLastResponse": 968,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6122,
+      "title": "Data",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6122",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:13:29Z",
+      "updatedAt": "2026-10-08T10:53:49Z",
+      "commentCount": 13,
+      "replyCount": 0,
+      "responseCount": 13,
+      "uniqueCommenters": 9,
+      "participantCount": 10,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2025-09-26T12:07:54.000Z",
+      "daysSinceLastResponse": 405,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6134,
+      "title": "Make a declaration",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6134",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:39:06Z",
+      "updatedAt": "2026-10-08T10:55:46Z",
+      "commentCount": 13,
+      "replyCount": 0,
+      "responseCount": 13,
+      "uniqueCommenters": 10,
+      "participantCount": 11,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-03-20T12:12:06.000Z",
+      "daysSinceLastResponse": 2421,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6170,
+      "title": "Timeline",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6170",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:47:28Z",
+      "updatedAt": "2026-10-08T10:59:15Z",
+      "commentCount": 13,
+      "replyCount": 0,
+      "responseCount": 13,
+      "uniqueCommenters": 10,
+      "participantCount": 11,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-10-16T08:49:58.000Z",
+      "daysSinceLastResponse": 1116,
+      "upvotes": 1,
+      "reactions": 2,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6201,
+      "title": "Multi-Select Component",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6201",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-10-18T10:48:45Z",
+      "updatedAt": "2026-10-08T11:02:47Z",
+      "commentCount": 13,
+      "replyCount": 0,
+      "responseCount": 13,
+      "uniqueCommenters": 6,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-01-20T07:23:21.000Z",
+      "daysSinceLastResponse": 289,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 5,
+          "replies": 0,
+          "responses": 5,
+          "participants": 3,
+          "activeDays": 2
+        }
+      }
+    },
+    {
+      "number": 6216,
+      "title": "Help us make GOV.UK better (feedback pattern)",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6216",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-10-16T16:02:47Z",
+      "updatedAt": "2026-10-08T11:04:37Z",
+      "commentCount": 12,
+      "replyCount": 0,
+      "responseCount": 12,
+      "uniqueCommenters": 7,
+      "participantCount": 8,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-01-29T11:47:51.000Z",
+      "daysSinceLastResponse": 280,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 2,
+          "replies": 0,
+          "responses": 2,
+          "participants": 2,
+          "activeDays": 2
+        }
+      }
+    },
+    {
+      "number": 6154,
+      "title": "Related links",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6154",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:24:27Z",
+      "updatedAt": "2026-10-08T10:57:41Z",
+      "commentCount": 11,
+      "replyCount": 0,
+      "responseCount": 11,
+      "uniqueCommenters": 6,
+      "participantCount": 7,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-04-03T18:56:46.000Z",
+      "daysSinceLastResponse": 2041,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6246,
+      "title": "Help users know how long something might take (time estimation)",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6246",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-04-28T10:15:53Z",
+      "updatedAt": "2026-10-08T11:07:48Z",
+      "commentCount": 11,
+      "replyCount": 0,
+      "responseCount": 11,
+      "uniqueCommenters": 6,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-09-13T11:05:40.000Z",
+      "daysSinceLastResponse": 1514,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6142,
+      "title": "Reference numbers",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6142",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:24:00Z",
+      "updatedAt": "2026-10-08T10:56:34Z",
+      "commentCount": 10,
+      "replyCount": 0,
+      "responseCount": 10,
+      "uniqueCommenters": 8,
+      "participantCount": 9,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-06-27T08:18:05.000Z",
+      "daysSinceLastResponse": 1592,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6152,
+      "title": "Multi File Upload",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6152",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2024-05-28T16:16:08Z",
+      "updatedAt": "2026-10-08T10:57:24Z",
+      "commentCount": 10,
+      "replyCount": 0,
+      "responseCount": 10,
+      "uniqueCommenters": 5,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-04-14T22:34:40.000Z",
+      "daysSinceLastResponse": 204,
+      "upvotes": 1,
+      "reactions": 2,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 3,
+          "replies": 0,
+          "responses": 3,
+          "participants": 3,
+          "activeDays": 2
+        }
+      }
+    },
+    {
+      "number": 6158,
+      "title": "Share personal data",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6158",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:32:51Z",
+      "updatedAt": "2026-10-08T10:58:03Z",
+      "commentCount": 10,
+      "replyCount": 0,
+      "responseCount": 10,
+      "uniqueCommenters": 6,
+      "participantCount": 7,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-05-27T10:36:39.000Z",
+      "daysSinceLastResponse": 1988,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6167,
+      "title": "Loading spinner",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6167",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:35:53Z",
+      "updatedAt": "2026-10-08T10:59:02Z",
+      "commentCount": 10,
+      "replyCount": 0,
+      "responseCount": 10,
+      "uniqueCommenters": 8,
+      "participantCount": 9,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-11-23T10:35:10.000Z",
+      "daysSinceLastResponse": 1443,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6185,
+      "title": "Submit a photo",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6185",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-22T12:43:17Z",
+      "updatedAt": "2026-10-08T11:00:32Z",
+      "commentCount": 10,
+      "replyCount": 0,
+      "responseCount": 10,
+      "uniqueCommenters": 6,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-07-04T14:26:27.000Z",
+      "daysSinceLastResponse": 854,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6208,
+      "title": "Help users of outdated browsers",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6208",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-07-04T10:18:26Z",
+      "updatedAt": "2026-10-08T11:03:22Z",
+      "commentCount": 9,
+      "replyCount": 0,
+      "responseCount": 9,
+      "uniqueCommenters": 4,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2018-08-06T19:22:50.000Z",
+      "daysSinceLastResponse": 3012,
+      "upvotes": 2,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6215,
+      "title": "Access denied pattern",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6215",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-09-11T09:27:37Z",
+      "updatedAt": "2026-10-08T11:04:18Z",
+      "commentCount": 9,
+      "replyCount": 0,
+      "responseCount": 9,
+      "uniqueCommenters": 6,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-07-11T07:50:27.000Z",
+      "daysSinceLastResponse": 1578,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6127,
+      "title": "Download links",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6127",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:21:26Z",
+      "updatedAt": "2026-10-08T10:54:52Z",
+      "commentCount": 8,
+      "replyCount": 0,
+      "responseCount": 8,
+      "uniqueCommenters": 5,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2025-03-05T13:32:43.000Z",
+      "daysSinceLastResponse": 610,
+      "upvotes": 2,
+      "reactions": 3,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6132,
+      "title": "Delegate authority",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6132",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:18:18Z",
+      "updatedAt": "2026-10-08T10:55:30Z",
+      "commentCount": 8,
+      "replyCount": 0,
+      "responseCount": 8,
+      "uniqueCommenters": 6,
+      "participantCount": 7,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-03-24T08:57:35.000Z",
+      "daysSinceLastResponse": 2052,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6156,
+      "title": "Document history",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6156",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:19:14Z",
+      "updatedAt": "2026-10-08T10:57:46Z",
+      "commentCount": 8,
+      "replyCount": 0,
+      "responseCount": 8,
+      "uniqueCommenters": 5,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-03-18T12:34:33.000Z",
+      "daysSinceLastResponse": 2789,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6193,
+      "title": "Custom error and fail pages",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6193",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-01-28T15:46:19Z",
+      "updatedAt": "2026-10-08T11:01:41Z",
+      "commentCount": 8,
+      "replyCount": 0,
+      "responseCount": 8,
+      "uniqueCommenters": 5,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-08-31T09:07:55.000Z",
+      "daysSinceLastResponse": 1162,
+      "upvotes": 1,
+      "reactions": 4,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6207,
+      "title": "Confirm an action",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6207",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T11:20:13Z",
+      "updatedAt": "2026-10-08T11:03:16Z",
+      "commentCount": 8,
+      "replyCount": 0,
+      "responseCount": 8,
+      "uniqueCommenters": 8,
+      "participantCount": 9,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2025-11-18T13:47:36.000Z",
+      "daysSinceLastResponse": 352,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 1,
+          "replies": 0,
+          "responses": 1,
+          "participants": 1,
+          "activeDays": 1
+        }
+      }
+    },
+    {
+      "number": 6236,
+      "title": "Asking for at least one thing",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6236",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2020-05-21T14:03:23Z",
+      "updatedAt": "2026-10-08T11:06:36Z",
+      "commentCount": 8,
+      "replyCount": 0,
+      "responseCount": 8,
+      "uniqueCommenters": 5,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-06-19T10:32:50.000Z",
+      "daysSinceLastResponse": 2330,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6275,
+      "title": "Add... 'another' / 'to a list', Edit/Change... Remove",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6275",
+      "category": "Community backlog",
+      "closed": true,
+      "closedAt": "2026-10-09T13:11:30Z",
+      "locked": false,
+      "createdAt": "2020-06-25T10:38:03Z",
+      "updatedAt": "2026-10-09T13:11:30Z",
+      "commentCount": 8,
+      "replyCount": 0,
+      "responseCount": 8,
+      "uniqueCommenters": 6,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-11-25T11:32:05.000Z",
+      "daysSinceLastResponse": 1806,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6126,
+      "title": "Business details",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6126",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T09:48:15Z",
+      "updatedAt": "2026-10-08T10:54:39Z",
+      "commentCount": 7,
+      "replyCount": 0,
+      "responseCount": 7,
+      "uniqueCommenters": 3,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-08-31T16:21:20.000Z",
+      "daysSinceLastResponse": 1527,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6146,
+      "title": "Service performance page",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6146",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2024-08-06T14:59:03Z",
+      "updatedAt": "2026-10-08T10:56:52Z",
+      "commentCount": 7,
+      "replyCount": 0,
+      "responseCount": 7,
+      "uniqueCommenters": 3,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-09-30T15:54:23.000Z",
+      "daysSinceLastResponse": 766,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6178,
+      "title": "Video",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6178",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:48:51Z",
+      "updatedAt": "2026-10-08T10:59:51Z",
+      "commentCount": 7,
+      "replyCount": 0,
+      "responseCount": 7,
+      "uniqueCommenters": 7,
+      "participantCount": 8,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-08-15T15:26:27.000Z",
+      "daysSinceLastResponse": 1543,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6203,
+      "title": "WYSIWYG Editor",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6203",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-09-29T16:02:05Z",
+      "updatedAt": "2026-10-08T11:02:59Z",
+      "commentCount": 7,
+      "replyCount": 0,
+      "responseCount": 7,
+      "uniqueCommenters": 5,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-07-27T17:54:16.000Z",
+      "daysSinceLastResponse": 1196,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6243,
+      "title": "Help users confirm previously held information",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6243",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-01-28T15:59:29Z",
+      "updatedAt": "2026-10-08T11:07:28Z",
+      "commentCount": 7,
+      "replyCount": 0,
+      "responseCount": 7,
+      "uniqueCommenters": 7,
+      "participantCount": 8,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-05-15T08:02:53.000Z",
+      "daysSinceLastResponse": 904,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6249,
+      "title": "Timeout page",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6249",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:43:28Z",
+      "updatedAt": "2026-10-08T11:08:13Z",
+      "commentCount": 7,
+      "replyCount": 0,
+      "responseCount": 7,
+      "uniqueCommenters": 6,
+      "participantCount": 7,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-05-11T17:58:45.000Z",
+      "daysSinceLastResponse": 2003,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6117,
+      "title": "Back-to-top link",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6117",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T09:20:07Z",
+      "updatedAt": "2026-10-08T10:52:56Z",
+      "commentCount": 6,
+      "replyCount": 0,
+      "responseCount": 6,
+      "uniqueCommenters": 5,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-01-31T13:26:47.000Z",
+      "daysSinceLastResponse": 1009,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6155,
+      "title": "'Select / Unselect all' functionality?",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6155",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2024-02-20T11:24:45Z",
+      "updatedAt": "2026-10-08T10:57:42Z",
+      "commentCount": 6,
+      "replyCount": 0,
+      "responseCount": 6,
+      "uniqueCommenters": 3,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-02-20T17:58:59.000Z",
+      "daysSinceLastResponse": 988,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6159,
+      "title": "Sign out",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6159",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:35:25Z",
+      "updatedAt": "2026-10-08T10:58:05Z",
+      "commentCount": 6,
+      "replyCount": 0,
+      "responseCount": 6,
+      "uniqueCommenters": 6,
+      "participantCount": 7,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-02-22T14:03:37.000Z",
+      "daysSinceLastResponse": 987,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6174,
+      "title": "Highlighting information",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6174",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-09-16T12:39:03Z",
+      "updatedAt": "2026-10-08T10:59:31Z",
+      "commentCount": 6,
+      "replyCount": 0,
+      "responseCount": 6,
+      "uniqueCommenters": 4,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-10-11T15:18:45.000Z",
+      "daysSinceLastResponse": 1486,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6175,
+      "title": "Before you start page",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6175",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T10:25:46Z",
+      "updatedAt": "2026-10-08T10:59:39Z",
+      "commentCount": 6,
+      "replyCount": 0,
+      "responseCount": 6,
+      "uniqueCommenters": 5,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-05-18T16:28:25.000Z",
+      "daysSinceLastResponse": 2362,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6187,
+      "title": "Share links on social media",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6187",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T10:31:22Z",
+      "updatedAt": "2026-10-08T11:00:43Z",
+      "commentCount": 6,
+      "replyCount": 0,
+      "responseCount": 6,
+      "uniqueCommenters": 6,
+      "participantCount": 7,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-12-09T10:49:52.000Z",
+      "daysSinceLastResponse": 1427,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6124,
+      "title": "Country",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6124",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T12:57:11Z",
+      "updatedAt": "2026-10-08T10:54:19Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-06-25T17:35:19.000Z",
+      "daysSinceLastResponse": 1958,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6150,
+      "title": "Sending emails",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6150",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:27:29Z",
+      "updatedAt": "2026-10-08T10:57:19Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 3,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2025-02-12T15:03:43.000Z",
+      "daysSinceLastResponse": 631,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6184,
+      "title": "Department logos",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6184",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T10:30:48Z",
+      "updatedAt": "2026-10-08T11:00:27Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 5,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2025-02-18T11:46:29.000Z",
+      "daysSinceLastResponse": 625,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6186,
+      "title": "Right-to-left (RTL) language support",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6186",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-06-09T11:04:03Z",
+      "updatedAt": "2026-10-09T08:32:40Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 3,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-06-01T11:13:04.000Z",
+      "daysSinceLastResponse": 157,
+      "upvotes": 3,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 1,
+          "replies": 0,
+          "responses": 1,
+          "participants": 1,
+          "activeDays": 1
+        }
+      }
+    },
+    {
+      "number": 6210,
+      "title": "Print this page",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6210",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-10-15T16:14:01Z",
+      "updatedAt": "2026-10-08T11:03:36Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-04-27T10:33:37.000Z",
+      "daysSinceLastResponse": 2018,
+      "upvotes": 1,
+      "reactions": 2,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6211,
+      "title": "Download, save, print or share a confirmation, receipt, certificate, or letter at the end of a service",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6211",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-08-17T16:02:29Z",
+      "updatedAt": "2026-10-08T11:03:46Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-11-10T16:38:06.000Z",
+      "daysSinceLastResponse": 1091,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6217,
+      "title": "Indeterminate progress indicator",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6217",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-10-15T15:03:02Z",
+      "updatedAt": "2026-10-08T11:04:47Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 5,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-05-19T14:40:03.000Z",
+      "daysSinceLastResponse": 2361,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6232,
+      "title": "Search results page",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6232",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-02-04T13:48:33Z",
+      "updatedAt": "2026-10-08T11:06:15Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 5,
+      "participantCount": 6,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-10-16T08:44:12.000Z",
+      "daysSinceLastResponse": 1116,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6234,
+      "title": "Site banner",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6234",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2020-03-19T12:21:38Z",
+      "updatedAt": "2026-10-08T11:06:25Z",
+      "commentCount": 5,
+      "replyCount": 0,
+      "responseCount": 5,
+      "uniqueCommenters": 4,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-10-19T15:23:56.000Z",
+      "daysSinceLastResponse": 1843,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6131,
+      "title": "Contact preferences",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6131",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T12:44:23Z",
+      "updatedAt": "2026-10-08T10:55:29Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-07-04T15:50:27.000Z",
+      "daysSinceLastResponse": 1220,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6145,
+      "title": "Search for something",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6145",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:26:30Z",
+      "updatedAt": "2026-10-08T10:56:46Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-10-16T08:43:03.000Z",
+      "daysSinceLastResponse": 1116,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6157,
+      "title": "Equality questions and WCAG 2.2 for long-term services",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6157",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2024-02-07T13:04:14Z",
+      "updatedAt": "2026-10-08T10:57:58Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 3,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-09-11T09:50:09.000Z",
+      "daysSinceLastResponse": 785,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6160,
+      "title": "Postcodes",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6160",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:16:51Z",
+      "updatedAt": "2026-10-08T10:58:12Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 3,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-11-18T16:28:03.000Z",
+      "daysSinceLastResponse": 2544,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6165,
+      "title": "'Service status' pattern",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6165",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-11-24T12:03:46Z",
+      "updatedAt": "2026-10-08T10:58:45Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 2,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-12-02T15:11:18.000Z",
+      "daysSinceLastResponse": 1434,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6169,
+      "title": "Terms and conditions",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6169",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:42:48Z",
+      "updatedAt": "2026-10-08T10:59:07Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-10-16T08:51:20.000Z",
+      "daysSinceLastResponse": 1116,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6176,
+      "title": "Case summary page",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6176",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:52:49Z",
+      "updatedAt": "2026-10-08T10:59:42Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-10-11T09:55:38.000Z",
+      "daysSinceLastResponse": 1486,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6181,
+      "title": "Web chat",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6181",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:52:06Z",
+      "updatedAt": "2026-10-08T11:00:04Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-04-03T15:32:00.000Z",
+      "daysSinceLastResponse": 2773,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6183,
+      "title": "Suggested new component - Side menu",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6183",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-07-12T16:10:24Z",
+      "updatedAt": "2026-10-08T11:00:20Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 3,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-07-13T10:21:11.000Z",
+      "daysSinceLastResponse": 1576,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6188,
+      "title": "Copy Button",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6188",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-03-25T09:38:19Z",
+      "updatedAt": "2026-10-08T11:00:49Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-11-05T14:25:22.000Z",
+      "daysSinceLastResponse": 730,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6195,
+      "title": "Video Relay Service (VRS)",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6195",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-01-26T13:21:20Z",
+      "updatedAt": "2026-10-08T11:02:06Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 3,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-03-24T12:51:27.000Z",
+      "daysSinceLastResponse": 1687,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6199,
+      "title": "Error messages: add guidance on how to write good ones",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6199",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-03-12T07:37:33Z",
+      "updatedAt": "2026-10-08T11:02:38Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 2,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-01-30T11:52:36.000Z",
+      "daysSinceLastResponse": 2836,
+      "upvotes": 1,
+      "reactions": 3,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6206,
+      "title": "Signatures",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6206",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-09-16T06:02:14Z",
+      "updatedAt": "2026-10-08T11:03:12Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 2,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-10-02T17:03:01.000Z",
+      "daysSinceLastResponse": 1860,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6213,
+      "title": "Page title",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6213",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-09-07T07:03:18Z",
+      "updatedAt": "2026-10-08T11:03:55Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-12-21T10:46:11.000Z",
+      "daysSinceLastResponse": 2145,
+      "upvotes": 1,
+      "reactions": 6,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6260,
+      "title": "Pay for something",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6260",
+      "category": "Community backlog",
+      "closed": true,
+      "closedAt": "2026-10-08T16:36:26Z",
+      "locked": false,
+      "createdAt": "2018-01-15T09:13:37Z",
+      "updatedAt": "2026-10-08T16:36:51Z",
+      "commentCount": 4,
+      "replyCount": 0,
+      "responseCount": 4,
+      "uniqueCommenters": 4,
+      "participantCount": 5,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-07-08T11:18:18.000Z",
+      "daysSinceLastResponse": 1581,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6138,
+      "title": "Nationality",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6138",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:07:05Z",
+      "updatedAt": "2026-10-08T10:56:11Z",
+      "commentCount": 3,
+      "replyCount": 0,
+      "responseCount": 3,
+      "uniqueCommenters": 3,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-11-17T14:11:18.000Z",
+      "daysSinceLastResponse": 1084,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6177,
+      "title": "Pull quotes",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6177",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-08-16T09:24:27Z",
+      "updatedAt": "2026-10-08T10:59:43Z",
+      "commentCount": 3,
+      "replyCount": 0,
+      "responseCount": 3,
+      "uniqueCommenters": 3,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-08-16T12:00:48.000Z",
+      "daysSinceLastResponse": 1542,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6182,
+      "title": "Contents links",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6182",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T10:28:07Z",
+      "updatedAt": "2026-10-08T11:00:17Z",
+      "commentCount": 3,
+      "replyCount": 0,
+      "responseCount": 3,
+      "uniqueCommenters": 3,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-12-04T12:19:53.000Z",
+      "daysSinceLastResponse": 2528,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6196,
+      "title": "Filtering spam form submissions",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6196",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-06-12T07:51:54Z",
+      "updatedAt": "2026-10-08T11:02:14Z",
+      "commentCount": 3,
+      "replyCount": 0,
+      "responseCount": 3,
+      "uniqueCommenters": 3,
+      "participantCount": 4,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-08-25T13:29:05.000Z",
+      "daysSinceLastResponse": 1168,
+      "upvotes": 1,
+      "reactions": 7,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6227,
+      "title": "Help users to remember their appointment and bring the right documents",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6227",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-12-11T12:29:34Z",
+      "updatedAt": "2026-10-08T11:05:43Z",
+      "commentCount": 3,
+      "replyCount": 0,
+      "responseCount": 3,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2018-12-12T17:09:28.000Z",
+      "daysSinceLastResponse": 2885,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6248,
+      "title": "Support for data saving mode",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6248",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-02-26T18:13:55Z",
+      "updatedAt": "2026-10-08T11:08:00Z",
+      "commentCount": 3,
+      "replyCount": 0,
+      "responseCount": 3,
+      "uniqueCommenters": 2,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-03-01T16:12:02.000Z",
+      "daysSinceLastResponse": 2075,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6120,
+      "title": "Book an appointment",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6120",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T09:26:22Z",
+      "updatedAt": "2026-10-08T10:53:32Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-11-17T15:24:25.000Z",
+      "daysSinceLastResponse": 1814,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6123,
+      "title": "Dashboard page",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6123",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:07:08Z",
+      "updatedAt": "2026-10-08T10:53:58Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-10-16T08:48:26.000Z",
+      "daysSinceLastResponse": 1116,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6128,
+      "title": "Find an address",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6128",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:24:32Z",
+      "updatedAt": "2026-10-08T10:55:04Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-07-27T08:36:13.000Z",
+      "daysSinceLastResponse": 1927,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6129,
+      "title": "Code block",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6129",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T10:13:52Z",
+      "updatedAt": "2026-10-08T10:55:09Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-04-30T09:58:48.000Z",
+      "daysSinceLastResponse": 189,
+      "upvotes": 1,
+      "reactions": 2,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 2,
+          "replies": 0,
+          "responses": 2,
+          "participants": 2,
+          "activeDays": 2
+        }
+      }
+    },
+    {
+      "number": 6137,
+      "title": "Passport details",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6137",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:12:36Z",
+      "updatedAt": "2026-10-08T10:55:55Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-03-05T16:29:30.000Z",
+      "daysSinceLastResponse": 2071,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6141,
+      "title": "Personal details",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6141",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:16:03Z",
+      "updatedAt": "2026-10-08T10:56:22Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-01-18T10:52:28.000Z",
+      "daysSinceLastResponse": 1022,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6151,
+      "title": "Recover an account",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6151",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:22:49Z",
+      "updatedAt": "2026-10-08T10:57:22Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-07-18T16:49:19.000Z",
+      "daysSinceLastResponse": 2667,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6162,
+      "title": "Showing status",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6162",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:39:00Z",
+      "updatedAt": "2026-10-08T10:58:22Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-07-05T15:32:21.000Z",
+      "daysSinceLastResponse": 2680,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6164,
+      "title": "Illustrations",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6164",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-12T13:31:25Z",
+      "updatedAt": "2026-10-08T10:58:32Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2023-04-03T16:00:20.000Z",
+      "daysSinceLastResponse": 1312,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6166,
+      "title": "Get updates about a service",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6166",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:48:18Z",
+      "updatedAt": "2026-10-08T10:58:48Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2018-04-05T08:20:09.000Z",
+      "daysSinceLastResponse": 3136,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6180,
+      "title": "Compare options",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6180",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T10:27:12Z",
+      "updatedAt": "2026-10-08T11:00:01Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2018-12-05T14:19:37.000Z",
+      "daysSinceLastResponse": 2892,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6189,
+      "title": "Showing text changes",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6189",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-03-06T17:01:43Z",
+      "updatedAt": "2026-10-08T11:01:00Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-02-09T16:42:50.000Z",
+      "daysSinceLastResponse": 2095,
+      "upvotes": 0,
+      "reactions": 4,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6205,
+      "title": "Geolocation design",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6205",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-07-03T12:38:06Z",
+      "updatedAt": "2026-10-08T11:03:10Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2018-07-16T13:00:01.000Z",
+      "daysSinceLastResponse": 3034,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6220,
+      "title": "Notification badge",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6220",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-10-22T08:34:44Z",
+      "updatedAt": "2026-10-08T11:05:00Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-05-28T10:57:28.000Z",
+      "daysSinceLastResponse": 2352,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6224,
+      "title": "Help users to find the right service for them",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6224",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-12-10T12:29:14Z",
+      "updatedAt": "2026-10-08T11:05:21Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-10-20T13:42:46.000Z",
+      "daysSinceLastResponse": 1842,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6230,
+      "title": "Track progress or status of application",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6230",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-07-29T12:55:06Z",
+      "updatedAt": "2026-10-08T11:06:02Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-04-08T17:52:01.000Z",
+      "daysSinceLastResponse": 2401,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6231,
+      "title": "Accessibility link",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6231",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-10-18T11:08:13Z",
+      "updatedAt": "2026-10-08T11:06:12Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-02-11T08:55:56.000Z",
+      "daysSinceLastResponse": 2459,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6238,
+      "title": "Make a Joint Application",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6238",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2020-06-26T11:00:51Z",
+      "updatedAt": "2026-10-08T11:06:59Z",
+      "commentCount": 2,
+      "replyCount": 0,
+      "responseCount": 2,
+      "uniqueCommenters": 2,
+      "participantCount": 3,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-06-26T11:38:15.000Z",
+      "daysSinceLastResponse": 2323,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6139,
+      "title": "Get to an answer",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6139",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2026-04-17T12:50:09Z",
+      "updatedAt": "2026-10-08T10:56:14Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2026-04-17T12:52:31.000Z",
+      "daysSinceLastResponse": 202,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 1,
+          "replies": 0,
+          "responses": 1,
+          "participants": 1,
+          "activeDays": 1
+        }
+      }
+    },
+    {
+      "number": 6161,
+      "title": "Line chart component",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6161",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2024-01-16T11:45:51Z",
+      "updatedAt": "2026-10-08T10:58:16Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-11-05T12:15:44.000Z",
+      "daysSinceLastResponse": 730,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6190,
+      "title": "Number output",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6190",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-02-08T15:43:12Z",
+      "updatedAt": "2026-10-08T11:01:04Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2022-07-19T11:03:26.000Z",
+      "daysSinceLastResponse": 1570,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6192,
+      "title": "Document metadata",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6192",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T10:28:49Z",
+      "updatedAt": "2026-10-08T11:01:40Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2018-05-30T09:52:13.000Z",
+      "daysSinceLastResponse": 3081,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6194,
+      "title": "Additional information",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6194",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-03-05T09:24:15Z",
+      "updatedAt": "2026-10-08T11:01:56Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-01-07T12:48:52.000Z",
+      "daysSinceLastResponse": 2859,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6197,
+      "title": "Border styles",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6197",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-05-03T10:03:01Z",
+      "updatedAt": "2026-10-08T11:02:17Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2020-06-05T20:55:14.000Z",
+      "daysSinceLastResponse": 2343,
+      "upvotes": 1,
+      "reactions": 4,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6198,
+      "title": "Toggle switch component",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6198",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-12-31T15:39:29Z",
+      "updatedAt": "2026-10-08T11:02:33Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-02-29T16:47:52.000Z",
+      "daysSinceLastResponse": 980,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6237,
+      "title": "Touch-screen device pattern",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6237",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-12-19T11:50:58Z",
+      "updatedAt": "2026-10-08T11:06:48Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2019-12-20T12:09:08.000Z",
+      "daysSinceLastResponse": 2512,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6244,
+      "title": "Suggestion: warning / destructive links",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6244",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-03-02T10:55:27Z",
+      "updatedAt": "2026-10-08T11:07:31Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2024-10-31T12:14:24.000Z",
+      "daysSinceLastResponse": 735,
+      "upvotes": 1,
+      "reactions": 5,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6247,
+      "title": "Sorting lists",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6247",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-03-05T14:34:48Z",
+      "updatedAt": "2026-10-08T11:07:50Z",
+      "commentCount": 1,
+      "replyCount": 0,
+      "responseCount": 1,
+      "uniqueCommenters": 1,
+      "participantCount": 2,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": "2021-10-28T11:32:11.000Z",
+      "daysSinceLastResponse": 1834,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 5726,
+      "title": "GOV.UK Design System as an agent skill for Claude Code, Codex and Cursor",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/5726",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2026-09-16T15:58:51Z",
+      "updatedAt": "2026-09-16T15:58:51Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6133,
+      "title": "Number input",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6133",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:09:34Z",
+      "updatedAt": "2026-10-08T10:55:32Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 2,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6144,
+      "title": "Mandatory double drop down selection",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6144",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2025-01-21T14:39:41Z",
+      "updatedAt": "2026-10-08T10:56:39Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6149,
+      "title": "Inbox pattern for mail, tasks or notifications",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6149",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2024-07-16T16:19:14Z",
+      "updatedAt": "2026-10-08T10:57:03Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6153,
+      "title": "Set user permissions",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6153",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:31:54Z",
+      "updatedAt": "2026-10-08T10:57:30Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6168,
+      "title": "Search - Empty states",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6168",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-10-03T15:05:21Z",
+      "updatedAt": "2026-10-08T10:59:03Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6171,
+      "title": "Currency converter",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6171",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-09-20T12:30:42Z",
+      "updatedAt": "2026-10-08T10:59:17Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6173,
+      "title": "Sign in",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6173",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:34:30Z",
+      "updatedAt": "2026-10-08T10:59:24Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6179,
+      "title": "Previous names",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6179",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2022-07-20T09:18:00Z",
+      "updatedAt": "2026-10-08T10:59:57Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 2,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6191,
+      "title": "Moving a user from offline to online",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6191",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-03-07T14:34:11Z",
+      "updatedAt": "2026-10-08T11:01:21Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6204,
+      "title": "Progressive Web Apps (PWA) support",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6204",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-07-03T14:21:18Z",
+      "updatedAt": "2026-10-08T11:02:58Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6212,
+      "title": "Make digital to print journeys consistent",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6212",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-10-15T14:38:37Z",
+      "updatedAt": "2026-10-08T11:03:49Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6214,
+      "title": "Wrong type of Government Gateway account",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6214",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-10-15T15:34:55Z",
+      "updatedAt": "2026-10-08T11:04:05Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6221,
+      "title": "Messages",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6221",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-10-18T13:01:03Z",
+      "updatedAt": "2026-10-08T11:05:03Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6225,
+      "title": "Quick edit functionality for admin backend inline form",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6225",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-01-14T14:52:01Z",
+      "updatedAt": "2026-10-08T11:05:30Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6226,
+      "title": "Inline form for backend admin course management application",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6226",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-01-14T15:36:56Z",
+      "updatedAt": "2026-10-08T11:05:42Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6228,
+      "title": "Invite users to a private or public beta",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6228",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-02-14T11:48:55Z",
+      "updatedAt": "2026-10-08T11:05:52Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6235,
+      "title": "Estimated reading time for blog posts",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6235",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2019-09-23T09:16:20Z",
+      "updatedAt": "2026-10-08T11:06:31Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 1,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6239,
+      "title": "Freepost Addresses",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6239",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2021-02-12T14:00:04Z",
+      "updatedAt": "2026-10-08T11:07:05Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6241,
+      "title": "QR codes",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6241",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2020-11-23T12:50:56Z",
+      "updatedAt": "2026-10-08T10:34:39Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    },
+    {
+      "number": 6250,
+      "title": "Sending letters",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/6250",
+      "category": "Community backlog",
+      "closed": false,
+      "closedAt": null,
+      "locked": false,
+      "createdAt": "2018-01-15T09:28:18Z",
+      "updatedAt": "2026-10-08T11:08:14Z",
+      "commentCount": 0,
+      "replyCount": 0,
+      "responseCount": 0,
+      "uniqueCommenters": 0,
+      "participantCount": 1,
+      "unknownAuthorResponses": 0,
+      "lastResponseAt": null,
+      "daysSinceLastResponse": null,
+      "upvotes": 1,
+      "reactions": 0,
+      "views": null,
+      "viewsStatus": "unavailable",
+      "recent": {
+        "30": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "90": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        },
+        "365": {
+          "comments": 0,
+          "replies": 0,
+          "responses": 0,
+          "participants": 0,
+          "activeDays": 0
+        }
+      }
+    }
+  ]
+}

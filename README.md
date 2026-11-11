@@ -44,7 +44,91 @@ It scans the repos with the same rules as the audit's service scan (skipping arc
 
 About 14,000 repos means about 14,000 API calls, so the first full run takes a couple of hours against GitHub's 5,000-requests-an-hour limit. Trees are cached for 30 days, so an interrupted run resumes quickly. Use `--enumerate-only` to list the repos without scanning, `--only-orgs=a,b` to restrict the sweep, or `--since=DATE` to change the cutoff.
 
-### Options
+### Standalone discussion analytics
+
+```sh
+npm run discussions
+npm run discussions -- --refresh
+```
+
+This exports **all Community backlog discussions, including closed ones**, independently of the audit. It does not change scoring or any audit outputs. Files go to `output/discussions/` by default (`--out=DIR` to change it):
+
+- `discussion-analytics.csv` - one row per discussion, for spreadsheet scoring
+- `discussion-analytics.json` - the same metrics with snapshot metadata and nested activity windows
+
+Metrics include:
+
+- `commentCount`: top-level comments; `replyCount`: nested replies; `responseCount`: both combined, excluding the opening post and deleted-comment placeholders. All discussion, comment and reply pages are fetched.
+- `uniqueCommenters`: distinct known accounts posting responses; `participantCount`: those accounts plus the opening author. Bots and team members are included. Unknown/deleted accounts cannot be deduplicated and are excluded from participant counts; their responses still count and are reported in `unknownAuthorResponses`.
+- New comments, replies and combined responses in the last **30, 90 and 365 days**, plus distinct responding participants and active UTC calendar days in each window. Windows include posts created exactly at the cutoff and exclude the opening post. Edits, votes and reactions do not count as recent responses.
+- `lastResponseAt` and `daysSinceLastResponse`: the newest response's posting date and whole elapsed days since it, blank/null when there are no responses. `updatedAt` is supplied separately: it may reflect edits or administrative activity, not new conversation.
+- Current discussion-level upvotes and reactions (not votes or reactions on individual comments).
+- `views` is blank in CSV and `null` in JSON, with `viewsStatus=unavailable`: GitHub's public API does **not** expose per-discussion view counts. Repository traffic is not a substitute for topic views.
+
+Recent windows are relative to `collectedAt`, retained when reusing a cached snapshot. This command uses the shared cache but separate keys from the audit, with a **1-hour** default lifetime (`--max-age=HOURS`, or `--refresh` for fresh data). Fetching is not an atomic snapshot: activity during collection can affect counts. Deleted responses are not recoverable, and threads migrated from issues may retain their original creation dates.
+
+For scoring, consider `responses90d` alongside `participants90d` and `daysSinceLastResponse`, rather than just lifetime responses: long-running threads and repeated posts by one person can otherwise dominate. Open and closed discussions are marked separately so you can filter them. This exporter deliberately does not prescribe or apply score weights.
+
+### Dark mode and AI evidence pilot
+
+```sh
+npm run topics
+npm run topics -- --seeds-only
+npm run topics -- --only-orgs=alphagov,nhsuk --max-threads=5 --refresh
+```
+
+This standalone collector leaves audit scores, implementation matching and discussion
+activity exports unchanged. It starts with the Dark Mode and AI Community backlog
+discussions, then samples public issues and PRs from `alphagov`, `ministryofjustice`,
+`DFE-Digital`, `nhsuk`, `UKHomeOffice` and `hmrc`. Searches include closed threads
+and use explicit topic terms in titles/opening text, ordered by latest update.
+The default cap is three issue/PR threads per topic per owner, selected from the
+latest ten results for each search term (or the cap, if higher). Topic-specific
+titles rank ahead of body-only matches. Queries exclude Dependabot/Renovate;
+local screening excludes bot-authored threads and matches confined to HTML markup.
+This avoids automated review icons and dependency churn crowding out relevant
+conversations, but misses comments-only mentions and is not a census.
+
+Discussion discovery checks seed repositories, sampled issue/PR repositories and
+any `--discussion-repos=owner/repo,owner/repo` additions. It reads at most 200
+recently updated discussions per repository, matches titles/opening text only,
+and selects at most `--max-threads` discussions per topic per repository.
+All pages of comments and nested replies are fetched for selected threads.
+PR evidence includes conversation comments, non-empty reviews and inline review
+comments, with parent links and diff context. Failures stop the export explicitly.
+Closed issues are checked for GitHub's explicit discussion-conversion event;
+converted copies use the discussion as the canonical thread and retain the issue
+URL as an alias, rather than counting the conversation twice.
+
+Files go to `output/topic-evidence/` (`--out=DIR` to change):
+
+- `topic-evidence.json`: original text, dates, authors, permalinks, thread context,
+  per-thread collection times, discovery queries/counts/limits, and review labels.
+- `review-template.csv`: one contextual post per topic per row; claim, quote, target, stance, basis,
+  themes, use case, outcome, confidence and notes are blank for manual review.
+  Copy it to `review.csv` before reviewing so reruns cannot overwrite your work.
+  Copy a row to record multiple claims. Spreadsheet formula prefixes are escaped;
+  use JSON for exact original text.
+- `report.md`: sample breadth, limitations, source threads and the review rubric.
+  Counts describe collected evidence, not support/opposition.
+
+Review claims in context and require exact supporting quotes. Distinguish
+citizen-facing AI, staff tools and developer tooling; high contrast is not necessarily
+dark mode. Keep user research separate from preference. Closed/merged status,
+reactions and silence are not stance evidence, and repository owners are not
+participants' employers. Keyword search will miss synonyms and produce irrelevant
+hits; no automatic sentiment labels or claims of representative government opinion
+are made.
+
+Use `--only-orgs=all` to take owners from the government repo scraper, without the
+implementation scanner's archived/stale exclusions. This can take substantially
+longer and still only searches discussions in discovered/explicit repositories.
+Search truncation, incomplete GitHub results and sample caps are recorded in JSON.
+GitHub indexing, unavailable/deleted posts and non-atomic collection limit coverage.
+This uses separate cache keys with a one-hour default lifetime; `--max-age=HOURS`
+or `--refresh` controls reuse. No text is sent to a classification service.
+
+### Audit options
 
 | Option | Description |
 |---|---|
