@@ -1,0 +1,4900 @@
+{
+ "generatedAt": "2026-11-11T15:36:25.178Z",
+ "results": {
+  "CPS-Innovation/Case-Management-Register-a-Case": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "CPS-Innovation/advocate-panel-application": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": "6.115.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "CPS-Innovation/assurance-frontend": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Civil-Service-Human-Resources/lpg-services": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Civil-Service-Human-Resources/prototype": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "app/assets/javascripts/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "app/assets/javascripts/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Crown-Commercial-Service/DataSubmissionServiceAPI": {
+   "direct": "^1.6.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/apha-apps-perms-move-animal-ui": {
+   "direct": "3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/aphw-ddi-enforcement": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "app/frontend/accessible-autocomplete/index.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/aphw-ddi-portal": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "app/frontend/accessible-autocomplete/index.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/aqie-dataselector-frontend": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "rendered-classes",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/server/add_pollutant/index.njk"
+    ],
+    "standalone-init": [
+     "src/server/add_pollutant/index.njk"
+    ],
+    "rendered-classes": [
+     "src/server/add_pollutant/index.njk"
+    ],
+    "enhance-select": [
+     "src/client/javascripts/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/assurance-frontend": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/cites-pegasus": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/epr-frontend": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/epr-register-enrol-frontend": {
+   "direct": "3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/eutd-mmo-fes-external-frontend": {
+   "direct": "3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "rendered-classes"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "app/components/autocompleteFormField-v2.tsx"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/forms-designer": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "client/src/javascripts/accessible-autocomplete-enhance.js",
+     "client/src/javascripts/preview/autocomplete-renderer.js",
+     "client/src/javascripts/preview/autocomplete-renderer.test.js"
+    ],
+    "enhance-select": [
+     "client/src/javascripts/accessible-autocomplete-enhance.js",
+     "client/src/javascripts/preview/autocomplete-renderer.js",
+     "client/src/javascripts/preview/autocomplete-renderer.test.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/forms-engine-plugin": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/client/javascripts/autocomplete.js"
+    ],
+    "enhance-select": [
+     "src/client/javascripts/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/grants-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/interactive-map": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/lis-infra-ui-services": {
+   "direct": "3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "src/nunjucks/components/autocomplete/macro.njk",
+     "src/components/autocomplete.js",
+     "src/components/autocomplete.test.js"
+    ],
+    "init-call": [
+     "src/components/autocomplete.js",
+     "src/components/autocomplete.test.js"
+    ],
+    "standalone-init": [
+     "src/components/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/marine-licensing-frontend": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "src/client/javascripts/accessible-autocomplete/dropdown-arrow-down.test.js"
+    ],
+    "init-call": [
+     "src/client/javascripts/accessible-autocomplete/index.js"
+    ],
+    "enhance-select": [
+     "src/client/javascripts/accessible-autocomplete/index.js",
+     "src/client/javascripts/accessible-autocomplete/index.test.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/mmo-cr-external-frontend": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "rendered-classes"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "src/server/routes/add-port/index.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/phi-frontend": {
+   "direct": "3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/client/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "src/client/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/phi-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "5.60.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/rpa-ai-guidance-hub-prototype": {
+   "direct": "3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/2026-09-24-context-pane/hub/page.njk"
+    ],
+    "enhance-select": [
+     "app/views/2026-09-24-context-pane/hub/page.njk"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/service-manual-ui": {
+   "direct": "3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DEFRA/trade-imports-animals-frontend": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/client/javascripts/components/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "src/client/javascripts/components/accessible-autocomplete.js",
+     "src/client/javascripts/components/accessible-autocomplete.test.js"
+    ],
+    "rendered-classes": [
+     "src/client/javascripts/components/accessible-autocomplete.js",
+     "src/client/javascripts/components/accessible-autocomplete.test.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/trade-imports-plants-frontend": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/client/javascripts/components/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "src/client/javascripts/components/accessible-autocomplete.js",
+     "src/client/javascripts/components/accessible-autocomplete.test.js"
+    ],
+    "rendered-classes": [
+     "src/client/javascripts/components/accessible-autocomplete.js",
+     "src/client/javascripts/components/accessible-autocomplete.test.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/trade-imports-plants-prototype": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/client/javascripts/components/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "src/client/javascripts/components/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DEFRA/trade-imports-simulator-frontend": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/apply-for-qts-prototype": {
+   "direct": "^2.0.4",
+   "country": "^1.0.2",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "country-package-markup",
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "country-package-markup": [
+     "app/views/eligibility-checker/ineligible-country-no-links.html",
+     "app/views/eligibility-checker/ineligible-country-other-options.html",
+     "app/views/eligibility-checker/ineligible-country.html"
+    ],
+    "init-call": [
+     "app/views/eligibility-checker/policy-led/experiments/question-age-range.html",
+     "app/views/eligibility-checker/policy-led/experiments/subject-two-step.html",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/views/eligibility-checker/policy-led/experiments/question-age-range.html",
+     "app/views/eligibility-checker/policy-led/experiments/subject-two-step.html",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/apply-for-qualified-teacher-status": {
+   "direct": null,
+   "country": "^2.0.0",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "country-package-markup"
+   ],
+   "evidence": {
+    "country-package-markup": [
+     "app/javascript/controllers/location_picker_autocomplete_controller.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/apply-for-teacher-training": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascript/autocompletes/init-autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/javascript/autocompletes/init-autocomplete.js"
+    ],
+    "rendered-classes": [
+     "app/javascript/autocompletes/init-dfe-autocomplete.spec.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/aqts-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.3.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "country-package-markup"
+   ],
+   "evidence": {
+    "country-package-markup": [
+     "app/views/apply/AQTS-372/new-quals-v1-p2.html",
+     "app/views/apply/AQTS-372/new-quals-v1.html",
+     "app/views/apply/AQTS-372/new-quals-v2.html"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/buy-for-your-school": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "init-call"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascript/components/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/check-your-eligibility-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.97.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/autocomplete.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/claim-additional-payments-for-teaching": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/csc-swr-ur-prototype": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "app/assets/javascripts/autocomplete.js",
+     "public/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "app/assets/javascripts/autocomplete.js",
+     "public/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/dfe-complete-conversions-transfers-and-changes": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascript/user_autocomplete.js"
+    ],
+    "standalone-init": [
+     "app/javascript/user_autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/dfe-mps-prototype": {
+   "direct": "^1.6.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/early-years-foundation-recovery": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascript/controllers/autocomplete_controller.js"
+    ],
+    "enhance-select": [
+     "app/javascript/controllers/autocomplete_controller.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/early-years-foundation-recovery-dotnet": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascript/controllers/autocomplete_controller.js"
+    ],
+    "enhance-select": [
+     "app/javascript/controllers/autocomplete_controller.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/ecf2-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^7.27.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/education-benchmarking-and-insights": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select",
+    "init-call"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "front-end-components/src/types/accessible-autocomplete.d.ts",
+     "web/src/Web.App/types/accessible-autocomplete.d.ts"
+    ],
+    "init-call": [
+     "web/src/Web.App/types/accessible-autocomplete.d.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/education-provider-registry-web": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/DfE.EducationProviderRegistry.Web.Mvc/wwwroot/js/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "src/DfE.EducationProviderRegistry.Web.Mvc/wwwroot/js/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/feat": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "web/feat.web/Pages/Location.cshtml"
+    ],
+    "standalone-init": [
+     "web/feat.web/Pages/Location.cshtml"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/fiat-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/find-a-lost-trn": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/find-information-about-schools-and-trusts": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "DfE.FindInformationAcademiesTrusts/assets/javascripts/autocomplete.js"
+    ],
+    "standalone-init": [
+     "DfE.FindInformationAcademiesTrusts/assets/javascripts/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "DfE.FindInformationAcademiesTrusts/assets/javascripts/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/fips-v4": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "rendered-classes",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/v-spk-assessments/products/index.html",
+     "app/views/v1/products/index.html",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "standalone-init": [
+     "app/views/v-spk-assessments/products/index.html",
+     "app/views/v1/products/index.html"
+    ],
+    "rendered-classes": [
+     "app/views/v-spk-assessments/products/index.html",
+     "app/views/v1/products/index.html"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/get-into-teaching-app": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "app/webpacker/packs/accessible_autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/gias-transformation-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/results.html"
+    ],
+    "standalone-init": [
+     "app/views/results.html"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/govuk-ghwt-prototype": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/_components/autocomplete/template.njk",
+     "app/views/getsupport/describe/local-authority-with-autocomplete.html",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/views/_components/autocomplete/template.njk",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "rendered-classes": [
+     "app/views/_components/autocomplete/template.njk"
+    ],
+    "standalone-init": [
+     "app/views/getsupport/describe/local-authority-with-autocomplete.html"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/itt-mentor-payment-sampling-clawback": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.27.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/itt-mentor-services": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascript/controllers/autocomplete_controller.js"
+    ],
+    "standalone-init": [
+     "app/javascript/controllers/autocomplete_controller.js"
+    ],
+    "rendered-classes": [
+     "app/javascript/controllers/autocomplete_controller.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/manage-free-school-projects": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/npq-registration": {
+   "direct": "^3.0.2",
+   "country": "^2.0.0",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/record-concerns-support-trusts": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "ConcernsCaseWork/ConcernsCaseWork/Pages/Case/CreateCase/SelectTeamLeader.cshtml"
+    ],
+    "standalone-init": [
+     "ConcernsCaseWork/ConcernsCaseWork/Pages/Case/CreateCase/SelectTeamLeader.cshtml"
+    ],
+    "rendered-classes": [
+     "ConcernsCaseWork/ConcernsCaseWork/Pages/Case/CreateCase/SelectTeamLeader.cshtml"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/register-early-career-teachers-public": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/register-trainee-teachers": {
+   "direct": "^3.0.1",
+   "country": "^2.0.0",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "app/javascript/scripts/components/form_components/autocomplete/helpers.js"
+    ],
+    "init-call": [
+     "app/javascript/scripts/components/form_components/autocomplete/script.js"
+    ],
+    "enhance-select": [
+     "app/javascript/scripts/components/form_components/autocomplete/script.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/register-training-providers": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascript/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/javascript/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "app/javascript/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/teacher-training-entitlement": {
+   "direct": "^3.0.2",
+   "country": "^2.0.0",
+   "hmrc": "^7.38.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/teaching-vacancies": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascript/js_components/autocomplete/autocomplete.js"
+    ],
+    "standalone-init": [
+     "app/assets/javascript/js_components/autocomplete/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "app/assets/javascript/js_components/autocomplete/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "DFE-Digital/trs-support-console": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/components/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/components/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "DFE-Digital/tte-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": "7.41.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.js",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.js",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "FoodStandardsAgency/register-a-food-business-front-end": {
+   "direct": "3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "pages/la-selector.njk",
+     "src/server/static/auto-complete/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "pages/la-selector.njk",
+     "src/server/static/auto-complete/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "InnovateUKGitHub/innovation-funding-service": {
+   "direct": "^1.6.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "ifs-web-service/ifs-web-core/src/main/resources/static/js/ifs_modules/autoComplete.js"
+    ],
+    "enhance-select": [
+     "ifs-web-service/ifs-web-core/src/main/resources/static/js/ifs_modules/autoComplete.js"
+    ],
+    "rendered-classes": [
+     "ifs-web-service/ifs-web-core/src/main/resources/static/js/ifs_modules/autoComplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "LandRegistry/hmlr-design-system": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "LandRegistry/search-local-land-charges-ui": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/assets/src/js/modules/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "server/assets/src/js/modules/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "LondonBoroughSutton/lbs-design-system": {
+   "direct": "^2.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "NHS-Test-Digital-Design/nhs-antibody-testing-registration-prototype": {
+   "direct": null,
+   "country": "^1.0.1",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "app/assets/javascripts/location-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "NHSDigital/manage-breast-screening-prototype": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "x-govuk-wrapper",
+    "init-call",
+    "enhance-select",
+    "standalone-init",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "x-govuk-wrapper": [
+     "app/views/_components/autocomplete/macro.njk"
+    ],
+    "init-call": [
+     "app/assets/javascript/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascript/autocomplete.js"
+    ],
+    "standalone-init": [
+     "app/assets/javascript/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "app/assets/javascript/autocomplete.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "NHSDigital/manage-vaccinations-in-schools-prototype": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/components/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/components/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "app/assets/javascripts/components/autocomplete.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "NHSDigital/record-a-vaccination-prototype": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascript/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascript/autocomplete.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/appeal-planning-decision": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/appeals-back-office": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "appeals/web/src/client/components/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "appeals/web/src/client/components/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/appeals-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.0.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/applications-backoffice-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.64.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/applications-dco-portal": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/back-office": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "apps/web/src/client/components/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "apps/web/src/client/components/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/back-office-appeals-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.65.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/components/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/components/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/back-office-prototype": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "app/views/banners-1418/create/index 2.html",
+     "app/views/banners-1418/create/index-old.html",
+     "app/views/banners-1418/create/index-with-template.html"
+    ],
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "public/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "public/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/casework-portal": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/crown-developments": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/identify-consultees": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "apps/manage/src/app/views/consultees/report/consultees/add/view.njk",
+     "apps/manage/src/public/javascripts/consultee-autocomplete.js",
+     "apps/manage/src/public/javascripts/consultee-autocomplete.test.js"
+    ],
+    "standalone-init": [
+     "apps/manage/src/public/javascripts/consultee-autocomplete.js"
+    ],
+    "rendered-classes": [
+     "apps/manage/src/public/javascripts/consultee-autocomplete.js",
+     "apps/manage/src/public/javascripts/consultee-autocomplete.test.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/inspector-programming": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "apps/web/src/app/views/assignments/view.njk"
+    ],
+    "enhance-select": [
+     "apps/web/src/app/views/assignments/view.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/local-plans-examinations": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/local-plans-examinations-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.41.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/mpesc-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/assigned-to-me-search.html",
+     "app/views/cases/add-to-list/inspectors/inspector-name.html",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "standalone-init": [
+     "app/views/assigned-to-me-search.html",
+     "app/views/cases/add-to-list/inspectors/inspector-name.html"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/peas-row-commons": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "apps/manage/src/app/views/cases/personal-list/select-user.njk"
+    ],
+    "standalone-init": [
+     "apps/manage/src/app/views/cases/personal-list/select-user.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/section-62a-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/current-service/back-office/create-a-case/03-what-is-the-pre-application-reference-pins.html",
+     "app/views/current-service/back-office/create-a-case/07-lpa.html",
+     "app/views/current-service/back-office/create-a-case/10-secondary-lpa-input.html"
+    ],
+    "enhance-select": [
+     "app/views/current-service/back-office/create-a-case/03-what-is-the-pre-application-reference-pins.html",
+     "app/views/current-service/back-office/create-a-case/07-lpa.html",
+     "app/views/current-service/back-office/create-a-case/10-secondary-lpa-input.html"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "Planning-Inspectorate/template-service": {
+   "direct": "*",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "SkillsFundingAgency/das-apar-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/layouts/main.html",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/views/layouts/main.html",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "SkillsFundingAgency/das-employer-prototype": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": "6.59.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "SkillsFundingAgency/das-flexible-payment-models-prototype": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": "6.58.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "SkillsFundingAgency/das-frontend": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/demos/autocomplete.html",
+     "src/fiu/components/autocomplete/_autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/views/demos/autocomplete.html",
+     "src/fiu/components/autocomplete/_autocomplete.js"
+    ],
+    "standalone-init": [
+     "app/views/demos/autocomplete.html"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "SkillsFundingAgency/das-incentive-pay-prototype": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": "^4.4.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "SkillsFundingAgency/tl-marketing-and-communication": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "SkillsFundingAgency/tl-poc-results-and-certification": {
+   "direct": "^2.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "SkillsFundingAgency/tl-results-and-certification": {
+   "direct": "^2.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "UK-Export-Finance/dtfs2": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "e2e-tests/tfm/cypress/e2e/common-tests/autocomplete-assertions/index.js",
+     "e2e-tests/tfm/cypress/e2e/pages/autoCompleteField.js"
+    ],
+    "init-call": [
+     "trade-finance-manager-ui/component-tests/_macros/accessible-autocomplete-select.component-test.js",
+     "trade-finance-manager-ui/public/js/accessibleAutocomplete.js",
+     "trade-finance-manager-ui/scripts/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "trade-finance-manager-ui/public/js/accessibleAutocomplete.js",
+     "trade-finance-manager-ui/scripts/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "UK-Export-Finance/exip": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "rendered-classes",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/ui/templates/components/accessible-autocomplete-select.njk",
+     "src/ui/public/js/accessibleAutocomplete.js",
+     "src/ui/scripts/accessible-autocomplete.js"
+    ],
+    "rendered-classes": [
+     "e2e-tests/pages/shared/autoCompleteField.js",
+     "e2e-tests/shared-test-assertions/autocomplete-assertions/index.js"
+    ],
+    "enhance-select": [
+     "src/ui/public/js/accessibleAutocomplete.js",
+     "src/ui/scripts/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "UKForeignOffice/lists": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/server/views/apply/which-country-list-do-you-want-to-be-added-to.njk",
+     "src/server/middlewares/__tests__/accessible-autocomplete.test.ts"
+    ],
+    "enhance-select": [
+     "src/server/views/apply/which-country-list-do-you-want-to-be-added-to.njk",
+     "src/server/middlewares/__tests__/accessible-autocomplete.test.ts"
+    ],
+    "rendered-classes": [
+     "src/server/middlewares/__tests__/accessible-autocomplete.test.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "UKHSA-Internal/talktofrank-beta": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "rendered-classes"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "app/shared/components/AccessibleSearch/component.jsx"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "UKHomeOffice/aspel-workspace": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "UKHomeOfficeForms/hof": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "alphagov/collections-publisher": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/components/autocomplete.js"
+    ],
+    "standalone-init": [
+     "app/assets/javascripts/components/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "alphagov/content-data-admin": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/components/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/components/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "alphagov/data-marketplace-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.35.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "alphagov/datagovuk_find": {
+   "direct": "^2.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "alphagov/signon": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "app/views/account/organisations/edit.html.erb",
+     "app/views/batch_invitations/new.html.erb",
+     "app/assets/javascripts/modules/accessible-autocomplete.js"
+    ],
+    "init-call": [
+     "app/assets/javascripts/modules/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/modules/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "cabinetoffice/fb-editor": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "cabinetoffice/fb-runner": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "cabinetoffice/ggis-prototypes": {
+   "direct": null,
+   "country": null,
+   "hmrc": "5.39.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "co-cddo/dds": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^5.24.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "communitiesuk/epb-data-frontend": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "lib/views/component__filter_options.erb",
+     "assets/javascript/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "lib/views/component__filter_options.erb",
+     "assets/javascript/accessible-autocomplete.min.js"
+    ],
+    "rendered-classes": [
+     "assets/javascript/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "communitiesuk/funding-service": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "communitiesuk/funding-service-prototypes": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "communitiesuk/mhclg_svelte_component_library": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "communitiesuk/submit-social-housing-lettings-and-sales-data": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/frontend/controllers/accessible_autocomplete_controller.js"
+    ],
+    "enhance-select": [
+     "app/frontend/controllers/accessible_autocomplete_controller.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "defra-design/caseworking-ai-test": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "defra-design/defra-forms-mvp-prototype": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": "^6.22.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "defra-design/fcp-farming-front-door": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.78.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "defra-design/forms-prototype": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": "^6.22.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "defra-design/get-air-pollution-data-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": "6.112.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "app/assets/javascripts/bundles/autocomplete.bundle.js",
+     "app/assets/javascripts/bundles/autocomplete_la_11.bundle.js",
+     "app/assets/javascripts/bundles/autocomplete_la_12.bundle.js"
+    ],
+    "rendered-classes": [
+     "app/assets/javascripts/bundles/autocomplete.bundle.js",
+     "app/assets/javascripts/bundles/autocomplete_la_11.bundle.js",
+     "app/assets/javascripts/bundles/autocomplete_la_12.bundle.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "defra-design/new-cites-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.113.0",
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/views/common-data.html"
+    ],
+    "standalone-init": [
+     "app/views/common-data.html"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "defra-design/wtp-glw-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^5.3.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "public/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "public/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "dhsc-govuk/Get-Adult-Social-Care-Data_Prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": "6.112.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dhsc-govuk/HealthyBabies": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "init-call"
+   ],
+   "evidence": {
+    "init-call": [
+     "client/src/types/accessible-autocomplete.d.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dhsc-govuk/gamblinglevy": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "init-call"
+   ],
+   "evidence": {
+    "init-call": [
+     "client/src/types/accessible-autocomplete.d.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "digital-land/config-manager": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "application/templates/datamanager/add-data.html",
+     "application/templates/datamanager/dashboard_add.html"
+    ],
+    "enhance-select": [
+     "application/templates/datamanager/add-data.html",
+     "application/templates/datamanager/dashboard_add.html"
+    ],
+    "standalone-init": [
+     "application/templates/datamanager/dashboard_add.html"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "digital-land/submit": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dvsa/cvs-app-vtm": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "src/app/accessible-autocomplete.d.ts",
+     "src/app/forms/components/autocomplete/__tests__/autocomplete.component.spec.ts",
+     "src/app/forms/components/autocomplete/__tests__/load-accessible-autocomplete.spec.ts"
+    ],
+    "rendered-classes": [
+     "src/app/forms/components/autocomplete/autocomplete.component.ts",
+     "src/app/forms/components/govuk-form-group-autocomplete/govuk-form-group-autocomplete.component.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dvsa/front-end": {
+   "direct": "^1.6.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/assets/js/development/modules/autocomplete/autocomplete.js"
+    ],
+    "enhance-select": [
+     "src/assets/js/development/modules/autocomplete/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/SRA-UCD-sandpit": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.38.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/attendance-allowance-agent": {
+   "direct": "^3.0.1",
+   "country": "^2.0.0",
+   "hmrc": "6.97.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/accessible-autocomplete2.min.js",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/accessible-autocomplete2.min.js",
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/atw-application-service": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^2.7.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/atw-payment-claims-grant": {
+   "direct": null,
+   "country": null,
+   "hmrc": "5.67.1",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/atw-payment-claims-service": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^5.2.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/beam-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.35.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/bsp-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.35.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/carers-alerts-prototype": {
+   "direct": "2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/case-manager-review-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.117.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/cmg-employers-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.35.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/cms-enforcement-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.32.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/cold-weather-payments": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.117.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/colleague-view-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.36.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/common-capabilities-task": {
+   "direct": "2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "app/assets/javascripts/components/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js",
+     "app/assets/javascripts/components/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/dwp-kbv-uplift": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.40.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "dwp/dwp-mwac-prototype": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/dwp-task-master": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/evidence-prototype": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": "7.38.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/fqm-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.66.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/funeral-payments-manager": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.35.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/gateway-services-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.40.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/get-a-nino": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.117.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/has-supporting-docs": {
+   "direct": "3.0.1",
+   "country": "1.0.2",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/laterlife-agent-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.104.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/mcmc-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.23.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/newstyle-modernisation": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.65.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/one-view-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.117.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/pc-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^5.11.3",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/preferences-evidence-notify": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.117.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/prototype-dth": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.117.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/prototype-residency-test": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.40.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/pyca-hrt-review": {
+   "direct": null,
+   "country": "^1.0.0",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "country-package-markup"
+   ],
+   "evidence": {
+    "country-package-markup": [
+     "app/views/includes/scripts.html"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "dwp/pyca-prototype": {
+   "direct": null,
+   "country": "^1.0.1",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "country-package-markup"
+   ],
+   "evidence": {
+    "country-package-markup": [
+     "app/views/includes/scripts.html"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "dwp/ref-data-services": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.35.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/repay-my-debt-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.40.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/retirement-change-of-circs": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^7.19.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/retirement-maintain": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.35.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "app/assets/javascripts/location-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/send-fit-note": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.117.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/ui-atw-claim": {
+   "direct": null,
+   "country": null,
+   "hmrc": "5.67.1",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/ui-atw-claim-counter-sign": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.97.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/ui-ds1500-frontend": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.56.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/ui-fitnote-frontend": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.28.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "dwp/workplace-subsidy-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.117.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "govuk-one-login/ipv-cri-address-front": {
+   "direct": "3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/views/address/what-country.njk"
+    ],
+    "enhance-select": [
+     "src/views/address/what-country.njk"
+    ],
+    "rendered-classes": [
+     "src/views/address/what-country.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "govuk-pay/pay-selfservice": {
+   "direct": "2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/client-side/autocomplete.js"
+    ],
+    "standalone-init": [
+     "src/client-side/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "hmcts/cath-service": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "apps/web/src/pages/(admin)/manual-upload/index.njk",
+     "apps/web/src/pages/(admin)/non-strategic-upload/index.njk"
+    ],
+    "init-call": [
+     "apps/web/src/assets/js/search-autocomplete.ts"
+    ],
+    "standalone-init": [
+     "apps/web/src/assets/js/search-autocomplete.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "hmcts/cui-ra": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/main/views/components/accessible-autocomplete/macro.njk",
+     "src/main/views/dynamic-form.njk",
+     "src/main/views/forms/type-ahead.njk"
+    ],
+    "standalone-init": [
+     "src/main/views/dynamic-form.njk",
+     "src/main/views/forms/type-ahead.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "hmcts/darts-portal": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/app/core/models/courthouse/modules/accessible-autocomplete.d.ts"
+    ],
+    "enhance-select": [
+     "src/app/core/models/courthouse/modules/accessible-autocomplete.d.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "hmcts/deed-poll-admin": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/assets/js/accessible-autocomplete.d.ts",
+     "src/assets/js/document-type-autocomplete.ts"
+    ],
+    "enhance-select": [
+     "src/assets/js/accessible-autocomplete.d.ts",
+     "src/assets/js/document-type-autocomplete.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "hmcts/juror-bureau": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "hmcts/sscs-submit-your-appeal": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "hmrc/calculate-ni-frontend": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^7.27.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "hmrc/design-system": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^7.20.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "init-call"
+   ],
+   "evidence": {
+    "init-call": [
+     "application/templates/layout-example.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "hmrc/hmrc-frontend": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "hmrc-wrapper",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "hmrc-wrapper": [
+     "src/accessible-autocomplete.js",
+     "src/components/accessible-autocomplete/accessible-autocomplete.browser.test.js"
+    ],
+    "enhance-select": [
+     "src/components/accessible-autocomplete/accessible-autocomplete.js",
+     "src/components/accessible-autocomplete/browser.test.js"
+    ],
+    "rendered-classes": [
+     "src/components/accessible-autocomplete/browser.test.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "hmrc/odx-child-benefit-frontend": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.31.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "assets/lib/location-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "hmrc/odx-paye-hicbc-frontend": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^6.75.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "assets/lib/location-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "hmrc/odx-paye-iabd-frontend": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.58.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "assets/lib/location-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "hmrc/odx-self-assessment-frontend": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.58.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "assets/lib/location-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/Claim-for-Crown-Court-Defence": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascript/modules/Helpers.Autocomplete.js",
+     "app/javascript/shims/accessible-autocomplete-global.js",
+     "spec/javascripts/Helpers.Autocomplete_spec.js"
+    ],
+    "enhance-select": [
+     "app/javascript/modules/Helpers.Autocomplete.js",
+     "spec/javascripts/Helpers.Autocomplete_spec.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/accredited-programmes-community-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "6.53.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/analytics-platform-control-panel": {
+   "direct": "2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "controlpanel/frontend/static/components/autocomplete/autocomplete.js"
+    ],
+    "enhance-select": [
+     "controlpanel/frontend/static/components/autocomplete/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "controlpanel/frontend/static/components/autocomplete/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/apply-for-legal-aid-prototype": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/autocomplete/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/autocomplete/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/calculate-release-dates": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autoCompletePrisonName.js"
+    ],
+    "enhance-select": [
+     "assets/js/autoCompletePrisonName.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/crmfour-proto": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/cvl-improvements-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "^7.41.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/data-platform-app": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "js/components/add-another-autocomplete/add-another-autocomplete.js",
+     "js/components/entra-user-autocomplete/entra-user-autocomplete.js"
+    ],
+    "init-call": [
+     "js/components/entra-user-autocomplete/entra-user-autocomplete.js"
+    ],
+    "standalone-init": [
+     "js/components/entra-user-autocomplete/entra-user-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/dwf-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/fb-editor": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/fb-runner": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-accredited-programmes-manage-and-deliver-ui": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-activities-management": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "frontend/components/autocomplete/autocomplete.js"
+    ],
+    "enhance-select": [
+     "frontend/components/autocomplete/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "frontend/components/autocomplete/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-activity-management-prototype": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-approved-premises-ui": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/accessibleAutocomplete.js"
+    ],
+    "enhance-select": [
+     "assets/js/accessibleAutocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-arns-assessment-platform-ui": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/forms/sentence-plan/components/accessible-autocomplete/accessibleAutocomplete.tsx",
+     "server/forms/sentence-plan/components/accessible-autocomplete/accessible-autocomplete.mjs"
+    ],
+    "standalone-init": [
+     "server/forms/sentence-plan/components/accessible-autocomplete/accessible-autocomplete.mjs"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-book-a-prison-visit-ui": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-book-secure-move-frontend": {
+   "direct": "2.0.4",
+   "country": null,
+   "hmrc": "7.30.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-community-accommodation-tier-2-bail-prototypes": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/autocomplete.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-community-support-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-contacts-ui": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-court-appearance-scheduler-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autocomplete.js"
+    ],
+    "enhance-select": [
+     "assets/js/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "assets/js/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-court-cases-release-dates": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/components/autocompleteFilter.ts"
+    ],
+    "enhance-select": [
+     "assets/js/components/autocompleteFilter.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-electronic-monitoring-create-an-order": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/views/components/accessible-autocomplete/macro.njk",
+     "server/views/components/accessible-autocomplete/template.njk",
+     "server/views/pages/order/about-the-device-wearer/device-wearer.njk"
+    ],
+    "enhance-select": [
+     "server/views/components/accessible-autocomplete/template.njk"
+    ],
+    "standalone-init": [
+     "server/views/pages/order/about-the-device-wearer/device-wearer.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-external-movements-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autocomplete.js"
+    ],
+    "enhance-select": [
+     "assets/js/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "assets/js/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-identify-remand-periods": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autoCompletePrisonName.js"
+    ],
+    "enhance-select": [
+     "assets/js/autoCompletePrisonName.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-incident-reporting": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/views/macros/accessible-autocomplete/macro.njk",
+     "server/views/pages/dashboard/index.njk",
+     "assets/js/components/accessibleAutocomplete.ts"
+    ],
+    "standalone-init": [
+     "server/views/pages/dashboard/index.njk"
+    ],
+    "enhance-select": [
+     "assets/js/components/accessibleAutocomplete.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-interventions-prototype": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.34.0",
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascripts/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-interventions-ui": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/views/amendAReferral/amendProbationOffice.njk",
+     "server/views/amendAReferral/prisonEstablishment.njk"
+    ],
+    "enhance-select": [
+     "server/views/amendAReferral/amendProbationOffice.njk",
+     "server/views/amendAReferral/prisonEstablishment.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-jobs-board-ui": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/views/macros/accessible-autocomplete/macro.njk",
+     "server/views/macros/accessible-autocomplete/template.njk",
+     "server/views/pages/jobs/jobIsNationalUpdate/index.njk"
+    ],
+    "enhance-select": [
+     "server/views/macros/accessible-autocomplete/template.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-manage-users": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autoComplete.ts"
+    ],
+    "enhance-select": [
+     "assets/js/autoComplete.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-manage-users-temp-rewrite": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autoComplete.ts"
+    ],
+    "enhance-select": [
+     "assets/js/autoComplete.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-managing-prisoner-apps-staff-ui": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/views/components/accessibleAutocomplete/macro.njk",
+     "server/views/pages/applications/list/partials/filter.njk"
+    ],
+    "standalone-init": [
+     "server/views/components/accessibleAutocomplete/macro.njk",
+     "server/views/pages/applications/list/partials/filter.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-official-visits-prototype": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-prisoner-profile": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/shared/autocomplete.ts"
+    ],
+    "enhance-select": [
+     "assets/js/shared/autocomplete.ts"
+    ],
+    "rendered-classes": [
+     "assets/js/shared/autocomplete.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-probation-supervision-contacts-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-registers": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autoCompleteCounty.js",
+     "assets/js/autoCompleteTown.js",
+     "assets/js/referenceAutocomplete.js"
+    ],
+    "standalone-init": [
+     "assets/js/autoCompleteCounty.js",
+     "assets/js/autoCompleteTown.js",
+     "assets/js/referenceAutocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-release-scheduler-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autocomplete.js"
+    ],
+    "enhance-select": [
+     "assets/js/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "assets/js/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-remand-and-sentencing": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "both",
+   "signals": [
+    "init-call",
+    "standalone-init",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autoCompleteCourtName.js",
+     "assets/js/autoCompleteLegacySentenceType.js",
+     "assets/js/autoCompleteNextAppearanceCourtName.js"
+    ],
+    "standalone-init": [
+     "assets/js/autoCompleteCourtName.js",
+     "assets/js/autoCompleteNextAppearanceCourtName.js",
+     "assets/js/autoCompleteOffenceName.js"
+    ],
+    "enhance-select": [
+     "assets/js/autoCompleteLegacySentenceType.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-restricted-patients-ui": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autocomplete-agency.js"
+    ],
+    "enhance-select": [
+     "assets/js/autocomplete-agency.js"
+    ],
+    "rendered-classes": [
+     "assets/js/autocomplete-agency.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-send-legal-mail-staff-ui": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-single-accommodation-service-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/accessibleAutocomplete.js"
+    ],
+    "enhance-select": [
+     "assets/js/accessibleAutocomplete.js"
+    ],
+    "rendered-classes": [
+     "assets/js/accessibleAutocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-strengths-based-needs-assessments-ui": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-temporary-accommodation-ui": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/views/applications/pages/accommodation-need/contact-details/practitioner-pdu.njk"
+    ],
+    "enhance-select": [
+     "server/views/applications/pages/accommodation-need/contact-details/practitioner-pdu.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-transfer-scheduler-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autocomplete.js"
+    ],
+    "enhance-select": [
+     "assets/js/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "assets/js/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-video-conference-schedule-ui": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autocomplete.js"
+    ],
+    "enhance-select": [
+     "assets/js/autocomplete.js"
+    ],
+    "rendered-classes": [
+     "assets/js/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/hmpps-visit-someone-in-prison-prototype": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": "7.44.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/laa-amend-a-claim": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/laa-apply-for-criminal-legal-aid": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/laa-submit-a-bulk-claim": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/launchpad-prototype": {
+   "direct": "^3.0.0",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/make-recall-decision-ui": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/views/components/accessible-autocomplete/macro.njk",
+     "server/views/components/accessible-autocomplete/template.njk"
+    ],
+    "enhance-select": [
+     "server/views/components/accessible-autocomplete/template.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/manage-a-workforce-ui": {
+   "direct": "3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "assets/js/autocomplete-email-v2.js",
+     "assets/js/autocomplete-email.js"
+    ],
+    "enhance-select": [
+     "assets/js/autocomplete-email-v2.js",
+     "assets/js/autocomplete-email.js"
+    ],
+    "rendered-classes": [
+     "assets/js/autocomplete-email-v2.js",
+     "assets/js/autocomplete-email.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ministryofjustice/prepare-a-case": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "server/views/components/accessible-autocomplete/template.njk"
+    ],
+    "enhance-select": [
+     "server/views/components/accessible-autocomplete/template.njk"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ministryofjustice/send-legal-mail-to-prisons": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nationalarchives/ds-caselaw-public-ui": {
+   "direct": null,
+   "country": "2.0.0",
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhs-digital-gp-it-futures/GPITBuyingCatalogue": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "src/NHSD.GPIT.BuyingCatalogue.WebApp/wwwroot/js/accessible-autocomplete/accessible-autocomplete.min.js",
+     "src/NHSD.GPIT.BuyingCatalogue.WebApp/wwwroot/js/accessible-autocomplete/autoCompleteConfig.js"
+    ],
+    "enhance-select": [
+     "src/NHSD.GPIT.BuyingCatalogue.WebApp/wwwroot/js/accessible-autocomplete/accessible-autocomplete.min.js",
+     "src/NHSD.GPIT.BuyingCatalogue.WebApp/wwwroot/js/accessible-autocomplete/autoCompleteConfig.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsbsa/cdr-client-prototype": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "rendered-classes",
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "rendered-classes": [
+     "templates/Do-not-use-tce-2465/amp-update-attribute.html",
+     "templates/Do-not-use-tce-2465/vmp-update-attribute.html",
+     "public/js/autocomplete2.min.js"
+    ],
+    "init-call": [
+     "public/js/autocomplete.js",
+     "public/js/autocomplete2.min.js"
+    ],
+    "enhance-select": [
+     "public/js/autocomplete.js",
+     "public/js/autocomplete2.min.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsbsa/clean-up-dropped-employments": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascript/autocomplete.js",
+     "public/assets/javascript/autocomplete.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascript/autocomplete.js",
+     "public/assets/javascript/autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsbsa/hs-design-history": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsbsa/medicines-management-prototype": {
+   "direct": "^2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "public/js/autocomplete.js"
+    ],
+    "enhance-select": [
+     "public/js/autocomplete.js"
+    ]
+   },
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsbsa/mys-pharmacy": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/assets/javascript/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "app/assets/javascript/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsbsa/nhsbsa-design-history": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsbsa/nhsuk-frontend": {
+   "direct": "^2.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "init-call"
+   ],
+   "evidence": {
+    "init-call": [
+     "packages/components/header/autoCompleteConfig.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsbsa/research-playbook": {
+   "direct": "^2.0.3",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "nhsuk/nhsuk-service-manual": {
+   "direct": "^3.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "",
+   "signals": [
+    "init-call"
+   ],
+   "evidence": {
+    "init-call": [
+     "app/javascripts/accessible-autocomplete.mjs"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ukgov-equality-hub/equality-action-plans-prototypes": {
+   "direct": null,
+   "country": null,
+   "hmrc": "7.15.0",
+   "xgovuk": null,
+   "mode": "",
+   "signals": [],
+   "evidence": {},
+   "isPrototype": true,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ukhsa-collaboration/digital-form-builder": {
+   "direct": "^2.0.2",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select"
+   ],
+   "evidence": {
+    "init-call": [
+     "runner/src/server/plugins/engine/views/components/autocompletefield.html",
+     "runner/public/static/accessible-autocomplete.min.js"
+    ],
+    "enhance-select": [
+     "runner/src/server/plugins/engine/views/components/autocompletefield.html",
+     "runner/public/static/accessible-autocomplete.min.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": true,
+   "gemWrappers": []
+  },
+  "ukhsa-collaboration/nsc-recommendationsp": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "standalone input",
+   "signals": [
+    "init-call",
+    "standalone-init"
+   ],
+   "evidence": {
+    "init-call": [
+     "frontend/src/autocomplete/index.js"
+    ],
+    "standalone-init": [
+     "frontend/src/autocomplete/index.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "ukhsa-collaboration/ntbs_Beta": {
+   "direct": "2.0.4",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "enhance-select"
+   ],
+   "evidence": {
+    "enhance-select": [
+     "ntbs-service/wwwroot/source/Components/AutocompleteSelect.ts"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  },
+  "uktrade/redbox": {
+   "direct": "^3.0.1",
+   "country": null,
+   "hmrc": null,
+   "xgovuk": null,
+   "mode": "select enhancement",
+   "signals": [
+    "init-call",
+    "enhance-select",
+    "rendered-classes"
+   ],
+   "evidence": {
+    "init-call": [
+     "django_app/frontend/src/interaction_design_system/ids/components/accessible-autocomplete.js"
+    ],
+    "enhance-select": [
+     "django_app/frontend/src/interaction_design_system/ids/components/accessible-autocomplete.js"
+    ],
+    "rendered-classes": [
+     "django_app/frontend/src/interaction_design_system/ids/components/accessible-autocomplete.js"
+    ]
+   },
+   "isPrototype": false,
+   "ownAutocomplete": false,
+   "gemWrappers": []
+  }
+ }
+}

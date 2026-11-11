@@ -9,4 +9,9 @@ Generated 2026-11-11 from the audit snapshot of 2026-11-04. One doc per candidat
 - [Search and filtering](./search.md) — search (input/box), filter (filter a list), search-result, search-bar, no-results
 - [Page structure, headings and navigation](./page-structure.md) — page-heading, heading, contents-list, sub-navigation, related-navigation
 
+Package-level scans (different method: dependency manifests plus class/JS signals, regenerated 2026-11-11):
+
+- [NHS table variants](./nhs-table-variants.md) — which of the six NHS table kinds (compact, striped, responsive, scrolling, sortable, reverse) nhsuk-frontend dependents actually use, including legacy pre-10.6.0 class names
+- [accessible-autocomplete](./accessible-autocomplete.md) — repos using alphagov/accessible-autocomplete, directly or via the HMRC/x-govuk wrappers, with integration mode (select enhancement vs standalone input)
+
 Methodology and caveats: [report.md](../report.md).
