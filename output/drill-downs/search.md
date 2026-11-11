@@ -4,37 +4,37 @@ Generated 2026-11-11 from the audit snapshot of 2026-11-04 ([clusters.json](../c
 
 Search is the #1 candidate overall (79.7). This doc covers the search input, results, no-results and search-bar clusters, plus the filter cluster (63.1) since filtering a results list is the same work for most teams.
 
-Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own.
+Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own. "Orgs" counts unique GitHub organisations.
 
 Caveats: detection is filename/class-name based, so some hits may be false positives, and one hit per repo means the audit shows *an* example file, not every instance. Class usage and component detection are independent scans: a repo can use a community class without having its own matching file, and vice versa.
 
 ## At a glance
 
-| Cluster | Status | Score | Repos (production / prototype) | Extend GOV.UK |
-|---|---|---|---|---|
-| search (input/box) | not in GOV.UK Frontend | 79.7 | 147 (110 / 37) |  |
-| filter (filter a list) | not in GOV.UK Frontend | 63.1 | 142 (97 / 45) |  |
-| search-result | not in GOV.UK Frontend | 42.4 | 40 (31 / 9) |  |
-| search-bar | not in GOV.UK Frontend | 30 | 14 (14 / 0) |  |
-| no-results | not in GOV.UK Frontend | 31.1 | 13 (13 / 0) |  |
+| Cluster | Status | Score | Repos (production / prototype) | Orgs | Extend GOV.UK |
+|---|---|---|---|---|---|
+| search (input/box) | not in GOV.UK Frontend | 79.7 | 147 (110 / 37) | 43 |  |
+| filter (filter a list) | not in GOV.UK Frontend | 63.1 | 142 (97 / 45) | 39 |  |
+| search-result | not in GOV.UK Frontend | 42.4 | 40 (31 / 9) | 21 |  |
+| search-bar | not in GOV.UK Frontend | 30.0 | 14 (14 / 0) | 13 |  |
+| no-results | not in GOV.UK Frontend | 31.1 | 13 (13 / 0) | 7 |  |
 
 ## Community class adoption
 
 Repos using another design system's classes. These are *consumers* of a community component — evidence of which existing implementation teams reach for.
 
-| Class | Source design system | Repos using it | Production | Prototypes |
-|---|---|---|---|---|
-| `moj-search` | moj-frontend | 27 | 19 | 8 |
-| `gem-c-search` | govuk-publishing-components | 18 | 6 | 12 |
-| `nhsuk-search-input` | nhsuk-frontend | 1 | 0 | 1 |
-| `moj-filter` | moj-frontend | 34 | 22 | 12 |
-| `moj-multi-select` | moj-frontend | 11 | 9 | 2 |
-| `moj-search-toggle` | moj-frontend | 2 | 0 | 2 |
-| `tna-date-search` | tna-frontend | 1 | 1 | 0 |
+| Class | Source design system | Repos | Orgs | Production | Prototypes |
+|---|---|---|---|---|---|
+| `moj-search` | moj-frontend | 27 | 7 | 19 | 8 |
+| `gem-c-search` | govuk-publishing-components | 18 | 7 | 6 | 12 |
+| `nhsuk-search-input` | nhsuk-frontend | 1 | 1 | 0 | 1 |
+| `moj-filter` | moj-frontend | 34 | 10 | 22 | 12 |
+| `moj-multi-select` | moj-frontend | 11 | 5 | 9 | 2 |
+| `moj-search-toggle` | moj-frontend | 2 | 1 | 0 | 2 |
+| `tna-date-search` | tna-frontend | 1 | 1 | 1 | 0 |
 
 **14 repos both consume a community class and have their own implementation** in the clusters below; **74 consume a community class with no matching own implementation detected**.
 
-<details><summary>Consumers without their own implementation (74 repos)</summary>
+<details><summary>Consumers without their own implementation (74 repos, 14 orgs)</summary>
 
 - **alphagov**: [data-marketplace-prototype](https://github.com/alphagov/data-marketplace-prototype) (proto) (`gem-c-search`), [govuk-dark-mode-prototype](https://github.com/alphagov/govuk-dark-mode-prototype) (proto) (`gem-c-search`)
 - **co-cddo**: [cms-prototype](https://github.com/co-cddo/cms-prototype) (proto) (`gem-c-search`), [data-catalogue-prototypes](https://github.com/co-cddo/data-catalogue-prototypes) (proto) (`gem-c-search`), [dds](https://github.com/co-cddo/dds) (`gem-c-search`), [dea-register-frontend](https://github.com/co-cddo/dea-register-frontend) (`moj-filter`)
@@ -55,7 +55,7 @@ Repos using another design system's classes. These are *consumers* of a communit
 
 ## Repos by cluster and organisation
 
-### search (input/box) — 147 repos (110 production)
+### search (input/box) — 147 repos, 43 orgs (110 production)
 
 #### ministryofjustice (17, 14 production)
 
@@ -420,7 +420,7 @@ Repos using another design system's classes. These are *consumers* of a communit
 | [ott-prototype](https://github.com/trade-tariff/ott-prototype) | [`app/assets/sass/components/_search.scss`](https://github.com/trade-tariff/ott-prototype/blob/HEAD/app/assets/sass/components/_search.scss) | SCSS/CSS only | yes |  |  |
 
 
-### filter (filter a list) — 142 repos (97 production)
+### filter (filter a list) — 142 repos, 39 orgs (97 production)
 
 MoJ's filter component has the highest adoption here (35.25).
 
@@ -762,7 +762,7 @@ MoJ's filter component has the highest adoption here (35.25).
 | [ova-finder-prototype](https://github.com/cabinetoffice/ova-finder-prototype) | [`app/views/finder/components/filters.html`](https://github.com/cabinetoffice/ova-finder-prototype/blob/HEAD/app/views/finder/components/filters.html) | template partial | yes |  |  |
 
 
-### search-result — 40 repos (31 production)
+### search-result — 40 repos, 21 orgs (31 production)
 
 #### DFE-Digital (12, 4 production)
 
@@ -910,7 +910,7 @@ MoJ's filter component has the highest adoption here (35.25).
 | [ott-prototype](https://github.com/trade-tariff/ott-prototype) | [`app/assets/sass/components/search_results.scss`](https://github.com/trade-tariff/ott-prototype/blob/HEAD/app/assets/sass/components/search_results.scss) | SCSS/CSS only | yes |  |  |
 
 
-### search-bar — 14 repos (14 production)
+### search-bar — 14 repos, 13 orgs (14 production)
 
 Built in services only; no design system implementation found.
 
@@ -994,7 +994,7 @@ Built in services only; no design system implementation found.
 | [monitor-space-hazards](https://github.com/UKSpaceAgency/monitor-space-hazards) | [`src/components/SearchBar.tsx`](https://github.com/UKSpaceAgency/monitor-space-hazards/blob/HEAD/src/components/SearchBar.tsx) | UI framework (React/Vue/Svelte lib) |  |  |  |
 
 
-### no-results — 13 repos (13 production)
+### no-results — 13 repos, 7 orgs (13 production)
 
 Built in services only — teams hand-rolling empty states.
 

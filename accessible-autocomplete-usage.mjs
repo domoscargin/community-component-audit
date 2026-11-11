@@ -224,12 +224,13 @@ md.push('**Signals** come from scanning view/template files and autocomplete-nam
 md.push('')
 md.push('## Summary')
 md.push('')
-md.push(`- **${total} repos use accessible-autocomplete** in some form (of ${repos.length} scanned; ${unavailable} unavailable)`)
-md.push(`- **${directUsers.length} depend on it directly** (${directUsers.filter(isProd).length} production, ${directUsers.length - directUsers.filter(isProd).length} prototypes)`)
-md.push(`- **${countryUsers.length} use the country/territory package**`)
-md.push(`- **${hmrcOnly.length} get it only via hmrc-frontend**, **${xgovukOnly.length} only via x-govuk-prototype-components**`)
+const orgCount = (list) => new Set(list.map(([repo]) => repo.split('/')[0])).size
+md.push(`- **${total} repos across ${orgCount(entries)} orgs use accessible-autocomplete** in some form (of ${repos.length} scanned; ${unavailable} unavailable)`)
+md.push(`- **${directUsers.length} depend on it directly** (${directUsers.filter(isProd).length} production, ${directUsers.length - directUsers.filter(isProd).length} prototypes) across **${orgCount(directUsers)} orgs**`)
+md.push(`- **${countryUsers.length} use the country/territory package** (${orgCount(countryUsers)} orgs)`)
+md.push(`- **${hmrcOnly.length} get it only via hmrc-frontend** (${orgCount(hmrcOnly)} orgs), **${xgovukOnly.length} only via x-govuk-prototype-components** (${orgCount(xgovukOnly)} orgs)`)
 md.push(`- **${withSignals.length} have usage signals in sampled files**; modes seen: ${modes['select enhancement'].length} select enhancement, ${modes['standalone input'].length} standalone input, ${modes.both.length} both`)
-md.push(`- Cross-refs: **${ownCount} also have their own autocomplete implementation** in the audit cluster (see [autocomplete.md](./autocomplete.md)); ${gemCount} consume gem-c wrapper classes`)
+md.push(`- Cross-refs: **${ownCount} also have their own autocomplete implementation** (${orgCount(entries.filter(([, r]) => r.ownAutocomplete))} orgs) in the audit cluster (see [autocomplete.md](./autocomplete.md)); ${gemCount} consume gem-c wrapper classes`)
 md.push('')
 
 md.push('## Repos by organisation')

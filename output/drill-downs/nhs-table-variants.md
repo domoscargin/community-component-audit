@@ -8,18 +8,18 @@ The [NHS table component](https://service-manual.nhs.uk/design-system/components
 
 ## Summary
 
-- **134 repos depend on nhsuk-frontend** (of 1359 government repos scanned; 0 unavailable)
-- **62 repos reference NHS tables** in sampled view files
-- **44 repos use at least one variant** beyond basic
+- **134 repos across 18 orgs depend on nhsuk-frontend** (of 1359 government repos scanned; 0 unavailable)
+- **62 repos across 9 orgs reference NHS tables** in sampled view files
+- **44 repos across 7 orgs use at least one variant** beyond basic
 
-| Variant | Classes / macro options | Repos | Production | Prototypes | Of which legacy classes |
-|---|---|---|---|---|---|
-| responsive | `nhsuk-table--responsive`, legacy `nhsuk-table-responsive`, macro `responsive: true` | 43 | 31 | 12 | 41 |
-| sortable | `data-sort`/`aria-sort`, macro `sort:` | 9 | 6 | 3 |  |
-| striped | `nhsuk-table--striped`, macro `striped: true` | 1 | 0 | 1 |  |
-| compact | `nhsuk-table--compact`, macro `compact: true` | 0 | 0 | 0 |  |
-| scrolling | `nhsuk-scroll` wrapper, legacy `nhsuk-table-container`, macro `scroll: true` | 2 | 2 | 0 |  |
-| reverse/dark | `nhsuk-table--reverse`, legacy `nhsuk-table-responsive--reverse`, macro `variant: "reverse"` | 0 | 0 | 0 |  |
+| Variant | Classes / macro options | Repos | Orgs | Production | Prototypes | Of which legacy classes |
+|---|---|---|---|---|---|---|
+| responsive | `nhsuk-table--responsive`, legacy `nhsuk-table-responsive`, macro `responsive: true` | 43 | 7 | 31 | 12 | 41 |
+| sortable | `data-sort`/`aria-sort`, macro `sort:` | 9 | 3 | 6 | 3 |  |
+| striped | `nhsuk-table--striped`, macro `striped: true` | 1 | 1 | 0 | 1 |  |
+| compact | `nhsuk-table--compact`, macro `compact: true` | 0 | 0 | 0 | 0 |  |
+| scrolling | `nhsuk-scroll` wrapper, legacy `nhsuk-table-container`, macro `scroll: true` | 2 | 1 | 2 | 0 |  |
+| reverse/dark | `nhsuk-table--reverse`, legacy `nhsuk-table-responsive--reverse`, macro `variant: "reverse"` | 0 | 0 | 0 | 0 |  |
 
 ### Declared nhsuk-frontend versions among variant users
 

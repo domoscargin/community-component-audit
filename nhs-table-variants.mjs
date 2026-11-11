@@ -196,11 +196,14 @@ const entries = Object.entries(results)
 const using = entries.filter(([, r]) => r.tableFiles > 0)
 const withVariant = entries.filter(([, r]) => r.variantCount > 0)
 
+const orgCount = (list) => new Set(list.map(([repo]) => repo.split('/')[0])).size
+
 const counts = {}
 for (const v of VARIANT_ORDER) {
   const reposV = entries.filter(([, r]) => r.variants[v])
   counts[v] = {
     total: reposV.length,
+    orgs: orgCount(reposV),
     prod: reposV.filter(([, r]) => !r.isPrototype).length,
     proto: reposV.filter(([, r]) => r.isPrototype).length,
     legacy: reposV.filter(([, r]) => r.legacy?.[v]).length
@@ -240,14 +243,14 @@ md.push('**Caveats:** only up to 25 view files per repo are scanned (the audit\'
 md.push('')
 md.push('## Summary')
 md.push('')
-md.push(`- **${scanned} repos depend on nhsuk-frontend** (of ${repos.length} government repos scanned; ${unavailable} unavailable)`)
-md.push(`- **${using.length} repos reference NHS tables** in sampled view files`)
-md.push(`- **${withVariant.length} repos use at least one variant** beyond basic`)
+md.push(`- **${scanned} repos across ${orgCount(entries)} orgs depend on nhsuk-frontend** (of ${repos.length} government repos scanned; ${unavailable} unavailable)`)
+md.push(`- **${using.length} repos across ${orgCount(using)} orgs reference NHS tables** in sampled view files`)
+md.push(`- **${withVariant.length} repos across ${orgCount(withVariant)} orgs use at least one variant** beyond basic`)
 md.push('')
-md.push('| Variant | Classes / macro options | Repos | Production | Prototypes | Of which legacy classes |')
-md.push('|---|---|---|---|---|---|')
+md.push('| Variant | Classes / macro options | Repos | Orgs | Production | Prototypes | Of which legacy classes |')
+md.push('|---|---|---|---|---|---|---|')
 for (const v of VARIANT_ORDER) {
-  md.push(`| ${VARIANT_LABEL[v].split(' (')[0]} | ${VARIANT_LABEL[v].match(/\((.*)\)/)[1]} | ${counts[v].total} | ${counts[v].prod} | ${counts[v].proto} | ${counts[v].legacy || ''} |`)
+  md.push(`| ${VARIANT_LABEL[v].split(' (')[0]} | ${VARIANT_LABEL[v].match(/\((.*)\)/)[1]} | ${counts[v].total} | ${counts[v].orgs} | ${counts[v].prod} | ${counts[v].proto} | ${counts[v].legacy || ''} |`)
 }
 md.push('')
 

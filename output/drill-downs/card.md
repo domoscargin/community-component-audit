@@ -4,36 +4,36 @@ Generated 2026-11-11 from the audit snapshot of 2026-11-04 ([clusters.json](../c
 
 Card is the #2 candidate overall in the audit (score 72.8): 7 design system organisations ship one and there is no GOV.UK Frontend equivalent to extend, so every implementation is built independently.
 
-Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own.
+Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own. "Orgs" counts unique GitHub organisations.
 
 Caveats: detection is filename/class-name based, so some hits may be false positives, and one hit per repo means the audit shows *an* example file, not every instance. Class usage and component detection are independent scans: a repo can use a community class without having its own matching file, and vice versa.
 
 ## At a glance
 
-| Cluster | Status | Score | Repos (production / prototype) | Extend GOV.UK |
-|---|---|---|---|---|
-| card | not in GOV.UK Frontend | 72.8 | 244 (195 / 49) |  |
+| Cluster | Status | Score | Repos (production / prototype) | Orgs | Extend GOV.UK |
+|---|---|---|---|---|---|
+| card | not in GOV.UK Frontend | 72.8 | 244 (195 / 49) | 53 |  |
 
 ## Community class adoption
 
 Repos using another design system's classes. These are *consumers* of a community component — evidence of which existing implementation teams reach for.
 
-| Class | Source design system | Repos using it | Production | Prototypes |
-|---|---|---|---|---|
-| `nhsuk-card` | nhsuk-frontend | 66 | 47 | 19 |
-| `dfe-card` | dfe-frontend | 39 | 30 | 9 |
-| `gem-c-cards` | govuk-publishing-components | 5 | 3 | 2 |
-| `gem-c-image-card` | govuk-publishing-components | 5 | 1 | 4 |
-| `tna-card` | tna-frontend | 3 | 2 | 1 |
+| Class | Source design system | Repos | Orgs | Production | Prototypes |
+|---|---|---|---|---|---|
+| `nhsuk-card` | nhsuk-frontend | 66 | 9 | 47 | 19 |
+| `dfe-card` | dfe-frontend | 39 | 4 | 30 | 9 |
+| `gem-c-cards` | govuk-publishing-components | 5 | 2 | 3 | 2 |
+| `gem-c-image-card` | govuk-publishing-components | 5 | 4 | 1 | 4 |
+| `tna-card` | tna-frontend | 3 | 1 | 2 | 1 |
 
 **18 repos both consume a community class and have their own implementation** in the clusters below; **100 consume a community class with no matching own implementation detected**.
 
-<details><summary>Consumers without their own implementation (100 repos)</summary>
+<details><summary>Consumers without their own implementation (100 repos, 15 orgs)</summary>
 
 - **alphagov**: [govuk-dark-mode-prototype](https://github.com/alphagov/govuk-dark-mode-prototype) (proto) (`gem-c-image-card`)
 - **defencedigital**: [moduk-prototype-kit](https://github.com/defencedigital/moduk-prototype-kit) (proto) (`nhsuk-card`)
 - **defra-design**: [echo-prototype](https://github.com/defra-design/echo-prototype) (proto) (`gem-c-image-card`), [fcp-farming-front-door](https://github.com/defra-design/fcp-farming-front-door) (`gem-c-cards`), [ff-ss](https://github.com/defra-design/ff-ss) (`gem-c-image-card`), [lars](https://github.com/defra-design/lars) (`gem-c-cards`)
-- **DFE-Digital**: [accessibility-manual](https://github.com/DFE-Digital/accessibility-manual) (`dfe-card`), [am-2025-refresh](https://github.com/DFE-Digital/am-2025-refresh) (`dfe-card`), [apply-the-service-standard-in-dfe](https://github.com/DFE-Digital/apply-the-service-standard-in-dfe) (`dfe-card`), [care-leavers-gov-prototype](https://github.com/DFE-Digital/care-leavers-gov-prototype) (proto) (`gem-c-cards`), [check-performance-data-prototype](https://github.com/DFE-Digital/check-performance-data-prototype) (proto) (`dfe-card`), [communicating-funding-prototype](https://github.com/DFE-Digital/communicating-funding-prototype) (proto) (`dfe-card`), [design-history](https://github.com/DFE-Digital/design-history) (`dfe-card`), [DfE-Connect-Prototype](https://github.com/DFE-Digital/DfE-Connect-Prototype) (proto) (`dfe-card`), [dfe-standards](https://github.com/DFE-Digital/dfe-standards) (`dfe-card`), [education-provider-registry-web](https://github.com/DFE-Digital/education-provider-registry-web) (`dfe-card`), [eduk-prototype](https://github.com/DFE-Digital/eduk-prototype) (proto) (`gem-c-image-card`), [find-a-buying-solution](https://github.com/DFE-Digital/find-a-buying-solution) (`dfe-card`), [find-a-prototype](https://github.com/DFE-Digital/find-a-prototype) (proto) (`dfe-card`), [find-and-use-products-services-mvp](https://github.com/DFE-Digital/find-and-use-products-services-mvp) (`gem-c-cards`), [find-courses-and-training](https://github.com/DFE-Digital/find-courses-and-training) (`dfe-card`), [find-information-about-schools-and-trusts](https://github.com/DFE-Digital/find-information-about-schools-and-trusts) (`dfe-card`), [fips-v4](https://github.com/DFE-Digital/fips-v4) (`dfe-card`), [get-help-buying-for-schools](https://github.com/DFE-Digital/get-help-buying-for-schools) (`dfe-card`), [ghbs-energy-as-a-service](https://github.com/DFE-Digital/ghbs-energy-as-a-service) (`dfe-card`), [improve-workload-and-wellbeing-for-school-staff](https://github.com/DFE-Digital/improve-workload-and-wellbeing-for-school-staff) (`dfe-card`), [manage-free-school-projects](https://github.com/DFE-Digital/manage-free-school-projects) (`dfe-card`), [neet-digital](https://github.com/DFE-Digital/neet-digital) (`dfe-card`), [product](https://github.com/DFE-Digital/product) (`dfe-card`), [prototype-register-of-services](https://github.com/DFE-Digital/prototype-register-of-services) (proto) (`dfe-card`), [prototype_ghw_dp](https://github.com/DFE-Digital/prototype_ghw_dp) (proto) (`dfe-card`), [rsd-reep](https://github.com/DFE-Digital/rsd-reep) (`dfe-card`), [security-manual](https://github.com/DFE-Digital/security-manual) (`dfe-card`), [standards](https://github.com/DFE-Digital/standards) (`dfe-card`), [standards-manual](https://github.com/DFE-Digital/standards-manual) (`dfe-card`), [sts-content-support](https://github.com/DFE-Digital/sts-content-support) (`dfe-card`), [teacher-success-prototype](https://github.com/DFE-Digital/teacher-success-prototype) (proto) (`dfe-card`), [template-frontend-manual](https://github.com/DFE-Digital/template-frontend-manual) (`dfe-card`), [user-research-new-manual](https://github.com/DFE-Digital/user-research-new-manual) (`dfe-card`)
+- **DFE-Digital**: [accessibility-manual](https://github.com/DFE-Digital/accessibility-manual) (`dfe-card`), [am-2025-refresh](https://github.com/DFE-Digital/am-2025-refresh) (`dfe-card`), [apply-the-service-standard-in-dfe](https://github.com/DFE-Digital/apply-the-service-standard-in-dfe) (`dfe-card`), [care-leavers-gov-prototype](https://github.com/DFE-Digital/care-leavers-gov-prototype) (proto) (`gem-c-cards`), [check-performance-data-prototype](https://github.com/DFE-Digital/check-performance-data-prototype) (proto) (`dfe-card`), [communicating-funding-prototype](https://github.com/DFE-Digital/communicating-funding-prototype) (proto) (`dfe-card`), [design-history](https://github.com/DFE-Digital/design-history) (`dfe-card`), [DfE-Connect-Prototype](https://github.com/DFE-Digital/DfE-Connect-Prototype) (proto) (`dfe-card`), [dfe-standards](https://github.com/DFE-Digital/dfe-standards) (`dfe-card`), [education-provider-registry-web](https://github.com/DFE-Digital/education-provider-registry-web) (`dfe-card`), [eduk-prototype](https://github.com/DFE-Digital/eduk-prototype) (proto) (`gem-c-image-card`), [find-a-buying-solution](https://github.com/DFE-Digital/find-a-buying-solution) (`dfe-card`), [find-a-prototype](https://github.com/DFE-Digital/find-a-prototype) (proto) (`dfe-card`), [find-and-use-products-services-mvp](https://github.com/DFE-Digital/find-and-use-products-services-mvp) (`gem-c-cards`), [find-courses-and-training](https://github.com/DFE-Digital/find-courses-and-training) (`dfe-card`), [find-information-about-schools-and-trusts](https://github.com/DFE-Digital/find-information-about-schools-and-trusts) (`dfe-card`), [fips-v4](https://github.com/DFE-Digital/fips-v4) (`dfe-card`), [get-help-buying-for-schools](https://github.com/DFE-Digital/get-help-buying-for-schools) (`dfe-card`), [ghbs-energy-as-a-service](https://github.com/DFE-Digital/ghbs-energy-as-a-service) (`dfe-card`), [improve-workload-and-wellbeing-for-school-staff](https://github.com/DFE-Digital/improve-workload-and-wellbeing-for-school-staff) (`dfe-card`), [manage-free-school-projects](https://github.com/DFE-Digital/manage-free-school-projects) (`dfe-card`), [neet-digital](https://github.com/DFE-Digital/neet-digital) (`dfe-card`), [product](https://github.com/DFE-Digital/product) (`dfe-card`), [prototype_ghw_dp](https://github.com/DFE-Digital/prototype_ghw_dp) (proto) (`dfe-card`), [prototype-register-of-services](https://github.com/DFE-Digital/prototype-register-of-services) (proto) (`dfe-card`), [rsd-reep](https://github.com/DFE-Digital/rsd-reep) (`dfe-card`), [security-manual](https://github.com/DFE-Digital/security-manual) (`dfe-card`), [standards](https://github.com/DFE-Digital/standards) (`dfe-card`), [standards-manual](https://github.com/DFE-Digital/standards-manual) (`dfe-card`), [sts-content-support](https://github.com/DFE-Digital/sts-content-support) (`dfe-card`), [teacher-success-prototype](https://github.com/DFE-Digital/teacher-success-prototype) (proto) (`dfe-card`), [template-frontend-manual](https://github.com/DFE-Digital/template-frontend-manual) (`dfe-card`), [user-research-new-manual](https://github.com/DFE-Digital/user-research-new-manual) (`dfe-card`)
 - **dwp**: [beam-prototype](https://github.com/dwp/beam-prototype) (proto) (`gem-c-image-card`), [carers-alerts-prototype](https://github.com/dwp/carers-alerts-prototype) (proto) (`dfe-card`), [one-view-prototype](https://github.com/dwp/one-view-prototype) (proto) (`dfe-card`)
 - **ministryofjustice**: [applying-service-standards](https://github.com/ministryofjustice/applying-service-standards) (`dfe-card`)
 - **nationalarchives**: [ds-catalogue-progressive-prototype](https://github.com/nationalarchives/ds-catalogue-progressive-prototype) (proto) (`tna-card`)
@@ -50,7 +50,7 @@ Repos using another design system's classes. These are *consumers* of a communit
 
 ## Repos by cluster and organisation
 
-### card — 244 repos (195 production)
+### card — 244 repos, 53 orgs (195 production)
 
 #### ministryofjustice (64, 51 production)
 

@@ -8,12 +8,12 @@ Which government repos use [alphagov/accessible-autocomplete](https://github.com
 
 ## Summary
 
-- **263 repos use accessible-autocomplete** in some form (of 1359 scanned; 0 unavailable)
-- **199 depend on it directly** (162 production, 37 prototypes)
-- **11 use the country/territory package**
-- **59 get it only via hmrc-frontend**, **0 only via x-govuk-prototype-components**
+- **263 repos across 39 orgs use accessible-autocomplete** in some form (of 1359 scanned; 0 unavailable)
+- **199 depend on it directly** (162 production, 37 prototypes) across **35 orgs**
+- **11 use the country/territory package** (4 orgs)
+- **59 get it only via hmrc-frontend** (11 orgs), **0 only via x-govuk-prototype-components**
 - **148 have usage signals in sampled files**; modes seen: 105 select enhancement, 20 standalone input, 10 both
-- Cross-refs: **76 also have their own autocomplete implementation** in the audit cluster (see [autocomplete.md](./autocomplete.md)); 0 consume gem-c wrapper classes
+- Cross-refs: **76 also have their own autocomplete implementation** (18 orgs) in the audit cluster (see [autocomplete.md](./autocomplete.md)); 0 consume gem-c wrapper classes
 
 ## Repos by organisation
 

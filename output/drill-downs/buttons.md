@@ -4,32 +4,32 @@ Generated 2026-11-11 from the audit snapshot of 2026-11-04 ([clusters.json](../c
 
 Button is the highest-scoring "already in GOV.UK Frontend" component (51.9): 212 repos touch buttons and 92 extend ours. The sub-clusters show what teams build on top: groups, submit wrappers, toggles and start buttons.
 
-Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own.
+Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own. "Orgs" counts unique GitHub organisations.
 
 Caveats: detection is filename/class-name based, so some hits may be false positives, and one hit per repo means the audit shows *an* example file, not every instance. Class usage and component detection are independent scans: a repo can use a community class without having its own matching file, and vice versa.
 
 ## At a glance
 
-| Cluster | Status | Score | Repos (production / prototype) | Extend GOV.UK |
-|---|---|---|---|---|
-| button (base) | in GOV.UK Frontend | 51.9 | 212 (193 / 19) | 92 |
-| button-group | not in GOV.UK Frontend | 25 | 15 (15 / 0) |  |
-| submit-button | not in GOV.UK Frontend | 26.6 | 5 (5 / 0) |  |
-| toggle-button | not in GOV.UK Frontend | 24.4 | 3 (3 / 0) |  |
-| start-button | not in GOV.UK Frontend | 23.5 | 3 (3 / 0) |  |
+| Cluster | Status | Score | Repos (production / prototype) | Orgs | Extend GOV.UK |
+|---|---|---|---|---|---|
+| button (base) | in GOV.UK Frontend | 51.9 | 212 (193 / 19) | 65 | 92 |
+| button-group | not in GOV.UK Frontend | 25.0 | 15 (15 / 0) | 10 |  |
+| submit-button | not in GOV.UK Frontend | 26.6 | 5 (5 / 0) | 5 |  |
+| toggle-button | not in GOV.UK Frontend | 24.4 | 3 (3 / 0) | 3 |  |
+| start-button | not in GOV.UK Frontend | 23.5 | 3 (3 / 0) | 3 |  |
 
 ## Community class adoption
 
 Repos using another design system's classes. These are *consumers* of a community component — evidence of which existing implementation teams reach for.
 
-| Class | Source design system | Repos using it | Production | Prototypes |
-|---|---|---|---|---|
-| `moj-button-menu` | moj-frontend | 19 | 12 | 7 |
-| `gem-c-single-page-notification-button` | govuk-publishing-components | 2 | 2 | 0 |
+| Class | Source design system | Repos | Orgs | Production | Prototypes |
+|---|---|---|---|---|---|
+| `moj-button-menu` | moj-frontend | 19 | 6 | 12 | 7 |
+| `gem-c-single-page-notification-button` | govuk-publishing-components | 2 | 1 | 2 | 0 |
 
 **2 repos both consume a community class and have their own implementation** in the clusters below; **19 consume a community class with no matching own implementation detected**.
 
-<details><summary>Consumers without their own implementation (19 repos)</summary>
+<details><summary>Consumers without their own implementation (19 repos, 7 orgs)</summary>
 
 - **communitiesuk**: [xgovuk-flask-admin](https://github.com/communitiesuk/xgovuk-flask-admin) (`moj-button-menu`)
 - **defra-design**: [fcp-animal-health](https://github.com/defra-design/fcp-animal-health) (`gem-c-single-page-notification-button`), [Import-risk-categorisation](https://github.com/defra-design/Import-risk-categorisation) (`gem-c-single-page-notification-button`)
@@ -43,7 +43,7 @@ Repos using another design system's classes. These are *consumers* of a communit
 
 ## Repos by cluster and organisation
 
-### button (base) — 212 repos (193 production)
+### button (base) — 212 repos, 65 orgs (193 production)
 
 In GOV.UK Frontend — the "Extends GOV.UK" column is the interesting one here.
 
@@ -585,7 +585,7 @@ In GOV.UK Frontend — the "Extends GOV.UK" column is the interesting one here.
 | [csj-ra-dash](https://github.com/Government-People-Group/csj-ra-dash) | [`app/assets/sass/components/_button-as-link.scss`](https://github.com/Government-People-Group/csj-ra-dash/blob/HEAD/app/assets/sass/components/_button-as-link.scss) | SCSS/CSS only | yes | yes |  |
 
 
-### button-group — 15 repos (15 production)
+### button-group — 15 repos, 10 orgs (15 production)
 
 #### ministryofjustice (3, 3 production)
 
@@ -653,7 +653,7 @@ In GOV.UK Frontend — the "Extends GOV.UK" column is the interesting one here.
 | [pre-entry-tb-screening-dicom-viewer](https://github.com/UKHSA-Internal/pre-entry-tb-screening-dicom-viewer) | [`platform/ui/src/components/ButtonGroup/ButtonGroup.tsx`](https://github.com/UKHSA-Internal/pre-entry-tb-screening-dicom-viewer/blob/HEAD/platform/ui/src/components/ButtonGroup/ButtonGroup.tsx) | UI framework (React/Vue/Svelte lib) |  |  |  |
 
 
-### submit-button — 5 repos (5 production)
+### submit-button — 5 repos, 5 orgs (5 production)
 
 #### DEFRA (1, 1 production)
 
@@ -686,7 +686,7 @@ In GOV.UK Frontend — the "Extends GOV.UK" column is the interesting one here.
 | [pre-entry-tb-screening-app](https://github.com/UKHSA-Internal/pre-entry-tb-screening-app) | [`pets-ui/src/components/submitButton/submitButton.tsx`](https://github.com/UKHSA-Internal/pre-entry-tb-screening-app/blob/HEAD/pets-ui/src/components/submitButton/submitButton.tsx) | UI framework (React/Vue/Svelte lib) |  |  |  |
 
 
-### toggle-button — 3 repos (3 production)
+### toggle-button — 3 repos, 3 orgs (3 production)
 
 #### alan-turing-institute (1, 1 production)
 
@@ -707,7 +707,7 @@ In GOV.UK Frontend — the "Extends GOV.UK" column is the interesting one here.
 | [coronavirus-dashboard](https://github.com/UKHSA-Internal/coronavirus-dashboard) | [`src/components/ToggleButton/ToggleButton.js`](https://github.com/UKHSA-Internal/coronavirus-dashboard/blob/HEAD/src/components/ToggleButton/ToggleButton.js) | JS/TS component |  |  |  |
 
 
-### start-button — 3 repos (3 production)
+### start-button — 3 repos, 3 orgs (3 production)
 
 #### dfe-analytical-services (1, 1 production)
 

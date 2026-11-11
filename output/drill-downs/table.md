@@ -4,30 +4,32 @@ Generated 2026-11-11 from the audit snapshot of 2026-11-04 ([clusters.json](../c
 
 The GOV.UK Frontend table is widely extended (64 of 134 repos), and MoJ's sortable table is the most-adopted community component in this dataset (91 repos). The sub-clusters below separate plain tables from sortable/responsive/data-table variants.
 
-Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own.
+See also the [NHS table variants drill-down](./nhs-table-variants.md), which tracks which of the six NHS table kinds nhsuk-frontend dependents use, including legacy class names.
+
+Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own. "Orgs" counts unique GitHub organisations.
 
 Caveats: detection is filename/class-name based, so some hits may be false positives, and one hit per repo means the audit shows *an* example file, not every instance. Class usage and component detection are independent scans: a repo can use a community class without having its own matching file, and vice versa.
 
 ## At a glance
 
-| Cluster | Status | Score | Repos (production / prototype) | Extend GOV.UK |
-|---|---|---|---|---|
-| table (base) | in GOV.UK Frontend | 29.8 | 134 (126 / 8) | 64 |
-| sortable-table | partially covered | 29.5 | 39 (33 / 6) |  |
-| data-table | not in GOV.UK Frontend | 22.5 | 13 (13 / 0) |  |
-| responsive-table | not in GOV.UK Frontend | 20.3 | 12 (7 / 5) |  |
+| Cluster | Status | Score | Repos (production / prototype) | Orgs | Extend GOV.UK |
+|---|---|---|---|---|---|
+| table (base) | in GOV.UK Frontend | 29.8 | 134 (126 / 8) | 47 | 64 |
+| sortable-table | partially covered | 29.5 | 39 (33 / 6) | 14 |  |
+| data-table | not in GOV.UK Frontend | 22.5 | 13 (13 / 0) | 11 |  |
+| responsive-table | not in GOV.UK Frontend | 20.3 | 12 (7 / 5) | 6 |  |
 
 ## Community class adoption
 
 Repos using another design system's classes. These are *consumers* of a community component — evidence of which existing implementation teams reach for.
 
-| Class | Source design system | Repos using it | Production | Prototypes |
-|---|---|---|---|---|
-| `moj-sortable-table` | moj-frontend | 91 | 62 | 29 |
+| Class | Source design system | Repos | Orgs | Production | Prototypes |
+|---|---|---|---|---|---|
+| `moj-sortable-table` | moj-frontend | 91 | 11 | 62 | 29 |
 
 **14 repos both consume a community class and have their own implementation** in the clusters below; **77 consume a community class with no matching own implementation detected**.
 
-<details><summary>Consumers without their own implementation (77 repos)</summary>
+<details><summary>Consumers without their own implementation (77 repos, 11 orgs)</summary>
 
 - **DEFRA**: [ahwr-backoffice-ui](https://github.com/DEFRA/ahwr-backoffice-ui) (`moj-sortable-table`), [ahwr-public-user-ui](https://github.com/DEFRA/ahwr-public-user-ui) (`moj-sortable-table`), [bng-metric-digital-prototype](https://github.com/DEFRA/bng-metric-digital-prototype) (proto) (`moj-sortable-table`), [grants-config-browser](https://github.com/DEFRA/grants-config-browser) (`moj-sortable-table`)
 - **defra-design**: [caseworking-ai-test](https://github.com/defra-design/caseworking-ai-test) (`moj-sortable-table`), [defra-forms-mvp-prototype](https://github.com/defra-design/defra-forms-mvp-prototype) (proto) (`moj-sortable-table`), [dwt-admin-interface](https://github.com/defra-design/dwt-admin-interface) (`moj-sortable-table`), [fcp-combined-offer](https://github.com/defra-design/fcp-combined-offer) (`moj-sortable-table`), [fcp-farming-front-door](https://github.com/defra-design/fcp-farming-front-door) (`moj-sortable-table`), [fcp-grants-casework](https://github.com/defra-design/fcp-grants-casework) (`moj-sortable-table`), [ffc-ahwr-prototype](https://github.com/defra-design/ffc-ahwr-prototype) (proto) (`moj-sortable-table`), [trade-paper-prototype](https://github.com/defra-design/trade-paper-prototype) (proto) (`moj-sortable-table`), [xws-internal-prototype](https://github.com/defra-design/xws-internal-prototype) (proto) (`moj-sortable-table`)
@@ -45,7 +47,7 @@ Repos using another design system's classes. These are *consumers* of a communit
 
 ## Repos by cluster and organisation
 
-### table (base) — 134 repos (126 production)
+### table (base) — 134 repos, 47 orgs (126 production)
 
 In GOV.UK Frontend — the "Extends GOV.UK" column is the interesting one here.
 
@@ -419,7 +421,7 @@ In GOV.UK Frontend — the "Extends GOV.UK" column is the interesting one here.
 | [sustainable-development-prototype](https://github.com/defra-design/sustainable-development-prototype) | [`app/assets/sass/components/_table.scss`](https://github.com/defra-design/sustainable-development-prototype/blob/HEAD/app/assets/sass/components/_table.scss) | SCSS/CSS only | yes |  |  |
 
 
-### sortable-table — 39 repos (33 production)
+### sortable-table — 39 repos, 14 orgs (33 production)
 
 Partially covered. MoJ Frontend ships the canonical implementation.
 
@@ -533,7 +535,7 @@ Partially covered. MoJ Frontend ships the canonical implementation.
 | [prototype-eps-suppliertool](https://github.com/NHSDigital/prototype-eps-suppliertool) | [`app/assets/sass/components/_sortable-table.scss`](https://github.com/NHSDigital/prototype-eps-suppliertool/blob/HEAD/app/assets/sass/components/_sortable-table.scss) | SCSS/CSS only | yes |  |  |
 
 
-### data-table — 13 repos (13 production)
+### data-table — 13 repos, 11 orgs (13 production)
 
 #### digital-land (3, 3 production)
 
@@ -604,7 +606,7 @@ Partially covered. MoJ Frontend ships the canonical implementation.
 | [monitor-space-hazards](https://github.com/UKSpaceAgency/monitor-space-hazards) | [`src/components/DataTable.tsx`](https://github.com/UKSpaceAgency/monitor-space-hazards/blob/HEAD/src/components/DataTable.tsx) | UI framework (React/Vue/Svelte lib) |  |  |  |
 
 
-### responsive-table — 12 repos (7 production)
+### responsive-table — 12 repos, 6 orgs (7 production)
 
 #### nhsbsa (3, 2 production)
 

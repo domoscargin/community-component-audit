@@ -4,28 +4,30 @@ Generated 2026-11-11 from the audit snapshot of 2026-11-04 ([clusters.json](../c
 
 Autocomplete is #9 overall (score 52.6) and "partially covered": the alphagov accessible-autocomplete project exists but is not part of GOV.UK Frontend, so HMRC, ONS, Scottish Government and x-govuk all wrap or rebuild it. The 50 prototype repos (vs 88 production) suggest heavy ongoing experimentation.
 
-Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own.
+See also the [accessible-autocomplete drill-down](./accessible-autocomplete.md), which tracks package-level adoption of the alphagov library (direct and via the HMRC/x-govuk wrappers), with integration modes.
+
+Each repo appears once per cluster, with a link to the file the audit matched. "Extends GOV.UK" means the implementation builds on or imports the GOV.UK Frontend component rather than being written from scratch. The "Community classes used" column lists *all* community design system classes detected in that repo (any component) — repos consuming another organisation's component rather than, or as well as, building their own. "Orgs" counts unique GitHub organisations.
 
 Caveats: detection is filename/class-name based, so some hits may be false positives, and one hit per repo means the audit shows *an* example file, not every instance. Class usage and component detection are independent scans: a repo can use a community class without having its own matching file, and vice versa.
 
 ## At a glance
 
-| Cluster | Status | Score | Repos (production / prototype) | Extend GOV.UK |
-|---|---|---|---|---|
-| autocomplete | partially covered | 52.6 | 138 (88 / 50) |  |
+| Cluster | Status | Score | Repos (production / prototype) | Orgs | Extend GOV.UK |
+|---|---|---|---|---|---|
+| autocomplete | partially covered | 52.6 | 138 (88 / 50) | 30 |  |
 
 ## Community class adoption
 
 Repos using another design system's classes. These are *consumers* of a community component — evidence of which existing implementation teams reach for.
 
-| Class | Source design system | Repos using it | Production | Prototypes |
-|---|---|---|---|---|
-| `gem-c-search-with-autocomplete` | govuk-publishing-components | 2 | 1 | 1 |
-| `gem-c-select-with-search` | govuk-publishing-components | 1 | 1 | 0 |
+| Class | Source design system | Repos | Orgs | Production | Prototypes |
+|---|---|---|---|---|---|
+| `gem-c-search-with-autocomplete` | govuk-publishing-components | 2 | 2 | 1 | 1 |
+| `gem-c-select-with-search` | govuk-publishing-components | 1 | 1 | 1 | 0 |
 
 **1 repos both consume a community class and have their own implementation** in the clusters below; **2 consume a community class with no matching own implementation detected**.
 
-<details><summary>Consumers without their own implementation (2 repos)</summary>
+<details><summary>Consumers without their own implementation (2 repos, 2 orgs)</summary>
 
 - **defra-design**: [fcp-animal-health](https://github.com/defra-design/fcp-animal-health) (`gem-c-search-with-autocomplete`)
 - **ministryofjustice**: [hmpps-electronic-monitoring-data-prototype](https://github.com/ministryofjustice/hmpps-electronic-monitoring-data-prototype) (proto) (`gem-c-search-with-autocomplete`)
@@ -34,7 +36,7 @@ Repos using another design system's classes. These are *consumers* of a communit
 
 ## Repos by cluster and organisation
 
-### autocomplete — 138 repos (88 production)
+### autocomplete — 138 repos, 30 orgs (88 production)
 
 Partially covered. Implementations differ structurally (20% similar) — check they are the same component before comparing.
 
