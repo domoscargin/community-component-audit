@@ -8,6 +8,7 @@ Generated 2026-11-11 from the audit snapshot of 2026-11-04. One doc per candidat
 - [Buttons](./buttons.md) — button (base), button-group, submit-button, toggle-button, start-button
 - [Search and filtering](./search.md) — search (input/box), filter (filter a list), search-result, search-bar, no-results
 - [Page structure, headings and navigation](./page-structure.md) — page-heading, heading, contents-list, sub-navigation, related-navigation
+- [Session timeouts](./timeouts.md) — timeout-warning, timeout, session-timeout, timeout-popup, modal (dependency)
 
 Package-level scans (different method: dependency manifests plus class/JS signals):
 
