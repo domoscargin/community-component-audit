@@ -57,6 +57,10 @@ const PACKAGE_JSON = /(?:^|\/)package\.json$/
 const NOISE = /(^|\/)(node_modules|vendor|dist|build)(\/|$)/i
 const MACRO_REF = /nhsukTable|tables\/macro|components\/tables/
 
+// Current (BEM) classes were introduced in nhsuk-frontend 10.6.0. Before that
+// (4.0.0–10.5.x) the responsive table used `nhsuk-table-responsive`, the
+// scrolling wrapper was `nhsuk-table-container` and reverse was
+// `nhsuk-table-responsive--reverse`.
 const VARIANTS = {
   compact: (c, macro) =>
     c.includes('nhsuk-table--compact') || (macro && /\bcompact\s*:\s*true/.test(c)),
@@ -71,6 +75,15 @@ const VARIANTS = {
   sortable: (c, macro, table) =>
     (table && (c.includes('data-sort') || c.includes('aria-sort'))) ||
     (macro && /\b(sort|sortValue|sortNext)\s*:/.test(c))
+}
+
+// Legacy (pre-10.6.0) class names — matched separately so the report can show
+// who is still on the old markup
+const LEGACY_VARIANTS = {
+  responsive: (c) =>
+    c.includes('nhsuk-table-responsive') || c.includes('nhsuk-table-responsive__heading'),
+  reverse: (c) => c.includes('nhsuk-table-responsive--reverse'),
+  scrolling: (c, table) => table && c.includes('nhsuk-table-container')
 }
 
 /** Declared nhsuk-frontend version range from a repo's package.json files */
@@ -105,6 +118,7 @@ for (const repo of repos) {
 
     const version = await nhsVersion(files, repo)
     const variants = {}
+    const legacy = {}
     let tableFiles = 0
 
     for (const file of viewFiles(files)) {
@@ -115,11 +129,20 @@ for (const repo of repos) {
         continue
       }
       const macro = MACRO_REF.test(content)
-      const table = content.includes('nhsuk-table') || macro
+      const table =
+        content.includes('nhsuk-table') ||
+        content.includes('nhsuk-table-responsive') ||
+        macro
       if (!table) continue
       tableFiles++
       for (const [variant, test] of Object.entries(VARIANTS)) {
         if (test(content, macro, table)) {
+          ;(variants[variant] ??= []).push(file.path)
+        }
+      }
+      for (const [variant, test] of Object.entries(LEGACY_VARIANTS)) {
+        if (test(content, table)) {
+          ;(legacy[variant] ??= []).push(file.path)
           ;(variants[variant] ??= []).push(file.path)
         }
       }
@@ -130,6 +153,9 @@ for (const repo of repos) {
       tableFiles,
       variants: Object.fromEntries(
         Object.entries(variants).map(([k, v]) => [k, v.slice(0, 3)])
+      ),
+      legacy: Object.fromEntries(
+        Object.entries(legacy).map(([k, v]) => [k, v.slice(0, 3)])
       ),
       variantCount: Object.keys(variants).length,
       isPrototype: protoByRepo.get(repo) ?? isPrototypeRepo(repo),
@@ -158,12 +184,12 @@ await writeFile(
 
 const VARIANT_ORDER = ['responsive', 'sortable', 'striped', 'compact', 'scrolling', 'reverse']
 const VARIANT_LABEL = {
-  responsive: 'responsive (`nhsuk-table--responsive`, macro `responsive: true`)',
+  responsive: 'responsive (`nhsuk-table--responsive`, legacy `nhsuk-table-responsive`, macro `responsive: true`)',
   sortable: 'sortable (`data-sort`/`aria-sort`, macro `sort:`)',
   striped: 'striped (`nhsuk-table--striped`, macro `striped: true`)',
   compact: 'compact (`nhsuk-table--compact`, macro `compact: true`)',
-  scrolling: 'scrolling (`nhsuk-scroll` wrapper, macro `scroll: true`)',
-  reverse: 'reverse/dark (`nhsuk-table--reverse`, macro `variant: "reverse"`)'
+  scrolling: 'scrolling (`nhsuk-scroll` wrapper, legacy `nhsuk-table-container`, macro `scroll: true`)',
+  reverse: 'reverse/dark (`nhsuk-table--reverse`, legacy `nhsuk-table-responsive--reverse`, macro `variant: "reverse"`)'
 }
 
 const entries = Object.entries(results)
@@ -176,7 +202,8 @@ for (const v of VARIANT_ORDER) {
   counts[v] = {
     total: reposV.length,
     prod: reposV.filter(([, r]) => !r.isPrototype).length,
-    proto: reposV.filter(([, r]) => r.isPrototype).length
+    proto: reposV.filter(([, r]) => r.isPrototype).length,
+    legacy: reposV.filter(([, r]) => r.legacy?.[v]).length
   }
 }
 
@@ -217,10 +244,10 @@ md.push(`- **${scanned} repos depend on nhsuk-frontend** (of ${repos.length} gov
 md.push(`- **${using.length} repos reference NHS tables** in sampled view files`)
 md.push(`- **${withVariant.length} repos use at least one variant** beyond basic`)
 md.push('')
-md.push('| Variant | Classes / macro options | Repos | Production | Prototypes |')
-md.push('|---|---|---|---|---|')
+md.push('| Variant | Classes / macro options | Repos | Production | Prototypes | Of which legacy classes |')
+md.push('|---|---|---|---|---|---|')
 for (const v of VARIANT_ORDER) {
-  md.push(`| ${VARIANT_LABEL[v].split(' (')[0]} | ${VARIANT_LABEL[v].match(/\((.*)\)/)[1]} | ${counts[v].total} | ${counts[v].prod} | ${counts[v].proto} |`)
+  md.push(`| ${VARIANT_LABEL[v].split(' (')[0]} | ${VARIANT_LABEL[v].match(/\((.*)\)/)[1]} | ${counts[v].total} | ${counts[v].prod} | ${counts[v].proto} | ${counts[v].legacy || ''} |`)
 }
 md.push('')
 
@@ -232,9 +259,14 @@ for (const [, r] of withVariant) {
 }
 md.push('### Declared nhsuk-frontend versions among variant users')
 md.push('')
-md.push('Compact, striped, scrolling and the sortable macro options need **10.6.0**; '
-  + 'reverse needs **10.4.0**; responsive dates from **4.0.0**. Repos on older ranges '
-  + 'using variant *classes* directly may have copied styles.')
+md.push('Class names changed in **10.6.0** (August 2026): `nhsuk-table-responsive` became '
+  + '`nhsuk-table nhsuk-table--responsive`, `nhsuk-table-container` became the `nhsuk-scroll` '
+  + 'wrapper, and `nhsuk-table-responsive--reverse` became `nhsuk-table--reverse`. Compact, '
+  + 'striped, scrolling and the sortable macro options are all new in 10.6.0; the reverse '
+  + 'macro option dates from 10.4.0 and responsive from 4.0.0. Repos on older ranges can only '
+  + 'use the legacy class names (or hand-rolled `data-sort`/`aria-sort` markup for sorting). '
+  + 'Before 4.0.0 (October 2020) `nhsuk-table-responsive` meant the *scrolling* wrapper, so '
+  + 'legacy-class signals on very old versions may be misattributed between those two variants.')
 md.push('')
 md.push('| Version range | Repos |')
 md.push('|---|---|')
@@ -242,6 +274,26 @@ for (const [v, n] of [...versions.entries()].sort((a, b) => b[1] - a[1])) {
   md.push(`| \`${v}\` | ${n} |`)
 }
 md.push('')
+
+// Legacy classes were removed in 10.6.0, so legacy-class users on 10.6+ ranges
+// have likely lost their variant styling
+const stale = entries.filter(([repo, r]) => {
+  if (!r.legacy || !Object.keys(r.legacy).length) return false
+  const m = /(\d+)\.(\d+)/.exec(r.version ?? '')
+  return m && (Number(m[1]) > 10 || (Number(m[1]) === 10 && Number(m[2]) >= 6))
+})
+if (stale.length) {
+  md.push('### ⚠️ Legacy classes on 10.6+ — likely broken styling')
+  md.push('')
+  md.push('The legacy class names were **removed** in 10.6.0. These repos declare '
+    + 'nhsuk-frontend 10.6.0 or later but still use the old classes, so their '
+    + 'variant styling (for example responsive table stacking) has likely stopped working:')
+  md.push('')
+  for (const [repo, r] of stale.sort((a, b) => a[0].localeCompare(b[0]))) {
+    md.push(`- [${repo}](https://github.com/${repo}) (\`${r.version}\`): ${Object.keys(r.legacy).join(', ')}`)
+  }
+  md.push('')
+}
 
 // Cross-reference
 const ownTableCount = withVariant.filter(([, r]) => r.ownTable.length).length
@@ -262,7 +314,9 @@ for (const [owner, items] of owners) {
   md.push('|---|---|---|---|---|---|')
   for (const [repo, r] of items) {
     const name = repo.split('/')[1]
-    const ticks = VARIANT_ORDER.map((v) => (r.variants[v] ? `**${v}**` : '')).filter(Boolean)
+    const ticks = VARIANT_ORDER.map((v) =>
+      r.variants[v] ? `**${v}**${r.legacy?.[v] ? ' (legacy class)' : ''}` : ''
+    ).filter(Boolean)
     const examples = Object.entries(r.variants)
       .flatMap(([v, paths]) => paths.slice(0, 1).map((p) => `[\`${v}\`](https://github.com/${repo}/blob/HEAD/${p})`))
       .join(', ')

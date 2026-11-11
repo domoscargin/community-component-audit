@@ -1,10 +1,11 @@
 {
- "generatedAt": "2026-11-11T14:51:20.669Z",
+ "generatedAt": "2026-11-11T15:17:37.713Z",
  "results": {
   "111Online/nhs111-resources": {
    "version": "^6.1.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -14,6 +15,7 @@
    "version": "^10.5.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -23,6 +25,7 @@
    "version": "^3.1.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -32,6 +35,7 @@
    "version": "^10.6.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -41,6 +45,7 @@
    "version": "^10.3.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -50,6 +55,7 @@
    "version": "^10.3.1",
    "tableFiles": 2,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -65,9 +71,17 @@
     ],
     "sortable": [
      "app/views/batches/participants/index.html"
+    ],
+    "responsive": [
+     "app/views/batches/participants/index.html"
     ]
    },
-   "variantCount": 2,
+   "legacy": {
+    "responsive": [
+     "app/views/batches/participants/index.html"
+    ]
+   },
+   "variantCount": 3,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -76,6 +90,7 @@
    "version": "^8.1.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -85,6 +100,7 @@
    "version": "^10.4.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -94,6 +110,7 @@
    "version": "^10.6.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -103,6 +120,7 @@
    "version": "^10.6.1",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [
@@ -113,8 +131,19 @@
   "NHSDigital/mya-prototype": {
    "version": "^10.2.2",
    "tableFiles": 4,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/site/cancel-a-date-range/sessions-and-bookings.html",
+     "app/views/site/clinics/availability/day.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/site/cancel-a-date-range/sessions-and-bookings.html",
+     "app/views/site/clinics/availability/day.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -123,6 +152,7 @@
    "version": "^10.3.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -131,8 +161,17 @@
   "NHSDigital/nhs-eps-prototype": {
    "version": "^8.1.0",
    "tableFiles": 2,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/epsmvp/_includes/clinical-details.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/epsmvp/_includes/clinical-details.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -141,6 +180,7 @@
    "version": "^8.3.0",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -150,6 +190,7 @@
    "version": "^10.1.0",
    "tableFiles": 5,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -159,6 +200,7 @@
    "version": "^10.7.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [
@@ -170,6 +212,7 @@
    "version": "^10.3.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [
@@ -181,6 +224,7 @@
    "version": "^10.3.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -190,6 +234,7 @@
    "version": "^10.6.1",
    "tableFiles": 3,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -203,9 +248,21 @@
      "app/views/appointments/_cancelled.html",
      "app/views/appointments/_completed.html",
      "app/views/appointments/_scheduled.html"
+    ],
+    "responsive": [
+     "app/views/appointments/_cancelled.html",
+     "app/views/appointments/_completed.html",
+     "app/views/appointments/_scheduled.html"
     ]
    },
-   "variantCount": 1,
+   "legacy": {
+    "responsive": [
+     "app/views/appointments/_cancelled.html",
+     "app/views/appointments/_completed.html",
+     "app/views/appointments/_scheduled.html"
+    ]
+   },
+   "variantCount": 2,
    "isPrototype": true,
    "ownTable": [
     "table"
@@ -216,6 +273,7 @@
    "version": "^10.6.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -225,6 +283,7 @@
    "version": "^9.0.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -234,6 +293,7 @@
    "version": "^8.0.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -243,6 +303,7 @@
    "version": "^9.3.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -252,6 +313,7 @@
    "version": "^8.3.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -261,6 +323,7 @@
    "version": "^3.1.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -269,8 +332,17 @@
   "TechnologyEnhancedLearning/DLSBinonTest": {
    "version": "^6.1.0",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -278,8 +350,17 @@
   "TechnologyEnhancedLearning/DLSBinonTest2": {
    "version": "^6.1.0",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -287,8 +368,17 @@
   "TechnologyEnhancedLearning/DLSBinonTestUbuntu": {
    "version": "^6.1.0",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -296,8 +386,17 @@
   "TechnologyEnhancedLearning/DLSBinonTestWin2": {
    "version": "^6.1.0",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -305,8 +404,17 @@
   "TechnologyEnhancedLearning/DLSTestBinonWindows": {
    "version": "^6.1.0",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CookieConsent/CookiePolicy.cshtml"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -314,8 +422,17 @@
   "TechnologyEnhancedLearning/DLSV2": {
    "version": "9.1.0",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CompetencyAssessments/CompetencyAssessmentWorkingGroup.cshtml"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "DigitalLearningSolutions.Web/Views/CompetencyAssessments/CompetencyAssessmentWorkingGroup.cshtml"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -324,6 +441,7 @@
    "version": "^7.0.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -333,6 +451,7 @@
    "version": "^7.0.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -342,6 +461,7 @@
    "version": "^10.1.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -351,6 +471,7 @@
    "version": "^6.1.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -360,6 +481,7 @@
    "version": "^6.1.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -369,6 +491,7 @@
    "version": "^9.0.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -378,6 +501,7 @@
    "version": "^9.5.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -387,6 +511,7 @@
    "version": "^10.0.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -396,6 +521,7 @@
    "version": "^10.4.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -405,6 +531,7 @@
    "version": "^6.1.0",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -414,6 +541,7 @@
    "version": "6.2.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -423,6 +551,7 @@
    "version": "^6.1.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -432,6 +561,7 @@
    "version": "8.3.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -441,6 +571,7 @@
    "version": "^9.3.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -450,6 +581,7 @@
    "version": "^8.3.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -458,8 +590,19 @@
   "nhsbsa/Employing-Authority-Search": {
    "version": "^10.3.1",
    "tableFiles": 2,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/index.html",
+     "app/views/v1/search.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/index.html",
+     "app/views/v1/search.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -468,6 +611,7 @@
    "version": "^10.6.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -476,8 +620,19 @@
   "nhsbsa/McCloud-Choice": {
    "version": "^10.3.1",
    "tableFiles": 4,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/index.html",
+     "app/views/v1/cookies/choose-cookies.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/index.html",
+     "app/views/v1/cookies/choose-cookies.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -486,6 +641,7 @@
    "version": "^10.6.0",
    "tableFiles": 3,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -494,8 +650,17 @@
   "nhsbsa/additional-pensions-calculator": {
    "version": "^10.4.2",
    "tableFiles": 2,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -504,6 +669,7 @@
    "version": "^10.4.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -512,8 +678,21 @@
   "nhsbsa/apply-healthy-start-vouchers": {
    "version": "^10.4.2",
    "tableFiles": 4,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/account/v1/(laterPhase)/check-your-details-og.html",
+     "app/views/account/v1/(laterPhase)/phase-1-option2.html",
+     "app/views/account/v1/(laterPhase)/phase-1-option3.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/account/v1/(laterPhase)/check-your-details-og.html",
+     "app/views/account/v1/(laterPhase)/phase-1-option2.html",
+     "app/views/account/v1/(laterPhase)/phase-1-option3.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -522,6 +701,7 @@
    "version": "^10.4.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -531,6 +711,7 @@
    "version": "^9.6.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -539,8 +720,17 @@
   "nhsbsa/cip-nightapps-prototype": {
    "version": "^8.1.1",
    "tableFiles": 5,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/apps/50k/dashboard.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/apps/50k/dashboard.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -548,8 +738,21 @@
   "nhsbsa/claims-prototype": {
    "version": "^10.0.0",
    "tableFiles": 5,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/alpha/accessibility-testing/may-2025/claims/rina/average-cost/6784-spain/history/not-started.html",
+     "app/views/alpha/accessibility-testing/may-2025/claims/rina/average-cost/6784-spain/invoices/details/20001554/03-person-search-results.html",
+     "app/views/alpha/accessibility-testing/may-2025/claims/rina/average-cost/6784-spain/invoices/details/20001554/04-person-details.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/alpha/accessibility-testing/may-2025/claims/rina/average-cost/6784-spain/history/not-started.html",
+     "app/views/alpha/accessibility-testing/may-2025/claims/rina/average-cost/6784-spain/invoices/details/20001554/03-person-search-results.html",
+     "app/views/alpha/accessibility-testing/may-2025/claims/rina/average-cost/6784-spain/invoices/details/20001554/04-person-details.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -566,6 +769,7 @@
      "app/views/concept-all/results.html"
     ]
    },
+   "legacy": {},
    "variantCount": 2,
    "isPrototype": false,
    "ownTable": [],
@@ -574,8 +778,19 @@
   "nhsbsa/contact-the-bsa": {
    "version": "^10.5.2",
    "tableFiles": 3,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/cookies/cookie-declaration.html",
+     "app/views/cookies/cookies.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/cookies/cookie-declaration.html",
+     "app/views/cookies/cookies.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -593,9 +808,21 @@
      "app/views/Archive/v1/account-requests-view.html",
      "app/views/Archive/v1/account-requests.html",
      "app/views/Archive/v1/all-treatments-accepted.html"
+    ],
+    "responsive": [
+     "app/views/Archive/v1/account-requests-view.html",
+     "app/views/Archive/v1/case-1.html",
+     "app/views/Archive/v1/case-history.html"
     ]
    },
-   "variantCount": 2,
+   "legacy": {
+    "responsive": [
+     "app/views/Archive/v1/account-requests-view.html",
+     "app/views/Archive/v1/case-1.html",
+     "app/views/Archive/v1/case-history.html"
+    ]
+   },
+   "variantCount": 3,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -603,8 +830,21 @@
   "nhsbsa/cost-recovery-prototype": {
    "version": "^10.6.1",
    "tableFiles": 4,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/RH/search/account-pending.html",
+     "app/views/RH/search/account.html",
+     "app/views/RH/search/account.html 14-04-57-082.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/RH/search/account-pending.html",
+     "app/views/RH/search/account.html",
+     "app/views/RH/search/account.html 14-04-57-082.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -613,6 +853,7 @@
    "version": "^10.6.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -621,8 +862,21 @@
   "nhsbsa/dentist-alpha-song-prototype": {
    "version": "^8.3.0",
    "tableFiles": 11,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/1-general/landing-page/v1/landing-page-clinician.html",
+     "app/views/3-contract-management/activity-actuals/activity-actuals.html",
+     "app/views/3-contract-management/activity-statement-search/activity-statement-search-v0-5.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/1-general/landing-page/v1/landing-page-clinician.html",
+     "app/views/3-contract-management/activity-actuals/activity-actuals.html",
+     "app/views/3-contract-management/activity-statement-search/activity-statement-search-v0-5.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -631,6 +885,7 @@
    "version": "^3.1.0",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -640,6 +895,7 @@
    "version": "^10.0.0",
    "tableFiles": 2,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -649,6 +905,7 @@
    "version": "^10.6.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -658,11 +915,21 @@
    "version": "^10.0.0",
    "tableFiles": 4,
    "variants": {
+    "responsive": [
+     "app/views/dev-full-journey/admin/search-2.html",
+     "app/views/dev-full-journey/error-messages/edit-information.html"
+    ],
     "sortable": [
      "app/views/dev-full-journey/admin/search.html"
     ]
    },
-   "variantCount": 1,
+   "legacy": {
+    "responsive": [
+     "app/views/dev-full-journey/admin/search-2.html",
+     "app/views/dev-full-journey/error-messages/edit-information.html"
+    ]
+   },
+   "variantCount": 2,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -671,6 +938,7 @@
    "version": "^4.0.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -680,6 +948,7 @@
    "version": "^10.6.0",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -689,6 +958,7 @@
    "version": "^10.3.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -698,6 +968,7 @@
    "version": "^10.4.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -706,8 +977,19 @@
   "nhsbsa/learning-support-fund": {
    "version": "8.3.0",
    "tableFiles": 2,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/lsf-portal/v1/course-intake-student-status-change.html",
+     "app/views/lsf-portal/v1/course-intake.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/lsf-portal/v1/course-intake-student-status-change.html",
+     "app/views/lsf-portal/v1/course-intake.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -715,8 +997,21 @@
   "nhsbsa/learning-support-fund-new": {
    "version": "^10.4.0",
    "tableFiles": 6,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/lsf-portal/v11/COSA-all-students.html",
+     "app/views/lsf-portal/v11/COSA-check-students.html",
+     "app/views/lsf-portal/v11/COSA-students-declined.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/lsf-portal/v11/COSA-all-students.html",
+     "app/views/lsf-portal/v11/COSA-check-students.html",
+     "app/views/lsf-portal/v11/COSA-students-declined.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -725,6 +1020,7 @@
    "version": "^10.6.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -733,8 +1029,21 @@
   "nhsbsa/manage-healthy-start-vouchers": {
    "version": "^7.0.0-alpha.2",
    "tableFiles": 6,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/v1/applications.html",
+     "app/views/v1/changes.html",
+     "app/views/v1/home.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/v1/applications.html",
+     "app/views/v1/changes.html",
+     "app/views/v1/home.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -743,6 +1052,7 @@
    "version": "^9.6.3",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -751,8 +1061,21 @@
   "nhsbsa/match-ohs-record": {
    "version": "^8.3.0",
    "tableFiles": 15,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/archive/mvp-2-dep-happy-path/mvp2-dep-added-dependant-to-record.html",
+     "app/views/archive/mvp-2-dep-happy-path/mvp2-dep-case-create-s072-reply.html",
+     "app/views/archive/mvp-2-dep-happy-path/mvp2-dep-ciri-added.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/archive/mvp-2-dep-happy-path/mvp2-dep-added-dependant-to-record.html",
+     "app/views/archive/mvp-2-dep-happy-path/mvp2-dep-case-create-s072-reply.html",
+     "app/views/archive/mvp-2-dep-happy-path/mvp2-dep-ciri-added.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -761,6 +1084,7 @@
    "version": "^10.0.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -770,6 +1094,7 @@
    "version": "^8.0.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -778,8 +1103,17 @@
   "nhsbsa/medical-examiner-service": {
    "version": "^6.2.0",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/current/ME-MEO/case/comms-concerns.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/current/ME-MEO/case/comms-concerns.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [
     "responsive-table"
@@ -789,8 +1123,21 @@
   "nhsbsa/medicines-management-prototype": {
    "version": "^7.0.0",
    "tableFiles": 9,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "templates/cdr-mock-1/action-submission-mock-1/action-submission--check-prices.html",
+     "templates/cdr-mock-1/action-submission-mock-1/action-submission--check-zero-prices.html",
+     "templates/cdr-mock-1/action-submission-mock-2/action-submission--check-prices.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "templates/cdr-mock-1/action-submission-mock-1/action-submission--check-prices.html",
+     "templates/cdr-mock-1/action-submission-mock-1/action-submission--check-zero-prices.html",
+     "templates/cdr-mock-1/action-submission-mock-2/action-submission--check-prices.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -799,6 +1146,7 @@
    "version": "^10.4.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -808,6 +1156,7 @@
    "version": "^10.4.2",
    "tableFiles": 8,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -817,13 +1166,25 @@
    "version": "^10.4.2",
    "tableFiles": 14,
    "variants": {
+    "responsive": [
+     "app/views/DSA-updates/DSA-needs-assessment.html",
+     "app/views/DSA-updates/student-details-unlock.html",
+     "app/views/DSA-updates/student-details.html"
+    ],
     "sortable": [
      "app/views/DSA-updates/search-results.html",
      "app/views/DSA-updates/sort-two.html",
      "app/views/DSA-updates/student-landing-initial-results.html"
     ]
    },
-   "variantCount": 1,
+   "legacy": {
+    "responsive": [
+     "app/views/DSA-updates/DSA-needs-assessment.html",
+     "app/views/DSA-updates/student-details-unlock.html",
+     "app/views/DSA-updates/student-details.html"
+    ]
+   },
+   "variantCount": 2,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -831,8 +1192,21 @@
   "nhsbsa/nhs-student-bursaries-prototype": {
    "version": "8.3.0",
    "tableFiles": 11,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/DSA-internal/manage-allowance.html",
+     "app/views/DSA-internal/manage-allowances/specialist-equipment.html",
+     "app/views/DSA-internal/manage-allowances/specialist-laptop-questions.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/DSA-internal/manage-allowance.html",
+     "app/views/DSA-internal/manage-allowances/specialist-equipment.html",
+     "app/views/DSA-internal/manage-allowances/specialist-laptop-questions.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -841,6 +1215,7 @@
    "version": "^9.6.3",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -850,6 +1225,7 @@
    "version": "^4.0.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -859,6 +1235,7 @@
    "version": "^8.3.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -868,6 +1245,7 @@
    "version": "^6.1.2",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -877,6 +1255,7 @@
    "version": "^10.0.0",
    "tableFiles": 2,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -886,6 +1265,7 @@
    "version": "^6.1.0",
    "tableFiles": 2,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -895,6 +1275,7 @@
    "version": "^10.6.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -904,6 +1285,7 @@
    "version": "^10.6.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -913,6 +1295,7 @@
    "version": "^10.6.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -921,8 +1304,17 @@
   "nhsbsa/pensions-contact-the-scheme": {
    "version": "^10.4.2",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -930,8 +1322,17 @@
   "nhsbsa/pensions-form-ordering": {
    "version": "^10.3.1",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -939,8 +1340,17 @@
   "nhsbsa/pensions-online-contact-form": {
    "version": "^9.0.1",
    "tableFiles": 1,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/index.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -949,6 +1359,7 @@
    "version": "^10.0.0",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -957,8 +1368,21 @@
   "nhsbsa/ppc-new": {
    "version": "^10.6.0",
    "tableFiles": 5,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/ppc/iteration_2/DD-confirmation-Allpay-email.html",
+     "app/views/ppc/iteration_2/DD-confirmation-Allpay-print.html",
+     "app/views/ppc/iteration_2/DD-confirmation-email.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/ppc/iteration_2/DD-confirmation-Allpay-email.html",
+     "app/views/ppc/iteration_2/DD-confirmation-Allpay-print.html",
+     "app/views/ppc/iteration_2/DD-confirmation-email.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -966,8 +1390,19 @@
   "nhsbsa/pprs-prototype": {
    "version": "^7.0.0",
    "tableFiles": 5,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "templates/monthly-table-horizontal.html",
+     "templates/pcp-prototype-version-2/auto-email/choose-main-suppliers.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "templates/monthly-table-horizontal.html",
+     "templates/pcp-prototype-version-2/auto-email/choose-main-suppliers.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": false
@@ -975,8 +1410,19 @@
   "nhsbsa/practice-run": {
    "version": "^6.1.0",
    "tableFiles": 2,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "Dropbox/My Mac (Natasha Dodds - MacBook Air)/Documents/Prototypes/contact-the-bsa/app/views/sprint-1/doc-added.html",
+     "Dropbox/My Mac (Natasha Dodds - MacBook Air)/Documents/Prototypes/contact-the-bsa/app/views/sprint-1/doc-added1.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "Dropbox/My Mac (Natasha Dodds - MacBook Air)/Documents/Prototypes/contact-the-bsa/app/views/sprint-1/doc-added.html",
+     "Dropbox/My Mac (Natasha Dodds - MacBook Air)/Documents/Prototypes/contact-the-bsa/app/views/sprint-1/doc-added1.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -985,6 +1431,7 @@
    "version": "^10.1.0",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -994,13 +1441,25 @@
    "version": "^10.3.1",
    "tableFiles": 10,
    "variants": {
+    "responsive": [
+     "app/views/a-vo-ca-do/dhsc/ablankspace.html",
+     "app/views/a-vo-ca-do/dhsc/bm-portal/plr-data-view-past.html",
+     "app/views/a-vo-ca-do/dhsc/bm-portal/plr-data-view.html"
+    ],
     "sortable": [
      "app/views/a-vo-ca-do/dhsc/bm-portal/plr-data-view-past.html",
      "app/views/a-vo-ca-do/dhsc/bm-portal/plr-data-view.html",
      "app/views/a-vo-ca-do/dhsc/bm-portal/pseudovtm-data-view.html"
     ]
    },
-   "variantCount": 1,
+   "legacy": {
+    "responsive": [
+     "app/views/a-vo-ca-do/dhsc/ablankspace.html",
+     "app/views/a-vo-ca-do/dhsc/bm-portal/plr-data-view-past.html",
+     "app/views/a-vo-ca-do/dhsc/bm-portal/plr-data-view.html"
+    ]
+   },
+   "variantCount": 2,
    "isPrototype": true,
    "ownTable": [],
    "mojSortable": true
@@ -1009,6 +1468,7 @@
    "version": "^4.0.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1018,6 +1478,7 @@
    "version": "^9.0.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1027,11 +1488,23 @@
    "version": "10.0.0",
    "tableFiles": 6,
    "variants": {
+    "responsive": [
+     "app/views/BSA-internal/v1/bursary-application.html",
+     "app/views/BSA-internal/v1/course-details-lsf.html",
+     "app/views/BSA-internal/v1/course-details.html"
+    ],
     "sortable": [
      "app/views/BSA-internal/v1/student-details.html"
     ]
    },
-   "variantCount": 1,
+   "legacy": {
+    "responsive": [
+     "app/views/BSA-internal/v1/bursary-application.html",
+     "app/views/BSA-internal/v1/course-details-lsf.html",
+     "app/views/BSA-internal/v1/course-details.html"
+    ]
+   },
+   "variantCount": 2,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -1039,8 +1512,17 @@
   "nhsbsa/suvpart2": {
    "version": "^10.6.0",
    "tableFiles": 4,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/pecs-web/data-entry-stats.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/pecs-web/data-entry-stats.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -1053,6 +1535,7 @@
      "app/views/index.html"
     ]
    },
+   "legacy": {},
    "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
@@ -1061,8 +1544,19 @@
   "nhsconnect/nhslogin-partners": {
    "version": "^2.1.0",
    "tableFiles": 5,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "app/views/features-and-roadmap.html",
+     "app/views/how-it-works/authentication-verification.html"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "app/views/features-and-roadmap.html",
+     "app/views/how-it-works/authentication-verification.html"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -1071,6 +1565,7 @@
    "version": "^5.2.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1080,6 +1575,7 @@
    "version": "^5.2.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1089,6 +1585,7 @@
    "version": "^5.2.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1098,6 +1595,7 @@
    "version": "^5.2.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1107,6 +1605,7 @@
    "version": "^5.2.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1116,6 +1615,7 @@
    "version": "^5.2.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1125,6 +1625,7 @@
    "version": "^6.1.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1134,6 +1635,7 @@
    "version": "^6.1.0",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1142,8 +1644,19 @@
   "nhselect/step1-proficiency-demo": {
    "version": "^6.1.2",
    "tableFiles": 2,
-   "variants": {},
-   "variantCount": 0,
+   "variants": {
+    "responsive": [
+     "components/ProficiencyGroup.vue",
+     "components/ProficiencyItem.vue"
+    ]
+   },
+   "legacy": {
+    "responsive": [
+     "components/ProficiencyGroup.vue",
+     "components/ProficiencyItem.vue"
+    ]
+   },
+   "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -1152,6 +1665,7 @@
    "version": "^5.2.1",
    "tableFiles": 1,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1164,9 +1678,19 @@
     "sortable": [
      "src/modules/feature-modules/accessor/pages/innovations-needing-action/innovations-needing-action.component.html",
      "src/modules/feature-modules/accessor/pages/innovations/innovations-review.component.html"
+    ],
+    "responsive": [
+     "src/modules/feature-modules/accessor/pages/innovations-needing-action/innovations-needing-action.component.html",
+     "src/modules/feature-modules/accessor/pages/innovations/innovations-review.component.html"
     ]
    },
-   "variantCount": 1,
+   "legacy": {
+    "responsive": [
+     "src/modules/feature-modules/accessor/pages/innovations-needing-action/innovations-needing-action.component.html",
+     "src/modules/feature-modules/accessor/pages/innovations/innovations-review.component.html"
+    ]
+   },
+   "variantCount": 2,
    "isPrototype": false,
    "ownTable": [],
    "mojSortable": false
@@ -1175,6 +1699,7 @@
    "version": "^10.6.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1184,6 +1709,7 @@
    "version": "*",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1193,6 +1719,7 @@
    "version": "^10.6.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -1202,6 +1729,7 @@
    "version": "^10.7.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1211,6 +1739,7 @@
    "version": "^4.1.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1220,6 +1749,7 @@
    "version": "^3.0.1",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1229,6 +1759,7 @@
    "version": "^4.1.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1238,6 +1769,7 @@
    "version": "^3.0.3",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": true,
    "ownTable": [],
@@ -1247,6 +1779,7 @@
    "version": "^5.1.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1260,6 +1793,7 @@
      "app/views/model-card.html"
     ]
    },
+   "legacy": {},
    "variantCount": 1,
    "isPrototype": false,
    "ownTable": [],
@@ -1269,6 +1803,7 @@
    "version": "^5.2.0",
    "tableFiles": 0,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
@@ -1278,6 +1813,7 @@
    "version": "6.1.0",
    "tableFiles": 2,
    "variants": {},
+   "legacy": {},
    "variantCount": 0,
    "isPrototype": false,
    "ownTable": [],
